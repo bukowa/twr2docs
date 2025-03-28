@@ -1,0 +1,5074 @@
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000bdd0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_CONFLICT_PHASE_COMMENCED","BattleConflictPhaseCommenced",
+
+               "Fired once at the start of conflict","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000be00(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_DEPLOYMENT_PHASE_COMMENCED","BattleDeploymentPhaseCommenced",
+
+               "Fired once at the start of deployment","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000be30(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_FORT_PLAZA_CAPTURE_COMMENCED","BattleFortPlazaCaptureCommenced",
+
+               "Fired each time an attacking unit starts capturing the capture location inside a fort"
+
+               ,"Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000beb0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_ATTACKS_BUILDING","BattleUnitAttacksBuilding",
+
+               "Gets fired off for every attack order executed by a unit","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000bee0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_ATTACKS_ENEMY_UNIT","BattleUnitAttacksEnemyUnit",
+
+               "Gets fired off for every attack order executed by a unit","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000bf10(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_ATTACKS_WALLS","BattleUnitAttacksWalls",
+
+               "Gets fired off for every attack order executed by a unit when attacking a fort building"
+
+               ,"Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10015700(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_RUN_AGROUND","BattleShipRunAground",
+
+               "Fired off when a ship collides with the terrain","Naval Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10015730(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_SAILING_INTO_WIND","BattleShipSailingIntoWind",
+
+               "Fired off when a ship is sailing approximately into the wind","Naval Battle",
+
+               "Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10015760(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_SUNK","battle_ship_sunk","Fired off when a ship has sunk","Naval Battle"
+
+               ,"Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10015790(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_SURRENDERED","BattleShipSurrendered","Fired off when a ship surrenders",
+
+               "Naval Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026cf0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_BOARDING_ACTION_COMMENCED","BattleBoardingActionCommenced",
+
+               "Fired each time a ship commences the boarding of an enemy vessel","Battle","Ingimar"
+
+              );
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026d20(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_BOARDING_SHIP","BattleBoardingShip",
+
+               "Gets triggered when the order to board a ship is issued","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026da0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_COMMANDING_SHIP_ROUTS","battle_commanding_ship_routs",
+
+               "The ship containing the fleet admiral has just routed","Naval Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026e50(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_ATTACKS_ENEMY_SHIP","BattleShipAttacksEnemyShip",
+
+               "Gets fired off for every attack order executed by a ship","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026e80(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_CAUGHT_FIRE","BattleShipCaughtFire","A ship just caught fire","Battle",
+
+               "Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026eb0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_MAGAZINE_EXPLOSION","BattleShipMagazineExplosion",
+
+               "Fired off when a ship explodes","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026ee0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_SHIP_ROUTS","BattleShipRouts",
+
+               "Fires off whenever a ship enters the rout state of morale","Naval Battle","Ingimar")
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026f10(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_CAPTURES_BUILDING","BattleUnitCapturesBuilding",
+
+               "Gets fired each time a building has a new alliance as an owner, initiated by a unit"
+
+               ,"Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10026f40(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_DESTROYS_BUILDING","BattleUnitDestroysBuilding",
+
+               "Gets fired each time a building gets destroyed by a unit","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1002c390(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_COMMANDING_UNIT_ROUTS","BattleCommandingUnitRouts",
+
+               "Fires off an event for when a unit that has a commanding general attached to it routs"
+
+               ,"Land Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1002c3c0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_ROUTS","BattleUnitRouts",
+
+               "Fires off an event for when a unit enters rout.","Land Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1002c3f0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_UNIT_USING_WALL","BattleUnitUsingWall",
+
+               "Fires off when a unit attaches itself to a wall","Battle","Ingimar");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10031ab0(void)
+
+
+
+{
+
+  FUN_10c987f0("MODEL_CREATED","ModelCreated",
+
+               "A game is being started or loaded, at this point the most vital parts pf the game are initialized"
+
+               ,&DAT_1173e900,&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10031e30(void)
+
+
+
+{
+
+  FUN_10c987f0("CAMERA_MOVER_CANCELLED","CameraMoverCancelled",
+
+               "When the camera controller is cancelled before completion","MAP_LOCATION",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10031e60(void)
+
+
+
+{
+
+  FUN_10c987f0("CAMERA_MOVER_FINISHED","CameraMoverFinished",
+
+               "When the camera reaches the end of its path, or when another camera transition cuts in"
+
+               ,"MAP_LOCATION",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034350(void)
+
+
+
+{
+
+  FUN_10c987f0("AREA_TRIGGER_CAMERA_ENTER_EVENT","AreaCameraEntered",
+
+               "Fired when the camera enters an area trigger","UniString trigger name",&DAT_1179b680
+
+              );
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034380(void)
+
+
+
+{
+
+  FUN_10c987f0("AREA_TRIGGER_CAMERA_EXIT_EVENT","AreaCameraExited",
+
+               "Fired when the camera exits an area trigger","UniString trigger name",&DAT_1179b680)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100343b0(void)
+
+
+
+{
+
+  FUN_10c987f0("AREA_TRIGGER_ENTER_EVENT","AreaEntered","Fired when a piece enters an area trigger",
+
+               "UniString trigger name, CHARACTER character who entered",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100343e0(void)
+
+
+
+{
+
+  FUN_10c987f0("AREA_TRIGGER_EXIT_EVENT","AreaExited","Fired when a piece exits an area trigger",
+
+               "UniString trigger name, CHARACTER character who exited",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034410(void)
+
+
+
+{
+
+  FUN_10c987f0("CUSTOM_MISSION_EVENT","CustomMission",
+
+               "Internal event: does not fire and cannot be used in the script",
+
+               "Cannot be used in LUA",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034440(void)
+
+
+
+{
+
+  FUN_10c987f0("LOAD_GAME_EVENT","LoadingGame","A game is being loaded","FileHandle",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034470(void)
+
+
+
+{
+
+  FUN_10c987f0("LOCATION_ENTERED_EVENT","LocationEntered",
+
+               "When a piece enters a location trigger, fire ony once per trigger",
+
+               "MAP_LOCATION, the piece that entered",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100344a0(void)
+
+
+
+{
+
+  FUN_10c987f0("LOCATION_UNVEILED_EVENT","LocationUnveiled",
+
+               "When the location becomes visible for the first time",
+
+               "MAP_LOCATION, the piece that unveiled the area",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034550(void)
+
+
+
+{
+
+  FUN_10c987f0("NEW_GAME_EVENT","NewSession",
+
+               "A game is being started, could be a new game or loading a save game","model access",
+
+               &DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034590(void)
+
+
+
+{
+
+  FUN_10c987f0("SAVE_GAME_EVENT","SavingGame","A game is being saveed","FileHandle",&DAT_1179ebf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035c80(void)
+
+
+
+{
+
+  FUN_10c987f0("ADVICE_FINISHED_EVENT","AdviceFinishedTrigger",
+
+               "Notify scripters when current advice has finished playing","Sound",&DAT_117afd64);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035db0(void)
+
+
+
+{
+
+  FUN_10c987f0("BATTLE_COMPLETED","BattleCompleted",
+
+               "A battle has been completed on the campaign map","Campaign model",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035de0(void)
+
+
+
+{
+
+  FUN_10c987f0("BUILDING_CARD_SELECTED","BuildingCardSelected",
+
+               "Fires when a building card is clicked on on the hud","String (building record key)",
+
+               &DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035e70(void)
+
+
+
+{
+
+  FUN_10c987f0("BUILDING_COMPLETED_EVENT","BuildingCompleted","A building has been completed",
+
+               "Building level record",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035ea0(void)
+
+
+
+{
+
+  FUN_10c987f0("BUILDING_CONSTRUCTION_ISSUED_BY_PLAYER","BuildingConstructionIssuedByPlayer",
+
+               "Fired when the player adds a building to the queue","building level",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035ed0(void)
+
+
+
+{
+
+  FUN_10c987f0("BUILDING_DAMAGED_EVENT","CampaignBuildingDamaged","A building is damaged",
+
+               "Region slot",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036000(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_ACTION_POINTS_EXHAUSTED","MovementPointsExhausted",
+
+               "A general can move no more","Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036030(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_ATTACKS_ALLY_EVENT","CharacterAttacksAlly",
+
+               "A character has attacked an ally","Character",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100360c0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_BECOMES_FACTION_LEADER","CharacterBecomesFactionLeader",
+
+               "A character has become faction leader","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100360f0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_BESIEGES_SETTLEMENT","CharacterBesiegesSettlement",
+
+               "Fired when a character besieges a settlement","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036180(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_BLOCKADED_PORT_EVENT","CharacterBlockadedPort",
+
+               "A character successfully blockades a port","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100361b0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_BROKE_PORT_BLOCKADE_EVENT","CharacterBrokePortBlockade",
+
+               "A character successfully broke a port blockade","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100361e0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_BUILDING_COMPLETED_EVENT","CharacterBuildingCompleted",
+
+               "A building has been completed","Building level record, Character",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036210(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_CANDIDATE_BECOMES_MINISER","CharacterCandidateBecomesMinister",
+
+               "Fired when a candidate becomes a minister","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036240(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_CAN_LIBERATE_EVENT","CharacterCanLiberate",
+
+               "A character was given the opportunity to liberate a region","Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036330(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_CHARACTER_TARGET_ACTION_EVENT","CharacterCharacterTargetAction",
+
+               "A character has performed an agent action against a character","Character",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036540(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_COASTAL_CHARACTER_ASSAULT","CampaignCoastalAssaultOnCharacter",
+
+               "Fired when a character initiates a coastal assault on a character","Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036570(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_COASTAL_GARRISON_ASSAULT","CampaignCoastalAssaultOnGarrison",
+
+               "Fired when a character initiates a coastal assault on a garrison","Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100365a0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_COMES_OF_AGE","CharacterComesOfAge",
+
+               "An agent has failed to bribe an enemy army","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100365d0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_COMPLETED_BATTLE","CharacterCompletedBattle",
+
+               "A character took part in a battle and didn\'t die","Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036660(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_CREATION","CharacterCreated","Fired when a character is created",
+
+               "Character",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036690(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_DISCOVERED","CharacterDiscovered","Fired when an character is discovered",
+
+               "Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100366c0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_DISEMBARKS_NAVY","CharacterDisembarksNavy","A character disembarks a navy"
+
+               ,"Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100366f0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_EMBARKS_NAVY","CharacterEmbarksNavy","A character embarks on a navy",
+
+               "Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036720(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_END_TURN_EVENT","CharacterTurnEnd",
+
+               "Fired for every character at the start of their turn","Character",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036750(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_ENTERS_ATTRITIONAL_AREA","CharacterEntersAttritionalArea",
+
+               "Fired when a characters ends its movement in a position where it will suffer attrition"
+
+               ,"Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036780(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_ENTERS_GARRISON","CharacterEntersGarrison",
+
+               "A character enters a garrison (settlement, slot or fort)","Garrison, Character",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100367b0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_ESTABLISHED_DOMESTIC_TRADE_ROUTE","TradeNodeConnected",
+
+               "Fired when a character enters a trade node and establishes a trade route",
+
+               "Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036840(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_FACTION_COMPLETES_RESEARCH","CharacterFactionCompletesResearch",
+
+               "research completed","Characters faction has research a technology","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036870(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_FAMILY_RELATION_DIED_EVENT","CharacterFamilyRelationDied",
+
+               "A character\'s immediate family member has died","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100369c0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_GARRISON_TARGET_ACTION_EVENT","CharacterGarrisonTargetAction",
+
+               "A character has performed an agent action against a garrison","Character",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036c30(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_GENERAL_DIED_IN_BATTLE","CharacterGeneralDiedInBattle",
+
+               "A character took part in a battle as a general and died","Character",&DAT_117ac470);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036c60(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_INFO_PANEL_OPENED","CharacterInfoPanelOpened",
+
+               "triggers the character information panel has been opened","character, faction",
+
+               &DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036c90(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_LEAVES_GARRISON","CharacterLeavesGarrison",
+
+               "A character leaves a garrison (settlement, slot or fort)","Garrison, Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036cc0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_LOOTS_SETTLEMENT","CharacterLootedSettlement",
+
+               "A character loots a settlement","Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036cf0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_MARRIES","CharacterMarriage","A character has married","Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036d20(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_MILITARY_FORCE_TRADITION_POINT_ALLOCATED",
+
+               "CharacterMilitaryForceTraditionPointAllocated",
+
+               "Fired when a military force is assigned a tradition point","Character","Chris Budd")
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036e10(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_MULTITURN_MOVE_ISSUED_EVENT","MultiTurnMove",
+
+               "A character has been issued a movement that will take more than one turn",
+
+               "Character",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036e40(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_PARTICIPATED_AS_SECONDARY_GENERAL_IN_BATTLE",
+
+               "CharacterParticipatedAsSecondaryGeneralInBattle",
+
+               "A character took part in a battle as a secondary general and didn\'t die",
+
+               "Character",&DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036e70(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_PERFORMS_ACTION_AGAINST_FRIENDLY_TARGET",
+
+               "CharacterPerformsActionAgainstFriendlyTarget",
+
+               "Fired when an agent ends turn in a settlement or army","Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036ea0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ACTION_POLITICAL_MARRIAGE",
+
+               "CharacterPoliticalActionPoliticalMariage",
+
+               "Fired when a character is married politically","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10036f30(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ACTION","CharacterPoliticalAction",
+
+               "Fired when a character performs a political action","Character","Oleg Zlatarski");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037020(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ADOPTION","CharacterPoliticalAdoption",
+
+               "Fired when a character is adopted","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037050(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ASSASSINATION","CharacterPoliticalAssassination",
+
+               "Fired when a character is assassinated","Character","Oleg Zlatarski");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037080(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_BRIBE","CharacterPoliticalBribe",
+
+               "Fired when a character is bribed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100370b0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_DIVORCE","CharacterPoliticalDivorce",
+
+               "Fired when a character is divorced politically","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037140(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_EMBEZZLE_FUNDS","CharacterPoliticalEmbezzleFunds",
+
+               "Fired when Embezzle Funds political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037170(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ENTICE","CharacterPoliticalEntice",
+
+               "Fired when Entice political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037200(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_FLIRT","CharacterPoliticalFlirt",
+
+               "Fired when Flirt political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037290(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_GATHER_SUPPORT","CharacterPoliticalGatherSupport",
+
+               "Fired when Gather Support political action executed","Character","Oleg Zlatarski");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100372c0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_INSULT","CharacterPoliticalInsult",
+
+               "Fired when Insult political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037350(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_ORGANIZE_GAMES","CharacterPoliticalOrganizeGames",
+
+               "Fired when Organize Games political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100373e0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PARTY_PROVOKE","CharacterPoliticalPartyProvoke",
+
+               "Fired when Party Provoke political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037410(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PARTY_PURGE","CharacterPoliticalPartyPurge",
+
+               "Fired when Party Purge political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037440(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PARTY_SECURE_LOYALTY","CharacterPoliticalPartySecureLoyalty",
+
+               "Fired when Party Secure Loyalty political action executed","Character","Veli Mollov"
+
+              );
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037470(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PRAISE","CharacterPoliticalPraise",
+
+               "Fired when Praise political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037500(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PROMOTION","CharacterPoliticalPromotion",
+
+               "Fired when character secure promoted","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037590(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_PROVOKE","CharacterPoliticalProvoke",
+
+               "Fired when Provoke political action executed","Character","Oleg Zlatarski");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037620(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_RUMOURS","CharacterPoliticalRumours",
+
+               "Fired when rumours are spread about a character","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100376b0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_SECURE_LOYALTY","CharacterPoliticalSecureLoyalty",
+
+               "Fired when Insult political action executed","Character","Oleg Zlatarski");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100377a0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_SEND_DIPLOMAT","CharacterPoliticalSendDiplomat",
+
+               "Fired when Organize Games political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100377d0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_SEND_EMISSARY","CharacterPoliticalSendEmissary",
+
+               "Fired when Send Emissary political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037860(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_SEND_GIFT","CharacterPoliticalSendGift",
+
+               "Fired when Send Gift political action executed","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100378f0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POLITICAL_SUICIDE","CharacterPoliticalSuicide",
+
+               "Fired when a character suicides","Character","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037920(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POSTBATTLE_ENSLAVE_EVENT","CharacterPostBattleEnslave",
+
+               "Occurs when a user selects to enslave prisoners after a battle",
+
+               "User is selecting fate of prisoners","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037950(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POSTBATTLE_RELEASE_EVENT","CharacterPostBattleRelease",
+
+               "Occurs when a user selects to release prisoners after a battle",
+
+               "User is selecting fate of prisoners","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037980(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_POSTBATTLE_SLAUGHTER_EVENT","CharacterPostBattleSlaughter",
+
+               "Occurs when a user selects to slaughter prisoners after a battle",
+
+               "User is selecting fate of prisoners","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100379b0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_PROMOTED_EVENT","CharacterPromoted","A character has been promoted",
+
+               "Character",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100379e0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_RANK_UP_NEEDS_ANCILLARY","CharacterRankUpNeedsAncillary",
+
+               "Fired when a character ranks up and needs an ancillary generated","Character",
+
+               &DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037a10(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_RANK_UP","CharacterRankUp","Fired when a character ranks up","Character",
+
+               &DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037a40(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_RELATIVE_KILLED","CharacterRelativeKilled",
+
+               "An agent has failed to bribe an enemy army","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037ad0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_SELECTED_EVENT","CharacterSelected","Fired when a character is selected",
+
+               "Character",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037b00(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_SKILL_POINT_ALLOCATED","CharacterSkillPointAllocated",
+
+               "Fired when an character has a skill point allocated","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037b90(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_START_TURN_EVENT_CARTHAGE","CharacterTurnStartCarthage",
+
+               "Fired for every character at the start of their turn","Character",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037bc0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_START_TURN_EVENT_ROME","CharacterTurnStartRome",
+
+               "Fired for every character at the start of their turn","Character",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037bf0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_START_TURN_EVENT","CharacterTurnStart",
+
+               "Fired for every character at the start of their turn","Character",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039180(void)
+
+
+
+{
+
+  FUN_10c987f0("ENCYCLOPEDIA_ENTRY_REQUESTED","EncylopediaEntryRequested",
+
+               "Fired when an advice button is pressed.","String","Shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100391f0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_ABOUT_TO_END_TURN","FactionAboutToEndTurn","Faction about to end it\'s turn"
+
+               ,"Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039220(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_AWARDED_EFFECT_BUNDLE","CampaignEffectsBundleAwarded",
+
+               "A faction has gained an effect bundle","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039250(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BATTLE_DEFEAT","FactionBattleDefeat","Fired when faction lose a battle",
+
+               "Faction","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039280(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BATTLE_VICTORY","FactionBattleVictory","Fired when faction wins a battle",
+
+               "Faction","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100392b0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BECOMES_LIBERATION_VASSAL_EVENT","FactionBecomesLiberationVassal",
+
+               "A faction has liberated another faction","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039340(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BECOMES_VASSAL","ClanBecomesVassal","A clan has become a vassal","Faction",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039370(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BECOMES_WORLD_LEADER_EVENT","FactionBecomesWorldLeader",
+
+               "A faction has become world leader","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100393a0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_BEGIN_TURN_PHASE_NORMAL","FactionBeginTurnPhaseNormal",
+
+               "Faction begins its Normal turn phase","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100393d0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_CAPTURES_WORLD_CAPITAL_EVENT","FactionCapturesWorldCapital",
+
+               "A faction has captured the world capital","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039400(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_CIVIL_WAR_END","FactionCivilWarEnd","Fired when civil war in faction ends",
+
+               "Faction","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039430(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_ENCOUNTERS_OTHER_FACTION","FactionEncountersOtherFaction",
+
+               "A faction encounters another faction","Faction",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100394c0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_END_TURN","FactionTurnEnd","Faction ends it\'s turn","Faction",&DAT_117a1590
+
+              );
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039550(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_FAME_LEVELUP","FactionFameLevelUp","Faction fame as gone up a level",
+
+               "Faction","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039580(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_GOVERNMENT_TYPE_CHANGED","FactionGovernmentTypeChanged",
+
+               "The factions government type has changed","Faction",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100395b0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_LEADER_DECLARES_WAR","FactionLeaderDeclaresWar","War has been declared",
+
+               "Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100395e0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_LEADER_ISSUES_EDICT","FactionLeaderIssuesEdict",
+
+               "Fired when a faction issues an edict","Faction","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100396d0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_LEADER_SIGNS_PEACE_TREATY","FactionLeaderSignsPeaceTreaty",
+
+               "A peace treaty has been signed","Character",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039700(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_PENDING_BANKRUPTCY_EVENT","PendingBankruptcy",
+
+               "The faction is about to go bankrupt","Faction",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039790(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_POLITICS_GOVERNMENT_ACTION_TRIGGERED",
+
+               "FactionPoliticsGovernmentActionTriggered",
+
+               "Fired when a custom scripted action must be executed for a particular politics government type "
+
+               ,"Faction","Mihail Balabanov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100397c0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_POLITICS_GOVERNMENT_TYPE_CHANGED","FactionPoliticsGovernmentTypeChanged",
+
+               "Fired when politics government type has changed","Faction","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100397f0(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_SECESSION_END","FactionSecessionEnd","Fired when secession in faction ends",
+
+               "Faction","Veli Mollov");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039820(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_START_ROUND","FactionRoundStart","Faction starts the round","Faction",
+
+               &DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039850(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_START_TURN","FactionTurnStart","Faction starts it\'s turn","Faction",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039880(void)
+
+
+
+{
+
+  FUN_10c987f0("FACTION_SUBJUGATES_OTHER_FACTION","FactionSubjugatesOtherFaction",
+
+               "A faction subjugates another faction","Faction",&DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039910(void)
+
+
+
+{
+
+  FUN_10c987f0("FIRST_TICK_AFTER_NEW_CAMPAIGN_STARTED","FirstTickAfterNewCampaignStarted",
+
+               "A new campaign game has being started and the first tick is just being done - not triggered when processing startpos. Guarantees UI is open."
+
+               ,&DAT_1173e900,&DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100399a0(void)
+
+
+
+{
+
+  FUN_10c987f0("FIRST_TICK_AFTER_WORLD_CREATED","FirstTickAfterWorldCreated",
+
+               "First tick after a game was started or loaded",&DAT_1173e900,&DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039a30(void)
+
+
+
+{
+
+  FUN_10c987f0("FORCE_ADOPTS_STANCE","ForceAdoptsStance",
+
+               "Fired when an characters military force changes stance","Character","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a330(void)
+
+
+
+{
+
+  FUN_10c987f0("GARRISON_ATTACKED_EVENT","GarrisonAttackedEvent",&DAT_1173dad0,&DAT_1173dad0,
+
+               &DAT_1173dad0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a360(void)
+
+
+
+{
+
+  FUN_10c987f0("GARRISON_OCCUPIED_EVENT","GarrisonOccupiedEvent",&DAT_1173dad0,&DAT_1173dad0,
+
+               &DAT_1173dad0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a390(void)
+
+
+
+{
+
+  FUN_10c987f0("GARRISON_RESIDENCE_CAPTURED","GarrisonResidenceCaptured",
+
+               "A garrison residence (settlement, fort, port &c.) has been captured",
+
+               "Garrison residence",&DAT_1173e50c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a420(void)
+
+
+
+{
+
+  FUN_10c987f0("GOVERNORSHIP_TAX_RATE_CHANGE","GovernorshipTaxRateChanged",
+
+               "A tax rate in a governorship has changed","Governorship",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003abd0(void)
+
+
+
+{
+
+  FUN_10c987f0("LAND_TRADE_ROUTE_ATTACKED_EVENT","LandTradeRouteRaided",
+
+               "A character has raided a land trade route","Character, Position",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ac40(void)
+
+
+
+{
+
+  FUN_10c987f0("MILITARY_FORCE_MERGE_EVENT","CampaignArmiesMerge","Two campaign armies merge",
+
+               "Character, character target",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ac70(void)
+
+
+
+{
+
+  FUN_10c987f0("MISSION_CANCELLED","MissionCancelled",
+
+               "A mission has been cancelled - ie is no longer viable",
+
+               "Mission, mission manager, faction of mission manager, campaign model",&DAT_117a2ed8)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ad60(void)
+
+
+
+{
+
+  FUN_10c987f0("MISSION_FAILED","MissionFailed","The player has failed a mission",
+
+               "Mission, mission manager, faction of mission manager, campaign model",&DAT_1173e50c)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ad90(void)
+
+
+
+{
+
+  FUN_10c987f0("MISSION_ISSUED","MissionIssued","A mission has been issued to the player",
+
+               "Mission, mission manager, faction of mission manager, campaign model",&DAT_1173e50c)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003adc0(void)
+
+
+
+{
+
+  FUN_10c987f0("MISSION_NEARING_EXPIRY","MissionNearingExpiry",
+
+               "A mission only has a quarter of its time left before its too late to complete it",
+
+               "Mission, mission manager, faction of mission manager, campaign model",&DAT_1173e50c)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003adf0(void)
+
+
+
+{
+
+  FUN_10c987f0("MISSION_SUCCEEDED","MissionSucceeded","A mission has been successfully completed",
+
+               "Mission, mission manager, faction of mission manager, campaign model",&DAT_1173e50c)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ae20(void)
+
+
+
+{
+
+  FUN_10c987f0("NEW_CAMPAIGN_STARTED","NewCampaignStarted",
+
+               "A new campaign game is being started - called exactly once during a campaign, when it is created for the first time - NOT called when loading, NOT called when processing startpos"
+
+               ,&DAT_1173e900,&DAT_117a2ed8);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b000(void)
+
+
+
+{
+
+  FUN_10c987f0("PENDING_BATTLE_EVENT","PendingBattle","A battle is about to occur",
+
+               "The character and faction initiating the battle",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b0f0(void)
+
+
+
+{
+
+  FUN_10c987f0("POSITIVE_DIPLOMATIC_EVENT","PositiveDiplomaticEvent",
+
+               "Fires when a user performs a positive diplomatic action",&DAT_1173e900,"Chris Budd")
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b460(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_CHANGED_FACTION","RegionChangedFaction","Fired when a region changes faction"
+
+               ,"Region","Tsvetan");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b490(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_END_TURN","RegionTurnEnd","Region ends it\'s turn","Region",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b520(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_GAINED_DEVELOPMENT_POINT","RegionGainedDevlopmentPoint",
+
+               "Region gained a development point","Region","Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b550(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_ISSUES_DEMANDS","RegionIssuesDemands","This region has issued demands",
+
+               "Region",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b580(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_REBELS","RegionRebels","This region has started rebelling","Region",
+
+               &DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b5b0(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_RIOTS","RegionRiots","This region has started riots","Region",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b5e0(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_SELECTED_EVENT","RegionSelected","Fired when a region is selected","Region",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b670(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_SLOT_POPPED_EVENT","SlotOpens","A slot has just opened","Slot, Region",
+
+               &DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b6a0(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_SLOT_ROUND_START_EVENT","SlotRoundStart","The start of round for this slot",
+
+               "Slot, Region",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b6d0(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_SLOT_START_TURN_EVENT","SlotTurnStart","The start of turn for this slot",
+
+               "Slot, Region",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b700(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_START_TURN","RegionTurnStart","Region starts it\'s turn","Region",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b730(void)
+
+
+
+{
+
+  FUN_10c987f0("REGION_STRIKES","RegionStrikes","This region has started striking","Region",
+
+               &DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b760(void)
+
+
+
+{
+
+  FUN_10c987f0("RESEARCH_COMPLETED_EVENT","ResearchCompleted",
+
+               "Research has been completed in this slot","Technology record, faction",
+
+               "Luke, modified by Alan");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b790(void)
+
+
+
+{
+
+  FUN_10c987f0("RESEARCH_STARTED_EVENT","ResearchStarted","Research has been started",
+
+               "Technology record, faction",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c100(void)
+
+
+
+{
+
+  FUN_10c987f0("SCRIPTED_AGENT_CREATED","ScriptedAgentCreated",
+
+               "Fired when the an agent is created through script","String",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c130(void)
+
+
+
+{
+
+  FUN_10c987f0("SCRIPTED_AGENT_CREATION_FAILED","ScriptedAgentCreationFailed",
+
+               "Fired when the an agent is unable to be created through script","String",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c160(void)
+
+
+
+{
+
+  FUN_10c987f0("SCRIPTED_CHARACTER_UNHIDDEN_FAILED","ScriptedCharacterUnhiddenFailed",
+
+               "Fired when a character is unsucessfully unhidden by script","Character",
+
+               &DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c190(void)
+
+
+
+{
+
+  FUN_10c987f0("SCRIPTED_CHARACTER_UNHIDDEN","ScriptedCharacterUnhidden",
+
+               "Fired when a character is sucessfully unhidden by script","Character",&DAT_1179b680)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c1c0(void)
+
+
+
+{
+
+  FUN_10c987f0("SCRIPTED_FORCE_CREATED","ScriptedForceCreated",
+
+               "Fired when the a force is created through script","String",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c1f0(void)
+
+
+
+{
+
+  FUN_10c987f0("SEA_TRADE_ROUTE_ATTACKED_EVENT","SeaTradeRouteRaided",
+
+               "A character has raided a sea trade route","Character, Position",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c220(void)
+
+
+
+{
+
+  FUN_10c987f0("SETTLEMENT_BESIEGED","CharacterSettlementBesieged",
+
+               "Fired when a settlement garrisoned by a character is besieged","Garrison Residence",
+
+               "Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c250(void)
+
+
+
+{
+
+  FUN_10c987f0("SETTLEMENT_BLOCKADED","CharacterSettlementBlockaded",
+
+               "Fired when a settlement garrisoned by a character is besieged","Garrison Residence",
+
+               "Chris Budd");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c280(void)
+
+
+
+{
+
+  FUN_10c987f0("SETTLEMENT_SELECTED_EVENT","SettlementSelected",
+
+               "Fired when the player selects a settlement on the map","Settlement",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c2b0(void)
+
+
+
+{
+
+  FUN_10c987f0("SLOT_SELECTED_EVENT","SlotSelected",
+
+               "Fired when the player selects a settlement slot on the map",&DAT_117a5ac0,
+
+               &DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c6c0(void)
+
+
+
+{
+
+  FUN_10c987f0("TEST_EVENT","TestEvent","Test event","model",&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c6f0(void)
+
+
+
+{
+
+  FUN_10c987f0("TRADE_ROUTE_ESTABLISHED","TradeRouteEstablished",
+
+               "A trade route has been established with this faction","Faction",&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ca20(void)
+
+
+
+{
+
+  FUN_10c987f0("UNIT_COMPLETED_BATTLE_EVENT","UnitCompletedBattle","A unit has completed the battle"
+
+               ,&DAT_117af86c,&DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ca50(void)
+
+
+
+{
+
+  FUN_10c987f0("UNIT_CREATION_EVENT","UnitCreated","A unit has been created",&DAT_117af86c,
+
+               &DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cae0(void)
+
+
+
+{
+
+  FUN_10c987f0("UNIT_RECRUITED_EVENT","UnitTrained","A unit is trained",&DAT_117af86c,&DAT_117a1590)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cb10(void)
+
+
+
+{
+
+  FUN_10c987f0("UNIT_SELECTED_EVENT_CAMPAIGN","UnitSelectedCampaign",
+
+               "Fires when a unit card is selected on the campaign map","Unit (campaign)",
+
+               &DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cb40(void)
+
+
+
+{
+
+  FUN_10c987f0("UNIT_TURN_END_EVENT","UnitTurnEnd","A unit has ended its turn",&DAT_117af86c,
+
+               &DAT_117a159c);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cef0(void)
+
+
+
+{
+
+  FUN_10c987f0("WORLD_CREATED","WorldCreated",
+
+               "A game is being started or loaded, at this point the most vital parts of the game are initialized"
+
+               ,&DAT_1173e900,&DAT_117a1590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10044b00(void)
+
+
+
+{
+
+  FUN_10c987f0("RECRUITMENT_ITEM_ISSUED_BY_PLAYER","RecruitmentItemIssuedByPlayer",
+
+               "Fired when the player selects adds a unit to the queue","unit record",&DAT_1179ebf0)
+
+  ;
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1004ec90(void)
+
+
+
+{
+
+  FUN_10c987f0("HISTORICAL_CHARACTER_GENERATION_EVENT","HistoricalCharacters",&DAT_1173dad0,
+
+               "List of possible historical characters",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10054d10(void)
+
+
+
+{
+
+  FUN_10c987f0("HISTORICAL_EVENTS_EVENT","HistoricalEvents",&DAT_1173dad0,
+
+               "List of possible historical events",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1008e990(void)
+
+
+
+{
+
+  FUN_10c987f0("SHORTCUT_TRIGGERED","ShortcutTriggered",
+
+               "Fired when a keyboard shortcut is triggered","String",&DAT_1179b680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100a9360(void)
+
+
+
+{
+
+  FUN_10c987f0("FRONTEND_TRANSITION_EVENT","FrontendScreenTransition",
+
+               "triggers we change screens in the frontend",
+
+               "string (name of layout transitioned to)",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100a95d0(void)
+
+
+
+{
+
+  FUN_10c987f0("HISTORIC_BATTLE_EVENTS","HistoricBattleEvent",
+
+               "Events fired from Historic battle, will send the name of next battle to be played !"
+
+               ,"String","Krishna");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100b0ae0(void)
+
+
+
+{
+
+  FUN_10c987f0("COMPONENT_CREATED_EVENT","ComponentCreated",
+
+               "Fires when a Component is first created (at end of RunScript)",
+
+               "String (name of the Component), Component ( this )","Krishna");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0c90(void)
+
+
+
+{
+
+  FUN_10c987f0("BUILDING_INFO_PANEL_OPEN_EVENT_CAMPAIGN","BuildingInfoPanelOpenedCampaign",
+
+               "triggers when the building info panel is opened by the user in the campaign game",
+
+               "string","shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0cc0(void)
+
+
+
+{
+
+  FUN_10c987f0("CHARACTER_DESELECTED_EVENT","CharacterDeselected",
+
+               "triggers when a character has been deselected on the campaign map","Empty string",
+
+               "Christian");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0cf0(void)
+
+
+
+{
+
+  FUN_10c987f0("COMPONENT_LCLICK_EVENT","ComponentLClickUp",
+
+               "Triggered when a user clicks on any component",
+
+               "String (ComponentType condition), Component",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0d20(void)
+
+
+
+{
+
+  FUN_10c987f0("COMPONENT_MOUSEON_EVENT","ComponentMouseOn",
+
+               "Triggered when a user mouses over any component",
+
+               "String (ComponentType condition), Component","Shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0d50(void)
+
+
+
+{
+
+  FUN_10c987f0("COMPONENT_MOVED_EVENT","ComponentMoved",
+
+               "Triggered when a user releases the left button after dragging an item",
+
+               "String (ComponentType condition), Component","Shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0d80(void)
+
+
+
+{
+
+  FUN_10c987f0("HUD_REFRESH_EVENT","HudRefresh","triggers when the HUD is reconstructed",
+
+               "Empty string","Shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0db0(void)
+
+
+
+{
+
+  FUN_10c987f0("INCOMING_MESSAGE_EVENT","IncomingMessage",
+
+               "triggers when a dropdown message first starts falling down the screen",
+
+               "string (event name)",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0ea0(void)
+
+
+
+{
+
+  FUN_10c987f0("LOADING_SCREEN_DISMISSED_EVENT","LoadingScreenDismissed",
+
+               "triggers when loading screen dismissed by player","Empty string","ScottB");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0ed0(void)
+
+
+
+{
+
+  FUN_10c987f0("MESSAGE_OPENED_EVENT_BATTLE","EventMessageOpenedBattle",
+
+               "triggers when a dropdown message is opened by the user","string (event name)",
+
+               &DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0f00(void)
+
+
+
+{
+
+  FUN_10c987f0("MESSAGE_OPENED_EVENT_CAMPAIGN","EventMessageOpenedCampaign",
+
+               "triggers when a dropdown message is opened by the user","string (event name)",
+
+               &DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0f30(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_ADVICE_EVENT_BATTLE","PanelAdviceRequestedBattle",
+
+               "triggers when the user clicks on the request advice button on a panel in battle",
+
+               "string",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0f60(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_ADVICE_EVENT_CAMPAIGN","PanelAdviceRequestedCampaign",
+
+               "triggers when the user clicks on the request advice button on a panel in the campaign game"
+
+               ,"string",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0f90(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_CLOSED_EVENT_BATTLE","PanelClosedBattle",
+
+               "triggers when a ui panel is closed by the user in battle","string",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0fc0(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_CLOSED_EVENT_CAMPAIGN","PanelClosedCampaign",
+
+               "triggers when a ui panel is closed by the user in the campaign game","string",
+
+               &DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0ff0(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_OPEN_EVENT_BATTLE","PanelOpenedBattle",
+
+               "triggers when a ui panel is opened by the user in battle","string",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1020(void)
+
+
+
+{
+
+  FUN_10c987f0("PANEL_OPEN_EVENT_CAMPAIGN","PanelOpenedCampaign",
+
+               "triggers when a ui panel is opened by the user in the campaign game","string",
+
+               &DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1090(void)
+
+
+
+{
+
+  FUN_10c987f0("SETTLEMENT_DESELECTED_EVENT","SettlementDeselected",
+
+               "triggers when a settlement has been deselected on the campaign map","Empty string",
+
+               "Christian");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d11a0(void)
+
+
+
+{
+
+  FUN_10c987f0("TECHNOLOGY_INFO_PANEL_OPEN_EVENT_CAMPAIGN","TechnologyInfoPanelOpenedCampaign",
+
+               "triggers when the technology info panel is opened by the user in the campaign game",
+
+               "string","shane");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d11d0(void)
+
+
+
+{
+
+  FUN_10c987f0("TOOLTIP_ADVICE_EVENT","TooltipAdvice",
+
+               "triggers when a tooltip cycles though all of it\'s available lines (only happens at end of first sequence"
+
+               ,"string",&DAT_117b0390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1200(void)
+
+
+
+{
+
+  FUN_10c987f0("TOUCH_USED_EVENT","TouchUsed","Trigger when touch controls have been used",
+
+               "battle_ui","Petr Tomicek");
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1230(void)
+
+
+
+{
+
+  FUN_10c987f0("UI_CREATED_EVENT","UICreated","Fires when the UI is first created",
+
+               "String (name of the UI), Component (root component of the ui)",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1260(void)
+
+
+
+{
+
+  FUN_10c987f0("UI_DESTROYED_EVENT","UIDestroyed","Fires when the UI is destroyed",
+
+               "String (name of the UI)",&DAT_117a2ecc);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+Total valid functions processed: 214

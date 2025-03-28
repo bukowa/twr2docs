@@ -1,0 +1,8689 @@
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000a950(void)
+
+
+
+{
+
+  FUN_10c978f0("TurnsSinceThreadLastAdvanced","Key from advice_threads table",
+
+               "The number of turns since the advice thread was last advanced - 0 signifies that the thread is unadvanced or the number of turns cannot be established"
+
+               ,"TurnsSinceThreadLastAdvanced(\"0001_Battle_Advice_Friendly_Fire_Thread\")",
+
+               &DAT_1173e50c,FUN_100e2390);
+
+  _atexit(FUN_116dda30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ad40(void)
+
+
+
+{
+
+  FUN_10c978f0("is_advice_audio_playing",&DAT_1173e900,
+
+               "Returns whether audio for any advice is currently playing",
+
+               "is_advice_audio_playing()",&DAT_1173e71c,&LAB_100eab40);
+
+  _atexit(FUN_116ddcc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c080(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleAllianceHasDeployables","No parameters needed",
+
+               "Returns true if the alliance has deployables","BattleAllianceHasDeployables()",
+
+               "Dylan",FUN_10163ca0);
+
+  _atexit(FUN_116de560);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c0c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleAllianceIsAttacker","No parameters needed",
+
+               "Returns true if the alliance is the attacker from the campaign map",
+
+               "BattleAllianceIsAttacker()","Ingimar",FUN_10163d60);
+
+  _atexit(FUN_116de570);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c100(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleAllianceIsPlayers","No parameters needed",
+
+               "Returns true if the alliance contains the players army","BattleAllianceIsPlayers()",
+
+               "Ingimar",&LAB_10163e20);
+
+  _atexit(FUN_116de580);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c140(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleAllianceNumberOfShips","No parameters needed",
+
+               "Returns the number of ships in all the armies of the alliance",
+
+               "BattleAllianceNumberOfShips()","Ingimar",FUN_10163f10);
+
+  _atexit(FUN_116de590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c180(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleAllianceNumberOfUnits","No parameters needed",
+
+               "Returns the number of units in all the armies of the alliance",
+
+               "BattleAllianceNumberOfUnits()","Ingimar",FUN_10163ff0);
+
+  _atexit(FUN_116de5a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c1c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleCommanderIsGeneral","No parameters needed",
+
+               "Returns true if the the alliance has a general and not just a colonel",
+
+               "BattleCommanderIsGeneral()","Ingimar",&LAB_10164060);
+
+  _atexit(FUN_116de5b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c200(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageCanHide","No parameters needed",
+
+               "Checks the percentage of enemy units ( in alliance ) that can hide, returns a percentage"
+
+               ,"BattleEnemyAlliancePercentageCanHide()","Ingimar",FUN_10164150);
+
+  _atexit(FUN_116de5c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c240(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageOfClassAndCategory",
+
+               "Two lowercase strings, first being the particular class string ( see unit_stats_land table ) and second being the category string ( see units table )"
+
+               ,
+
+               "Takes in class and category of a particular unit and goes through every enemy army, returning the percentage of units that match the class and category"
+
+               ,"BattleEnemyAlliancePercentageOfClassAndCategory(\"class\", \"category\")","Ingimar"
+
+               ,FUN_10164240);
+
+  _atexit(FUN_116de5d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c280(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageOfMountType",
+
+               "A lowercase string with the unit\'s mount type to be checked ( see type in battle_entities table )"
+
+               ,
+
+               "Determine the percentage of units in the enemies army that have the type of mount passed to the condition"
+
+               ,"BattleEnemyAlliancePercentageOfMountType(\"mount_type\")","Ingimar",FUN_101643e0);
+
+  _atexit(FUN_116de5e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c2c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageOfSpecialAbility",
+
+               "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour, loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none"
+
+               ,"Checks all of the Armies in the enemy alliances for the particular special ability"
+
+               ,"BattleEnemyAlliancePercentageOfSpecialAbility(\"ability\")","Ingimar",FUN_10164530)
+
+  ;
+
+  _atexit(FUN_116de5f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c300(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageOfUnitCategory",
+
+               "One lowercase string with the unit\'s category name ( see units table )",
+
+               "Take in the name of the unit\'s category and returns the percentage of units in the alliance that match the given category"
+
+               ,"BattleEnemyAlliancePercentageOfUnitCategory(\"category\")","Ingimar",FUN_10164650);
+
+  _atexit(FUN_116de600);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c340(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyAlliancePercentageOfUnitClass",
+
+               "One lowercase string with the unit\'s class name ( see unit_stats_land table )",
+
+               "Takes in the name of the unit\'s class and returns the percentage of units in the alliance that match the given class"
+
+               ,"BattleEnemyAlliancePercentageOfUnitClass(\"class\")","Ingimar",FUN_101647f0);
+
+  _atexit(FUN_116de610);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c380(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyDirectionOfMeleeAttack",
+
+               "Possible string paramaters are \"front\", \"left_flank\", \"right_flank\" and \"behind\""
+
+               ,
+
+               "Returns true if the passed parameter matches the direction of melee attack for the enemy unit"
+
+               ,"BattleEnemyDirectionOfMeleeAttack(\"left_flank\")","Ingimar",FUN_10164990);
+
+  _atexit(FUN_116de620);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c3c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyHasMissileSuperiority","No paramaters needed",
+
+               "Returns true if the combined missile streangth of the enemy is greater than the missile streangth of the player"
+
+               ,"BattleEnemyHasMissileSuperiority()","Ingimar",FUN_10164ab0);
+
+  _atexit(FUN_116de630);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c400(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyShipActionStatus","Single string with action status",
+
+               "Returns true if the action status of the enemy ship matches : dismasted, firing, hull_damaged, routing, sinking, wavering."
+
+               ,"BattleEnemyShipActionStatus","Ingimar",&LAB_10164e60);
+
+  _atexit(FUN_116de640);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c440(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyShipOnFire","No parameters needed",
+
+               "Checks whether any of the enemies ships are on fire, returns true or false",
+
+               "BattleEnemyShipOnFire()","Ingimar",FUN_10164f50);
+
+  _atexit(FUN_116de650);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c480(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitActionStatus","Single string with action status",
+
+               "Returns true if the action status of the enemy unit matches : charging, exhausted, fighting_melee, firing, hiding, idling moving, moving_fast, pursue_routers, rallying, routing, wavering."
+
+               ,"BattleEnemyUnitActionStatus(\"hiding\")","Ingimar",FUN_10165080);
+
+  _atexit(FUN_116de660);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c4c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitCategory",
+
+               "One lowercase string with the enemies unit\'s category name ( see units table )",
+
+               "Takes in a unit category string and returns true if there is an enemy and it matches the category of the enemy unit"
+
+               ,"BattleEnemyUnitCategory(\"category\")","Ingimar",FUN_10165150);
+
+  _atexit(FUN_116de670);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c500(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitClass",
+
+               "One lowercase string with the unit\'s class name ( see unit_stats_land table )",
+
+               "Takes in a unit class string and returns true if it matches the unit class of the enemy unit"
+
+               ,"BattleEnemyUnitClass(\"class\")","Ingimar",FUN_10165230);
+
+  _atexit(FUN_116de680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c540(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitCurrentFormation",
+
+               "Takes in a single string which can be one of the following : block_formation, pike_square_formation, pike_wall_formation, square_formation, diamond_formation, wedge_formation, light_infantry_behaviour."
+
+               ,
+
+               "Returns true if the unit has an enemy and the string matches the current formation employed by the enemy, otherwise it returns false"
+
+               ,&DAT_1173dad0,"Ingimar",FUN_10165300);
+
+  _atexit(FUN_116de690);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c580(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitOnLeftFlank","No parameters needed",
+
+               "Returns true if there\'s an enemy unit on the left flank",
+
+               "BattleEnemyUnitOnLeftFlank()","Ingimar",FUN_101653f0);
+
+  _atexit(FUN_116de6a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c5c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitOnRightFlank","No parameters needed",
+
+               "Returns true if there\'s an enemy unit on the right flank",
+
+               "BattleEnemyUnitOnRightFlank()","Ingimar",FUN_10165470);
+
+  _atexit(FUN_116de6b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c600(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitSpecialAbilitySupported",
+
+               "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour,  loose_formation, fire_and_advance, plug_bayonets, fougasse_improved, fougasse_basic, wooden_stakes, chevaux_de_frise, gabionade, earthworks, dismount, unlimber, none"
+
+               ,
+
+               "If there is an enemy unit then the condition checks all of the enemy unit\'s special abilities and returns true if the unit has the special ability"
+
+               ,"BattlePlayerUnitSpecialAbilitySupported(\"ability\")","Ingimar",FUN_101654f0);
+
+  _atexit(FUN_116de6c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c640(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleEnemyUnitTechnologySupported",
+
+               "Technology string : ring_bayonets, socket_bayonets, fire_mounted",
+
+               "Checks whether the unit has the technology passed in and returns true if the unit has the technology"
+
+               ,"BattleEnemyUnitTechnologySupported(\"ring_bayonets\")","Ingimar",FUN_101655e0);
+
+  _atexit(FUN_116de6d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c680(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleHasCoverBuildings","No parameters needed",
+
+               "Returns true if it finds an occupiable building","BattleHasCoverBuildings()",
+
+               "Ingimar",FUN_10165690);
+
+  _atexit(FUN_116de6e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c6c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleHasCoverWalls","No parameters needed",
+
+               "Returns true if the battlefield has walls that the men can take cover against",
+
+               "BattleHasCoverWalls()","Ingimar",FUN_10165740);
+
+  _atexit(FUN_116de6f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c700(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleIsAmbushConflict","No parameters needed",
+
+               "Returns true if there is a fort in the battle","BattleIsAmbushConflict()","Ingimar",
+
+               FUN_101657c0);
+
+  _atexit(FUN_116de700);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c740(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleIsLandConflict","No parameters needed",
+
+               "Returns true if battle is being fought on land (this will NOT return true for fort battles)"
+
+               ,"BattleIsLandConflict()","Ingimar",FUN_10165830);
+
+  _atexit(FUN_116de710);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c780(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleIsNavalConflict","No parameters needed",
+
+               "Returns true if battle is being fought on sea","BattleIsNavalConflict()","Ingimar",
+
+               FUN_101658d0);
+
+  _atexit(FUN_116de720);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c7c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleIsSiegeConflict","No parameters needed",
+
+               "Returns true if there is a fort in the battle","BattleIsSiegeConflict()","Ingimar",
+
+               FUN_10165960);
+
+  _atexit(FUN_116de730);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c800(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAllianceDefendingHill","No parameters needed",
+
+               "Returns true if a unit in the alliance is stationed on a hill",
+
+               "BattlePlayerAllianceDefendingHill()","Ingimar",FUN_101659f0);
+
+  _atexit(FUN_116de740);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c840(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageCanHide","No parameters needed",
+
+               "Checks the percentage of player units ( in alliance ) that can hide, returns a percentage"
+
+               ,"BattlePlayerAlliancePercentageCanHide()","Ingimar",FUN_10165b40);
+
+  _atexit(FUN_116de750);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c880(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageGuerrillas",
+
+               "A single string representing the class of a unit ( see unit_stats_land table )",
+
+               "Goes through the players alliance and searches for all the units that have guerrilla deployment"
+
+               ,"BattlePlayerAlliancePercentageGuerrillas","Scott",&LAB_10165bb0);
+
+  _atexit(FUN_116de760);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c8c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfAmmoType",
+
+               "Takes in a string describing the shottype ( see projectile_shot_type_enum_table )",
+
+               "Returns the percentage of units in the alliance that have the specified ammo type",
+
+               "BattlePlayerAlliancePercentageOfAmmoType(\"bullet\")","Ingimar",FUN_10165ce0);
+
+  _atexit(FUN_116de770);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c900(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfClassAndCategory",
+
+               "Two lowercase strings, first being the particular class string (see unit_stats_land table ) and second being the category string ( see units table )"
+
+               ,
+
+               "Takes in Class and Category of a particular unit and goes through players army and returns the percentage that match the class and category"
+
+               ,"BattlePlayerAlliancePercentageOfClassAndCategory(\"class\", \"category\")",
+
+               "Ingimar",FUN_10165e60);
+
+  _atexit(FUN_116de780);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c940(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfMountType",
+
+               "A lowercase string with the unit\'s mount type to be checked ( see type in battle_entities table )"
+
+               ,
+
+               "Determine the percentage of units in the players army that have the type of mount passed to the condition"
+
+               ,"BattlePlayerPercentageOfMountType(\"mount_type\")","Ingimar",FUN_10165fd0);
+
+  _atexit(FUN_116de790);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c980(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfSpecialAbility",
+
+               "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour, loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none"
+
+               ,"Checks all of the Armies in the players alliance for the special ability",
+
+               "BattlePlayerAlliancePercentageOfSpecialAbility(\"ability\")","Ingimar",FUN_101660d0)
+
+  ;
+
+  _atexit(FUN_116de7a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000c9c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfTechnology",
+
+               "Technology string : ring_bayonets, socket_bayonets, fire_mounted",
+
+               "Checks all of the Armies in the players alliance for the technology and returns the percentage of those that have it"
+
+               ,"BattlePlayerAlliancePercentageOfTechnology(\"ring_bayonets\")","Ingimar",
+
+               FUN_10166170);
+
+  _atexit(FUN_116de7b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ca00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfUnitCategory",
+
+               "A single string representing the category of a unit ( see units table )",
+
+               "Goes through the players alliance and searches for all the units that fit the given category description"
+
+               ,"BattlePlayerAlliancePercentageOfUnitCategory(\"category\")","Ingimar",FUN_101661f0)
+
+  ;
+
+  _atexit(FUN_116de7c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ca40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAlliancePercentageOfUnitClass",
+
+               "A single string representing the class of a unit ( see unit_stats_land table )",
+
+               "Goes through the players alliance and searches for all the units that fit the given class description"
+
+               ,"BattlePlayerAlliancePercentageOfUnitClass(\"class\")","Ingimar",FUN_10166350);
+
+  _atexit(FUN_116de7d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ca80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerAllianceToEnemyAllianceRatio","No parameters needed",
+
+               "Returns the ratio PlayersAlliance/EnemyAlliance in terms of men on the battlefield",
+
+               "BattlePlayerAllianceToEnemyAllianceRatio() > 0.5 would mean that the players alliance has half as many men as the enemy\'s alliance"
+
+               ,"Ingimar",FUN_101664b0);
+
+  _atexit(FUN_116de7e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cac0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerDefendingFort","No parameters needed",
+
+               "Returns true if player is still in control of the fort and is tasked to defend it.",
+
+               "BattlePlayerDefendingFort()","Ingimar",FUN_10166720);
+
+  _atexit(FUN_116de7f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cb00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerDirectionOfMeleeAttack",
+
+               "Possible string paramaters are \"front\", \"left_flank\", \"right_flank\" and \"behind\""
+
+               ,
+
+               "Returns true if the passed parameter matches the direction of melee attack for the unit"
+
+               ,"BattlePlayerDirectionOfMeleeAttack(\"left_flank\")","Ingimar",FUN_10166810);
+
+  _atexit(FUN_116de800);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cb40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerDirectionOfMissileAttack",
+
+               "Possible string paramaters are \"front\", \"left_flank\", \"right_flank\" and \"behind\""
+
+               ,
+
+               "Returns true if the passed parameter matches the direction of missile attack for the unit"
+
+               ,"BattlePlayerDirectionOfMissileAttack(\"right_flank\")","Ingimar",FUN_10166900);
+
+  _atexit(FUN_116de810);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cb80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerSailsPercentageDamaged","No parameters needed",
+
+               "Returns the floating point value of percentage damaged in the range 0.0 to 100.0",
+
+               "BattlePlayerSailsPercentageDamaged()","Ingimar",FUN_10166a20);
+
+  _atexit(FUN_116de820);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cbc0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerShipActionStatus","Single string with action status",
+
+               "Returns true if the action status of the ship : dismasted, firing, hull_damaged, routing, sinking, wavering."
+
+               ,"BattlePlayerShipActionStatus(\"hiding\")","Ingimar",FUN_10166aa0);
+
+  _atexit(FUN_116de830);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cc00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerShipClass",
+
+               "One lowercase string with the unit\'s class name ( see unit_stats_naval table )",
+
+               "Takes in a ship class and returns true if it matches the ship class of the ship",
+
+               "BattlePlayerShipClass(\"class\")","Ingimar",FUN_10166b40);
+
+  _atexit(FUN_116de840);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cc40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitActionStatus","Single string with action status",
+
+               "Returns true if the action status of the unit matches UNIT: charging, exhausted, fighting_melee, firing, hiding, idling moving, moving_fast, pursue_routers, rallying, routing, wavering."
+
+               ,"BattlePlayerUnitActionStatus(\"hiding\")","Ingimar",FUN_10166b80);
+
+  _atexit(FUN_116de850);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cc80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitAmmoType",
+
+               "Takes in a string describing the shottype ( see projectile_shot_type_enum table )",
+
+               "Returns true if the unit has the ammo type","BattlePlayerUnitAmmoType(\"bullet\")",
+
+               "Ingimar",FUN_10166c20);
+
+  _atexit(FUN_116de860);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ccc0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitCategory",
+
+               "One lowercase string with the unit\'s category name ( see units table )",
+
+               "Takes in a unit category string and returns true if it matches the unit category of the unit"
+
+               ,"BattlePlayerUnitCategory(\"category\")","Ingimar",FUN_10166cd0);
+
+  _atexit(FUN_116de870);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cd00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitClass",
+
+               "One lowercase string with the unit\'s class name ( see unit_stats_land table )",
+
+               "Takes in a unit class string and returns true if it matches the unit class of the unit"
+
+               ,"BattlePlayerUnitClass(\"class\")","Ingimar",&LAB_10166d70);
+
+  _atexit(FUN_116de880);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cd40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitCurrentFormation",
+
+               "Takes in a single string which can be one of the following : block_formation, pike_square_formation, pike_wall_formation, square_formation, diamond_formation, wedge_formation, light_infantry_behaviour."
+
+               ,
+
+               "Returns true if the string matches the current formation employed, otherwise it returns false"
+
+               ,"BattlePlayerUnitCurrentFormation( \"pike_square_formation\" )","Ingimar",
+
+               &LAB_10166e10);
+
+  _atexit(FUN_116de890);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cd80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitDefendingHill","No paramaters needed",
+
+               "Returns true if a unit is stationed on a hill","BattlePlayerUnitDefendingHill()",
+
+               "Ingimar",&LAB_10166ec0);
+
+  _atexit(FUN_116de8a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cdc0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitEngagedInMelee","No parameters needed",
+
+               "Returns true if a unit is in a melee fight","BattlePlayerUnitEngagedInMelee()",
+
+               "Ingimar",FUN_10166fa0);
+
+  _atexit(FUN_116de8b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ce00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitEngaged","No parameters needed",
+
+               "Returns true if a unit is either in a firefight or melee",
+
+               "BattlePlayerUnitEngaged()","Ingimar",&LAB_10167010);
+
+  _atexit(FUN_116de8c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ce40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitMountType",
+
+               "A lowercase string with the unit\'s mount type to be checked ( see type in battle_entities ) table"
+
+               ,
+
+               "Determines whether the unit is mounted on the type of mount passed to the condition"
+
+               ,"BattlePlayerUnitMountClass(\"mount_type\")","Ingimar",FUN_101670e0);
+
+  _atexit(FUN_116de8d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000ce80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitMovingFast","No parameters needed",
+
+               "Returns true if the unit is moving fast, otherwise false",
+
+               "BattlePlayerUnitMovingFast()","Ingimar",FUN_10167190);
+
+  _atexit(FUN_116de8e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cec0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitSpecialAbilityActive",
+
+               "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour,  loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none"
+
+               ,"Checks whether the specified unit ability is active",
+
+               "BattlePlayerUnitSpecialAbilityActive()","Ingimar",FUN_101672b0);
+
+  _atexit(FUN_116de8f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cf00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitSpecialAbilitySupported",
+
+               "Special Ability string : pike_square_formation, pike_wall_formation, square_formation, wedge_formation, diamond_formation, light_infantry_behaviour,  loose_formation, fire_and_advance, plug_bayonets, dismount, unlimber, none"
+
+               ,"Checks all of the units special abilities and returns true if the unit has ability"
+
+               ,"BattlePlayerUnitSpecialAbilitySupported(\"ability\")","Ingimar",FUN_10167390);
+
+  _atexit(FUN_116de900);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cf40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlePlayerUnitTechnologySupported",
+
+               "Technology string : ring_bayonets, socket_bayonets, fire_mounted",
+
+               "Checks whether the unit has the technology passed in and returns true if the unit has the technology"
+
+               ,"BattlePlayerUnitTechnologySupported(\"ring_bayonets\")","Ingimar",FUN_10167450);
+
+  _atexit(FUN_116de910);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cf80(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleShipIsPlayers","No parameters needed",
+
+               "Returns true if the unit is part of the players army","BattleShipIsPlayers",
+
+               "Ingimar",FUN_101674c0);
+
+  _atexit(FUN_116de920);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000cfc0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleShipSailsPercentageDamage","No parameters needed",
+
+               "Returns the percentile of damage the sails have recieved in the range 0.0 to 100.0",
+
+               "BattlePlayerShipSailsPercentageDamage()","Ingimar",FUN_10166a20);
+
+  _atexit(FUN_116de930);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000d000(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleTimeLimitSet","No parameters needed",
+
+               "Returns true if there\'s an alliance in a the battle that will win on a timeout",
+
+               "BattleTimeLimitSet()","Ingimar",FUN_10167670);
+
+  _atexit(FUN_116de940);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000d040(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleType",
+
+               "Battle type string : normal, land_normal, land_bridge, fort_standard, fort_sally, fort_relief, settlement_standard, settlement_sally, settlement_relief settlement_unfortified, town_normal, naval_normal, naval_blockade, naval_breakout. Please see designers for which of these are supported."
+
+               ,"Returns true if the battle type matches the one supplied","BattleType(\"normal\")",
+
+               "Ingimar",FUN_10167700);
+
+  _atexit(FUN_116de950);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000d080(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleUnitIsAllied","No parameters needed",
+
+               "Returns true if the unit is part of the players alliance","BattleUnitIsAllied()",
+
+               "Ingimar",FUN_101677b0);
+
+  _atexit(FUN_116de960);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1000d0c0(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleUnitIsPlayers","No parameters needed",
+
+               "Returns true if the unit is part of the players army","BattleUnitIsPlayers()",
+
+               "Ingimar",FUN_101678b0);
+
+  _atexit(FUN_116de970);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100344d0(void)
+
+
+
+{
+
+  FUN_10c978f0("MapPositionNear","Location on the map",
+
+               "check to see if a map location is near the one returned by the context",
+
+               "MapPositionNear(x, y, distance)",&DAT_1179b680,&LAB_107e7b40);
+
+  _atexit(FUN_116fccb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10034510(void)
+
+
+
+{
+
+  FUN_10c978f0("MapPosition","Location on the map",
+
+               "check to see if a map location matches the one return by the context",
+
+               "MapPosition(x, y)",&DAT_1179ebf0,FUN_107e7c00);
+
+  _atexit(FUN_116fccc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035cb0(void)
+
+
+
+{
+
+  FUN_10c978f0("AdjacentRegionRebelling",&DAT_1173e900,
+
+               "Are any of the regions adjacent to the region rebelling","AdjacentRegionRebelling()"
+
+               ,&DAT_117a1590,FUN_108109c0);
+
+  _atexit(FUN_116fdaa0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035cf0(void)
+
+
+
+{
+
+  FUN_10c978f0("AnyFactionDestroyedLastTurn",&DAT_1173e900,
+
+               "Has any faction been destroyed since the last turn","AnyFactionDestroyedLastTurn()",
+
+               &DAT_1179b680,FUN_10810a80);
+
+  _atexit(FUN_116fdab0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035d30(void)
+
+
+
+{
+
+  FUN_10c978f0("ArmyIsAlliedCampaign",&DAT_1173e900,
+
+               "Does the army belong to a faction allied to the player faction",
+
+               "ArmyIsAlliedCampaign()",&DAT_117a1590,FUN_10810af0);
+
+  _atexit(FUN_116fdac0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035d70(void)
+
+
+
+{
+
+  FUN_10c978f0("ArmyIsLocalCampaign",&DAT_1173e900,"Does the army belong to the player faction?",
+
+               "ArmyIsLocalCampaign()",&DAT_117a1590,FUN_10810bb0);
+
+  _atexit(FUN_116fdad0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035f00(void)
+
+
+
+{
+
+  FUN_10c978f0("BattleResult",
+
+               "Result of the battle, e.g. \"crushing_defeat\", \"major_victory\", \"pyrrhic_victory\""
+
+               ,"Returns true if the battle result matches the one supplied",
+
+               "BattleResult(\"decisive_victory\")",&DAT_117a159c,FUN_10810db0);
+
+  _atexit(FUN_116fdae0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035f40(void)
+
+
+
+{
+
+  FUN_10c978f0("BattlesFought",&DAT_1178eec8,"How many battles has this character fought in?",
+
+               "BattlesFought()",&DAT_117a159c,FUN_10810f20);
+
+  _atexit(FUN_116fdaf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035f80(void)
+
+
+
+{
+
+  FUN_10c978f0("BuildingTypeExistsAtSettlement",
+
+               "The key of the building level you are querying from the building_levels table",
+
+               "Tests if a building of the specified type exists in the region settlement",
+
+               "BuildingTypeExistsAtSettlement(\"barracks\")",&DAT_117a1590,&LAB_10810f70);
+
+  _atexit(FUN_116fdb00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10035fc0(void)
+
+
+
+{
+
+  FUN_10c978f0("BuildingTypeExistsAtSlot",
+
+               "The key of the building level you are querying from the building_levels table",
+
+               "Tests if a building of the specified type exists in the region slot",
+
+               "BuildingTypeExistsAtSlot(\"barracks\")",&DAT_117a1590,FUN_10811040);
+
+  _atexit(FUN_116fdb10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037c80(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignBattleType",
+
+               "Battle type string : normal, land_normal, land_bridge, fort_standard, fort_sally, fort_relief, settlement_standard, settlement_sally, settlement_relief settlement_unfortified, town_normal, naval_normal, naval_blockade, naval_breakout. Please see designers for which of these are supported."
+
+               ,"Returns true if the battle type matches the one supplied",
+
+               "CampaignBattleType(\"normal\")",&DAT_117a159c,FUN_108116f0);
+
+  _atexit(FUN_116fdb20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037cc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignName","Name of the campaign to compare against, from the campaigns table",
+
+               "Returns whether or not the current campaign name matches the supplied parameter",
+
+               "CampaignName(\'main\')",&DAT_1173e50c,FUN_108117d0);
+
+  _atexit(FUN_116fdb30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037d00(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignNumberOfUnitsInEnemyAlliance",&DAT_1178eec8,
+
+               "Number of units in the alliance opposing character in context",
+
+               "CampaignNumberOfUnitsInEnemyAlliance()",&DAT_1179b680,FUN_108118d0);
+
+  _atexit(FUN_116fdb40);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037d40(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignNumberOfUnitsInEnemyArmy",&DAT_1178eec8,
+
+               "Number of units in the primary army of the primary faction of the force opposing the army commanded by the character in context"
+
+               ,"CampaignNumberOfUnitsInEnemyArmy()",&DAT_1179b680,FUN_108119c0);
+
+  _atexit(FUN_116fdb50);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037d80(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignNumberOfUnitsInPlayerAlliance",&DAT_1178eec8,
+
+               "Number of units in the alliance containing character in context",
+
+               "CampaignNumberOfUnitsInPlayerAlliance()",&DAT_1179b680,FUN_10811ad0);
+
+  _atexit(FUN_116fdb60);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037dc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignNumberOfUnitsInPlayerArmy",&DAT_1178eec8,
+
+               "Number of units in the army commanded by the character in context",
+
+               "CampaignNumberOfUnitsInPlayerArmy()",&DAT_1179b680,FUN_10811bc0);
+
+  _atexit(FUN_116fdb70);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037e00(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfOwnCaptured",&DAT_1178eec8,
+
+               "Percentage of own men/ships captured in the battle that just took place",
+
+               "CampaignPercentageOfOwnCaptured()",&DAT_117a159c,FUN_10811cf0);
+
+  _atexit(FUN_116fdb80);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037e40(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfOwnKilled",&DAT_1178eec8,
+
+               "Percentage of own men/ships killed in the battle that just took place",
+
+               "CampaignPercentageOfOwnKilled()",&DAT_117a159c,FUN_10811dc0);
+
+  _atexit(FUN_116fdb90);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037e80(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfOwnRouted",&DAT_1178eec8,
+
+               "Percentage of own men/ships that routed in the battle that just took place",
+
+               "CampaignPercentageOfOwnRouted()",&DAT_117a159c,FUN_10811ef0);
+
+  _atexit(FUN_116fdba0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037ec0(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfThemCaptured",&DAT_1178eec8,
+
+               "Percentage of opposing men/ships captured in the battle that just took place",
+
+               "CampaignPercentageOfThemCaptured()",&DAT_117a159c,FUN_10812030);
+
+  _atexit(FUN_116fdbb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037f00(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfThemKilled",&DAT_1178eec8,
+
+               "Percentage of opposing men/ships killed in the battle that just took place",
+
+               "CampaignPercentageOfThemKilled()",&DAT_117a159c,FUN_10812100);
+
+  _atexit(FUN_116fdbc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037f40(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfThemRouted",&DAT_1178eec8,
+
+               "Percentage of opposing men/ships that routed in the battle that just took place",
+
+               "CampaignPercentageOfThemRouted()",&DAT_117a159c,FUN_10812230);
+
+  _atexit(FUN_116fdbd0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037f80(void)
+
+
+
+{
+
+  FUN_10c978f0("CampaignPercentageOfUnitCategory",&DAT_1178eec8,
+
+               "Percentage of type of ships/units under an admirals/generals command",
+
+               "CampaignPercentageOfUnitCategory(\"naval_frigate\")",&DAT_117a159c,FUN_10812370);
+
+  _atexit(FUN_116fdbe0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10037fc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterAbility","Ability name (valid key from abilities table)",
+
+               "Returns whether a character can perform the ability specified",
+
+               "CharacterAbility(\"can_assassinate\")",&DAT_117a2ecc,FUN_108124f0);
+
+  _atexit(FUN_116fdbf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038000(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterArmyCouldReplenishFromBattle",&DAT_1178eec8,
+
+               "Test to see if an army involved in the current pending battle and belonging to the player can replenish"
+
+               ,"CharacterArmyCouldReplenishFromBattle()",&DAT_1179b680,FUN_10812580);
+
+  _atexit(FUN_116fdc00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038040(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterArmyUsedCoverBuildings",&DAT_1178eec8,
+
+               "Did the characters army use buildings for conver?",
+
+               "CharacterArmyUsedCoverBuildings()",&DAT_1179b680,FUN_10812630);
+
+  _atexit(FUN_116fdc10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038080(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterArmyUsedCoverWalls",&DAT_1178eec8,
+
+               "Did the characters army use walls for cover?","CharacterArmyUsedCoverWalls()",
+
+               &DAT_1179b680,FUN_10812740);
+
+  _atexit(FUN_116fdc20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100380c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterAttribute","Attribute name (valid key from agent_attributes table)",
+
+               "Returns the value of the attribute specified.  This doesn\'t account for any given situation bonuses"
+
+               ,"CharacterAttribute(\"command_land\") >= 2",&DAT_117a2ecc,&LAB_10812850);
+
+  _atexit(FUN_116fdc30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038100(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterBattleWallsBreached",&DAT_1178eec8,
+
+               "Did the characters army breach the walls of a fort?",
+
+               "CharacterBattleWallsBreached()",&DAT_1179b680,FUN_10812870);
+
+  _atexit(FUN_116fdc40);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038140(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterBuildingConstructed","The building type",
+
+               "Did this building type just get constructed?",
+
+               "CharacterBuildingConstructed(\"vineyards\")",&DAT_117a159c,FUN_10812980);
+
+  _atexit(FUN_116fdc50);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038180(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterCapturedEnemyShip",&DAT_1178eec8,
+
+               "Did the given character capture an enemy ship?","CharacterCapturedEnemyShip()",
+
+               &DAT_117a159c,FUN_10812a10);
+
+  _atexit(FUN_116fdc60);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100381c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterCommandsNavy",&DAT_1178eec8,"Does a character command a navy?",
+
+               "CharacterCommandsNavy()",&DAT_117a1590,FUN_10812aa0);
+
+  _atexit(FUN_116fdc70);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038200(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterCultureType",
+
+               "Valid entry from \'key\' field from cultures table in Empire.mdb",
+
+               "Returns true if the character context is of the culture specified",
+
+               "CharacterCultureType(\"tribal\")",&DAT_117a2ecc,FUN_10812b10);
+
+  _atexit(FUN_116fdc80);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038240(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterDuelWeapon",&DAT_1173e900,
+
+               "Did the given character use the given weapon in the duel?",
+
+               "CharacterDuelWeapon(\"duelling_pistols\")",&DAT_117a159c,FUN_10166b40);
+
+  _atexit(FUN_116fdc90);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038280(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterDuelsFought",&DAT_1178eec8,
+
+               "Number of duels a character has fought. Character context","CharacterDuelsFought()",
+
+               &DAT_117a1590,FUN_10812bc0);
+
+  _atexit(FUN_116fdca0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100382c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterDuelsLost",&DAT_1178eec8,
+
+               "Number of duels a character has lost. Character context","CharacterDuelsLost()",
+
+               &DAT_117a1590,FUN_10812c30);
+
+  _atexit(FUN_116fdcb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038300(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterDuelsWon",&DAT_1178eec8,
+
+               "Number of duels a character has won. Character context","CharacterDuelsWon()",
+
+               &DAT_117a1590,FUN_10812ca0);
+
+  _atexit(FUN_116fdcc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038340(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterEndedInAmbushPosition",&DAT_1173e900,
+
+               "Returns true if the character is in an ambush position, as used in conjunction with out of mp this has just happened"
+
+               ,"CharacterEndedInAmbushPosition()",&DAT_117a159c,FUN_10812d10);
+
+  _atexit(FUN_116fdcd0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038380(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionAdmiralCount",&DAT_1173e900,
+
+               "How many admirals does this characters faction have?",
+
+               "CharacterFactionAdmiralCount()",&DAT_117a159c,FUN_10812d70);
+
+  _atexit(FUN_116fdce0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100383c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionGeneralCount",&DAT_1173e900,
+
+               "How many generals does this characters faction have?",
+
+               "CharacterFactionGeneralCount()",&DAT_117a159c,FUN_10812d70);
+
+  _atexit(FUN_116fdcf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038400(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionHasTechType","A valid key from the technologies table.",
+
+               "Does the characters faction have the specified technology",
+
+               "CharacterFactionHasTechType(\"enlightenment_abolition_of_slavery\")",&DAT_117a159c,
+
+               FUN_10812e20);
+
+  _atexit(FUN_116fdd00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038440(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionMinisterAncillary","Ancillary name",
+
+               "Tests whether any minister in the characters faction has the specified ancillary",
+
+               "CharacterFactionMinisterAncillary(\"Ancillary_Boxer\")",&DAT_1179b680,FUN_10812ef0);
+
+  _atexit(FUN_116fdd10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038480(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionMinisterTrait","Trait name",
+
+               "Tests whether any minister in the characters faction has the named trait",
+
+               "CharacterFactionMinisterTrait(\"drunkard\")",&DAT_1179b680,FUN_10812ff0);
+
+  _atexit(FUN_116fdd20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100384c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionName","The db record key for the faction",
+
+               "Is characters faction the one specified?","CharacterFactionName(\"britain\")",
+
+               &DAT_117a159c,FUN_108130f0);
+
+  _atexit(FUN_116fdd30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038500(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionReligion","religion key from region table",
+
+               "Returns whether the religion of the character context\'s faction matches the specified religion"
+
+               ,"CharacterFactionReligion(\"rel_buddhist\")",&DAT_1179b680,FUN_108131a0);
+
+  _atexit(FUN_116fdd40);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038540(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFactionSubcultureType","Subculture key",
+
+               "Is the character part of the given subculture?",
+
+               "CharacterFactionSubcultureType(\"sc_indian_islamic\")",&DAT_117a159c,FUN_10813260);
+
+  _atexit(FUN_116fdd50);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038580(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterForename","The forename\'s db key","Does the character have this forename?"
+
+               ,"CharacterForename(\"names_name_names_irishAlan\")",&DAT_117a2ed8,&LAB_108132f0);
+
+  _atexit(FUN_116fdd60);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100385c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterFoughtCulture",&DAT_1178eec8,"Has this character just fought this culture?"
+
+               ,"CharacterFoughtCulture(\"tribal\")",&DAT_117a159c,FUN_108133a0);
+
+  _atexit(FUN_116fdd70);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038600(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterHasAncillary","Ancillary name",
+
+               "Tests whether the character has the specified ancillary",
+
+               "CharacterHasAncillary(\"Ancillary_Boxer\")",&DAT_1179b680,FUN_108134a0);
+
+  _atexit(FUN_116fdd80);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038640(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterHasTrait","The name of the trait",
+
+               "Does this character have the given trait?","CharacterHasTrait(\"drunkard\")",
+
+               &DAT_117a159c,FUN_10813550);
+
+  _atexit(FUN_116fdd90);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038680(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterHoldsPost",&DAT_1178eec8,"Is this character a minister with a post?",
+
+               "CharacterHoldsPost()",&DAT_117a159c,&LAB_108135f0);
+
+  _atexit(FUN_116fdda0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100386c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterHusbandHasTrait","The name of the trait",
+
+               "Does this character\'s husband have the given trait?",
+
+               "CharacterHusbandHasTrait(\"drunkard\")",&DAT_1179b680,FUN_10813660);
+
+  _atexit(FUN_116fddb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038700(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInBuildingOfChain",&DAT_1173dad0,
+
+               "Is the character in a building of this chain type?",
+
+               "CharacterInBuildingOfChain(\"tobacco\")",&DAT_117a159c,&LAB_10813720);
+
+  _atexit(FUN_116fddc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038740(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInBuildingType",&DAT_1173dad0,
+
+               "Is the character in a building of this type?",
+
+               "CharacterInBuildingType(\"naval_college\")",&DAT_117a159c,FUN_10813870);
+
+  _atexit(FUN_116fddd0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038780(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInEnemyLands",&DAT_1173dad0,"Is the character in enemy lands?",
+
+               "CharacterInEnemyLands()",&DAT_117a159c,FUN_108139b0);
+
+  _atexit(FUN_116fdde0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100387c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInHomeRegion",&DAT_1173dad0,"Is the character in their home region?",
+
+               "CharacterInHomeRegion()",&DAT_117a159c,FUN_10813a40);
+
+  _atexit(FUN_116fddf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038800(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInOwnFactionLands",&DAT_1173dad0,
+
+               "Is the character in their own factions lands?","CharacterInOwnFactionLands()",
+
+               &DAT_117a159c,FUN_10813ad0);
+
+  _atexit(FUN_116fde00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038840(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInRegion","The region key","Is the character in the given region?",
+
+               "CharacterInRegion(\"england\")",&DAT_117a159c,FUN_10813b60);
+
+  _atexit(FUN_116fde10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038880(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterInTheatre",&DAT_1173e900,"Is the character in the specified theatre",
+
+               "CharacterInTheatre(\"-1133129049\")",&DAT_117a1590,FUN_10813c00);
+
+  _atexit(FUN_116fde20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100388c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterIsAlliedCampaign",&DAT_1178eec8,
+
+               "The character is allied to the local faction?","CharacterIsAllied()",&DAT_117a1590,
+
+               FUN_10813ce0);
+
+  _atexit(FUN_116fde30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038900(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterIsEnemyCampaign",&DAT_1178eec8,
+
+               "The character is an enemy of the local faction?","CharacterIsEnemy()",&DAT_117a1590,
+
+               FUN_10813d90);
+
+  _atexit(FUN_116fde40);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038940(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterIsFemale",&DAT_1173dad0,
+
+               "Returns whether the character in context is female","CharacterIsFemale()",
+
+               &DAT_1179b680,FUN_10813e40);
+
+  _atexit(FUN_116fde50);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038980(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterIsLocalCampaign",&DAT_1173e900,
+
+               "Does the character belong to the player faction?","CharacterIsLocalCampaign()",
+
+               &DAT_117a1590,FUN_10813eb0);
+
+  _atexit(FUN_116fde60);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100389c0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterMPPercentageRemaining",&DAT_1178eec8,
+
+               "Returns the percentage of movement points remaining as in integer value",
+
+               "CharacterMPPercentageRemaining() < 50",&DAT_117a2ecc,FUN_10813f60);
+
+  _atexit(FUN_116fde70);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038a00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterMinisterialPosition","Ministerial position",
+
+               "Does the character hold the specified ministerial position?",
+
+               "CharacterMinisterialPosition(\"governor_europe\")",&DAT_117a159c,FUN_10814000);
+
+  _atexit(FUN_116fde80);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038a40(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterNumberOfChildren",&DAT_1178eec8,
+
+               "How many children does this character have?","CharacterNumberOfChildren()",
+
+               &DAT_1179b680,FUN_108140a0);
+
+  _atexit(FUN_116fde90);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038a80(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterOlderThan",&DAT_117aab60,
+
+               "Returns whether the character is older than the given age","CharacterOlderThan(16)",
+
+               &DAT_1179b680,FUN_108140f0);
+
+  _atexit(FUN_116fdea0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038ac0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterRallied",&DAT_1178eec8,"Did the general rally at least one unit?",
+
+               "CharacterRallied()",&DAT_1179b680,FUN_10814170);
+
+  _atexit(FUN_116fdeb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038b00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterRank",&DAT_1178eec8,"Rank of character (1-6)","CharacterRank()",
+
+               &DAT_117a2ed8,FUN_108142c0);
+
+  _atexit(FUN_116fdec0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038b40(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterRouted",&DAT_1178eec8,"Has the character routed? in the last battle?",
+
+               "CharacterRouted()",&DAT_117a159c,FUN_10814330);
+
+  _atexit(FUN_116fded0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038b80(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterRunsSpyNetwork",&DAT_1178eec8,
+
+               "Test to see if the character runs a spy network","CharacterRunsSpyNetwork()",
+
+               &DAT_1179b680,FUN_10814470);
+
+  _atexit(FUN_116fdee0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038bc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterSpouseHasTrait","The name of the trait",
+
+               "Does this character\'s spouse have the given trait?",
+
+               "CharacterSpouseHasTrait(\"drunkard\")",&DAT_1179b680,FUN_108144c0);
+
+  _atexit(FUN_116fdef0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038c00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterStationaryForOneTurn",&DAT_1178eec8,
+
+               "Was the character stationary last turn (or longer)",
+
+               "CharacterStationaryForOneTurn()",&DAT_117a1590,FUN_10814570);
+
+  _atexit(FUN_116fdf00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038c40(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterSurname","The surname\'s db key","Does the character have this surname?",
+
+               "CharacterSurname(\"names_name_names_irishBlair\")",&DAT_117a2ed8,FUN_108145e0);
+
+  _atexit(FUN_116fdf10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038c80(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterTrait","Trait name",
+
+               "Returns the value of the specified trait (0 if not present)",
+
+               "CharacterTrait(\"drunkard\") > 2",&DAT_117a2ecc,FUN_10814690);
+
+  _atexit(FUN_116fdf20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038cc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterTurnsAtHome",&DAT_1173dad0,
+
+               "Returns the number of turns in home regions exclusively","CharacterTurnsAtHome()",
+
+               &DAT_117a159c,FUN_10814740);
+
+  _atexit(FUN_116fdf30);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038d00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterTurnsAtSea",&DAT_1173dad0,"Returns the number of turns at sea exclusively",
+
+               "CharacterTurnsAtSea()",&DAT_117a159c,&LAB_10814790);
+
+  _atexit(FUN_116fdf40);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038d40(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterTurnsInEnemyLands",&DAT_1173dad0,
+
+               "Returns the number of turns in enemy regions exclusively",
+
+               "CharacterTurnsInEnemyLands()",&DAT_117a159c,&LAB_108147e0);
+
+  _atexit(FUN_116fdf50);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038d80(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterType","Valid entry from \'key\' field from Agents table in Empire.mdb",
+
+               "Returns true if the character context is of the agent type specified",
+
+               "CharacterType(\"spy\")",&DAT_117a2ecc,&LAB_10814830);
+
+  _atexit(FUN_116fdf60);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038dc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterWasAttacker",&DAT_1173e900,
+
+               "Was the character the attacker in the last battle?","CharacterWasAttacker()",
+
+               &DAT_117a159c,FUN_108148c0);
+
+  _atexit(FUN_116fdf70);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038e00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterWifeHasTrait","The name of the trait",
+
+               "Does this character\'s wife have the given trait?",
+
+               "CharacterWifeHasTrait(\"drunkard\")",&DAT_1179b680,FUN_10814950);
+
+  _atexit(FUN_116fdf80);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038e40(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterWithdrewFromBattle",&DAT_1178eec8,
+
+               "Did the characters army withdraw from battle?","CharacterWithdrewFromBattle()",
+
+               &DAT_1179b680,&LAB_10814a10);
+
+  _atexit(FUN_116fdf90);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038e80(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterWonBattle",&DAT_1178eec8,
+
+               "Is the character part of the winning alliance in a battle","CharacterWonBattle()",
+
+               &DAT_117a1590,FUN_10814b20);
+
+  _atexit(FUN_116fdfa0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038ec0(void)
+
+
+
+{
+
+  FUN_10c978f0("CharacterWonDuel",&DAT_1173e900,"Did the given character win the Duel?",
+
+               "CharacterWonDuel()",&DAT_117a159c,FUN_10166b40);
+
+  _atexit(FUN_116fdfb0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038f00(void)
+
+
+
+{
+
+  FUN_10c978f0("CharactersUnitRallied",&DAT_1178eec8,"Did the generals unit rally?",
+
+               "CharactersUnitRallied()",&DAT_1179b680,FUN_10814bb0);
+
+  _atexit(FUN_116fdfc0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038f40(void)
+
+
+
+{
+
+  FUN_10c978f0("CommanderAncillary","Ancillary name",
+
+               "Returns whether the commander has the specified ancillary",
+
+               "CommanderAncillary(\"Ancillary_Boxer\")",&DAT_117a159c,FUN_10814d00);
+
+  _atexit(FUN_116fdfd0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038f80(void)
+
+
+
+{
+
+  FUN_10c978f0("CommanderFoughtInBattle",&DAT_1178eec8,
+
+               "Did the characters unit fight in the battle? (melee or missile)",
+
+               "CommanderFoughtInBattle()",&DAT_117a159c,FUN_10814dc0);
+
+  _atexit(FUN_116fdfe0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10038fc0(void)
+
+
+
+{
+
+  FUN_10c978f0("CommanderFoughtInMelee",&DAT_1178eec8,
+
+               "Did the characters unit engage in melee in the battle?","CommanderFoughtInMelee()",
+
+               &DAT_117a159c,FUN_10814f00);
+
+  _atexit(FUN_116fdff0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039000(void)
+
+
+
+{
+
+  FUN_10c978f0("CommanderTrait","Trait name",
+
+               "Returns the value of the specified trait (0 if not present)",
+
+               "CommanderTrait(\"C_General_Mad\") > 2",&DAT_117a159c,FUN_10815040);
+
+  _atexit(FUN_116fe000);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039040(void)
+
+
+
+{
+
+  FUN_10c978f0("DateAndWeekInRange","Start Week, Start Year, End Week, End Year (Inclusive)",
+
+               "Test to see if the current calendar year and week in year is within the years and weeks specified.  Week should be 0 <= week < 48.  start <= current <= end"
+
+               ,"DateAndWeekInRange(0, 1066, 47, 2001)",&DAT_1179b680,FUN_10815100);
+
+  _atexit(FUN_116fe010);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039080(void)
+
+
+
+{
+
+  FUN_10c978f0("DateInRange","Start Year, End Year (Inclusive)",
+
+               "Test to see if the current calendar year is within the years specified.  start <= current <= end"
+
+               ,"DateInRange(1066, 2001)",&DAT_1179b680,FUN_10815260);
+
+  _atexit(FUN_116fe020);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100390c0(void)
+
+
+
+{
+
+  FUN_10c978f0("DefensiveSiegesFought",&DAT_1173e900,
+
+               "Returns the number of siege defences a general has attempted",
+
+               "DefensiveSiegesFought()",&DAT_117a1590,FUN_10815310);
+
+  _atexit(FUN_116fe030);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039100(void)
+
+
+
+{
+
+  FUN_10c978f0("DefensiveSiegesWon",&DAT_1173e900,
+
+               "Returns the number of siege defences a general has won","DefensiveSiegesWon()",
+
+               &DAT_117a1590,FUN_10815380);
+
+  _atexit(FUN_116fe040);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039140(void)
+
+
+
+{
+
+  FUN_10c978f0("DifficultyLevel",&DAT_1173e900,"What is the local faction\'s difficulty level?",
+
+               "DifficultyLevel()",&DAT_1179b680,FUN_108153f0);
+
+  _atexit(FUN_116fe050);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100391b0(void)
+
+
+
+{
+
+  FUN_10c978f0("EnemyArmyGreaterCombatStrength",&DAT_1173dad0,
+
+               "Is the enemies army stronger than ours?","EnemyArmyGreaterCombatStrength()",
+
+               &DAT_117a159c,FUN_10815490);
+
+  _atexit(FUN_116fe060);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039b20(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionAllyCount",&DAT_1173e900,
+
+               "Returns the number of allies the characters faction has","FactionAllyCount() > 2",
+
+               &DAT_1179b680,FUN_10815660);
+
+  _atexit(FUN_116fe070);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039b60(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionBuildingExists",
+
+               "Parameter 1: A valid key from the factions table.  Parameter 2: A valid key from the building_levels table."
+
+               ,"Does the specified faction have at least one of the specified building",
+
+               "FactionBuildingExists(\"britain\", \"admiralty\")","Paul K",&LAB_10815770);
+
+  _atexit(FUN_116fe080);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ba0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionBuildingUnderConstruction",
+
+               "Parameter 1: A valid key from the factions table.  Parameter 2: A valid key from the building_levels table.  Parameter 3: A valid key from the regions table or the empty string."
+
+               ,
+
+               "Does the specified faction have at least one of the specified building under construction"
+
+               ,
+
+               "FactionBuildingUnderConstruction(\"tut_chosokabe\", \"SHO_Farming_1_Rice_Paddies\", \"jap_tut_tosa\")"
+
+               ,"Paul K",FUN_108158c0);
+
+  _atexit(FUN_116fe090);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039be0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionCanBuildBuilding","The building key from the building levels table",
+
+               "Can the faction build the specified building at this point",
+
+               "FactionCanBuildBuilding(\"admiralty\")",&DAT_117a1590,FUN_10815ac0);
+
+  _atexit(FUN_116fe0a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039c20(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionCashFlow",&DAT_1173e900,
+
+               "Returns the percentage surplus/loss of the factions regular income and expenditure",
+
+               "FactionCashFlow() > 10",&DAT_1179b680,FUN_10815cb0);
+
+  _atexit(FUN_116fe0b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039c60(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionDestroyedByCharacterFaction",&DAT_1173dad0,
+
+               "Did this characters faction destroy another faction this turn?",
+
+               "FactionDestroyedByCharacterFaction()",&DAT_117a159c,FUN_10815da0);
+
+  _atexit(FUN_116fe0c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ca0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionExists","The db record for the faction","Does the given faction exist?",
+
+               "FactionExists(\"britain\")",&DAT_117a159c,FUN_10815e10);
+
+  _atexit(FUN_116fe0d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ce0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionGovernmentType","The government key from the government_types table",
+
+               "Is the faction\'s government type equal to the passed government type",
+
+               "FactionGovernmentType(\"gov_republic\")",&DAT_117a1590,FUN_10815eb0);
+
+  _atexit(FUN_116fe0e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039d20(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionHasAllies",&DAT_1173e900,
+
+               "Returns whether or not the characters faction has any allies","FactionHasAllies()",
+
+               &DAT_1179b680,FUN_10815fa0);
+
+  _atexit(FUN_116fe0f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039d60(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionHasRecruitedAnyAgents",&DAT_1178eec8,
+
+               "Checks whether a faction has ever recruited any agents",
+
+               "FactionHasRecruitedAnyAgents()",&DAT_1179b680,FUN_108160a0);
+
+  _atexit(FUN_116fe100);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039da0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionHasTradeShipNotInTradeNode",&DAT_1178eec8,
+
+               "Does the faction in context have a trade ship that is not in a trade node. Requires faction context"
+
+               ,"FactionHasTradeShipNotInTradeNode()",&DAT_117a1590,FUN_10816110);
+
+  _atexit(FUN_116fe110);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039de0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionIsAlliedCampaign",&DAT_1178eec8,
+
+               "Is the faction allied to the player faction?","FactionIsAlliedCampaign()",
+
+               &DAT_117a1590,FUN_108161f0);
+
+  _atexit(FUN_116fe120);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039e20(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionIsEnemyCampaign","Faction to query",
+
+               "Is the specified faction at war with the player faction?",
+
+               "FactionIsEnemy(\"france\")",&DAT_117a1590,FUN_10816270);
+
+  _atexit(FUN_116fe130);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039e60(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionIsHuman",&DAT_1173e900,"Is the faction human?","FactionIsHuman()",
+
+               &DAT_117a2ed8,FUN_10816330);
+
+  _atexit(FUN_116fe140);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ea0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionIsLocal",&DAT_1173e900,"Is the faction the local faction?","FactionIsLocal()"
+
+               ,&DAT_117a1590,FUN_108163c0);
+
+  _atexit(FUN_116fe150);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ee0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionKeyIsLocal","Faction key","Is the faction the local player (and human)?",
+
+               "FactionKeyIsLocal()",&DAT_117a2ed8,&LAB_10816440);
+
+  _atexit(FUN_116fe160);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039f20(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionLeadersAttribute",
+
+               "The attribute which you wish to check on the factions leader",
+
+               "Gets the level of the faction leaders attribute specified as a parameter",
+
+               "FactionLeadersAttribute(\"management\")",&DAT_117a159c,&LAB_10812850);
+
+  _atexit(FUN_116fe170);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039f60(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionLeadersTrait","Trait name",
+
+               "Returns the value of the specified trait for the characters faction leader (0 if not present)"
+
+               ,"FactionLeadersTrait(\"drunkard\") > 2",&DAT_117a2ecc,FUN_108164f0);
+
+  _atexit(FUN_116fe180);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039fa0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionName","The db record for the faction","Is the faction the one specified?",
+
+               "FactionName(\"britain\")",&DAT_117a2ed8,FUN_108165d0);
+
+  _atexit(FUN_116fe190);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10039ff0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionParticipatedInBattle","Faction key of the faction to be queried",
+
+               "Did the specified faction participate in the battle?",
+
+               "FactionParticipatedInBattle(\"ita_french_republic\")",&DAT_117a1590,FUN_10816670);
+
+  _atexit(FUN_116fe1a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a030(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionPatrioticFervour",&DAT_1173dad0,"Does this faction have patriotic fervour?",
+
+               "FactionPatrioticFervour()",&DAT_117a159c,FUN_10816730);
+
+  _atexit(FUN_116fe1b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a070(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionSupportCostsPercentage",&DAT_1173e900,
+
+               "What percentage of the factions expenditure is spent on army upkeep",
+
+               "FactionSupportCostsPercentage()",&DAT_117a1590,FUN_108167a0);
+
+  _atexit(FUN_116fe1c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a0b0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTaxLevel",&DAT_1173e900,"Returns the average tax level for the faction",
+
+               "FactionTaxLevel() < TaxLevel(\"extortionate\")",&DAT_1179b680,FUN_10816830);
+
+  _atexit(FUN_116fe1d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a0f0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTechExists",
+
+               "Parameter 1: A valid key from the factions table.  Parameter 2: A valid key from the technologies table."
+
+               ,"Does the specified faction have the specified technology",
+
+               "FactionTechExists(\"britain\", \"enlightenment_abolition_of_slavery\")","Paul K",
+
+               FUN_108168b0);
+
+  _atexit(FUN_116fe1e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a130(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTradeResourceExists",
+
+               "Valid entry from \'key\' field from resources table in Empire.mdb",
+
+               "Returns whether the faction has access to the trade resource",
+
+               "FactionTradeResourceExists(\"res_gold\")",&DAT_1179b680,FUN_108169b0);
+
+  _atexit(FUN_116fe1f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a170(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTradeValuePercentage",&DAT_1173e900,
+
+               "Returns the percentage value of global trade owned by the faction",
+
+               "FactionTradeValuePercentage() > 25",&DAT_1179b680,FUN_10816b80);
+
+  _atexit(FUN_116fe200);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a1b0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTradeValue",&DAT_1173e900,
+
+               "Returns the absolute value of the factions global trade",
+
+               "FactionTradeValue() > 1000",&DAT_1179b680,FUN_10816d70);
+
+  _atexit(FUN_116fe210);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a1f0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTreasuryWorldPercentage",&DAT_1173e900,
+
+               "Returns the characters factions treasury value as a percentage of the sum of all factions treasury values"
+
+               ,"FactionTreasuryWorldPercentage() > 10",&DAT_1179b680,FUN_10816f10);
+
+  _atexit(FUN_116fe220);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a230(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionTreasury",&DAT_1173e900,"Returns the factions treasury value",
+
+               "FactionTreasury() > 100",&DAT_1179b680,&LAB_10817020);
+
+  _atexit(FUN_116fe230);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a270(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionWarWeariness",&DAT_1173dad0,"Does this faction have war weariness?",
+
+               "FactionWarWeariness()",&DAT_117a159c,FUN_10816730);
+
+  _atexit(FUN_116fe240);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a2b0(void)
+
+
+
+{
+
+  FUN_10c978f0("FactionwideAncillaryTypeExists","Ancillary name",
+
+               "Returns whether the named ancillary exists in the faction somewhere",
+
+               "FactionwideAncillaryTypeExists(\"unkillable_cat\") == true",&DAT_117a2ecc,
+
+               FUN_10817090);
+
+  _atexit(FUN_116fe250);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a2f0(void)
+
+
+
+{
+
+  FUN_10c978f0("ForcesComposedOf","A single string of semi-colon separated unit keys",
+
+               "Returns whether the two commanded forces combined match the list of unit keys provided"
+
+               ,"ForcesComposedOf()",&DAT_1179b680,&LAB_10817130);
+
+  _atexit(FUN_116fe260);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a450(void)
+
+
+
+{
+
+  FUN_10c978f0("GarrisonIsLocal",&DAT_1173e900,"Does the garrison belong to the player faction?",
+
+               "GarrisonIsLocal()",&DAT_1179b680,FUN_10817420);
+
+  _atexit(FUN_116fe270);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a490(void)
+
+
+
+{
+
+  FUN_10c978f0("GarrisonUnitCount",&DAT_1173e900,
+
+               "Returns the number of units in the garrison context","GarrisonUnitCount()",
+
+               &DAT_1179b680,FUN_108174a0);
+
+  _atexit(FUN_116fe280);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a4d0(void)
+
+
+
+{
+
+  FUN_10c978f0("GovernorTaxLevel",&DAT_1173e900,
+
+               "If the character is the governor returns the tax level set for that governorship.  Returns -1 if not."
+
+               ,"GovernorTaxLevel() >= 90",&DAT_117a2ecc,FUN_10817520);
+
+  _atexit(FUN_116fe290);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a510(void)
+
+
+
+{
+
+  FUN_10c978f0("GovernorshipEquals","Key of the governorship to be queried ",
+
+               "Does the context\'s governorship key match the parameter",
+
+               "GovernorshipEquals(\"europe\")",&DAT_117a1590,FUN_10166b40);
+
+  _atexit(FUN_116fe2a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a550(void)
+
+
+
+{
+
+  FUN_10c978f0("GovernorshipTaxLevel",
+
+               "Valid entry from \'governorship\' field from governorships table in Empire.mdb",
+
+               "Returns the governorships tax level","GovernorshipTaxLevel(\"europe\")",
+
+               &DAT_1179b680,FUN_10817560);
+
+  _atexit(FUN_116fe2b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a590(void)
+
+
+
+{
+
+  FUN_10c978f0("GovernorshipsTaxLevel",&DAT_1173e900,
+
+               "Returns the current tax level for this govenorship","GovernorshipsTaxLevel() >= 90",
+
+               "Shane",FUN_108175a0);
+
+  _atexit(FUN_116fe2c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a5d0(void)
+
+
+
+{
+
+  FUN_10c978f0("HasUnspecialisedPort",&DAT_1173e900,"Does the region have a port with no building?",
+
+               "HasUnspecialisedPort()",&DAT_1179b680,FUN_10817600);
+
+  _atexit(FUN_116fe2d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a610(void)
+
+
+
+{
+
+  FUN_10c978f0("InPort",&DAT_1173e900,"Is the character in a port?","InPort()",&DAT_117a1590,
+
+               FUN_10817690);
+
+  _atexit(FUN_116fe2e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a650(void)
+
+
+
+{
+
+  FUN_10c978f0("InSettlement",&DAT_1173e900,"Checks that a character is in a settlement",
+
+               "InSettlement()",&DAT_117a2ecc,FUN_10817730);
+
+  _atexit(FUN_116fe2f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a690(void)
+
+
+
+{
+
+  FUN_10c978f0("InsurrectionCrushed",&DAT_1173e900,
+
+               "Has the characters faction put down a rebellion in this turn (or the turn that is just ending)"
+
+               ,"InsurrectionCrushed()",&DAT_117a159c,FUN_10817770);
+
+  _atexit(FUN_116fe300);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a6d0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsAdmiral",&DAT_1173e900,"Is the character an admiral?","IsAdmiral()",&DAT_1179b680,
+
+               FUN_108177e0);
+
+  _atexit(FUN_116fe310);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a710(void)
+
+
+
+{
+
+  FUN_10c978f0("IsBesieging",&DAT_1173e900,"Is the character besieging?","IsBesieging()",
+
+               &DAT_117a1590,FUN_10817880);
+
+  _atexit(FUN_116fe320);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a750(void)
+
+
+
+{
+
+  FUN_10c978f0("IsBlockading",&DAT_1173e900,"Is the character blockading?","IsBlockading()",
+
+               &DAT_117a1590,FUN_108178f0);
+
+  _atexit(FUN_116fe330);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a790(void)
+
+
+
+{
+
+  FUN_10c978f0("IsBuildingInChain",
+
+               "The key of the building chain you are querying from the building_chains table",
+
+               "Is garrison residence\'s building (all slots and fortifications for settlements) in the building chain specified by the parameter?"
+
+               ,"IsBuildingInChain(\"army-admin\")",&DAT_117a1590,FUN_10817960);
+
+  _atexit(FUN_116fe340);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a7d0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsBuildingOfType",
+
+               "The key of the building level you are querying from the building_levels table",
+
+               "Is garrison residence\'s building type (all slots and fortifications for settlements) equal to the parameter?"
+
+               ,"IsBuildingOfType(\"admiralty\")",&DAT_117a1590,FUN_10817ac0);
+
+  _atexit(FUN_116fe350);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a810(void)
+
+
+
+{
+
+  FUN_10c978f0("IsCarryingTroops",&DAT_1173e900,"Is the character transporting an army?",
+
+               "IsCarryingTroops()",&DAT_117a1590,FUN_10817c00);
+
+  _atexit(FUN_116fe360);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a850(void)
+
+
+
+{
+
+  FUN_10c978f0("IsColony",&DAT_1173e900,"Is the region a colony","IsColony()",&DAT_117a1590,
+
+               FUN_10817ca0);
+
+  _atexit(FUN_116fe370);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a890(void)
+
+
+
+{
+
+  FUN_10c978f0("IsFactionBesiegingSettlement","Settlement key",
+
+               "Is the context faction besieging the specified settlement? Intended for use with faction start of turn event."
+
+               ,"IsFactionBesiegingSettlement(\"settlement:region:settlement_id\")",&DAT_117a1590,
+
+               FUN_10817d50);
+
+  _atexit(FUN_116fe380);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a8d0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsFactionLeaderFemale",&DAT_1173e900,
+
+               "Is this character the faction leader and are they female? (Queen)",
+
+               "IsFactionLeaderFemale()",&DAT_117a159c,FUN_10817e20);
+
+  _atexit(FUN_116fe390);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a910(void)
+
+
+
+{
+
+  FUN_10c978f0("IsFactionLeader",&DAT_1173e900,"Is the character the faction leader?",
+
+               "IsFactionLeader()",&DAT_1179b680,FUN_10817ee0);
+
+  _atexit(FUN_116fe3a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a950(void)
+
+
+
+{
+
+  FUN_10c978f0("IsFamilyMember",&DAT_1173e900,"Is the character a family member?","IsFamilyMember()"
+
+               ,&DAT_1179b680,FUN_10817f50);
+
+  _atexit(FUN_116fe3b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a990(void)
+
+
+
+{
+
+  FUN_10c978f0("IsGarrisoned",&DAT_1173e900,"Is garrison residence garrisoned?","IsGarrisoned()",
+
+               &DAT_117a1590,&LAB_10817fd0);
+
+  _atexit(FUN_116fe3c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003a9d0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsHomeRegion",&DAT_1173e900,"Is this region the home region of the owning faction",
+
+               "IsHomeRegion()",&DAT_117a1590,FUN_10818040);
+
+  _atexit(FUN_116fe3d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003aa10(void)
+
+
+
+{
+
+  FUN_10c978f0("IsMultiplayer",&DAT_1178eec8,"Returns true when in multiplayer campaign",
+
+               "IsMultiplayer()",&DAT_1179ebf0,FUN_108180e0);
+
+  _atexit(FUN_116fe3e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003aa50(void)
+
+
+
+{
+
+  FUN_10c978f0("IsNightBattle",&DAT_1178eec8,"Was the battle a night battle","IsNightBattle()",
+
+               &DAT_1179b680,FUN_10818150);
+
+  _atexit(FUN_116fe3f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003aa90(void)
+
+
+
+{
+
+  FUN_10c978f0("IsPlayerTurn",&DAT_1178eec8,"Is this the players turn?","IsPlayerTurn()",
+
+               &DAT_117a159c,FUN_108181d0);
+
+  _atexit(FUN_116fe400);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003aad0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsPortGarrisoned",&DAT_1173e900,"Is the port garrisoned by a navy?",
+
+               "IsPortGarrisoned()",&DAT_117a1590,FUN_10818260);
+
+  _atexit(FUN_116fe410);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ab10(void)
+
+
+
+{
+
+  FUN_10c978f0("IsTheatreGovernor",&DAT_1173e900,"Returns whether the character is a governor",
+
+               "IsTheatreGovernor()",&DAT_117a159c,FUN_10166b40);
+
+  _atexit(FUN_116fe420);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ab50(void)
+
+
+
+{
+
+  FUN_10c978f0("IsUnderBlockade",&DAT_1173e900,"Is the character under blockade?",
+
+               "IsUnderBlockade()",&DAT_117a1590,FUN_108182d0);
+
+  _atexit(FUN_116fe430);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ab90(void)
+
+
+
+{
+
+  FUN_10c978f0("IsUnderSiege",&DAT_1173e900,"Is the character under siege?","IsUnderSiege()",
+
+               &DAT_117a1590,FUN_10818380);
+
+  _atexit(FUN_116fe440);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ac00(void)
+
+
+
+{
+
+  FUN_10c978f0("LosingMoney",&DAT_1173e900,
+
+               "Returns whether or not the factions regular expenditure exceeds their regular income"
+
+               ,"LosingMoney()",&DAT_1179b680,FUN_10818440);
+
+  _atexit(FUN_116fe450);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003aec0(void)
+
+
+
+{
+
+  FUN_10c978f0("NoActionThisTurn",&DAT_1173e900,
+
+               "Has an action occured this turn for this character?","NoActionThisTurn()",
+
+               &DAT_117a159c,FUN_108184d0);
+
+  _atexit(FUN_116fe4a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003af00(void)
+
+
+
+{
+
+  FUN_10c978f0("OffensiveSiegesFought",&DAT_1173e900,
+
+               "Returns the number of siege offences a general has attempted",
+
+               "OffensiveSiegesFought()",&DAT_117a1590,FUN_10818530);
+
+  _atexit(FUN_116fe4b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003af40(void)
+
+
+
+{
+
+  FUN_10c978f0("OffensiveSiegesWon",&DAT_1173e900,
+
+               "Returns the number of siege offences a general has won","OffensiveSiegesWon()",
+
+               &DAT_117a1590,FUN_108185a0);
+
+  _atexit(FUN_116fe4c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003af80(void)
+
+
+
+{
+
+  FUN_10c978f0("OnAWarFooting",&DAT_1173e900,
+
+               "Returns whether or not the characters faction is at war with anyone",
+
+               "OnAWarFooting()",&DAT_1179b680,FUN_10818610);
+
+  _atexit(FUN_116fe4d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b360(void)
+
+
+
+{
+
+  FUN_10c978f0("PercentageUnspentIncome",&DAT_1178eec8,
+
+               "What percentage of the characters factions income remains unspent?",
+
+               "PercentageUnspentIncome()",&DAT_117a159c,FUN_10818980);
+
+  _atexit(FUN_116fe4f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b3a0(void)
+
+
+
+{
+
+  FUN_10c978f0("PlayerFactionIsAttacker",&DAT_1173e900,"Is the attackers faction the local faction?"
+
+               ,"PlayerFactionIsAttacker()",&DAT_117a159c,FUN_10818ad0);
+
+  _atexit(FUN_116fe500);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b3e0(void)
+
+
+
+{
+
+  FUN_10c978f0("PortBlockadedLocal",&DAT_1173e900,
+
+               "Is the port blockaded by the local faction, and did it start in the last round?",
+
+               "PortBlockadedLocal()",&DAT_117a159c,FUN_10818b60);
+
+  _atexit(FUN_116fe510);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b420(void)
+
+
+
+{
+
+  FUN_10c978f0("PortBlockaded",&DAT_1173e900,
+
+               "Is the port blockaded, and did it start in the last round?","PortBlockaded()",
+
+               &DAT_117a159c,FUN_10818c50);
+
+  _atexit(FUN_116fe520);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b7c0(void)
+
+
+
+{
+
+  FUN_10c978f0("RandomPercentCampaign","Number between 0 and 100 to test against",
+
+               "Returns true parameter-value-percent of the time","RandomPercentCampaign(50)",
+
+               &DAT_117a1590,FUN_10818e30);
+
+  _atexit(FUN_116fe530);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b800(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionBuildableSlotEmpty",&DAT_1173e900,"Has the slot not been developed?",
+
+               "RegionBuildableSlotEmpty()",&DAT_117a1590,FUN_10818f20);
+
+  _atexit(FUN_116fe540);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b840(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionBuildingFinished",&DAT_1173e900,
+
+               "Gets the key of the last building constructed in the region",
+
+               "RegionBuildingFinished()",&DAT_117a1590,FUN_10819050);
+
+  _atexit(FUN_116fe550);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b880(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionClamoursReform",&DAT_1173e900,
+
+               "Is the population in this region clamouring for reform","RegionClamoursReform()",
+
+               &DAT_117a1590,FUN_108190d0);
+
+  _atexit(FUN_116fe560);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b8c0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionCultureIsFactionCulture",&DAT_1173e900,
+
+               "Is the region\'s originating culture the same as the owning factions culture",
+
+               "RegionCultureIsFactionCulture()",&DAT_117a1590,FUN_10819140);
+
+  _atexit(FUN_116fe570);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b900(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionDemands",&DAT_1173e900,
+
+               "Is the population in this region writing letters of demand","RegionDemands()",
+
+               &DAT_117a1590,FUN_108191f0);
+
+  _atexit(FUN_116fe580);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b940(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionEconomicGrowthLow",&DAT_1173e900,"Is this regions economic growth low?",
+
+               "RegionEconomicGrowthLow()",&DAT_117a159c,FUN_10819260);
+
+  _atexit(FUN_116fe590);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b980(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionGovernorAttribute",
+
+               "The attribute which you wish to check on the regions governor",
+
+               "Gets the level of the regions governers attribute specified as a parameter",
+
+               "RegionGovernorAttribute(\"management\")",&DAT_117a159c,&LAB_10812850);
+
+  _atexit(FUN_116fe5a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003b9c0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionIsLocal",&DAT_1173e900,"Does the region belong to the player faction?",
+
+               "RegionIsLocal()",&DAT_117a1590,FUN_108192d0);
+
+  _atexit(FUN_116fe5b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ba00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionIsRebelling","Key of the region to query",
+
+               "Is the specified region rebelling. Requires faction context.",
+
+               "RegionIsRebelling(\"ita_alpes_maritimes\")",&DAT_117a1590,FUN_10819380);
+
+  _atexit(FUN_116fe5c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ba40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionMajorityReligion","religion key from region table",
+
+               "Returns whether the region context\'s religion with largest percentage matches the specified religion"
+
+               ,"RegionMajorityReligion(\"rel_buddhist\")",&DAT_1179b680,FUN_10819420);
+
+  _atexit(FUN_116fe5d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ba80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionName","The db record for the region","Is the region the one specified?",
+
+               "RegionName(\"jap_owari\")",&DAT_1179b680,FUN_10819550);
+
+  _atexit(FUN_116fe5e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bac0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionPopulationLow",&DAT_1173e900,
+
+               "Tests if the population of a region is has dropped below the previous town spawn threshold e.g. region has 5 towns but has dropped below the population requirement for 4 towns"
+
+               ,"RegionPopulationLow()",&DAT_117a1590,FUN_108195f0);
+
+  _atexit(FUN_116fe5f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bb00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionPopulationMaxReached",&DAT_1173e900,
+
+               "Tests if the population of a region the maximum population",
+
+               "RegionPopulationMaxReached()",&DAT_117a1590,FUN_108196a0);
+
+  _atexit(FUN_116fe600);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bb40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionRebels",&DAT_1173e900,"Is the region rebelling","RegionRebels()",&DAT_117a1590
+
+               ,FUN_10819720);
+
+  _atexit(FUN_116fe610);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bb80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionReligionIsStateReligion",&DAT_1173e900,
+
+               "Is the region\'s religion the same as the owning factions religion",
+
+               "RegionReligionIsStateReligion()",&DAT_117a1590,FUN_10819790);
+
+  _atexit(FUN_116fe620);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bbc0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionResourceExists",
+
+               "Valid entry from \'key\' field from resources table in Empire.mdb",
+
+               "Returns whether the resource exists in the region",
+
+               "RegionResourceExists(\"res_gold\")",&DAT_1179b680,&LAB_10819830);
+
+  _atexit(FUN_116fe630);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bc00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionResourceExploited",
+
+               "Valid entry from \'key\' field from resources table in Empire.mdb",
+
+               "Returns whether the resource is produced in the region",
+
+               "RegionResourceExploited(\"res_gold\")",&DAT_1179b680,FUN_10819990);
+
+  _atexit(FUN_116fe640);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bc40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionRiots",&DAT_1173e900,"Is the population in this region rioting",
+
+               "RegionRiots()",&DAT_117a1590,FUN_10819a50);
+
+  _atexit(FUN_116fe650);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bc80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotBuildingCount",&DAT_1173e900,
+
+               "Counts the number of buildings in the region slots in the region",
+
+               "RegionSlotBuildingCount()",&DAT_117a1590,FUN_10819ac0);
+
+  _atexit(FUN_116fe660);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bcc0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotBuildingCultureExists","The key of the culture from the cultures table",
+
+               "Tests if the region has a building from the given culture",
+
+               "RegionSlotBuildingCultureExists(\"european\")",&DAT_117a1590,FUN_10819b60);
+
+  _atexit(FUN_116fe670);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bd00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotBuildingTypeCount",
+
+               "The key of the building level you are querying from the building_levels table",
+
+               "Counts the number of buildings in the region slots in the region of the specified type"
+
+               ,"RegionSlotBuildingTypeCount(\"barracks\")",&DAT_117a1590,FUN_10819c90);
+
+  _atexit(FUN_116fe680);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bd40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotBuildingTypeExists",
+
+               "The key of the building level you are querying from the building_levels table",
+
+               "Tests if a building of the specified type exists in the region",
+
+               "RegionSlotBuildingTypeExists(\"barracks\")",&DAT_117a1590,FUN_10819db0);
+
+  _atexit(FUN_116fe690);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bd80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotCount",&DAT_1173e900,
+
+               "Counts the number of slots in a region including settlement slots",
+
+               "RegionSlotCount()",&DAT_117a1590,FUN_10819e80);
+
+  _atexit(FUN_116fe6a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bdc0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotEmptyCount",&DAT_1173e900,
+
+               "Counts the number of empty (no building) slots in a region including settlement slots"
+
+               ,"RegionSlotEmptyCount()",&DAT_117a1590,FUN_10819f20);
+
+  _atexit(FUN_116fe6b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003be00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionSlotTypeExists",
+
+               "The key of the slot type you wish to find from the slots table",
+
+               "Tests to see if the region has a slot (in any status) whose type matches the parameter"
+
+               ,"RegionSlotTypeExists(\"fish\")",&DAT_117a1590,FUN_1081a010);
+
+  _atexit(FUN_116fe6c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003be40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionTaxExempt",&DAT_117af218,"Gets whether the region is tax exempt or not",
+
+               "RegionTaxExempt()",&DAT_117a159c,FUN_1081a0d0);
+
+  _atexit(FUN_116fe6d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003be80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionTaxLevel",&DAT_1173e900,"Returns the regions tax level","RegionTaxLevel()",
+
+               &DAT_1179b680,FUN_1081a130);
+
+  _atexit(FUN_116fe6e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bec0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionTaxTownWealthGrowthReduction",&DAT_1173e900,
+
+               "Returns the percentage of the regions town wealth growth lost due to taxes",
+
+               "RegionTaxTownWealthGrowthReduction() > 1",&DAT_1179b680,FUN_1081a1c0);
+
+  _atexit(FUN_116fe6f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bf00(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionTownWealthGrowth",&DAT_1173e900,"Returns the town wealth growth of the region"
+
+               ,"RegionTownWealthGrowth() > 50",&DAT_1179b680,FUN_1081a240);
+
+  _atexit(FUN_116fe700);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bf40(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionWealthDecrease",&DAT_1173e900,"How much has the regions wealth decreased?",
+
+               "RegionWealthDecrease()",&DAT_117a159c,FUN_1081a2b0);
+
+  _atexit(FUN_116fe710);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bf80(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionWealthIncrease",&DAT_1173e900,"How much has the regions wealth increased?",
+
+               "RegionWealthIncrease()",&DAT_117a159c,&LAB_1081a350);
+
+  _atexit(FUN_116fe720);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003bfc0(void)
+
+
+
+{
+
+  FUN_10c978f0("RegionWouldBeHappyWithNoTaxExemption",&DAT_1178eec8,
+
+               "Checks whether the region happiness would be zero or greater if it was not exempt from tax"
+
+               ,"RegionWouldBeHappyWithNoTaxExemption()",&DAT_1179b680,FUN_10166b40);
+
+  _atexit(FUN_116fe730);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c000(void)
+
+
+
+{
+
+  FUN_10c978f0("ResearchCategory","Category","Is the research just completed of this category?",
+
+               "ResearchCategory(\"enlightenment\")",&DAT_117a159c,&LAB_1081a3f0);
+
+  _atexit(FUN_116fe740);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c040(void)
+
+
+
+{
+
+  FUN_10c978f0("ResearchQueueIdle",&DAT_1173e900,
+
+               "Is faction not researching any tech evn though they could be","ResearchQueueIdle()",
+
+               &DAT_117a1590,FUN_1081a4a0);
+
+  _atexit(FUN_116fe750);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c080(void)
+
+
+
+{
+
+  FUN_10c978f0("ResearchTypeUniqueToFaction","Research type",
+
+               "Are we the first faction to research this technology type?",
+
+               "ResearchTypeUniqueToFaction()",&DAT_117a159c,FUN_1081a510);
+
+  _atexit(FUN_116fe760);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c0c0(void)
+
+
+
+{
+
+  FUN_10c978f0("ResearchType","Research type","Is the technology just researched of this type?",
+
+               "ResearchType(\"military_navy_flintlock_cannon\")",&DAT_117a159c,FUN_1081a5f0);
+
+  _atexit(FUN_116fe770);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c2e0(void)
+
+
+
+{
+
+  FUN_10c978f0("SeaTradeRouteRaided",&DAT_1173e900,
+
+               "Was one of this factions sea trade routes has been raided in the last round?",
+
+               "SeaTradeRouteRaided()",&DAT_117a159c,FUN_1081a680);
+
+  _atexit(FUN_116fe780);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c320(void)
+
+
+
+{
+
+  FUN_10c978f0("SettlementBuildingQueueIdleDespiteCash",&DAT_1173e900,
+
+               "Is the settlement\'s building queue empty even though the faction can afford to build the cheapest building in any of its slot?"
+
+               ,"SettlementBuildingQueueIdleDespiteCash()",&DAT_117a1590,FUN_1081a6e0);
+
+  _atexit(FUN_116fe790);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c360(void)
+
+
+
+{
+
+  FUN_10c978f0("SettlementFortificationsBuildingQueueIdleDespiteCash",&DAT_1173e900,
+
+               "Is the settlements\'s fortification building queue empty even though the faction can afford to build the cheapest building?"
+
+               ,"SettlementFortificationsBuildingQueueIdleDespiteCash()",&DAT_117a1590,&LAB_1081a7d0
+
+              );
+
+  _atexit(FUN_116fe7a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c3a0(void)
+
+
+
+{
+
+  FUN_10c978f0("SettlementIsLocal",&DAT_1173e900,"Does the settlement belong to the player faction?"
+
+               ,"SettlementIsLocal()",&DAT_117a1590,FUN_1081a870);
+
+  _atexit(FUN_116fe7b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c3e0(void)
+
+
+
+{
+
+  FUN_10c978f0("SettlementName",
+
+               "The unique id of the settlement from the campaign_map_settlements table or a character, in which case it looks at the settlement the character is in"
+
+               ,"Is the settlement\'s unique id equal to the parameter?",
+
+               "SettlementName(\"settlement:acadia:fort_nashwaak\")",&DAT_117a1590,FUN_1081a8f0);
+
+  _atexit(FUN_116fe7c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c420(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotBuildingQueueIdleDespiteCash",&DAT_1173e900,
+
+               "Is the slot\'s building queue empty even though the faction can afford to build the cheapest building?"
+
+               ,"SlotBuildingQueueIdleDespiteCash()",&DAT_117a1590,FUN_1081a9c0);
+
+  _atexit(FUN_116fe7d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c460(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotIsAlliedCampaign",&DAT_1173e900,
+
+               "Does the slot belong to a faction allied to the player faction?",
+
+               "SlotIsAlliedCampaign()",&DAT_117a159c,&LAB_1081aa50);
+
+  _atexit(FUN_116fe7e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c4a0(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotIsLocal",&DAT_1173e900,"Does the slot belong to the player faction?",
+
+               "SlotIsLocal()",&DAT_117a1590,FUN_1081aad0);
+
+  _atexit(FUN_116fe7f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c4e0(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotName","The name of the slot to check for",
+
+               "Returns if the passed slot name is equal to the slot\'s name",
+
+               "SlotName(\"port:england:portsmouth\")",&DAT_117a1590,FUN_1081ab50);
+
+  _atexit(FUN_116fe800);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c520(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotSuperchain","The slot superchain type (key from the building superchains table)"
+
+               ,
+
+               "Is the slot\'s superchain from the building superchains table equal to the parameter?"
+
+               ,"SlotType(\"wheat\")",&DAT_117a1594,FUN_1081ac00);
+
+  _atexit(FUN_116fe810);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c560(void)
+
+
+
+{
+
+  FUN_10c978f0("SlotType","The slot type (key from the slots table)",
+
+               "Is the slot\'s type from the slots table equal to the parameter?",
+
+               "SlotType(\"wheat\")",&DAT_117a1590,FUN_1081acc0);
+
+  _atexit(FUN_116fe820);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c5a0(void)
+
+
+
+{
+
+  FUN_10c978f0("SupportCostsPercentage",&DAT_1173e900,
+
+               "The percentage of outgoings used for upkeep in the recent turns for the given faction"
+
+               ,"SupportCostsPercentage()",&DAT_117a159c,FUN_1081ad60);
+
+  _atexit(FUN_116fe830);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c720(void)
+
+
+
+{
+
+  FUN_10c978f0("TargetArmyGreaterCombatStrength",&DAT_1178eec8,
+
+               "The does the target army have greater combat strength than the character?",
+
+               "TargetArmyGreaterCombatStrength()",&DAT_117a1590,FUN_1081ae70);
+
+  _atexit(FUN_116fe840);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c760(void)
+
+
+
+{
+
+  FUN_10c978f0("TargetCharacterIsAlliedCampaign",&DAT_1178eec8,
+
+               "The target character is allied to the character?",
+
+               "TargetCharacterIsAlliedCampaign()",&DAT_117a1590,FUN_1081af10);
+
+  _atexit(FUN_116fe850);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c7a0(void)
+
+
+
+{
+
+  FUN_10c978f0("TargetCharacterIsEnemyCampaign",&DAT_1178eec8,
+
+               "The target character is an enemy of the character?",
+
+               "TargetCharacterIsEnemyCampaign()",&DAT_117a1590,FUN_1081afb0);
+
+  _atexit(FUN_116fe860);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c7e0(void)
+
+
+
+{
+
+  FUN_10c978f0("TargetInStrikingRangeOfEnemy",&DAT_1178eec8,
+
+               "The character is an enemy of the local faction?","CharacterIsEnemy()",&DAT_117a1590,
+
+               FUN_1081b050);
+
+  _atexit(FUN_116fe870);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c820(void)
+
+
+
+{
+
+  FUN_10c978f0("TaxCollectionLimited",&DAT_1173e900,
+
+               "Are all the factions government building at the maximum level (and thus impossible to upgrade)?"
+
+               ,"TaxCollectionLimited()",&DAT_1179b680,FUN_1081b0f0);
+
+  _atexit(FUN_116fe880);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c860(void)
+
+
+
+{
+
+  FUN_10c978f0("TaxLevel","Valid entry from \'key\' field from taxes_levels table in Empire.mdb",
+
+               "Returns the tax level for the given tax key",
+
+               "FactionTaxLevel() < TaxLevel(\"extortionate\")",&DAT_1179b680,FUN_1081b1e0);
+
+  _atexit(FUN_116fe890);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c8a0(void)
+
+
+
+{
+
+  FUN_10c978f0("TradeNodeAvailableWorldwide",&DAT_1178eec8,
+
+               "Is there an unoccupied trade node (worldwide). Requires faction context",
+
+               "TradeNodeAvailableWorldwide()",&DAT_117a1590,FUN_1081b2c0);
+
+  _atexit(FUN_116fe8a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c8e0(void)
+
+
+
+{
+
+  FUN_10c978f0("TradePortsAtMaxLevel",&DAT_1173e900,
+
+               "Are all of the regions trade ports at the maximum level (and thus impossible to upgrade)?"
+
+               ,"TradePortsAtMaxLevel()",&DAT_1179b680,FUN_1081b350);
+
+  _atexit(FUN_116fe8b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c920(void)
+
+
+
+{
+
+  FUN_10c978f0("TradeRouteIsEnemy",&DAT_1178eec8,
+
+               "Returns whether the trade route attacked is used by an enemy of the local faction",
+
+               "TradeRouteIsEnemy()",&DAT_117a159c,FUN_1081b410);
+
+  _atexit(FUN_116fe8c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c960(void)
+
+
+
+{
+
+  FUN_10c978f0("TradeRouteIsLocal",&DAT_1178eec8,
+
+               "Returns whether the trade route attacked is used by the local faction",
+
+               "TradeRouteIsLocal()",&DAT_117a159c,FUN_1081b540);
+
+  _atexit(FUN_116fe8d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c9a0(void)
+
+
+
+{
+
+  FUN_10c978f0("TradeRouteLimitReached",&DAT_1173e900,
+
+               "Has the faction reached its limit of trade routes?","TradeRouteLimitReached()",
+
+               &DAT_1179b680,FUN_1081b690);
+
+  _atexit(FUN_116fe8e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003c9e0(void)
+
+
+
+{
+
+  FUN_10c978f0("TurnNumber",&DAT_1178eec8,
+
+               "Returns the number of the turn currently being taken, starting at 1","TurnNumber()",
+
+               &DAT_1173e50c,FUN_1081b780);
+
+  _atexit(FUN_116fe8f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cb70(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitCategory",&DAT_1173e900,"Is the unit of this category type?",
+
+               "UnitCategory(\"naval_frigate\")",&DAT_117a159c,FUN_1081b930);
+
+  _atexit(FUN_116fe900);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cbb0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitClass",&DAT_1173e900,"Is the unit of this class?",
+
+               "UnitClass(\"cavalry_missile\")",&DAT_117a159c,FUN_1081b9e0);
+
+  _atexit(FUN_116fe910);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cbf0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitCrushedInsurrection",&DAT_1173e900,
+
+               "Did the given unit crush an insurrection in the last turn?",
+
+               "UnitCrushedInsurrection()",&DAT_117a159c,FUN_10166b40);
+
+  _atexit(FUN_116fe920);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cc30(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitCultureType",&DAT_1173e900,"Is the unit of this culture type?",
+
+               "UnitCultureType(\"tribal\")",&DAT_117a159c,FUN_1081ba90);
+
+  _atexit(FUN_116fe930);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cc70(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitFoughtInBattle",&DAT_1173e900,"Did the unit fight in the last battle?",
+
+               "UnitFoughtInBattle()",&DAT_117a159c,FUN_1081bb50);
+
+  _atexit(FUN_116fe940);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ccb0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitFoughtInMelee",&DAT_1173e900,"Did the unit melee fight in the last battle?",
+
+               "UnitFoughtInMelee()",&DAT_117a159c,FUN_1081bc80);
+
+  _atexit(FUN_116fe950);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ccf0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitInTheatre",&DAT_1173e900,"Is this unit within the specified theatre?",
+
+               "UnitInTheatre(\"-1133129049\")",&DAT_117a159c,FUN_1081bdb0);
+
+  _atexit(FUN_116fe960);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cd30(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitOnContinent",&DAT_1173e900,"Is the given unit on the specified continent?",
+
+               "UnitOnContinent(\"cont_africa_south\")",&DAT_117a159c,FUN_10166b40);
+
+  _atexit(FUN_116fe970);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cd70(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitRouted",&DAT_1173e900,"Did the given unit rout?","UnitRouted()",&DAT_117a159c,
+
+               FUN_1081bea0);
+
+  _atexit(FUN_116fe980);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cdb0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitSufferedCasualties",&DAT_1173e900,
+
+               "What percentage of casualties did this unit suffer?","UnitSufferedCasualties()",
+
+               &DAT_117a159c,FUN_1081bfd0);
+
+  _atexit(FUN_116fe990);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cdf0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitTrait","Trait name",
+
+               "Returns the value of the specified trait (0 if not present)",
+
+               "UnitTrait(\"U_Infected_Dysentry\") > 2",&DAT_117a159c,FUN_1081c190);
+
+  _atexit(FUN_116fe9a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ce30(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitType","The unit key from the units table",
+
+               "Is the unit\'s unit record key equal to the parameter?",
+
+               "UnitType(\"euro_line_infantry\")",&DAT_117a1590,FUN_1081c220);
+
+  _atexit(FUN_116fe9b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ce70(void)
+
+
+
+{
+
+  FUN_10c978f0("UnitWonBattle",&DAT_1178eec8,"Is the unit part of the winning alliance in a battle?"
+
+               ,"UnitWonBattle()",&DAT_117a159c,FUN_1081c2d0);
+
+  _atexit(FUN_116fe9c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003ceb0(void)
+
+
+
+{
+
+  FUN_10c978f0("UnusedInternationalTradeRoute",&DAT_1173e900,
+
+               "Could the faction establish a new international trade route?",
+
+               "UnusedInternationalTradeRoute()",&DAT_1179b680,FUN_1081c360);
+
+  _atexit(FUN_116fe9d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cf80(void)
+
+
+
+{
+
+  FUN_10c978f0("WarEndedCharacterFaction",&DAT_1173dad0,
+
+               "Was peace declared between this faction and another faction this turn?",
+
+               "WarEndedCharacterFaction()",&DAT_117a159c,FUN_1081c450);
+
+  _atexit(FUN_116fe9e0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003cfc0(void)
+
+
+
+{
+
+  FUN_10c978f0("WarStartedCharacterFaction",&DAT_1173dad0,
+
+               "Did a war start between this faction and another faction this turn?",
+
+               "WarStartedCharacterFaction()",&DAT_117a159c,FUN_1081c4c0);
+
+  _atexit(FUN_116fe9f0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003d000(void)
+
+
+
+{
+
+  FUN_10c978f0("WorldResourceExists",
+
+               "Valid entry from \'key\' field from resources table in Empire.mdb",
+
+               "Returns whether the resource exists anywhere","WorldResourceExists(\"res_gold\")",
+
+               &DAT_1179b680,FUN_1081c530);
+
+  _atexit(FUN_116fea00);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003d040(void)
+
+
+
+{
+
+  FUN_10c978f0("WorldResourceExploited",
+
+               "Valid entry from \'key\' field from resources table in Empire.mdb",
+
+               "Returns whether the resource is produced by any faction",
+
+               "WorldResourceExploited(\"res_gold\")",&DAT_1179b680,FUN_1081c6e0);
+
+  _atexit(FUN_116fea10);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1003d080(void)
+
+
+
+{
+
+  FUN_10c978f0("WorldwideAncillaryTypeExists","Ancillary name",
+
+               "Returns whether the named ancillary exists in the world somewhere",
+
+               "WorldwideAncillaryTypeExists(\"unkillable_cat\") == true",&DAT_117a2ecc,FUN_1081c7c0
+
+              );
+
+  _atexit(FUN_116fea20);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10047390(void)
+
+
+
+{
+
+  FUN_10c978f0("BuildingLevelName",
+
+               "String corresponding to level_name of supplied building level record",
+
+               "Flags whether or not the context contains the supplied building level record",
+
+               "BuildingLevelName(corn_peasant_farms)",&DAT_1173e50c,FUN_108b6e30);
+
+  _atexit(FUN_11701110);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_1004ec50(void)
+
+
+
+{
+
+  FUN_10c978f0("CanGenerateHistoricalCharacter","Historical character record key",&DAT_1173dad0,
+
+               "CanGenerateHistoricalCharacter(\"abraham_de_moivre\")",&DAT_1179b680,FUN_10970f80);
+
+  _atexit(FUN_117045c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_10054d40(void)
+
+
+
+{
+
+  FUN_10c978f0("IsTriggerableHistoricalEvent","Historical event record key",&DAT_1173dad0,
+
+               "IsTriggerableHistoricalEvent(\"3_colour_printing\")",&DAT_1179b680,FUN_109e20a0);
+
+  _atexit(FUN_11706cf0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0de0(void)
+
+
+
+{
+
+  FUN_10c978f0("IsChildOf","Component id",
+
+               "Returns true if the components parent, (or parent\'s parent, or parent\'s parent\'s parent etc) has the id specified "
+
+               ,"IsChildOf(\"tax_slider\")",&DAT_117b0390,FUN_116c8160);
+
+  _atexit(FUN_1172e4a0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0e20(void)
+
+
+
+{
+
+  FUN_10c978f0("IsComponentType","Component id",
+
+               "Returns true if the event was fired by the component named",
+
+               "IsComponentType(\"government_screens\")",&DAT_117b0390,FUN_116c8200);
+
+  _atexit(FUN_1172e4b0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d0e60(void)
+
+
+
+{
+
+  FUN_10c978f0("IsMessageType","Message id",
+
+               "Returns true if the event that triggered the condition check was for the message named"
+
+               ,"IsMessageType(\"unit_routs_in_battle\")",&DAT_117b0390,FUN_116c8200);
+
+  _atexit(FUN_1172e4c0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+### FUNCTION START ###
+
+
+void UndefinedFunction_100d1050(void)
+
+
+
+{
+
+  FUN_10c978f0("ParentId","Component id",
+
+               "Returns true if the name of the Components parent matches the id specified",
+
+               "ParentId(\"tax_slider\")",&DAT_117b0390,&LAB_116c8280);
+
+  _atexit(FUN_1172e4d0);
+
+  return;
+
+}
+
+
+
+
+### FUNCTION END ###
+
+
+Total valid functions processed: 321
