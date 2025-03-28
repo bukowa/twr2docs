@@ -21,3 +21,8 @@ markdown_extensions:
       permalink: "#"
   smarty: {}
   sane_lists: {}
+  pymdownx.critic: {}
+  pymdownx.caret: {}
+  pymdownx.keys: {}
+  pymdownx.mark: {}
+  pymdownx.tilde: {}
