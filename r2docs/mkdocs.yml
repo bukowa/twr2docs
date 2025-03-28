@@ -1,4 +1,6 @@
 site_name: Total War Rome 2 Docs
+repo_url: https://github.com/bukowa/twr2docs
+repo_name: Total War Rome 2 Docs
 nav:
   - Home:
       - index.md
