@@ -1,0 +1,4919 @@
+{
+    "abilities_tables": [
+        {
+            "filename": "abilities",
+            "version": "1",
+            "path": "db/abilities_tables/abilities",
+            "table": "abilities_tables"
+        }
+    ],
+    "achievements_tables": [
+        {
+            "filename": "achievements",
+            "version": "2",
+            "path": "db/achievements_tables/achievements",
+            "table": "achievements_tables"
+        }
+    ],
+    "action_results_additional_outcomes_tables": [
+        {
+            "filename": "action_results_additional_outcomes",
+            "version": "3",
+            "path": "db/action_results_additional_outcomes_tables/action_results_additional_outcomes",
+            "table": "action_results_additional_outcomes_tables"
+        }
+    ],
+    "action_results_tables": [
+        {
+            "filename": "action_results",
+            "version": "0",
+            "path": "db/action_results_tables/action_results",
+            "table": "action_results_tables"
+        }
+    ],
+    "advice_info_texts_tables": [
+        {
+            "filename": "advice_info_texts",
+            "version": "2",
+            "path": "db/advice_info_texts_tables/advice_info_texts",
+            "table": "advice_info_texts_tables"
+        }
+    ],
+    "advice_levels_tables": [
+        {
+            "filename": "advice_levels",
+            "version": "3",
+            "path": "db/advice_levels_tables/advice_levels",
+            "table": "advice_levels_tables"
+        }
+    ],
+    "advice_threads_tables": [
+        {
+            "filename": "advice_threads",
+            "version": "0",
+            "path": "db/advice_threads_tables/advice_threads",
+            "table": "advice_threads_tables"
+        }
+    ],
+    "advisors_tables": [
+        {
+            "filename": "advisors",
+            "version": "1",
+            "path": "db/advisors_tables/advisors",
+            "table": "advisors_tables"
+        }
+    ],
+    "agents_tables": [
+        {
+            "filename": "agents",
+            "version": "8",
+            "path": "db/agents_tables/agents",
+            "table": "agents_tables"
+        }
+    ],
+    "agent_actions_tables": [
+        {
+            "filename": "agent_actions",
+            "version": "4",
+            "path": "db/agent_actions_tables/agent_actions",
+            "table": "agent_actions_tables"
+        }
+    ],
+    "agent_action_message_events_tables": [
+        {
+            "filename": "agent_action_message_events",
+            "version": "0",
+            "path": "db/agent_action_message_events_tables/agent_action_message_events",
+            "table": "agent_action_message_events_tables"
+        }
+    ],
+    "agent_attributes_tables": [
+        {
+            "filename": "agent_attributes",
+            "version": "1",
+            "path": "db/agent_attributes_tables/agent_attributes",
+            "table": "agent_attributes_tables"
+        }
+    ],
+    "agent_culture_details_tables": [
+        {
+            "filename": "agent_culture_details",
+            "version": "5",
+            "path": "db/agent_culture_details_tables/agent_culture_details",
+            "table": "agent_culture_details_tables"
+        }
+    ],
+    "agent_localisations_tables": [
+        {
+            "filename": "agent_localisations",
+            "version": "0",
+            "path": "db/agent_localisations_tables/agent_localisations",
+            "table": "agent_localisations_tables"
+        }
+    ],
+    "agent_string_faction_overrides_tables": [
+        {
+            "filename": "agent_string_faction_overrides",
+            "version": "1",
+            "path": "db/agent_string_faction_overrides_tables/agent_string_faction_overrides",
+            "table": "agent_string_faction_overrides_tables"
+        }
+    ],
+    "agent_string_subculture_overrides_tables": [
+        {
+            "filename": "agent_string_subculture_overrides",
+            "version": "1",
+            "path": "db/agent_string_subculture_overrides_tables/agent_string_subculture_overrides",
+            "table": "agent_string_subculture_overrides_tables"
+        }
+    ],
+    "agent_subculture_gender_overrides_tables": [
+        {
+            "filename": "agent_subculture_gender_overrides",
+            "version": "0",
+            "path": "db/agent_subculture_gender_overrides_tables/agent_subculture_gender_overrides",
+            "table": "agent_subculture_gender_overrides_tables"
+        }
+    ],
+    "agent_to_agent_abilities_tables": [
+        {
+            "filename": "agent_to_agent_abilities",
+            "version": "3",
+            "path": "db/agent_to_agent_abilities_tables/agent_to_agent_abilities",
+            "table": "agent_to_agent_abilities_tables"
+        }
+    ],
+    "agent_to_agent_attributes_tables": [
+        {
+            "filename": "agent_to_agent_attributes",
+            "version": "2",
+            "path": "db/agent_to_agent_attributes_tables/agent_to_agent_attributes",
+            "table": "agent_to_agent_attributes_tables"
+        }
+    ],
+    "agent_uniforms_tables": [
+        {
+            "filename": "agent_uniforms",
+            "version": "6",
+            "path": "db/agent_uniforms_tables/agent_uniforms",
+            "table": "agent_uniforms_tables"
+        }
+    ],
+    "agent_voice_events_junctions_tables": [],
+    "aide_de_camp_speeches_tables": [
+        {
+            "filename": "aide_de_camp_speeches",
+            "version": "6",
+            "path": "db/aide_de_camp_speeches_tables/aide_de_camp_speeches",
+            "table": "aide_de_camp_speeches_tables"
+        }
+    ],
+    "ancillaries_categories_tables": [
+        {
+            "filename": "ancillaries_categories",
+            "version": "0",
+            "path": "db/ancillaries_categories_tables/ancillaries_categories",
+            "table": "ancillaries_categories_tables"
+        }
+    ],
+    "ancillaries_tables": [
+        {
+            "filename": "ancillaries",
+            "version": "12",
+            "path": "db/ancillaries_tables/ancillaries",
+            "table": "ancillaries_tables"
+        }
+    ],
+    "ancillary_included_subcultures_tables": [
+        {
+            "filename": "ancillary_included_subcultures",
+            "version": "0",
+            "path": "db/ancillary_included_subcultures_tables/ancillary_included_subcultures",
+            "table": "ancillary_included_subcultures_tables"
+        }
+    ],
+    "ancillary_info_tables": [
+        {
+            "filename": "ancillary_info",
+            "version": "0",
+            "path": "db/ancillary_info_tables/ancillary_info",
+            "table": "ancillary_info_tables"
+        }
+    ],
+    "ancillary_to_attribute_effects_tables": [],
+    "ancillary_to_effects_tables": [
+        {
+            "filename": "ancillary_to_effects",
+            "version": "0",
+            "path": "db/ancillary_to_effects_tables/ancillary_to_effects",
+            "table": "ancillary_to_effects_tables"
+        }
+    ],
+    "ancillary_to_excluded_ancillaries_tables": [],
+    "ancillary_to_included_agents_tables": [
+        {
+            "filename": "ancillary_to_included_agents",
+            "version": "0",
+            "path": "db/ancillary_to_included_agents_tables/ancillary_to_included_agents",
+            "table": "ancillary_to_included_agents_tables"
+        }
+    ],
+    "ancillary_types_tables": [
+        {
+            "filename": "ancillary_types",
+            "version": "0",
+            "path": "db/ancillary_types_tables/ancillary_types",
+            "table": "ancillary_types_tables"
+        }
+    ],
+    "animals_tables": [
+        {
+            "filename": "animals",
+            "version": "0",
+            "path": "db/animals_tables/animals",
+            "table": "animals_tables"
+        }
+    ],
+    "anim_reference_poses_tables": [
+        {
+            "filename": "anim_reference_poses",
+            "version": "0",
+            "path": "db/anim_reference_poses_tables/anim_reference_poses",
+            "table": "anim_reference_poses_tables"
+        }
+    ],
+    "armed_citizenry_units_to_unit_groups_junctions_tables": [
+        {
+            "filename": "armed_citizenry_units_to_unit_groups_junctions",
+            "version": "0",
+            "path": "db/armed_citizenry_units_to_unit_groups_junctions_tables/armed_citizenry_units_to_unit_groups_junctions",
+            "table": "armed_citizenry_units_to_unit_groups_junctions_tables"
+        }
+    ],
+    "armed_citizenry_unit_groups_tables": [
+        {
+            "filename": "armed_citizenry_unit_groups",
+            "version": "0",
+            "path": "db/armed_citizenry_unit_groups_tables/armed_citizenry_unit_groups",
+            "table": "armed_citizenry_unit_groups_tables"
+        }
+    ],
+    "audio_campaign_building_enums_tables": [
+        {
+            "filename": "audio_campaign_building_enums",
+            "version": "0",
+            "path": "db/audio_campaign_building_enums_tables/audio_campaign_building_enums",
+            "table": "audio_campaign_building_enums_tables"
+        }
+    ],
+    "audio_projectiles_tables": [
+        {
+            "filename": "audio_projectiles",
+            "version": "1",
+            "path": "db/audio_projectiles_tables/audio_projectiles",
+            "table": "audio_projectiles_tables"
+        }
+    ],
+    "audio_vo_actor_groups_tables": [
+        {
+            "filename": "audio_vo_actor_groups",
+            "version": "0",
+            "path": "db/audio_vo_actor_groups_tables/audio_vo_actor_groups",
+            "table": "audio_vo_actor_groups_tables"
+        }
+    ],
+    "banditry_events_tables": [
+        {
+            "filename": "banditry_events",
+            "version": "0",
+            "path": "db/banditry_events_tables/banditry_events",
+            "table": "banditry_events_tables"
+        }
+    ],
+    "battlefield_buildings_names_tables": [
+        {
+            "filename": "battlefield_buildings_names",
+            "version": "0",
+            "path": "db/battlefield_buildings_names_tables/battlefield_buildings_names",
+            "table": "battlefield_buildings_names_tables"
+        }
+    ],
+    "battlefield_buildings_tables": [
+        {
+            "filename": "battlefield_buildings",
+            "version": "15",
+            "path": "db/battlefield_buildings_tables/battlefield_buildings",
+            "table": "battlefield_buildings_tables"
+        }
+    ],
+    "battlefield_buildings_with_projectiles_names_tables": [
+        {
+            "filename": "battlefield_buildings_with_projectiles_names",
+            "version": "0",
+            "path": "db/battlefield_buildings_with_projectiles_names_tables/battlefield_buildings_with_projectiles_names",
+            "table": "battlefield_buildings_with_projectiles_names_tables"
+        }
+    ],
+    "battlefield_building_categories_tables": [
+        {
+            "filename": "battlefield_building_categories",
+            "version": "3",
+            "path": "db/battlefield_building_categories_tables/battlefield_building_categories",
+            "table": "battlefield_building_categories_tables"
+        }
+    ],
+    "battlefield_building_transformations_tables": [
+        {
+            "filename": "battlefield_building_transformations",
+            "version": "0",
+            "path": "db/battlefield_building_transformations_tables/battlefield_building_transformations",
+            "table": "battlefield_building_transformations_tables"
+        }
+    ],
+    "battlefield_chariots_tables": [
+        {
+            "filename": "battlefield_chariots",
+            "version": "0",
+            "path": "db/battlefield_chariots_tables/battlefield_chariots",
+            "table": "battlefield_chariots_tables"
+        }
+    ],
+    "battlefield_deployable_siege_items_tables": [
+        {
+            "filename": "battlefield_deployable_siege_items",
+            "version": "4",
+            "path": "db/battlefield_deployable_siege_items_tables/battlefield_deployable_siege_items",
+            "table": "battlefield_deployable_siege_items_tables"
+        }
+    ],
+    "battlefield_engines_autonomous_tables": [
+        {
+            "filename": "battlefield_engines_autonomous",
+            "version": "1",
+            "path": "db/battlefield_engines_autonomous_tables/battlefield_engines_autonomous",
+            "table": "battlefield_engines_autonomous_tables"
+        }
+    ],
+    "battlefield_engines_tables": [
+        {
+            "filename": "battlefield_engines",
+            "version": "4",
+            "path": "db/battlefield_engines_tables/battlefield_engines",
+            "table": "battlefield_engines_tables"
+        }
+    ],
+    "battlefield_siege_vehicles_custom_battles_tables": [
+        {
+            "filename": "battlefield_siege_vehicles_custom_battles",
+            "version": "0",
+            "path": "db/battlefield_siege_vehicles_custom_battles_tables/battlefield_siege_vehicles_custom_battles",
+            "table": "battlefield_siege_vehicles_custom_battles_tables"
+        }
+    ],
+    "battlefield_siege_vehicles_tables": [
+        {
+            "filename": "battlefield_siege_vehicles",
+            "version": "15",
+            "path": "db/battlefield_siege_vehicles_tables/battlefield_siege_vehicles",
+            "table": "battlefield_siege_vehicles_tables"
+        }
+    ],
+    "battlefield_siege_vehicles_to_autonomous_engines_tables": [
+        {
+            "filename": "battlefield_siege_vehicles_to_autonomous_engines",
+            "version": "0",
+            "path": "db/battlefield_siege_vehicles_to_autonomous_engines_tables/battlefield_siege_vehicles_to_autonomous_engines",
+            "table": "battlefield_siege_vehicles_to_autonomous_engines_tables"
+        }
+    ],
+    "battlefield_snow_props_tables": [],
+    "battles_tables": [
+        {
+            "filename": "battles",
+            "version": "6",
+            "path": "db/battles_tables/battles",
+            "table": "battles_tables"
+        }
+    ],
+    "battles_to_battle_sky_types_junctions_tables": [
+        {
+            "filename": "battles_to_battle_sky_types_junctions",
+            "version": "0",
+            "path": "db/battles_to_battle_sky_types_junctions_tables/battles_to_battle_sky_types_junctions",
+            "table": "battles_to_battle_sky_types_junctions_tables"
+        }
+    ],
+    "battle_autoresolver_balances_tables": [
+        {
+            "filename": "battle_autoresolver_balances",
+            "version": "0",
+            "path": "db/battle_autoresolver_balances_tables/battle_autoresolver_balances",
+            "table": "battle_autoresolver_balances_tables"
+        }
+    ],
+    "battle_bridge_subculture_jcts_tables": [],
+    "battle_cameras_tables": [
+        {
+            "filename": "battle_cameras",
+            "version": "1",
+            "path": "db/battle_cameras_tables/battle_cameras",
+            "table": "battle_cameras_tables"
+        }
+    ],
+    "battle_cinematic_events_tables": [
+        {
+            "filename": "battle_cinematic_events",
+            "version": "3",
+            "path": "db/battle_cinematic_events_tables/battle_cinematic_events",
+            "table": "battle_cinematic_events_tables"
+        }
+    ],
+    "battle_cinematic_event_categories_tables": [
+        {
+            "filename": "battle_cinematic_event_categories",
+            "version": "0",
+            "path": "db/battle_cinematic_event_categories_tables/battle_cinematic_event_categories",
+            "table": "battle_cinematic_event_categories_tables"
+        }
+    ],
+    "battle_cities_tables": [
+        {
+            "filename": "battle_cities",
+            "version": "0",
+            "path": "db/battle_cities_tables/battle_cities",
+            "table": "battle_cities_tables"
+        }
+    ],
+    "battle_city_buildings_tables": [
+        {
+            "filename": "battle_city_buildings",
+            "version": "0",
+            "path": "db/battle_city_buildings_tables/battle_city_buildings",
+            "table": "battle_city_buildings_tables"
+        }
+    ],
+    "battle_city_subculture_jct_tables": [],
+    "battle_climate_weather_descriptions_tables": [
+        {
+            "filename": "battle_climate_weather_descriptions",
+            "version": "1",
+            "path": "db/battle_climate_weather_descriptions_tables/battle_climate_weather_descriptions",
+            "table": "battle_climate_weather_descriptions_tables"
+        }
+    ],
+    "battle_difficulty_modifiers_tables": [
+        {
+            "filename": "battle_difficulty_modifiers",
+            "version": "1",
+            "path": "db/battle_difficulty_modifiers_tables/battle_difficulty_modifiers",
+            "table": "battle_difficulty_modifiers_tables"
+        }
+    ],
+    "battle_entities_tables": [
+        {
+            "filename": "battle_entities",
+            "version": "5",
+            "path": "db/battle_entities_tables/battle_entities",
+            "table": "battle_entities_tables"
+        }
+    ],
+    "battle_entity_effects_tables": [
+        {
+            "filename": "battle_entity_effects",
+            "version": "0",
+            "path": "db/battle_entity_effects_tables/battle_entity_effects",
+            "table": "battle_entity_effects_tables"
+        }
+    ],
+    "battle_misc_effects_tables": [
+        {
+            "filename": "battle_misc_effects",
+            "version": "0",
+            "path": "db/battle_misc_effects_tables/battle_misc_effects",
+            "table": "battle_misc_effects_tables"
+        }
+    ],
+    "battle_personalities_tables": [
+        {
+            "filename": "battle_personalities",
+            "version": "3",
+            "path": "db/battle_personalities_tables/battle_personalities",
+            "table": "battle_personalities_tables"
+        }
+    ],
+    "battle_sequences_tables": [],
+    "battle_siege_vehicle_permissions_tables": [
+        {
+            "filename": "battle_siege_vehicle_permissions",
+            "version": "0",
+            "path": "db/battle_siege_vehicle_permissions_tables/battle_siege_vehicle_permissions",
+            "table": "battle_siege_vehicle_permissions_tables"
+        }
+    ],
+    "battle_skeletons_tables": [
+        {
+            "filename": "battle_skeletons",
+            "version": "1",
+            "path": "db/battle_skeletons_tables/battle_skeletons",
+            "table": "battle_skeletons_tables"
+        }
+    ],
+    "battle_sky_types_tables": [
+        {
+            "filename": "battle_sky_types",
+            "version": "0",
+            "path": "db/battle_sky_types_tables/battle_sky_types",
+            "table": "battle_sky_types_tables"
+        }
+    ],
+    "battle_terrain_farms_tables": [
+        {
+            "filename": "battle_terrain_farms",
+            "version": "0",
+            "path": "db/battle_terrain_farms_tables/battle_terrain_farms",
+            "table": "battle_terrain_farms_tables"
+        }
+    ],
+    "battle_types_tables": [
+        {
+            "filename": "battle_types",
+            "version": "2",
+            "path": "db/battle_types_tables/battle_types",
+            "table": "battle_types_tables"
+        }
+    ],
+    "battle_types_to_victory_conditions_tables": [
+        {
+            "filename": "battle_types_to_victory_conditions",
+            "version": "2",
+            "path": "db/battle_types_to_victory_conditions_tables/battle_types_to_victory_conditions",
+            "table": "battle_types_to_victory_conditions_tables"
+        }
+    ],
+    "battle_type_faction_presets_tables": [],
+    "battle_type_setup_limits_tables": [
+        {
+            "filename": "battle_type_setup_limits",
+            "version": "1",
+            "path": "db/battle_type_setup_limits_tables/battle_type_setup_limits",
+            "table": "battle_type_setup_limits_tables"
+        }
+    ],
+    "battle_unit_permission_junctions_tables": [],
+    "battle_weather_effects_tables": [
+        {
+            "filename": "battle_weather_effects",
+            "version": "1",
+            "path": "db/battle_weather_effects_tables/battle_weather_effects",
+            "table": "battle_weather_effects_tables"
+        }
+    ],
+    "battle_weather_types_tables": [
+        {
+            "filename": "battle_weather_types",
+            "version": "0",
+            "path": "db/battle_weather_types_tables/battle_weather_types",
+            "table": "battle_weather_types_tables"
+        }
+    ],
+    "bribe_actions_tables": [
+        {
+            "filename": "bribe_actions",
+            "version": "0",
+            "path": "db/bribe_actions_tables/bribe_actions",
+            "table": "bribe_actions_tables"
+        }
+    ],
+    "building_chains_tables": [
+        {
+            "filename": "building_chains",
+            "version": "2",
+            "path": "db/building_chains_tables/building_chains",
+            "table": "building_chains_tables"
+        }
+    ],
+    "building_chain_availabilities_tables": [
+        {
+            "filename": "building_chain_availabilities",
+            "version": "1",
+            "path": "db/building_chain_availabilities_tables/building_chain_availabilities",
+            "table": "building_chain_availabilities_tables"
+        }
+    ],
+    "building_chain_availability_sets_tables": [
+        {
+            "filename": "building_chain_availability_sets",
+            "version": "0",
+            "path": "db/building_chain_availability_sets_tables/building_chain_availability_sets",
+            "table": "building_chain_availability_sets_tables"
+        }
+    ],
+    "building_chain_availability_set_ids_tables": [
+        {
+            "filename": "building_chain_availability_set_ids",
+            "version": "0",
+            "path": "db/building_chain_availability_set_ids_tables/building_chain_availability_set_ids",
+            "table": "building_chain_availability_set_ids_tables"
+        }
+    ],
+    "building_chain_to_slots_tables": [
+        {
+            "filename": "building_chain_to_slots",
+            "version": "0",
+            "path": "db/building_chain_to_slots_tables/building_chain_to_slots",
+            "table": "building_chain_to_slots_tables"
+        }
+    ],
+    "building_culture_gov_type_variants_tables": [],
+    "building_culture_variants_tables": [
+        {
+            "filename": "building_culture_variants",
+            "version": "3",
+            "path": "db/building_culture_variants_tables/building_culture_variants",
+            "table": "building_culture_variants_tables"
+        }
+    ],
+    "building_effects_junction_tables": [
+        {
+            "filename": "building_effects_junction",
+            "version": "3",
+            "path": "db/building_effects_junction_tables/building_effects_junction",
+            "table": "building_effects_junction_tables"
+        }
+    ],
+    "building_factionwide_effects_junctions_tables": [],
+    "building_faction_variants_tables": [],
+    "building_instances_tables": [
+        {
+            "filename": "building_instances",
+            "version": "0",
+            "path": "db/building_instances_tables/building_instances",
+            "table": "building_instances_tables"
+        }
+    ],
+    "building_levels_tables": [
+        {
+            "filename": "building_levels",
+            "version": "7",
+            "path": "db/building_levels_tables/building_levels",
+            "table": "building_levels_tables"
+        }
+    ],
+    "building_level_armed_citizenry_junctions_tables": [
+        {
+            "filename": "building_level_armed_citizenry_junctions",
+            "version": "1",
+            "path": "db/building_level_armed_citizenry_junctions_tables/building_level_armed_citizenry_junctions",
+            "table": "building_level_armed_citizenry_junctions_tables"
+        }
+    ],
+    "building_level_required_technology_junctions_tables": [
+        {
+            "filename": "building_level_required_technology_junctions",
+            "version": "0",
+            "path": "db/building_level_required_technology_junctions_tables/building_level_required_technology_junctions",
+            "table": "building_level_required_technology_junctions_tables"
+        }
+    ],
+    "building_sets_tables": [
+        {
+            "filename": "building_sets",
+            "version": "0",
+            "path": "db/building_sets_tables/building_sets",
+            "table": "building_sets_tables"
+        }
+    ],
+    "building_set_to_building_junctions_tables": [
+        {
+            "filename": "building_set_to_building_junctions",
+            "version": "0",
+            "path": "db/building_set_to_building_junctions_tables/building_set_to_building_junctions",
+            "table": "building_set_to_building_junctions_tables"
+        }
+    ],
+    "building_states_tables": [
+        {
+            "filename": "building_states",
+            "version": "0",
+            "path": "db/building_states_tables/building_states",
+            "table": "building_states_tables"
+        }
+    ],
+    "building_superchains_tables": [
+        {
+            "filename": "building_superchains",
+            "version": "0",
+            "path": "db/building_superchains_tables/building_superchains",
+            "table": "building_superchains_tables"
+        }
+    ],
+    "building_to_unit_abilities_junctions_tables": [],
+    "building_units_allowed_tables": [
+        {
+            "filename": "building_units_allowed",
+            "version": "3",
+            "path": "db/building_units_allowed_tables/building_units_allowed",
+            "table": "building_units_allowed_tables"
+        }
+    ],
+    "building_upgrades_junction_tables": [
+        {
+            "filename": "building_upgrades_junction",
+            "version": "0",
+            "path": "db/building_upgrades_junction_tables/building_upgrades_junction",
+            "table": "building_upgrades_junction_tables"
+        }
+    ],
+    "cai_agent_distribution_profiles_tables": [
+        {
+            "filename": "cai_agent_distribution_profiles",
+            "version": "0",
+            "path": "db/cai_agent_distribution_profiles_tables/cai_agent_distribution_profiles",
+            "table": "cai_agent_distribution_profiles_tables"
+        }
+    ],
+    "cai_agent_distribution_types_tables": [
+        {
+            "filename": "cai_agent_distribution_types",
+            "version": "0",
+            "path": "db/cai_agent_distribution_types_tables/cai_agent_distribution_types",
+            "table": "cai_agent_distribution_types_tables"
+        }
+    ],
+    "cai_agent_record_to_cai_agent_type_junctions_tables": [
+        {
+            "filename": "cai_agent_record_to_cai_agent_type_junctions",
+            "version": "0",
+            "path": "db/cai_agent_record_to_cai_agent_type_junctions_tables/cai_agent_record_to_cai_agent_type_junctions",
+            "table": "cai_agent_record_to_cai_agent_type_junctions_tables"
+        }
+    ],
+    "cai_agent_recruitment_profiles_tables": [
+        {
+            "filename": "cai_agent_recruitment_profiles",
+            "version": "0",
+            "path": "db/cai_agent_recruitment_profiles_tables/cai_agent_recruitment_profiles",
+            "table": "cai_agent_recruitment_profiles_tables"
+        }
+    ],
+    "cai_agent_recruitment_types_tables": [
+        {
+            "filename": "cai_agent_recruitment_types",
+            "version": "0",
+            "path": "db/cai_agent_recruitment_types_tables/cai_agent_recruitment_types",
+            "table": "cai_agent_recruitment_types_tables"
+        }
+    ],
+    "cai_agent_types_tables": [
+        {
+            "filename": "cai_agent_types",
+            "version": "0",
+            "path": "db/cai_agent_types_tables/cai_agent_types",
+            "table": "cai_agent_types_tables"
+        }
+    ],
+    "cai_agent_type_distribution_profile_junctions_tables": [
+        {
+            "filename": "cai_agent_type_distribution_profile_junctions",
+            "version": "0",
+            "path": "db/cai_agent_type_distribution_profile_junctions_tables/cai_agent_type_distribution_profile_junctions",
+            "table": "cai_agent_type_distribution_profile_junctions_tables"
+        }
+    ],
+    "cai_agent_type_recruitment_profile_junctions_tables": [
+        {
+            "filename": "cai_agent_type_recruitment_profile_junctions",
+            "version": "0",
+            "path": "db/cai_agent_type_recruitment_profile_junctions_tables/cai_agent_type_recruitment_profile_junctions",
+            "table": "cai_agent_type_recruitment_profile_junctions_tables"
+        }
+    ],
+    "cai_base_building_context_values_tables": [
+        {
+            "filename": "cai_base_building_context_values",
+            "version": "1",
+            "path": "db/cai_base_building_context_values_tables/cai_base_building_context_values",
+            "table": "cai_base_building_context_values_tables"
+        }
+    ],
+    "cai_construction_system_building_values_tables": [
+        {
+            "filename": "cai_construction_system_building_values",
+            "version": "0",
+            "path": "db/cai_construction_system_building_values_tables/cai_construction_system_building_values",
+            "table": "cai_construction_system_building_values_tables"
+        }
+    ],
+    "cai_construction_system_categories_tables": [
+        {
+            "filename": "cai_construction_system_categories",
+            "version": "0",
+            "path": "db/cai_construction_system_categories_tables/cai_construction_system_categories",
+            "table": "cai_construction_system_categories_tables"
+        }
+    ],
+    "cai_construction_system_category_groups_tables": [
+        {
+            "filename": "cai_construction_system_category_groups",
+            "version": "0",
+            "path": "db/cai_construction_system_category_groups_tables/cai_construction_system_category_groups",
+            "table": "cai_construction_system_category_groups_tables"
+        }
+    ],
+    "cai_construction_system_province_template_assignment_policies_tables": [
+        {
+            "filename": "cai_construction_system_province_template_assignment_policies",
+            "version": "0",
+            "path": "db/cai_construction_system_province_template_assignment_policies_tables/cai_construction_system_province_template_assignment_policies",
+            "table": "cai_construction_system_province_template_assignment_policies_tables"
+        }
+    ],
+    "cai_construction_system_strategic_context_template_policies_tables": [
+        {
+            "filename": "cai_construction_system_strategic_context_template_policies",
+            "version": "0",
+            "path": "db/cai_construction_system_strategic_context_template_policies_tables/cai_construction_system_strategic_context_template_policies",
+            "table": "cai_construction_system_strategic_context_template_policies_tables"
+        }
+    ],
+    "cai_construction_system_strategic_context_template_policy_junctions_tables": [
+        {
+            "filename": "cai_construction_system_strategic_context_template_policy_junctions",
+            "version": "0",
+            "path": "db/cai_construction_system_strategic_context_template_policy_junctions_tables/cai_construction_system_strategic_context_template_policy_junctions",
+            "table": "cai_construction_system_strategic_context_template_policy_junctions_tables"
+        }
+    ],
+    "cai_construction_system_superchain_hints_tables": [
+        {
+            "filename": "cai_construction_system_superchain_hints",
+            "version": "0",
+            "path": "db/cai_construction_system_superchain_hints_tables/cai_construction_system_superchain_hints",
+            "table": "cai_construction_system_superchain_hints_tables"
+        }
+    ],
+    "cai_construction_system_synergies_tables": [
+        {
+            "filename": "cai_construction_system_synergies",
+            "version": "0",
+            "path": "db/cai_construction_system_synergies_tables/cai_construction_system_synergies",
+            "table": "cai_construction_system_synergies_tables"
+        }
+    ],
+    "cai_construction_system_synergy_levels_tables": [
+        {
+            "filename": "cai_construction_system_synergy_levels",
+            "version": "0",
+            "path": "db/cai_construction_system_synergy_levels_tables/cai_construction_system_synergy_levels",
+            "table": "cai_construction_system_synergy_levels_tables"
+        }
+    ],
+    "cai_construction_system_synergy_policies_tables": [
+        {
+            "filename": "cai_construction_system_synergy_policies",
+            "version": "0",
+            "path": "db/cai_construction_system_synergy_policies_tables/cai_construction_system_synergy_policies",
+            "table": "cai_construction_system_synergy_policies_tables"
+        }
+    ],
+    "cai_construction_system_templates_junctions_tables": [
+        {
+            "filename": "cai_construction_system_templates_junctions",
+            "version": "0",
+            "path": "db/cai_construction_system_templates_junctions_tables/cai_construction_system_templates_junctions",
+            "table": "cai_construction_system_templates_junctions_tables"
+        }
+    ],
+    "cai_construction_system_templates_tables": [
+        {
+            "filename": "cai_construction_system_templates",
+            "version": "0",
+            "path": "db/cai_construction_system_templates_tables/cai_construction_system_templates",
+            "table": "cai_construction_system_templates_tables"
+        }
+    ],
+    "cai_diplomacy_complex_treacheries_tables": [
+        {
+            "filename": "cai_diplomacy_complex_treacheries",
+            "version": "0",
+            "path": "db/cai_diplomacy_complex_treacheries_tables/cai_diplomacy_complex_treacheries",
+            "table": "cai_diplomacy_complex_treacheries_tables"
+        }
+    ],
+    "cai_diplomacy_simple_treacheries_tables": [
+        {
+            "filename": "cai_diplomacy_simple_treacheries",
+            "version": "0",
+            "path": "db/cai_diplomacy_simple_treacheries_tables/cai_diplomacy_simple_treacheries",
+            "table": "cai_diplomacy_simple_treacheries_tables"
+        }
+    ],
+    "cai_military_aggressiveness_policies_tables": [
+        {
+            "filename": "cai_military_aggressiveness_policies",
+            "version": "0",
+            "path": "db/cai_military_aggressiveness_policies_tables/cai_military_aggressiveness_policies",
+            "table": "cai_military_aggressiveness_policies_tables"
+        }
+    ],
+    "cai_military_behaviour_policies_tables": [
+        {
+            "filename": "cai_military_behaviour_policies",
+            "version": "0",
+            "path": "db/cai_military_behaviour_policies_tables/cai_military_behaviour_policies",
+            "table": "cai_military_behaviour_policies_tables"
+        }
+    ],
+    "cai_personalities_budget_allocations_tables": [
+        {
+            "filename": "cai_personalities_budget_allocations",
+            "version": "2",
+            "path": "db/cai_personalities_budget_allocations_tables/cai_personalities_budget_allocations",
+            "table": "cai_personalities_budget_allocations_tables"
+        }
+    ],
+    "cai_personalities_budget_allocation_policy_junctions_tables": [
+        {
+            "filename": "cai_personalities_budget_allocation_policy_junctions",
+            "version": "0",
+            "path": "db/cai_personalities_budget_allocation_policy_junctions_tables/cai_personalities_budget_allocation_policy_junctions",
+            "table": "cai_personalities_budget_allocation_policy_junctions_tables"
+        }
+    ],
+    "cai_personalities_budget_policies_tables": [
+        {
+            "filename": "cai_personalities_budget_policies",
+            "version": "0",
+            "path": "db/cai_personalities_budget_policies_tables/cai_personalities_budget_policies",
+            "table": "cai_personalities_budget_policies_tables"
+        }
+    ],
+    "cai_personalities_construction_preference_policies_tables": [
+        {
+            "filename": "cai_personalities_construction_preference_policies",
+            "version": "0",
+            "path": "db/cai_personalities_construction_preference_policies_tables/cai_personalities_construction_preference_policies",
+            "table": "cai_personalities_construction_preference_policies_tables"
+        }
+    ],
+    "cai_personalities_construction_preference_policy_building_junctions_tables": [],
+    "cai_personalities_construction_system_policies_tables": [
+        {
+            "filename": "cai_personalities_construction_system_policies",
+            "version": "0",
+            "path": "db/cai_personalities_construction_system_policies_tables/cai_personalities_construction_system_policies",
+            "table": "cai_personalities_construction_system_policies_tables"
+        }
+    ],
+    "cai_personalities_faction_junctions_tables": [],
+    "cai_personalities_income_allocation_policies_tables": [
+        {
+            "filename": "cai_personalities_income_allocation_policies",
+            "version": "0",
+            "path": "db/cai_personalities_income_allocation_policies_tables/cai_personalities_income_allocation_policies",
+            "table": "cai_personalities_income_allocation_policies_tables"
+        }
+    ],
+    "cai_personalities_income_allocation_policy_strategic_context_junctions_tables": [
+        {
+            "filename": "cai_personalities_income_allocation_policy_strategic_context_junctions",
+            "version": "0",
+            "path": "db/cai_personalities_income_allocation_policy_strategic_context_junctions_tables/cai_personalities_income_allocation_policy_strategic_context_junctions",
+            "table": "cai_personalities_income_allocation_policy_strategic_context_junctions_tables"
+        }
+    ],
+    "cai_personalities_randomisation_policies_tables": [
+        {
+            "filename": "cai_personalities_randomisation_policies",
+            "version": "0",
+            "path": "db/cai_personalities_randomisation_policies_tables/cai_personalities_randomisation_policies",
+            "table": "cai_personalities_randomisation_policies_tables"
+        }
+    ],
+    "cai_personalities_random_groups_tables": [
+        {
+            "filename": "cai_personalities_random_groups",
+            "version": "0",
+            "path": "db/cai_personalities_random_groups_tables/cai_personalities_random_groups",
+            "table": "cai_personalities_random_groups_tables"
+        }
+    ],
+    "cai_personalities_random_group_junctions_tables": [
+        {
+            "filename": "cai_personalities_random_group_junctions",
+            "version": "0",
+            "path": "db/cai_personalities_random_group_junctions_tables/cai_personalities_random_group_junctions",
+            "table": "cai_personalities_random_group_junctions_tables"
+        }
+    ],
+    "cai_personalities_reliability_policies_tables": [
+        {
+            "filename": "cai_personalities_reliability_policies",
+            "version": "3",
+            "path": "db/cai_personalities_reliability_policies_tables/cai_personalities_reliability_policies",
+            "table": "cai_personalities_reliability_policies_tables"
+        }
+    ],
+    "cai_personalities_religious_conversion_policies_tables": [
+        {
+            "filename": "cai_personalities_religious_conversion_policies",
+            "version": "0",
+            "path": "db/cai_personalities_religious_conversion_policies_tables/cai_personalities_religious_conversion_policies",
+            "table": "cai_personalities_religious_conversion_policies_tables"
+        }
+    ],
+    "cai_personalities_tables": [
+        {
+            "filename": "cai_personalities",
+            "version": "10",
+            "path": "db/cai_personalities_tables/cai_personalities",
+            "table": "cai_personalities_tables"
+        }
+    ],
+    "cai_personalities_task_management_system_task_generator_profiles_strategic_contexts_junctions_tables": [],
+    "cai_personalities_task_management_system_task_generator_profiles_tables": [
+        {
+            "filename": "cai_personalities_task_management_system_task_generator_profiles",
+            "version": "0",
+            "path": "db/cai_personalities_task_management_system_task_generator_profiles_tables/cai_personalities_task_management_system_task_generator_profiles",
+            "table": "cai_personalities_task_management_system_task_generator_profiles_tables"
+        }
+    ],
+    "cai_personalities_tms_task_generator_profiles_strategic_contexts_junctions_tables": [],
+    "cai_personality_cultural_components_tables": [
+        {
+            "filename": "cai_personality_cultural_components",
+            "version": "0",
+            "path": "db/cai_personality_cultural_components_tables/cai_personality_cultural_components",
+            "table": "cai_personality_cultural_components_tables"
+        }
+    ],
+    "cai_personality_cultural_multipliers_tables": [
+        {
+            "filename": "cai_personality_cultural_multipliers",
+            "version": "3",
+            "path": "db/cai_personality_cultural_multipliers_tables/cai_personality_cultural_multipliers",
+            "table": "cai_personality_cultural_multipliers_tables"
+        }
+    ],
+    "cai_personality_deal_evaluation_components_tables": [
+        {
+            "filename": "cai_personality_deal_evaluation_components",
+            "version": "2",
+            "path": "db/cai_personality_deal_evaluation_components_tables/cai_personality_deal_evaluation_components",
+            "table": "cai_personality_deal_evaluation_components_tables"
+        }
+    ],
+    "cai_personality_deal_evaluation_component_overrides_tables": [
+        {
+            "filename": "cai_personality_deal_evaluation_component_overrides",
+            "version": "0",
+            "path": "db/cai_personality_deal_evaluation_component_overrides_tables/cai_personality_deal_evaluation_component_overrides",
+            "table": "cai_personality_deal_evaluation_component_overrides_tables"
+        }
+    ],
+    "cai_personality_deal_evaluation_deal_component_names_tables": [
+        {
+            "filename": "cai_personality_deal_evaluation_deal_component_names",
+            "version": "0",
+            "path": "db/cai_personality_deal_evaluation_deal_component_names_tables/cai_personality_deal_evaluation_deal_component_names",
+            "table": "cai_personality_deal_evaluation_deal_component_names_tables"
+        }
+    ],
+    "cai_personality_deal_evaluation_deal_component_values_tables": [
+        {
+            "filename": "cai_personality_deal_evaluation_deal_component_values",
+            "version": "3",
+            "path": "db/cai_personality_deal_evaluation_deal_component_values_tables/cai_personality_deal_evaluation_deal_component_values",
+            "table": "cai_personality_deal_evaluation_deal_component_values_tables"
+        }
+    ],
+    "cai_personality_deal_generation_components_tables": [
+        {
+            "filename": "cai_personality_deal_generation_components",
+            "version": "0",
+            "path": "db/cai_personality_deal_generation_components_tables/cai_personality_deal_generation_components",
+            "table": "cai_personality_deal_generation_components_tables"
+        }
+    ],
+    "cai_personality_deal_generation_generators_tables": [
+        {
+            "filename": "cai_personality_deal_generation_generators",
+            "version": "0",
+            "path": "db/cai_personality_deal_generation_generators_tables/cai_personality_deal_generation_generators",
+            "table": "cai_personality_deal_generation_generators_tables"
+        }
+    ],
+    "cai_personality_deal_generation_generator_priorities_tables": [
+        {
+            "filename": "cai_personality_deal_generation_generator_priorities",
+            "version": "2",
+            "path": "db/cai_personality_deal_generation_generator_priorities_tables/cai_personality_deal_generation_generator_priorities",
+            "table": "cai_personality_deal_generation_generator_priorities_tables"
+        }
+    ],
+    "cai_personality_diplomatic_components_tables": [
+        {
+            "filename": "cai_personality_diplomatic_components",
+            "version": "0",
+            "path": "db/cai_personality_diplomatic_components_tables/cai_personality_diplomatic_components",
+            "table": "cai_personality_diplomatic_components_tables"
+        }
+    ],
+    "cai_personality_diplomatic_component_overrides_tables": [
+        {
+            "filename": "cai_personality_diplomatic_component_overrides",
+            "version": "0",
+            "path": "db/cai_personality_diplomatic_component_overrides_tables/cai_personality_diplomatic_component_overrides",
+            "table": "cai_personality_diplomatic_component_overrides_tables"
+        }
+    ],
+    "cai_personality_diplomatic_events_tables": [
+        {
+            "filename": "cai_personality_diplomatic_events",
+            "version": "2",
+            "path": "db/cai_personality_diplomatic_events_tables/cai_personality_diplomatic_events",
+            "table": "cai_personality_diplomatic_events_tables"
+        }
+    ],
+    "cai_personality_diplomatic_event_values_tables": [
+        {
+            "filename": "cai_personality_diplomatic_event_values",
+            "version": "0",
+            "path": "db/cai_personality_diplomatic_event_values_tables/cai_personality_diplomatic_event_values",
+            "table": "cai_personality_diplomatic_event_values_tables"
+        }
+    ],
+    "cai_personality_diplomatic_treaty_values_tables": [
+        {
+            "filename": "cai_personality_diplomatic_treaty_values",
+            "version": "1",
+            "path": "db/cai_personality_diplomatic_treaty_values_tables/cai_personality_diplomatic_treaty_values",
+            "table": "cai_personality_diplomatic_treaty_values_tables"
+        }
+    ],
+    "cai_personality_negotiation_components_tables": [
+        {
+            "filename": "cai_personality_negotiation_components",
+            "version": "0",
+            "path": "db/cai_personality_negotiation_components_tables/cai_personality_negotiation_components",
+            "table": "cai_personality_negotiation_components_tables"
+        }
+    ],
+    "cai_personality_occupation_decision_components_tables": [
+        {
+            "filename": "cai_personality_occupation_decision_components",
+            "version": "0",
+            "path": "db/cai_personality_occupation_decision_components_tables/cai_personality_occupation_decision_components",
+            "table": "cai_personality_occupation_decision_components_tables"
+        }
+    ],
+    "cai_personality_occupation_decision_priorities_tables": [
+        {
+            "filename": "cai_personality_occupation_decision_priorities",
+            "version": "0",
+            "path": "db/cai_personality_occupation_decision_priorities_tables/cai_personality_occupation_decision_priorities",
+            "table": "cai_personality_occupation_decision_priorities_tables"
+        }
+    ],
+    "cai_personality_strategic_components_tables": [
+        {
+            "filename": "cai_personality_strategic_components",
+            "version": "6",
+            "path": "db/cai_personality_strategic_components_tables/cai_personality_strategic_components",
+            "table": "cai_personality_strategic_components_tables"
+        }
+    ],
+    "cai_personality_strategic_desired_attitudes_tables": [
+        {
+            "filename": "cai_personality_strategic_desired_attitudes",
+            "version": "1",
+            "path": "db/cai_personality_strategic_desired_attitudes_tables/cai_personality_strategic_desired_attitudes",
+            "table": "cai_personality_strategic_desired_attitudes_tables"
+        }
+    ],
+    "cai_personality_strategic_resource_values_tables": [
+        {
+            "filename": "cai_personality_strategic_resource_values",
+            "version": "0",
+            "path": "db/cai_personality_strategic_resource_values_tables/cai_personality_strategic_resource_values",
+            "table": "cai_personality_strategic_resource_values_tables"
+        }
+    ],
+    "cai_siege_strength_modifiers_tables": [
+        {
+            "filename": "cai_siege_strength_modifiers",
+            "version": "0",
+            "path": "db/cai_siege_strength_modifiers_tables/cai_siege_strength_modifiers",
+            "table": "cai_siege_strength_modifiers_tables"
+        }
+    ],
+    "cai_strategic_context_types_tables": [
+        {
+            "filename": "cai_strategic_context_types",
+            "version": "0",
+            "path": "db/cai_strategic_context_types_tables/cai_strategic_context_types",
+            "table": "cai_strategic_context_types_tables"
+        }
+    ],
+    "cai_task_management_system_task_generators_tables": [
+        {
+            "filename": "cai_task_management_system_task_generators",
+            "version": "0",
+            "path": "db/cai_task_management_system_task_generators_tables/cai_task_management_system_task_generators",
+            "table": "cai_task_management_system_task_generators_tables"
+        }
+    ],
+    "cai_task_management_system_task_generator_groups_generators_junctions_tables": [
+        {
+            "filename": "cai_task_management_system_task_generator_groups_generators_junctions",
+            "version": "0",
+            "path": "db/cai_task_management_system_task_generator_groups_generators_junctions_tables/cai_task_management_system_task_generator_groups_generators_junctions",
+            "table": "cai_task_management_system_task_generator_groups_generators_junctions_tables"
+        }
+    ],
+    "cai_task_management_system_task_generator_groups_tables": [
+        {
+            "filename": "cai_task_management_system_task_generator_groups",
+            "version": "0",
+            "path": "db/cai_task_management_system_task_generator_groups_tables/cai_task_management_system_task_generator_groups",
+            "table": "cai_task_management_system_task_generator_groups_tables"
+        }
+    ],
+    "cai_variables_overides_tables": [
+        {
+            "filename": "cai_variables_overides",
+            "version": "0",
+            "path": "db/cai_variables_overides_tables/cai_variables_overides",
+            "table": "cai_variables_overides_tables"
+        }
+    ],
+    "cai_variables_tables": [
+        {
+            "filename": "cai_variables",
+            "version": "0",
+            "path": "db/cai_variables_tables/cai_variables",
+            "table": "cai_variables_tables"
+        }
+    ],
+    "campaigns_campaign_variables_junctions_tables": [
+        {
+            "filename": "campaigns_campaign_variables_junctions",
+            "version": "2",
+            "path": "db/campaigns_campaign_variables_junctions_tables/campaigns_campaign_variables_junctions",
+            "table": "campaigns_campaign_variables_junctions_tables"
+        }
+    ],
+    "campaigns_tables": [
+        {
+            "filename": "campaigns",
+            "version": "5",
+            "path": "db/campaigns_tables/campaigns",
+            "table": "campaigns_tables"
+        }
+    ],
+    "campaign_ai_character_skill_tree_distribution_junctions_tables": [
+        {
+            "filename": "campaign_ai_character_skill_tree_distribution_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_character_skill_tree_distribution_junctions_tables/campaign_ai_character_skill_tree_distribution_junctions",
+            "table": "campaign_ai_character_skill_tree_distribution_junctions_tables"
+        }
+    ],
+    "campaign_ai_character_skill_tree_junctions_tables": [
+        {
+            "filename": "campaign_ai_character_skill_tree_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_character_skill_tree_junctions_tables/campaign_ai_character_skill_tree_junctions",
+            "table": "campaign_ai_character_skill_tree_junctions_tables"
+        }
+    ],
+    "campaign_ai_character_skill_tree_manager_agent_junctions_tables": [
+        {
+            "filename": "campaign_ai_character_skill_tree_manager_agent_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_character_skill_tree_manager_agent_junctions_tables/campaign_ai_character_skill_tree_manager_agent_junctions",
+            "table": "campaign_ai_character_skill_tree_manager_agent_junctions_tables"
+        }
+    ],
+    "campaign_ai_managers_tables": [
+        {
+            "filename": "campaign_ai_managers",
+            "version": "0",
+            "path": "db/campaign_ai_managers_tables/campaign_ai_managers",
+            "table": "campaign_ai_managers_tables"
+        }
+    ],
+    "campaign_ai_manager_behaviour_junctions_tables": [
+        {
+            "filename": "campaign_ai_manager_behaviour_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_manager_behaviour_junctions_tables/campaign_ai_manager_behaviour_junctions",
+            "table": "campaign_ai_manager_behaviour_junctions_tables"
+        }
+    ],
+    "campaign_ai_personalities_tables": [
+        {
+            "filename": "campaign_ai_personalities",
+            "version": "0",
+            "path": "db/campaign_ai_personalities_tables/campaign_ai_personalities",
+            "table": "campaign_ai_personalities_tables"
+        }
+    ],
+    "campaign_ai_personality_junctions_tables": [
+        {
+            "filename": "campaign_ai_personality_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_personality_junctions_tables/campaign_ai_personality_junctions",
+            "table": "campaign_ai_personality_junctions_tables"
+        }
+    ],
+    "campaign_ai_technology_manager_path_junctions_tables": [
+        {
+            "filename": "campaign_ai_technology_manager_path_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_technology_manager_path_junctions_tables/campaign_ai_technology_manager_path_junctions",
+            "table": "campaign_ai_technology_manager_path_junctions_tables"
+        }
+    ],
+    "campaign_ai_technology_path_junctions_tables": [
+        {
+            "filename": "campaign_ai_technology_path_junctions",
+            "version": "0",
+            "path": "db/campaign_ai_technology_path_junctions_tables/campaign_ai_technology_path_junctions",
+            "table": "campaign_ai_technology_path_junctions_tables"
+        }
+    ],
+    "campaign_ambush_ground_types_tables": [
+        {
+            "filename": "campaign_ambush_ground_types",
+            "version": "1",
+            "path": "db/campaign_ambush_ground_types_tables/campaign_ambush_ground_types",
+            "table": "campaign_ambush_ground_types_tables"
+        }
+    ],
+    "campaign_autoresolver_battle_situations_tables": [
+        {
+            "filename": "campaign_autoresolver_battle_situations",
+            "version": "0",
+            "path": "db/campaign_autoresolver_battle_situations_tables/campaign_autoresolver_battle_situations",
+            "table": "campaign_autoresolver_battle_situations_tables"
+        }
+    ],
+    "campaign_autoresolver_modifiers_tables": [
+        {
+            "filename": "campaign_autoresolver_modifiers",
+            "version": "0",
+            "path": "db/campaign_autoresolver_modifiers_tables/campaign_autoresolver_modifiers",
+            "table": "campaign_autoresolver_modifiers_tables"
+        }
+    ],
+    "campaign_autoresolver_mod_groups_tables": [
+        {
+            "filename": "campaign_autoresolver_mod_groups",
+            "version": "0",
+            "path": "db/campaign_autoresolver_mod_groups_tables/campaign_autoresolver_mod_groups",
+            "table": "campaign_autoresolver_mod_groups_tables"
+        }
+    ],
+    "campaign_autoresolver_mod_group_modifier_values_tables": [
+        {
+            "filename": "campaign_autoresolver_mod_group_modifier_values",
+            "version": "0",
+            "path": "db/campaign_autoresolver_mod_group_modifier_values_tables/campaign_autoresolver_mod_group_modifier_values",
+            "table": "campaign_autoresolver_mod_group_modifier_values_tables"
+        }
+    ],
+    "campaign_autoresolver_mod_group_targets_tables": [
+        {
+            "filename": "campaign_autoresolver_mod_group_targets",
+            "version": "1",
+            "path": "db/campaign_autoresolver_mod_group_targets_tables/campaign_autoresolver_mod_group_targets",
+            "table": "campaign_autoresolver_mod_group_targets_tables"
+        }
+    ],
+    "campaign_autoresolver_situation_mod_groups_tables": [
+        {
+            "filename": "campaign_autoresolver_situation_mod_groups",
+            "version": "0",
+            "path": "db/campaign_autoresolver_situation_mod_groups_tables/campaign_autoresolver_situation_mod_groups",
+            "table": "campaign_autoresolver_situation_mod_groups_tables"
+        }
+    ],
+    "campaign_autoresolver_stat_variables_tables": [
+        {
+            "filename": "campaign_autoresolver_stat_variables",
+            "version": "0",
+            "path": "db/campaign_autoresolver_stat_variables_tables/campaign_autoresolver_stat_variables",
+            "table": "campaign_autoresolver_stat_variables_tables"
+        }
+    ],
+    "campaign_battle_presets_tables": [
+        {
+            "filename": "campaign_battle_presets",
+            "version": "4",
+            "path": "db/campaign_battle_presets_tables/campaign_battle_presets",
+            "table": "campaign_battle_presets_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_battle_type_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_battle_type_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_battle_type_junctions_tables/campaign_bonus_value_battle_context_battle_type_junctions",
+            "table": "campaign_bonus_value_battle_context_battle_type_junctions_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_culture_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_culture_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_culture_junctions_tables/campaign_bonus_value_battle_context_culture_junctions",
+            "table": "campaign_bonus_value_battle_context_culture_junctions_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_faction_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_faction_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_faction_junctions_tables/campaign_bonus_value_battle_context_faction_junctions",
+            "table": "campaign_bonus_value_battle_context_faction_junctions_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_force_status_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_force_status_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_force_status_junctions_tables/campaign_bonus_value_battle_context_force_status_junctions",
+            "table": "campaign_bonus_value_battle_context_force_status_junctions_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_ground_type_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_ground_type_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_ground_type_junctions_tables/campaign_bonus_value_battle_context_ground_type_junctions",
+            "table": "campaign_bonus_value_battle_context_ground_type_junctions_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_specifiers_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_specifiers",
+            "version": "1",
+            "path": "db/campaign_bonus_value_battle_context_specifiers_tables/campaign_bonus_value_battle_context_specifiers",
+            "table": "campaign_bonus_value_battle_context_specifiers_tables"
+        }
+    ],
+    "campaign_bonus_value_battle_context_territory_status_junctions_tables": [
+        {
+            "filename": "campaign_bonus_value_battle_context_territory_status_junctions",
+            "version": "0",
+            "path": "db/campaign_bonus_value_battle_context_territory_status_junctions_tables/campaign_bonus_value_battle_context_territory_status_junctions",
+            "table": "campaign_bonus_value_battle_context_territory_status_junctions_tables"
+        }
+    ],
+    "campaign_character_arts_tables": [
+        {
+            "filename": "campaign_character_arts",
+            "version": "5",
+            "path": "db/campaign_character_arts_tables/campaign_character_arts",
+            "table": "campaign_character_arts_tables"
+        }
+    ],
+    "campaign_character_art_sets_campaign_groups_tables": [
+        {
+            "filename": "campaign_character_art_sets_campaign_groups",
+            "version": "0",
+            "path": "db/campaign_character_art_sets_campaign_groups_tables/campaign_character_art_sets_campaign_groups",
+            "table": "campaign_character_art_sets_campaign_groups_tables"
+        }
+    ],
+    "campaign_character_art_sets_group_junctions_tables": [
+        {
+            "filename": "campaign_character_art_sets_group_junctions",
+            "version": "0",
+            "path": "db/campaign_character_art_sets_group_junctions_tables/campaign_character_art_sets_group_junctions",
+            "table": "campaign_character_art_sets_group_junctions_tables"
+        }
+    ],
+    "campaign_character_art_sets_tables": [
+        {
+            "filename": "campaign_character_art_sets",
+            "version": "5",
+            "path": "db/campaign_character_art_sets_tables/campaign_character_art_sets",
+            "table": "campaign_character_art_sets_tables"
+        }
+    ],
+    "campaign_character_art_set_campaign_junctions_tables": [],
+    "campaign_character_attribute_effects_tables": [
+        {
+            "filename": "campaign_character_attribute_effects",
+            "version": "1",
+            "path": "db/campaign_character_attribute_effects_tables/campaign_character_attribute_effects",
+            "table": "campaign_character_attribute_effects_tables"
+        }
+    ],
+    "campaign_clan_level_infos_tables": [],
+    "campaign_difficulty_handicap_effects_tables": [
+        {
+            "filename": "campaign_difficulty_handicap_effects",
+            "version": "0",
+            "path": "db/campaign_difficulty_handicap_effects_tables/campaign_difficulty_handicap_effects",
+            "table": "campaign_difficulty_handicap_effects_tables"
+        }
+    ],
+    "campaign_effect_scopes_tables": [
+        {
+            "filename": "campaign_effect_scopes",
+            "version": "0",
+            "path": "db/campaign_effect_scopes_tables/campaign_effect_scopes",
+            "table": "campaign_effect_scopes_tables"
+        }
+    ],
+    "campaign_effect_scope_agent_junctions_tables": [
+        {
+            "filename": "campaign_effect_scope_agent_junctions",
+            "version": "0",
+            "path": "db/campaign_effect_scope_agent_junctions_tables/campaign_effect_scope_agent_junctions",
+            "table": "campaign_effect_scope_agent_junctions_tables"
+        }
+    ],
+    "campaign_effect_scope_character_force_relationship_junctions_tables": [
+        {
+            "filename": "campaign_effect_scope_character_force_relationship_junctions",
+            "version": "0",
+            "path": "db/campaign_effect_scope_character_force_relationship_junctions_tables/campaign_effect_scope_character_force_relationship_junctions",
+            "table": "campaign_effect_scope_character_force_relationship_junctions_tables"
+        }
+    ],
+    "campaign_effect_scope_character_unit_relationship_junctions_tables": [],
+    "campaign_ground_types_tables": [
+        {
+            "filename": "campaign_ground_types",
+            "version": "6",
+            "path": "db/campaign_ground_types_tables/campaign_ground_types",
+            "table": "campaign_ground_types_tables"
+        }
+    ],
+    "campaign_map_attritions_tables": [
+        {
+            "filename": "campaign_map_attritions",
+            "version": "2",
+            "path": "db/campaign_map_attritions_tables/campaign_map_attritions",
+            "table": "campaign_map_attritions_tables"
+        }
+    ],
+    "campaign_map_attrition_damages_tables": [
+        {
+            "filename": "campaign_map_attrition_damages",
+            "version": "0",
+            "path": "db/campaign_map_attrition_damages_tables/campaign_map_attrition_damages",
+            "table": "campaign_map_attrition_damages_tables"
+        }
+    ],
+    "campaign_map_attrition_faction_immunities_tables": [
+        {
+            "filename": "campaign_map_attrition_faction_immunities",
+            "version": "0",
+            "path": "db/campaign_map_attrition_faction_immunities_tables/campaign_map_attrition_faction_immunities",
+            "table": "campaign_map_attrition_faction_immunities_tables"
+        }
+    ],
+    "campaign_map_attrition_unit_immunities_tables": [
+        {
+            "filename": "campaign_map_attrition_unit_immunities",
+            "version": "0",
+            "path": "db/campaign_map_attrition_unit_immunities_tables/campaign_map_attrition_unit_immunities",
+            "table": "campaign_map_attrition_unit_immunities_tables"
+        }
+    ],
+    "campaign_map_playable_areas_tables": [
+        {
+            "filename": "campaign_map_playable_areas",
+            "version": "3",
+            "path": "db/campaign_map_playable_areas_tables/campaign_map_playable_areas",
+            "table": "campaign_map_playable_areas_tables"
+        }
+    ],
+    "campaign_map_regions_tables": [
+        {
+            "filename": "campaign_map_regions",
+            "version": "0",
+            "path": "db/campaign_map_regions_tables/campaign_map_regions",
+            "table": "campaign_map_regions_tables"
+        }
+    ],
+    "campaign_map_roads_tables": [
+        {
+            "filename": "campaign_map_roads",
+            "version": "0",
+            "path": "db/campaign_map_roads_tables/campaign_map_roads",
+            "table": "campaign_map_roads_tables"
+        }
+    ],
+    "campaign_map_settlements_tables": [
+        {
+            "filename": "campaign_map_settlements",
+            "version": "0",
+            "path": "db/campaign_map_settlements_tables/campaign_map_settlements",
+            "table": "campaign_map_settlements_tables"
+        }
+    ],
+    "campaign_map_slots_tables": [],
+    "campaign_map_tooltips_tables": [
+        {
+            "filename": "campaign_map_tooltips",
+            "version": "2",
+            "path": "db/campaign_map_tooltips_tables/campaign_map_tooltips",
+            "table": "campaign_map_tooltips_tables"
+        }
+    ],
+    "campaign_map_towns_and_ports_tables": [],
+    "campaign_mp_coop_groups_tables": [
+        {
+            "filename": "campaign_mp_coop_groups",
+            "version": "0",
+            "path": "db/campaign_mp_coop_groups_tables/campaign_mp_coop_groups",
+            "table": "campaign_mp_coop_groups_tables"
+        }
+    ],
+    "campaign_mp_coop_groups_to_factions_tables": [
+        {
+            "filename": "campaign_mp_coop_groups_to_factions",
+            "version": "0",
+            "path": "db/campaign_mp_coop_groups_to_factions_tables/campaign_mp_coop_groups_to_factions",
+            "table": "campaign_mp_coop_groups_to_factions_tables"
+        }
+    ],
+    "campaign_politics_strings_tables": [
+        {
+            "filename": "campaign_politics_strings",
+            "version": "0",
+            "path": "db/campaign_politics_strings_tables/campaign_politics_strings",
+            "table": "campaign_politics_strings_tables"
+        }
+    ],
+    "campaign_public_order_populace_effects_tables": [
+        {
+            "filename": "campaign_public_order_populace_effects",
+            "version": "0",
+            "path": "db/campaign_public_order_populace_effects_tables/campaign_public_order_populace_effects",
+            "table": "campaign_public_order_populace_effects_tables"
+        }
+    ],
+    "campaign_settlement_display_aqueducts_tables": [
+        {
+            "filename": "campaign_settlement_display_aqueducts",
+            "version": "0",
+            "path": "db/campaign_settlement_display_aqueducts_tables/campaign_settlement_display_aqueducts",
+            "table": "campaign_settlement_display_aqueducts_tables"
+        }
+    ],
+    "campaign_settlement_display_buildings_tables": [
+        {
+            "filename": "campaign_settlement_display_buildings",
+            "version": "1",
+            "path": "db/campaign_settlement_display_buildings_tables/campaign_settlement_display_buildings",
+            "table": "campaign_settlement_display_buildings_tables"
+        }
+    ],
+    "campaign_settlement_display_building_constructions_tables": [
+        {
+            "filename": "campaign_settlement_display_building_constructions",
+            "version": "0",
+            "path": "db/campaign_settlement_display_building_constructions_tables/campaign_settlement_display_building_constructions",
+            "table": "campaign_settlement_display_building_constructions_tables"
+        }
+    ],
+    "campaign_settlement_display_building_ids_tables": [
+        {
+            "filename": "campaign_settlement_display_building_ids",
+            "version": "0",
+            "path": "db/campaign_settlement_display_building_ids_tables/campaign_settlement_display_building_ids",
+            "table": "campaign_settlement_display_building_ids_tables"
+        }
+    ],
+    "campaign_settlement_display_building_trees_tables": [
+        {
+            "filename": "campaign_settlement_display_building_trees",
+            "version": "0",
+            "path": "db/campaign_settlement_display_building_trees_tables/campaign_settlement_display_building_trees",
+            "table": "campaign_settlement_display_building_trees_tables"
+        }
+    ],
+    "campaign_settlement_display_siege_item_ids_tables": [
+        {
+            "filename": "campaign_settlement_display_siege_item_ids",
+            "version": "0",
+            "path": "db/campaign_settlement_display_siege_item_ids_tables/campaign_settlement_display_siege_item_ids",
+            "table": "campaign_settlement_display_siege_item_ids_tables"
+        }
+    ],
+    "campaign_settlement_display_sprawl_pieces_tables": [
+        {
+            "filename": "campaign_settlement_display_sprawl_pieces",
+            "version": "0",
+            "path": "db/campaign_settlement_display_sprawl_pieces_tables/campaign_settlement_display_sprawl_pieces",
+            "table": "campaign_settlement_display_sprawl_pieces_tables"
+        }
+    ],
+    "campaign_stances_tables": [
+        {
+            "filename": "campaign_stances",
+            "version": "0",
+            "path": "db/campaign_stances_tables/campaign_stances",
+            "table": "campaign_stances_tables"
+        }
+    ],
+    "campaign_stance_effects_junctions_tables": [
+        {
+            "filename": "campaign_stance_effects_junctions",
+            "version": "1",
+            "path": "db/campaign_stance_effects_junctions_tables/campaign_stance_effects_junctions",
+            "table": "campaign_stance_effects_junctions_tables"
+        }
+    ],
+    "campaign_statistics_categories_tables": [
+        {
+            "filename": "campaign_statistics_categories",
+            "version": "0",
+            "path": "db/campaign_statistics_categories_tables/campaign_statistics_categories",
+            "table": "campaign_statistics_categories_tables"
+        }
+    ],
+    "campaign_statistics_strings_tables": [
+        {
+            "filename": "campaign_statistics_strings",
+            "version": "0",
+            "path": "db/campaign_statistics_strings_tables/campaign_statistics_strings",
+            "table": "campaign_statistics_strings_tables"
+        }
+    ],
+    "campaign_subjects_tables": [
+        {
+            "filename": "campaign_subjects",
+            "version": "0",
+            "path": "db/campaign_subjects_tables/campaign_subjects",
+            "table": "campaign_subjects_tables"
+        }
+    ],
+    "campaign_subject_evolutions_tables": [
+        {
+            "filename": "campaign_subject_evolutions",
+            "version": "0",
+            "path": "db/campaign_subject_evolutions_tables/campaign_subject_evolutions",
+            "table": "campaign_subject_evolutions_tables"
+        }
+    ],
+    "campaign_subject_evolution_links_tables": [],
+    "campaign_subject_faction_restriction_junctions_tables": [
+        {
+            "filename": "campaign_subject_faction_restriction_junctions",
+            "version": "0",
+            "path": "db/campaign_subject_faction_restriction_junctions_tables/campaign_subject_faction_restriction_junctions",
+            "table": "campaign_subject_faction_restriction_junctions_tables"
+        }
+    ],
+    "campaign_subject_messages_tables": [
+        {
+            "filename": "campaign_subject_messages",
+            "version": "0",
+            "path": "db/campaign_subject_messages_tables/campaign_subject_messages",
+            "table": "campaign_subject_messages_tables"
+        }
+    ],
+    "campaign_subject_strings_tables": [
+        {
+            "filename": "campaign_subject_strings",
+            "version": "0",
+            "path": "db/campaign_subject_strings_tables/campaign_subject_strings",
+            "table": "campaign_subject_strings_tables"
+        }
+    ],
+    "campaign_unit_stat_bonuses_tables": [
+        {
+            "filename": "campaign_unit_stat_bonuses",
+            "version": "1",
+            "path": "db/campaign_unit_stat_bonuses_tables/campaign_unit_stat_bonuses",
+            "table": "campaign_unit_stat_bonuses_tables"
+        }
+    ],
+    "campaign_variables_tables": [
+        {
+            "filename": "campaign_variables",
+            "version": "0",
+            "path": "db/campaign_variables_tables/campaign_variables",
+            "table": "campaign_variables_tables"
+        }
+    ],
+    "campaign_vfx_descriptions_tables": [
+        {
+            "filename": "campaign_vfx_descriptions",
+            "version": "0",
+            "path": "db/campaign_vfx_descriptions_tables/campaign_vfx_descriptions",
+            "table": "campaign_vfx_descriptions_tables"
+        }
+    ],
+    "campaign_vfx_lookups_tables": [
+        {
+            "filename": "campaign_vfx_lookups",
+            "version": "0",
+            "path": "db/campaign_vfx_lookups_tables/campaign_vfx_lookups",
+            "table": "campaign_vfx_lookups_tables"
+        }
+    ],
+    "campaign_walk_anim_sets_tables": [],
+    "capture_point_types_tables": [
+        {
+            "filename": "capture_point_types",
+            "version": "0",
+            "path": "db/capture_point_types_tables/capture_point_types",
+            "table": "capture_point_types_tables"
+        }
+    ],
+    "cdir_army_template_ratios_tables": [
+        {
+            "filename": "cdir_army_template_ratios",
+            "version": "0",
+            "path": "db/cdir_army_template_ratios_tables/cdir_army_template_ratios",
+            "table": "cdir_army_template_ratios_tables"
+        }
+    ],
+    "cdir_campaign_junctions_tables": [
+        {
+            "filename": "cdir_campaign_junctions",
+            "version": "0",
+            "path": "db/cdir_campaign_junctions_tables/cdir_campaign_junctions",
+            "table": "cdir_campaign_junctions_tables"
+        }
+    ],
+    "cdir_configs_tables": [
+        {
+            "filename": "cdir_configs",
+            "version": "0",
+            "path": "db/cdir_configs_tables/cdir_configs",
+            "table": "cdir_configs_tables"
+        }
+    ],
+    "cdir_desire_priorities_tables": [
+        {
+            "filename": "cdir_desire_priorities",
+            "version": "0",
+            "path": "db/cdir_desire_priorities_tables/cdir_desire_priorities",
+            "table": "cdir_desire_priorities_tables"
+        }
+    ],
+    "cdir_events_dilemma_choice_details_tables": [
+        {
+            "filename": "cdir_events_dilemma_choice_details",
+            "version": "0",
+            "path": "db/cdir_events_dilemma_choice_details_tables/cdir_events_dilemma_choice_details",
+            "table": "cdir_events_dilemma_choice_details_tables"
+        }
+    ],
+    "cdir_events_dilemma_followup_dilemmas_tables": [
+        {
+            "filename": "cdir_events_dilemma_followup_dilemmas",
+            "version": "0",
+            "path": "db/cdir_events_dilemma_followup_dilemmas_tables/cdir_events_dilemma_followup_dilemmas",
+            "table": "cdir_events_dilemma_followup_dilemmas_tables"
+        }
+    ],
+    "cdir_events_dilemma_followup_missions_tables": [
+        {
+            "filename": "cdir_events_dilemma_followup_missions",
+            "version": "0",
+            "path": "db/cdir_events_dilemma_followup_missions_tables/cdir_events_dilemma_followup_missions",
+            "table": "cdir_events_dilemma_followup_missions_tables"
+        }
+    ],
+    "cdir_events_dilemma_incidents_tables": [
+        {
+            "filename": "cdir_events_dilemma_incidents",
+            "version": "0",
+            "path": "db/cdir_events_dilemma_incidents_tables/cdir_events_dilemma_incidents",
+            "table": "cdir_events_dilemma_incidents_tables"
+        }
+    ],
+    "cdir_events_dilemma_option_junctions_tables": [
+        {
+            "filename": "cdir_events_dilemma_option_junctions",
+            "version": "1",
+            "path": "db/cdir_events_dilemma_option_junctions_tables/cdir_events_dilemma_option_junctions",
+            "table": "cdir_events_dilemma_option_junctions_tables"
+        }
+    ],
+    "cdir_events_dilemma_payloads_tables": [
+        {
+            "filename": "cdir_events_dilemma_payloads",
+            "version": "2",
+            "path": "db/cdir_events_dilemma_payloads_tables/cdir_events_dilemma_payloads",
+            "table": "cdir_events_dilemma_payloads_tables"
+        }
+    ],
+    "cdir_events_incident_followup_dilemmas_tables": [
+        {
+            "filename": "cdir_events_incident_followup_dilemmas",
+            "version": "0",
+            "path": "db/cdir_events_incident_followup_dilemmas_tables/cdir_events_incident_followup_dilemmas",
+            "table": "cdir_events_incident_followup_dilemmas_tables"
+        }
+    ],
+    "cdir_events_incident_followup_incidents_tables": [
+        {
+            "filename": "cdir_events_incident_followup_incidents",
+            "version": "0",
+            "path": "db/cdir_events_incident_followup_incidents_tables/cdir_events_incident_followup_incidents",
+            "table": "cdir_events_incident_followup_incidents_tables"
+        }
+    ],
+    "cdir_events_incident_followup_missions_tables": [
+        {
+            "filename": "cdir_events_incident_followup_missions",
+            "version": "0",
+            "path": "db/cdir_events_incident_followup_missions_tables/cdir_events_incident_followup_missions",
+            "table": "cdir_events_incident_followup_missions_tables"
+        }
+    ],
+    "cdir_events_incident_option_junctions_tables": [
+        {
+            "filename": "cdir_events_incident_option_junctions",
+            "version": "1",
+            "path": "db/cdir_events_incident_option_junctions_tables/cdir_events_incident_option_junctions",
+            "table": "cdir_events_incident_option_junctions_tables"
+        }
+    ],
+    "cdir_events_incident_payloads_tables": [
+        {
+            "filename": "cdir_events_incident_payloads",
+            "version": "1",
+            "path": "db/cdir_events_incident_payloads_tables/cdir_events_incident_payloads",
+            "table": "cdir_events_incident_payloads_tables"
+        }
+    ],
+    "cdir_events_mission_followup_dilemmas_tables": [
+        {
+            "filename": "cdir_events_mission_followup_dilemmas",
+            "version": "0",
+            "path": "db/cdir_events_mission_followup_dilemmas_tables/cdir_events_mission_followup_dilemmas",
+            "table": "cdir_events_mission_followup_dilemmas_tables"
+        }
+    ],
+    "cdir_events_mission_followup_missions_tables": [
+        {
+            "filename": "cdir_events_mission_followup_missions",
+            "version": "0",
+            "path": "db/cdir_events_mission_followup_missions_tables/cdir_events_mission_followup_missions",
+            "table": "cdir_events_mission_followup_missions_tables"
+        }
+    ],
+    "cdir_events_mission_incidents_tables": [
+        {
+            "filename": "cdir_events_mission_incidents",
+            "version": "0",
+            "path": "db/cdir_events_mission_incidents_tables/cdir_events_mission_incidents",
+            "table": "cdir_events_mission_incidents_tables"
+        }
+    ],
+    "cdir_events_mission_issuer_junctions_tables": [
+        {
+            "filename": "cdir_events_mission_issuer_junctions",
+            "version": "0",
+            "path": "db/cdir_events_mission_issuer_junctions_tables/cdir_events_mission_issuer_junctions",
+            "table": "cdir_events_mission_issuer_junctions_tables"
+        }
+    ],
+    "cdir_events_mission_option_junctions_tables": [
+        {
+            "filename": "cdir_events_mission_option_junctions",
+            "version": "1",
+            "path": "db/cdir_events_mission_option_junctions_tables/cdir_events_mission_option_junctions",
+            "table": "cdir_events_mission_option_junctions_tables"
+        }
+    ],
+    "cdir_events_mission_payloads_tables": [
+        {
+            "filename": "cdir_events_mission_payloads",
+            "version": "1",
+            "path": "db/cdir_events_mission_payloads_tables/cdir_events_mission_payloads",
+            "table": "cdir_events_mission_payloads_tables"
+        }
+    ],
+    "cdir_events_payloads_tables": [
+        {
+            "filename": "cdir_events_payloads",
+            "version": "0",
+            "path": "db/cdir_events_payloads_tables/cdir_events_payloads",
+            "table": "cdir_events_payloads_tables"
+        }
+    ],
+    "cdir_faction_junctions_tables": [
+        {
+            "filename": "cdir_faction_junctions",
+            "version": "0",
+            "path": "db/cdir_faction_junctions_tables/cdir_faction_junctions",
+            "table": "cdir_faction_junctions_tables"
+        }
+    ],
+    "cdir_military_generator_configs_tables": [
+        {
+            "filename": "cdir_military_generator_configs",
+            "version": "0",
+            "path": "db/cdir_military_generator_configs_tables/cdir_military_generator_configs",
+            "table": "cdir_military_generator_configs_tables"
+        }
+    ],
+    "cdir_military_generator_templates_tables": [
+        {
+            "filename": "cdir_military_generator_templates",
+            "version": "0",
+            "path": "db/cdir_military_generator_templates_tables/cdir_military_generator_templates",
+            "table": "cdir_military_generator_templates_tables"
+        }
+    ],
+    "cdir_military_generator_template_priorities_tables": [
+        {
+            "filename": "cdir_military_generator_template_priorities",
+            "version": "0",
+            "path": "db/cdir_military_generator_template_priorities_tables/cdir_military_generator_template_priorities",
+            "table": "cdir_military_generator_template_priorities_tables"
+        }
+    ],
+    "cdir_military_generator_template_ratios_tables": [
+        {
+            "filename": "cdir_military_generator_template_ratios",
+            "version": "0",
+            "path": "db/cdir_military_generator_template_ratios_tables/cdir_military_generator_template_ratios",
+            "table": "cdir_military_generator_template_ratios_tables"
+        }
+    ],
+    "cdir_military_generator_unit_groups_tables": [
+        {
+            "filename": "cdir_military_generator_unit_groups",
+            "version": "0",
+            "path": "db/cdir_military_generator_unit_groups_tables/cdir_military_generator_unit_groups",
+            "table": "cdir_military_generator_unit_groups_tables"
+        }
+    ],
+    "cdir_military_generator_unit_qualities_tables": [
+        {
+            "filename": "cdir_military_generator_unit_qualities",
+            "version": "1",
+            "path": "db/cdir_military_generator_unit_qualities_tables/cdir_military_generator_unit_qualities",
+            "table": "cdir_military_generator_unit_qualities_tables"
+        }
+    ],
+    "cdir_unit_balances_tables": [
+        {
+            "filename": "cdir_unit_balances",
+            "version": "2",
+            "path": "db/cdir_unit_balances_tables/cdir_unit_balances",
+            "table": "cdir_unit_balances_tables"
+        }
+    ],
+    "cdir_unit_balance_groups_tables": [
+        {
+            "filename": "cdir_unit_balance_groups",
+            "version": "0",
+            "path": "db/cdir_unit_balance_groups_tables/cdir_unit_balance_groups",
+            "table": "cdir_unit_balance_groups_tables"
+        }
+    ],
+    "cdir_unit_balance_group_qualities_tables": [
+        {
+            "filename": "cdir_unit_balance_group_qualities",
+            "version": "0",
+            "path": "db/cdir_unit_balance_group_qualities_tables/cdir_unit_balance_group_qualities",
+            "table": "cdir_unit_balance_group_qualities_tables"
+        }
+    ],
+    "cdir_unit_balance_template_junctions_tables": [
+        {
+            "filename": "cdir_unit_balance_template_junctions",
+            "version": "0",
+            "path": "db/cdir_unit_balance_template_junctions_tables/cdir_unit_balance_template_junctions",
+            "table": "cdir_unit_balance_template_junctions_tables"
+        }
+    ],
+    "cdir_unit_qualities_tables": [
+        {
+            "filename": "cdir_unit_qualities",
+            "version": "0",
+            "path": "db/cdir_unit_qualities_tables/cdir_unit_qualities",
+            "table": "cdir_unit_qualities_tables"
+        }
+    ],
+    "centralised_upgrade_building_level_junctions_tables": [
+        {
+            "filename": "centralised_upgrade_building_level_junctions",
+            "version": "1",
+            "path": "db/centralised_upgrade_building_level_junctions_tables/centralised_upgrade_building_level_junctions",
+            "table": "centralised_upgrade_building_level_junctions_tables"
+        }
+    ],
+    "character_experience_skill_tiers_tables": [
+        {
+            "filename": "character_experience_skill_tiers",
+            "version": "2",
+            "path": "db/character_experience_skill_tiers_tables/character_experience_skill_tiers",
+            "table": "character_experience_skill_tiers_tables"
+        }
+    ],
+    "character_skills_tables": [
+        {
+            "filename": "character_skills",
+            "version": "3",
+            "path": "db/character_skills_tables/character_skills",
+            "table": "character_skills_tables"
+        }
+    ],
+    "character_skill_level_details_tables": [
+        {
+            "filename": "character_skill_level_details",
+            "version": "0",
+            "path": "db/character_skill_level_details_tables/character_skill_level_details",
+            "table": "character_skill_level_details_tables"
+        }
+    ],
+    "character_skill_level_to_effects_junctions_tables": [
+        {
+            "filename": "character_skill_level_to_effects_junctions",
+            "version": "1",
+            "path": "db/character_skill_level_to_effects_junctions_tables/character_skill_level_to_effects_junctions",
+            "table": "character_skill_level_to_effects_junctions_tables"
+        }
+    ],
+    "character_skill_nodes_tables": [
+        {
+            "filename": "character_skill_nodes",
+            "version": "1",
+            "path": "db/character_skill_nodes_tables/character_skill_nodes",
+            "table": "character_skill_nodes_tables"
+        }
+    ],
+    "character_skill_node_links_tables": [
+        {
+            "filename": "character_skill_node_links",
+            "version": "1",
+            "path": "db/character_skill_node_links_tables/character_skill_node_links",
+            "table": "character_skill_node_links_tables"
+        }
+    ],
+    "character_skill_node_sets_tables": [
+        {
+            "filename": "character_skill_node_sets",
+            "version": "1",
+            "path": "db/character_skill_node_sets_tables/character_skill_node_sets",
+            "table": "character_skill_node_sets_tables"
+        }
+    ],
+    "character_traits_tables": [
+        {
+            "filename": "character_traits",
+            "version": "1",
+            "path": "db/character_traits_tables/character_traits",
+            "table": "character_traits_tables"
+        }
+    ],
+    "character_trait_levels_tables": [
+        {
+            "filename": "character_trait_levels",
+            "version": "1",
+            "path": "db/character_trait_levels_tables/character_trait_levels",
+            "table": "character_trait_levels_tables"
+        }
+    ],
+    "chariot_types_enums_tables": [
+        {
+            "filename": "chariot_types_enums",
+            "version": "0",
+            "path": "db/chariot_types_enums_tables/chariot_types_enums",
+            "table": "chariot_types_enums_tables"
+        }
+    ],
+    "chat_shortcuts_tables": [
+        {
+            "filename": "chat_shortcuts",
+            "version": "0",
+            "path": "db/chat_shortcuts_tables/chat_shortcuts",
+            "table": "chat_shortcuts_tables"
+        }
+    ],
+    "climates_tables": [
+        {
+            "filename": "climates",
+            "version": "0",
+            "path": "db/climates_tables/climates",
+            "table": "climates_tables"
+        }
+    ],
+    "commander_unit_permissions_tables": [
+        {
+            "filename": "commander_unit_permissions",
+            "version": "0",
+            "path": "db/commander_unit_permissions_tables/commander_unit_permissions",
+            "table": "commander_unit_permissions_tables"
+        }
+    ],
+    "commodities_tables": [
+        {
+            "filename": "commodities",
+            "version": "0",
+            "path": "db/commodities_tables/commodities",
+            "table": "commodities_tables"
+        }
+    ],
+    "commodity_unit_names_tables": [
+        {
+            "filename": "commodity_unit_names",
+            "version": "0",
+            "path": "db/commodity_unit_names_tables/commodity_unit_names",
+            "table": "commodity_unit_names_tables"
+        }
+    ],
+    "cultures_subcultures_tables": [
+        {
+            "filename": "cultures_subcultures",
+            "version": "0",
+            "path": "db/cultures_subcultures_tables/cultures_subcultures",
+            "table": "cultures_subcultures_tables"
+        }
+    ],
+    "cultures_tables": [
+        {
+            "filename": "cultures",
+            "version": "3",
+            "path": "db/cultures_tables/cultures",
+            "table": "cultures_tables"
+        }
+    ],
+    "culture_settlement_occupation_options_tables": [
+        {
+            "filename": "culture_settlement_occupation_options",
+            "version": "0",
+            "path": "db/culture_settlement_occupation_options_tables/culture_settlement_occupation_options",
+            "table": "culture_settlement_occupation_options_tables"
+        }
+    ],
+    "culture_subculture_character_portraits_tables": [
+        {
+            "filename": "culture_subculture_character_portraits",
+            "version": "0",
+            "path": "db/culture_subculture_character_portraits_tables/culture_subculture_character_portraits",
+            "table": "culture_subculture_character_portraits_tables"
+        }
+    ],
+    "culture_subculture_politics_government_types_tables": [
+        {
+            "filename": "culture_subculture_politics_government_types",
+            "version": "6",
+            "path": "db/culture_subculture_politics_government_types_tables/culture_subculture_politics_government_types",
+            "table": "culture_subculture_politics_government_types_tables"
+        }
+    ],
+    "cursors_tables": [
+        {
+            "filename": "cursors",
+            "version": "2",
+            "path": "db/cursors_tables/cursors",
+            "table": "cursors_tables"
+        }
+    ],
+    "cursor_transitions_tables": [
+        {
+            "filename": "cursor_transitions",
+            "version": "0",
+            "path": "db/cursor_transitions_tables/cursor_transitions",
+            "table": "cursor_transitions_tables"
+        }
+    ],
+    "cursus_honorum_level_requirements_tables": [
+        {
+            "filename": "cursus_honorum_level_requirements",
+            "version": "1",
+            "path": "db/cursus_honorum_level_requirements_tables/cursus_honorum_level_requirements",
+            "table": "cursus_honorum_level_requirements_tables"
+        }
+    ],
+    "cursus_honorum_trait_junctions_tables": [
+        {
+            "filename": "cursus_honorum_trait_junctions",
+            "version": "2",
+            "path": "db/cursus_honorum_trait_junctions_tables/cursus_honorum_trait_junctions",
+            "table": "cursus_honorum_trait_junctions_tables"
+        }
+    ],
+    "death_types_tables": [
+        {
+            "filename": "death_types",
+            "version": "0",
+            "path": "db/death_types_tables/death_types",
+            "table": "death_types_tables"
+        }
+    ],
+    "deployables_custom_battles_tables": [
+        {
+            "filename": "deployables_custom_battles",
+            "version": "0",
+            "path": "db/deployables_custom_battles_tables/deployables_custom_battles",
+            "table": "deployables_custom_battles_tables"
+        }
+    ],
+    "deployables_tables": [
+        {
+            "filename": "deployables",
+            "version": "6",
+            "path": "db/deployables_tables/deployables",
+            "table": "deployables_tables"
+        }
+    ],
+    "dilemmas_tables": [
+        {
+            "filename": "dilemmas",
+            "version": "2",
+            "path": "db/dilemmas_tables/dilemmas",
+            "table": "dilemmas_tables"
+        }
+    ],
+    "dilemma_to_campaign_subject_junctions_tables": [
+        {
+            "filename": "dilemma_to_campaign_subject_junctions",
+            "version": "0",
+            "path": "db/dilemma_to_campaign_subject_junctions_tables/dilemma_to_campaign_subject_junctions",
+            "table": "dilemma_to_campaign_subject_junctions_tables"
+        }
+    ],
+    "diplomacy_current_treaties_to_diplomatic_options_tables": [
+        {
+            "filename": "diplomacy_current_treaties_to_diplomatic_options",
+            "version": "0",
+            "path": "db/diplomacy_current_treaties_to_diplomatic_options_tables/diplomacy_current_treaties_to_diplomatic_options",
+            "table": "diplomacy_current_treaties_to_diplomatic_options_tables"
+        }
+    ],
+    "diplomacy_keys_tables": [
+        {
+            "filename": "diplomacy_keys",
+            "version": "0",
+            "path": "db/diplomacy_keys_tables/diplomacy_keys",
+            "table": "diplomacy_keys_tables"
+        }
+    ],
+    "diplomacy_negotiation_attitudes_tables": [
+        {
+            "filename": "diplomacy_negotiation_attitudes",
+            "version": "0",
+            "path": "db/diplomacy_negotiation_attitudes_tables/diplomacy_negotiation_attitudes",
+            "table": "diplomacy_negotiation_attitudes_tables"
+        }
+    ],
+    "diplomacy_negotiation_attitude_override_strings_tables": [
+        {
+            "filename": "diplomacy_negotiation_attitude_override_strings",
+            "version": "0",
+            "path": "db/diplomacy_negotiation_attitude_override_strings_tables/diplomacy_negotiation_attitude_override_strings",
+            "table": "diplomacy_negotiation_attitude_override_strings_tables"
+        }
+    ],
+    "diplomacy_negotiation_faction_attitude_override_strings_tables": [
+        {
+            "filename": "diplomacy_negotiation_faction_attitude_override_strings",
+            "version": "0",
+            "path": "db/diplomacy_negotiation_faction_attitude_override_strings_tables/diplomacy_negotiation_faction_attitude_override_strings",
+            "table": "diplomacy_negotiation_faction_attitude_override_strings_tables"
+        }
+    ],
+    "diplomacy_negotiation_faction_override_strings_tables": [
+        {
+            "filename": "diplomacy_negotiation_faction_override_strings",
+            "version": "1",
+            "path": "db/diplomacy_negotiation_faction_override_strings_tables/diplomacy_negotiation_faction_override_strings",
+            "table": "diplomacy_negotiation_faction_override_strings_tables"
+        }
+    ],
+    "diplomacy_negotiation_strings_tables": [
+        {
+            "filename": "diplomacy_negotiation_strings",
+            "version": "0",
+            "path": "db/diplomacy_negotiation_strings_tables/diplomacy_negotiation_strings",
+            "table": "diplomacy_negotiation_strings_tables"
+        }
+    ],
+    "diplomacy_negotiation_string_options_tables": [
+        {
+            "filename": "diplomacy_negotiation_string_options",
+            "version": "1",
+            "path": "db/diplomacy_negotiation_string_options_tables/diplomacy_negotiation_string_options",
+            "table": "diplomacy_negotiation_string_options_tables"
+        }
+    ],
+    "diplomacy_strings_tables": [
+        {
+            "filename": "diplomacy_strings",
+            "version": "0",
+            "path": "db/diplomacy_strings_tables/diplomacy_strings",
+            "table": "diplomacy_strings_tables"
+        }
+    ],
+    "diplomatic_action_faction_restrictions_tables": [
+        {
+            "filename": "diplomatic_action_faction_restrictions",
+            "version": "0",
+            "path": "db/diplomatic_action_faction_restrictions_tables/diplomatic_action_faction_restrictions",
+            "table": "diplomatic_action_faction_restrictions_tables"
+        }
+    ],
+    "diplomatic_action_subculture_restrictions_tables": [
+        {
+            "filename": "diplomatic_action_subculture_restrictions",
+            "version": "0",
+            "path": "db/diplomatic_action_subculture_restrictions_tables/diplomatic_action_subculture_restrictions",
+            "table": "diplomatic_action_subculture_restrictions_tables"
+        }
+    ],
+    "diplomatic_relations_attitudes_tables": [
+        {
+            "filename": "diplomatic_relations_attitudes",
+            "version": "0",
+            "path": "db/diplomatic_relations_attitudes_tables/diplomatic_relations_attitudes",
+            "table": "diplomatic_relations_attitudes_tables"
+        }
+    ],
+    "diplomatic_relations_religion_tables": [
+        {
+            "filename": "diplomatic_relations_religion",
+            "version": "0",
+            "path": "db/diplomatic_relations_religion_tables/diplomatic_relations_religion",
+            "table": "diplomatic_relations_religion_tables"
+        }
+    ],
+    "effects_tables": [
+        {
+            "filename": "effects",
+            "version": "1",
+            "path": "db/effects_tables/effects",
+            "table": "effects_tables"
+        }
+    ],
+    "effect_bonus_value_agent_junction_tables": [
+        {
+            "filename": "effect_bonus_value_agent_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_agent_junction_tables/effect_bonus_value_agent_junction",
+            "table": "effect_bonus_value_agent_junction_tables"
+        }
+    ],
+    "effect_bonus_value_basic_junction_tables": [
+        {
+            "filename": "effect_bonus_value_basic_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_basic_junction_tables/effect_bonus_value_basic_junction",
+            "table": "effect_bonus_value_basic_junction_tables"
+        }
+    ],
+    "effect_bonus_value_battlefield_deployables_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_battlefield_deployables_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_battlefield_deployables_junctions_tables/effect_bonus_value_battlefield_deployables_junctions",
+            "table": "effect_bonus_value_battlefield_deployables_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_battle_context_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_battle_context_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_battle_context_junctions_tables/effect_bonus_value_battle_context_junctions",
+            "table": "effect_bonus_value_battle_context_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_building_chain_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_building_chain_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_building_chain_junctions_tables/effect_bonus_value_building_chain_junctions",
+            "table": "effect_bonus_value_building_chain_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_building_set_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_building_set_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_building_set_junctions_tables/effect_bonus_value_building_set_junctions",
+            "table": "effect_bonus_value_building_set_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_commodity_junction_tables": [],
+    "effect_bonus_value_ids_unit_sets_tables": [
+        {
+            "filename": "effect_bonus_value_ids_unit_sets",
+            "version": "0",
+            "path": "db/effect_bonus_value_ids_unit_sets_tables/effect_bonus_value_ids_unit_sets",
+            "table": "effect_bonus_value_ids_unit_sets_tables"
+        }
+    ],
+    "effect_bonus_value_id_action_results_additional_outcomes_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_id_action_results_additional_outcomes_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_id_action_results_additional_outcomes_junctions_tables/effect_bonus_value_id_action_results_additional_outcomes_junctions",
+            "table": "effect_bonus_value_id_action_results_additional_outcomes_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_population_class_and_religion_junction_tables": [],
+    "effect_bonus_value_population_class_junction_tables": [],
+    "effect_bonus_value_projectile_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_projectile_junctions",
+            "version": "1",
+            "path": "db/effect_bonus_value_projectile_junctions_tables/effect_bonus_value_projectile_junctions",
+            "table": "effect_bonus_value_projectile_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_provincial_initiative_effect_record_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_provincial_initiative_effect_record_junctions",
+            "version": "1",
+            "path": "db/effect_bonus_value_provincial_initiative_effect_record_junctions_tables/effect_bonus_value_provincial_initiative_effect_record_junctions",
+            "table": "effect_bonus_value_provincial_initiative_effect_record_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_religion_junction_tables": [
+        {
+            "filename": "effect_bonus_value_religion_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_religion_junction_tables/effect_bonus_value_religion_junction",
+            "table": "effect_bonus_value_religion_junction_tables"
+        }
+    ],
+    "effect_bonus_value_resource_junction_tables": [
+        {
+            "filename": "effect_bonus_value_resource_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_resource_junction_tables/effect_bonus_value_resource_junction",
+            "table": "effect_bonus_value_resource_junction_tables"
+        }
+    ],
+    "effect_bonus_value_shot_type_junctions_tables": [],
+    "effect_bonus_value_siege_item_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_siege_item_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_siege_item_junctions_tables/effect_bonus_value_siege_item_junctions",
+            "table": "effect_bonus_value_siege_item_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_technology_category_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_technology_category_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_technology_category_junctions_tables/effect_bonus_value_technology_category_junctions",
+            "table": "effect_bonus_value_technology_category_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_unit_ability_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_unit_ability_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_unit_ability_junctions_tables/effect_bonus_value_unit_ability_junctions",
+            "table": "effect_bonus_value_unit_ability_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_unit_caste_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_unit_caste_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_unit_caste_junctions_tables/effect_bonus_value_unit_caste_junctions",
+            "table": "effect_bonus_value_unit_caste_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_unit_caste_stat_modifiers_junctions_tables": [],
+    "effect_bonus_value_unit_category_junction_tables": [
+        {
+            "filename": "effect_bonus_value_unit_category_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_unit_category_junction_tables/effect_bonus_value_unit_category_junction",
+            "table": "effect_bonus_value_unit_category_junction_tables"
+        }
+    ],
+    "effect_bonus_value_unit_category_stat_modifiers_junctions_tables": [],
+    "effect_bonus_value_unit_class_junction_tables": [
+        {
+            "filename": "effect_bonus_value_unit_class_junction",
+            "version": "0",
+            "path": "db/effect_bonus_value_unit_class_junction_tables/effect_bonus_value_unit_class_junction",
+            "table": "effect_bonus_value_unit_class_junction_tables"
+        }
+    ],
+    "effect_bonus_value_unit_class_stat_modifiers_junctions_tables": [],
+    "effect_bonus_value_unit_record_junctions_tables": [
+        {
+            "filename": "effect_bonus_value_unit_record_junctions",
+            "version": "0",
+            "path": "db/effect_bonus_value_unit_record_junctions_tables/effect_bonus_value_unit_record_junctions",
+            "table": "effect_bonus_value_unit_record_junctions_tables"
+        }
+    ],
+    "effect_bonus_value_unit_record_stat_modifiers_junctions_tables": [],
+    "effect_bonus_value_unit_stat_modifiers_junctions_tables": [],
+    "effect_bundles_tables": [
+        {
+            "filename": "effect_bundles",
+            "version": "1",
+            "path": "db/effect_bundles_tables/effect_bundles",
+            "table": "effect_bundles_tables"
+        }
+    ],
+    "effect_bundles_to_effects_junctions_tables": [
+        {
+            "filename": "effect_bundles_to_effects_junctions",
+            "version": "2",
+            "path": "db/effect_bundles_to_effects_junctions_tables/effect_bundles_to_effects_junctions",
+            "table": "effect_bundles_to_effects_junctions_tables"
+        }
+    ],
+    "effect_bundle_advancement_stages_tables": [
+        {
+            "filename": "effect_bundle_advancement_stages",
+            "version": "0",
+            "path": "db/effect_bundle_advancement_stages_tables/effect_bundle_advancement_stages",
+            "table": "effect_bundle_advancement_stages_tables"
+        }
+    ],
+    "encyclopedia_blocks_tables": [
+        {
+            "filename": "encyclopedia_blocks",
+            "version": "1",
+            "path": "db/encyclopedia_blocks_tables/encyclopedia_blocks",
+            "table": "encyclopedia_blocks_tables"
+        }
+    ],
+    "encyclopedia_building_redirects_tables": [
+        {
+            "filename": "encyclopedia_building_redirects",
+            "version": "0",
+            "path": "db/encyclopedia_building_redirects_tables/encyclopedia_building_redirects",
+            "table": "encyclopedia_building_redirects_tables"
+        }
+    ],
+    "encyclopedia_pages_tables": [
+        {
+            "filename": "encyclopedia_pages",
+            "version": "0",
+            "path": "db/encyclopedia_pages_tables/encyclopedia_pages",
+            "table": "encyclopedia_pages_tables"
+        }
+    ],
+    "encyclopedia_page_linkages_tables": [
+        {
+            "filename": "encyclopedia_page_linkages",
+            "version": "1",
+            "path": "db/encyclopedia_page_linkages_tables/encyclopedia_page_linkages",
+            "table": "encyclopedia_page_linkages_tables"
+        }
+    ],
+    "encyclopedia_page_related_links_tables": [
+        {
+            "filename": "encyclopedia_page_related_links",
+            "version": "0",
+            "path": "db/encyclopedia_page_related_links_tables/encyclopedia_page_related_links",
+            "table": "encyclopedia_page_related_links_tables"
+        }
+    ],
+    "encyclopedia_template_strings_tables": [
+        {
+            "filename": "encyclopedia_template_strings",
+            "version": "0",
+            "path": "db/encyclopedia_template_strings_tables/encyclopedia_template_strings",
+            "table": "encyclopedia_template_strings_tables"
+        }
+    ],
+    "encyclopedia_unit_redirects_tables": [
+        {
+            "filename": "encyclopedia_unit_redirects",
+            "version": "0",
+            "path": "db/encyclopedia_unit_redirects_tables/encyclopedia_unit_redirects",
+            "table": "encyclopedia_unit_redirects_tables"
+        }
+    ],
+    "entity_training_levels_tables": [
+        {
+            "filename": "entity_training_levels",
+            "version": "0",
+            "path": "db/entity_training_levels_tables/entity_training_levels",
+            "table": "entity_training_levels_tables"
+        }
+    ],
+    "events_tables": [],
+    "event_log_descriptions_tables": [
+        {
+            "filename": "event_log_descriptions",
+            "version": "3",
+            "path": "db/event_log_descriptions_tables/event_log_descriptions",
+            "table": "event_log_descriptions_tables"
+        }
+    ],
+    "experience_triggers_tables": [
+        {
+            "filename": "experience_triggers",
+            "version": "0",
+            "path": "db/experience_triggers_tables/experience_triggers",
+            "table": "experience_triggers_tables"
+        }
+    ],
+    "f2p_characters_tables": [],
+    "f2p_f2p_item_table_lookups_tables": [],
+    "f2p_f2p_item_to_table_mappings_tables": [],
+    "f2p_factions_tables": [],
+    "f2p_item_lookups_tables": [],
+    "f2p_object_mappings_tables": [],
+    "f2p_purchase_options_tables": [],
+    "f2p_purchase_option_items_tables": [],
+    "f2p_squads_tables": [],
+    "f2p_squad_lookups_tables": [],
+    "f2p_unit_squad_mappings_tables": [],
+    "factions_tables": [
+        {
+            "filename": "factions",
+            "version": "14",
+            "path": "db/factions_tables/factions",
+            "table": "factions_tables"
+        }
+    ],
+    "faction_banners_tables": [
+        {
+            "filename": "faction_banners",
+            "version": "0",
+            "path": "db/faction_banners_tables/faction_banners",
+            "table": "faction_banners_tables"
+        }
+    ],
+    "faction_civil_war_setups_tables": [
+        {
+            "filename": "faction_civil_war_setups",
+            "version": "1",
+            "path": "db/faction_civil_war_setups_tables/faction_civil_war_setups",
+            "table": "faction_civil_war_setups_tables"
+        }
+    ],
+    "faction_groups_tables": [
+        {
+            "filename": "faction_groups",
+            "version": "0",
+            "path": "db/faction_groups_tables/faction_groups",
+            "table": "faction_groups_tables"
+        }
+    ],
+    "faction_political_parties_junctions_tables": [
+        {
+            "filename": "faction_political_parties_junctions",
+            "version": "0",
+            "path": "db/faction_political_parties_junctions_tables/faction_political_parties_junctions",
+            "table": "faction_political_parties_junctions_tables"
+        }
+    ],
+    "faction_politics_government_actions_junctions_tables": [
+        {
+            "filename": "faction_politics_government_actions_junctions",
+            "version": "0",
+            "path": "db/faction_politics_government_actions_junctions_tables/faction_politics_government_actions_junctions",
+            "table": "faction_politics_government_actions_junctions_tables"
+        }
+    ],
+    "faction_rebellion_units_junctions_tables": [
+        {
+            "filename": "faction_rebellion_units_junctions",
+            "version": "0",
+            "path": "db/faction_rebellion_units_junctions_tables/faction_rebellion_units_junctions",
+            "table": "faction_rebellion_units_junctions_tables"
+        }
+    ],
+    "faction_resource_consumptions_tables": [
+        {
+            "filename": "faction_resource_consumptions",
+            "version": "0",
+            "path": "db/faction_resource_consumptions_tables/faction_resource_consumptions",
+            "table": "faction_resource_consumptions_tables"
+        }
+    ],
+    "faction_to_campaign_junctions_tables": [
+        {
+            "filename": "faction_to_campaign_junctions",
+            "version": "0",
+            "path": "db/faction_to_campaign_junctions_tables/faction_to_campaign_junctions",
+            "table": "faction_to_campaign_junctions_tables"
+        }
+    ],
+    "faction_to_faction_groups_junctions_tables": [
+        {
+            "filename": "faction_to_faction_groups_junctions",
+            "version": "0",
+            "path": "db/faction_to_faction_groups_junctions_tables/faction_to_faction_groups_junctions",
+            "table": "faction_to_faction_groups_junctions_tables"
+        }
+    ],
+    "faction_to_mercenary_set_junctions_tables": [
+        {
+            "filename": "faction_to_mercenary_set_junctions",
+            "version": "0",
+            "path": "db/faction_to_mercenary_set_junctions_tables/faction_to_mercenary_set_junctions",
+            "table": "faction_to_mercenary_set_junctions_tables"
+        }
+    ],
+    "faction_uniform_colours_tables": [
+        {
+            "filename": "faction_uniform_colours",
+            "version": "0",
+            "path": "db/faction_uniform_colours_tables/faction_uniform_colours",
+            "table": "faction_uniform_colours_tables"
+        }
+    ],
+    "faction_variables_optional_overrides_tables": [],
+    "faction_variables_tables": [
+        {
+            "filename": "faction_variables",
+            "version": "0",
+            "path": "db/faction_variables_tables/faction_variables",
+            "table": "faction_variables_tables"
+        }
+    ],
+    "fame_levels_tables": [
+        {
+            "filename": "fame_levels",
+            "version": "4",
+            "path": "db/fame_levels_tables/fame_levels",
+            "table": "fame_levels_tables"
+        }
+    ],
+    "family_relationship_types_tables": [
+        {
+            "filename": "family_relationship_types",
+            "version": "0",
+            "path": "db/family_relationship_types_tables/family_relationship_types",
+            "table": "family_relationship_types_tables"
+        }
+    ],
+    "famous_battle_pools_tables": [
+        {
+            "filename": "famous_battle_pools",
+            "version": "0",
+            "path": "db/famous_battle_pools_tables/famous_battle_pools",
+            "table": "famous_battle_pools_tables"
+        }
+    ],
+    "female_character_culture_details_tables": [
+        {
+            "filename": "female_character_culture_details",
+            "version": "1",
+            "path": "db/female_character_culture_details_tables/female_character_culture_details",
+            "table": "female_character_culture_details_tables"
+        }
+    ],
+    "female_character_culture_spawn_rates_tables": [],
+    "female_character_faction_details_tables": [
+        {
+            "filename": "female_character_faction_details",
+            "version": "0",
+            "path": "db/female_character_faction_details_tables/female_character_faction_details",
+            "table": "female_character_faction_details_tables"
+        }
+    ],
+    "female_character_faction_spawn_rates_tables": [],
+    "female_character_subculture_details_tables": [
+        {
+            "filename": "female_character_subculture_details",
+            "version": "1",
+            "path": "db/female_character_subculture_details_tables/female_character_subculture_details",
+            "table": "female_character_subculture_details_tables"
+        }
+    ],
+    "female_character_subculture_spawn_rates_tables": [],
+    "first_person_engines_tables": [
+        {
+            "filename": "first_person_engines",
+            "version": "1",
+            "path": "db/first_person_engines_tables/first_person_engines",
+            "table": "first_person_engines_tables"
+        }
+    ],
+    "fonts_tables": [
+        {
+            "filename": "fonts",
+            "version": "0",
+            "path": "db/fonts_tables/fonts",
+            "table": "fonts_tables"
+        }
+    ],
+    "font_names_tables": [
+        {
+            "filename": "font_names",
+            "version": "0",
+            "path": "db/font_names_tables/font_names",
+            "table": "font_names_tables"
+        }
+    ],
+    "formations_tables": [
+        {
+            "filename": "formations",
+            "version": "2",
+            "path": "db/formations_tables/formations",
+            "table": "formations_tables"
+        }
+    ],
+    "formations_to_subcultures_tables": [
+        {
+            "filename": "formations_to_subcultures",
+            "version": "0",
+            "path": "db/formations_to_subcultures_tables/formations_to_subcultures",
+            "table": "formations_to_subcultures_tables"
+        }
+    ],
+    "fort_underlay_climate_jcts_tables": [
+        {
+            "filename": "fort_underlay_climate_jcts",
+            "version": "0",
+            "path": "db/fort_underlay_climate_jcts_tables/fort_underlay_climate_jcts",
+            "table": "fort_underlay_climate_jcts_tables"
+        }
+    ],
+    "frontend_faction_leaders_tables": [
+        {
+            "filename": "frontend_faction_leaders",
+            "version": "3",
+            "path": "db/frontend_faction_leaders_tables/frontend_faction_leaders",
+            "table": "frontend_faction_leaders_tables"
+        }
+    ],
+    "game_area_enums_tables": [
+        {
+            "filename": "game_area_enums",
+            "version": "0",
+            "path": "db/game_area_enums_tables/game_area_enums",
+            "table": "game_area_enums_tables"
+        }
+    ],
+    "general_command_star_level_effects_tables": [
+        {
+            "filename": "general_command_star_level_effects",
+            "version": "0",
+            "path": "db/general_command_star_level_effects_tables/general_command_star_level_effects",
+            "table": "general_command_star_level_effects_tables"
+        }
+    ],
+    "government_types_tables": [
+        {
+            "filename": "government_types",
+            "version": "0",
+            "path": "db/government_types_tables/government_types",
+            "table": "government_types_tables"
+        }
+    ],
+    "government_types_to_effects_tables": [],
+    "governorships_tables": [
+        {
+            "filename": "governorships",
+            "version": "0",
+            "path": "db/governorships_tables/governorships",
+            "table": "governorships_tables"
+        }
+    ],
+    "ground_types_tables": [
+        {
+            "filename": "ground_types",
+            "version": "2",
+            "path": "db/ground_types_tables/ground_types",
+            "table": "ground_types_tables"
+        }
+    ],
+    "ground_type_to_stat_effects_tables": [
+        {
+            "filename": "ground_type_to_stat_effects",
+            "version": "1",
+            "path": "db/ground_type_to_stat_effects_tables/ground_type_to_stat_effects",
+            "table": "ground_type_to_stat_effects_tables"
+        }
+    ],
+    "groupings_military_tables": [
+        {
+            "filename": "groupings_military",
+            "version": "0",
+            "path": "db/groupings_military_tables/groupings_military",
+            "table": "groupings_military_tables"
+        }
+    ],
+    "gun_types_tables": [],
+    "gun_type_to_projectiles_tables": [],
+    "historical_battles_ui_locations_tables": [
+        {
+            "filename": "historical_battles_ui_locations",
+            "version": "1",
+            "path": "db/historical_battles_ui_locations_tables/historical_battles_ui_locations",
+            "table": "historical_battles_ui_locations_tables"
+        }
+    ],
+    "historical_characters_tables": [
+        {
+            "filename": "historical_characters",
+            "version": "7",
+            "path": "db/historical_characters_tables/historical_characters",
+            "table": "historical_characters_tables"
+        }
+    ],
+    "historical_character_traits_tables": [
+        {
+            "filename": "historical_character_traits",
+            "version": "0",
+            "path": "db/historical_character_traits_tables/historical_character_traits",
+            "table": "historical_character_traits_tables"
+        }
+    ],
+    "honour_effects_tables": [
+        {
+            "filename": "honour_effects",
+            "version": "0",
+            "path": "db/honour_effects_tables/honour_effects",
+            "table": "honour_effects_tables"
+        }
+    ],
+    "honour_factors_tables": [
+        {
+            "filename": "honour_factors",
+            "version": "0",
+            "path": "db/honour_factors_tables/honour_factors",
+            "table": "honour_factors_tables"
+        }
+    ],
+    "incidents_tables": [
+        {
+            "filename": "incidents",
+            "version": "3",
+            "path": "db/incidents_tables/incidents",
+            "table": "incidents_tables"
+        }
+    ],
+    "incident_heading_texts_tables": [
+        {
+            "filename": "incident_heading_texts",
+            "version": "0",
+            "path": "db/incident_heading_texts_tables/incident_heading_texts",
+            "table": "incident_heading_texts_tables"
+        }
+    ],
+    "land_units_officers_tables": [
+        {
+            "filename": "land_units_officers",
+            "version": "2",
+            "path": "db/land_units_officers_tables/land_units_officers",
+            "table": "land_units_officers_tables"
+        }
+    ],
+    "land_units_tables": [
+        {
+            "filename": "land_units",
+            "version": "27",
+            "path": "db/land_units_tables/land_units",
+            "table": "land_units_tables"
+        }
+    ],
+    "land_units_to_unit_abilites_junctions_tables": [
+        {
+            "filename": "land_units_to_unit_abilites_junctions",
+            "version": "0",
+            "path": "db/land_units_to_unit_abilites_junctions_tables/land_units_to_unit_abilites_junctions",
+            "table": "land_units_to_unit_abilites_junctions_tables"
+        }
+    ],
+    "land_unit_articulated_vehicles_tables": [],
+    "loyalty_effects_tables": [
+        {
+            "filename": "loyalty_effects",
+            "version": "0",
+            "path": "db/loyalty_effects_tables/loyalty_effects",
+            "table": "loyalty_effects_tables"
+        }
+    ],
+    "loyalty_factors_tables": [
+        {
+            "filename": "loyalty_factors",
+            "version": "0",
+            "path": "db/loyalty_factors_tables/loyalty_factors",
+            "table": "loyalty_factors_tables"
+        }
+    ],
+    "main_units_tables": [
+        {
+            "filename": "main_units",
+            "version": "14",
+            "path": "db/main_units_tables/main_units",
+            "table": "main_units_tables"
+        }
+    ],
+    "marriage_types_tables": [
+        {
+            "filename": "marriage_types",
+            "version": "0",
+            "path": "db/marriage_types_tables/marriage_types",
+            "table": "marriage_types_tables"
+        }
+    ],
+    "melee_weapons_tables": [
+        {
+            "filename": "melee_weapons",
+            "version": "6",
+            "path": "db/melee_weapons_tables/melee_weapons",
+            "table": "melee_weapons_tables"
+        }
+    ],
+    "mercenary_pools_tables": [
+        {
+            "filename": "mercenary_pools",
+            "version": "1",
+            "path": "db/mercenary_pools_tables/mercenary_pools",
+            "table": "mercenary_pools_tables"
+        }
+    ],
+    "mercenary_pool_modifiers_tables": [
+        {
+            "filename": "mercenary_pool_modifiers",
+            "version": "0",
+            "path": "db/mercenary_pool_modifiers_tables/mercenary_pool_modifiers",
+            "table": "mercenary_pool_modifiers_tables"
+        }
+    ],
+    "mercenary_pool_to_groups_junctions_tables": [
+        {
+            "filename": "mercenary_pool_to_groups_junctions",
+            "version": "1",
+            "path": "db/mercenary_pool_to_groups_junctions_tables/mercenary_pool_to_groups_junctions",
+            "table": "mercenary_pool_to_groups_junctions_tables"
+        }
+    ],
+    "mercenary_pool_type_enums_tables": [
+        {
+            "filename": "mercenary_pool_type_enums",
+            "version": "0",
+            "path": "db/mercenary_pool_type_enums_tables/mercenary_pool_type_enums",
+            "table": "mercenary_pool_type_enums_tables"
+        }
+    ],
+    "mercenary_unit_groups_tables": [
+        {
+            "filename": "mercenary_unit_groups",
+            "version": "0",
+            "path": "db/mercenary_unit_groups_tables/mercenary_unit_groups",
+            "table": "mercenary_unit_groups_tables"
+        }
+    ],
+    "message_events_tables": [
+        {
+            "filename": "message_events",
+            "version": "1",
+            "path": "db/message_events_tables/message_events",
+            "table": "message_events_tables"
+        }
+    ],
+    "message_event_strings_tables": [
+        {
+            "filename": "message_event_strings",
+            "version": "3",
+            "path": "db/message_event_strings_tables/message_event_strings",
+            "table": "message_event_strings_tables"
+        }
+    ],
+    "military_force_legacy_emblems_tables": [
+        {
+            "filename": "military_force_legacy_emblems",
+            "version": "2",
+            "path": "db/military_force_legacy_emblems_tables/military_force_legacy_emblems",
+            "table": "military_force_legacy_emblems_tables"
+        }
+    ],
+    "military_force_legacy_names_tables": [
+        {
+            "filename": "military_force_legacy_names",
+            "version": "2",
+            "path": "db/military_force_legacy_names_tables/military_force_legacy_names",
+            "table": "military_force_legacy_names_tables"
+        }
+    ],
+    "ministerial_effectiveness_modifiers_tables": [
+        {
+            "filename": "ministerial_effectiveness_modifiers",
+            "version": "0",
+            "path": "db/ministerial_effectiveness_modifiers_tables/ministerial_effectiveness_modifiers",
+            "table": "ministerial_effectiveness_modifiers_tables"
+        }
+    ],
+    "ministerial_positions_by_gov_types_tables": [],
+    "ministerial_positions_switching_loyalty_effects_tables": [],
+    "ministerial_positions_tables": [
+        {
+            "filename": "ministerial_positions",
+            "version": "0",
+            "path": "db/ministerial_positions_tables/ministerial_positions",
+            "table": "ministerial_positions_tables"
+        }
+    ],
+    "ministerial_positions_to_character_effects_tables": [
+        {
+            "filename": "ministerial_positions_to_character_effects",
+            "version": "0",
+            "path": "db/ministerial_positions_to_character_effects_tables/ministerial_positions_to_character_effects",
+            "table": "ministerial_positions_to_character_effects_tables"
+        }
+    ],
+    "ministerial_positions_to_effects_tables": [
+        {
+            "filename": "ministerial_positions_to_effects",
+            "version": "0",
+            "path": "db/ministerial_positions_to_effects_tables/ministerial_positions_to_effects",
+            "table": "ministerial_positions_to_effects_tables"
+        }
+    ],
+    "ministerial_positions_to_governorships_tables": [],
+    "ministerial_position_default_names_tables": [],
+    "missile_weapons_models_tables": [],
+    "missile_weapons_tables": [
+        {
+            "filename": "missile_weapons",
+            "version": "6",
+            "path": "db/missile_weapons_tables/missile_weapons",
+            "table": "missile_weapons_tables"
+        }
+    ],
+    "missile_weapons_to_projectiles_tables": [
+        {
+            "filename": "missile_weapons_to_projectiles",
+            "version": "0",
+            "path": "db/missile_weapons_to_projectiles_tables/missile_weapons_to_projectiles",
+            "table": "missile_weapons_to_projectiles_tables"
+        }
+    ],
+    "missions_tables": [
+        {
+            "filename": "missions",
+            "version": "1",
+            "path": "db/missions_tables/missions",
+            "table": "missions_tables"
+        }
+    ],
+    "mission_issuers_tables": [
+        {
+            "filename": "mission_issuers",
+            "version": "0",
+            "path": "db/mission_issuers_tables/mission_issuers",
+            "table": "mission_issuers_tables"
+        }
+    ],
+    "models_artillery_tables": [],
+    "models_building_tables": [],
+    "models_deployables_tables": [
+        {
+            "filename": "models_deployables",
+            "version": "0",
+            "path": "db/models_deployables_tables/models_deployables",
+            "table": "models_deployables_tables"
+        }
+    ],
+    "models_entity_weapons_tables": [
+        {
+            "filename": "models_entity_weapons",
+            "version": "0",
+            "path": "db/models_entity_weapons_tables/models_entity_weapons",
+            "table": "models_entity_weapons_tables"
+        }
+    ],
+    "models_naval_tables": [],
+    "models_oars_tables": [
+        {
+            "filename": "models_oars",
+            "version": "1",
+            "path": "db/models_oars_tables/models_oars",
+            "table": "models_oars_tables"
+        }
+    ],
+    "models_sieges_tables": [],
+    "mountable_artillery_units_custom_battles_tables": [
+        {
+            "filename": "mountable_artillery_units_custom_battles",
+            "version": "1",
+            "path": "db/mountable_artillery_units_custom_battles_tables/mountable_artillery_units_custom_battles",
+            "table": "mountable_artillery_units_custom_battles_tables"
+        }
+    ],
+    "mountable_artillery_units_tables": [
+        {
+            "filename": "mountable_artillery_units",
+            "version": "0",
+            "path": "db/mountable_artillery_units_tables/mountable_artillery_units",
+            "table": "mountable_artillery_units_tables"
+        }
+    ],
+    "mounts_tables": [
+        {
+            "filename": "mounts",
+            "version": "3",
+            "path": "db/mounts_tables/mounts",
+            "table": "mounts_tables"
+        }
+    ],
+    "mount_variants_tables": [
+        {
+            "filename": "mount_variants",
+            "version": "0",
+            "path": "db/mount_variants_tables/mount_variants",
+            "table": "mount_variants_tables"
+        }
+    ],
+    "movie_event_strings_tables": [
+        {
+            "filename": "movie_event_strings",
+            "version": "0",
+            "path": "db/movie_event_strings_tables/movie_event_strings",
+            "table": "movie_event_strings_tables"
+        }
+    ],
+    "mp_budgets_tables": [
+        {
+            "filename": "mp_budgets",
+            "version": "0",
+            "path": "db/mp_budgets_tables/mp_budgets",
+            "table": "mp_budgets_tables"
+        }
+    ],
+    "mp_force_gen_army_sizes_by_budgets_tables": [
+        {
+            "filename": "mp_force_gen_army_sizes_by_budgets",
+            "version": "0",
+            "path": "db/mp_force_gen_army_sizes_by_budgets_tables/mp_force_gen_army_sizes_by_budgets",
+            "table": "mp_force_gen_army_sizes_by_budgets_tables"
+        }
+    ],
+    "mp_force_gen_template_junctions_tables": [
+        {
+            "filename": "mp_force_gen_template_junctions",
+            "version": "3",
+            "path": "db/mp_force_gen_template_junctions_tables/mp_force_gen_template_junctions",
+            "table": "mp_force_gen_template_junctions_tables"
+        }
+    ],
+    "multiplayer_mininum_length_funds_tables": [
+        {
+            "filename": "multiplayer_mininum_length_funds",
+            "version": "0",
+            "path": "db/multiplayer_mininum_length_funds_tables/multiplayer_mininum_length_funds",
+            "table": "multiplayer_mininum_length_funds_tables"
+        }
+    ],
+    "names_forts_tables": [],
+    "names_groups_tables": [
+        {
+            "filename": "names_groups",
+            "version": "1",
+            "path": "db/names_groups_tables/names_groups",
+            "table": "names_groups_tables"
+        }
+    ],
+    "names_royalty_tables": [],
+    "names_tables": [
+        {
+            "filename": "names",
+            "version": "1",
+            "path": "db/names_tables/names",
+            "table": "names_tables"
+        }
+    ],
+    "name_orders_tables": [
+        {
+            "filename": "name_orders",
+            "version": "0",
+            "path": "db/name_orders_tables/name_orders",
+            "table": "name_orders_tables"
+        }
+    ],
+    "name_order_overrides_tables": [],
+    "naval_effects_tables": [
+        {
+            "filename": "naval_effects",
+            "version": "0",
+            "path": "db/naval_effects_tables/naval_effects",
+            "table": "naval_effects_tables"
+        }
+    ],
+    "naval_fire_junctions_tables": [
+        {
+            "filename": "naval_fire_junctions",
+            "version": "0",
+            "path": "db/naval_fire_junctions_tables/naval_fire_junctions",
+            "table": "naval_fire_junctions_tables"
+        }
+    ],
+    "naval_ramming_events_tables": [
+        {
+            "filename": "naval_ramming_events",
+            "version": "0",
+            "path": "db/naval_ramming_events_tables/naval_ramming_events",
+            "table": "naval_ramming_events_tables"
+        }
+    ],
+    "naval_units_tables": [
+        {
+            "filename": "naval_units",
+            "version": "17",
+            "path": "db/naval_units_tables/naval_units",
+            "table": "naval_units_tables"
+        }
+    ],
+    "naval_units_to_unit_abilites_junctions_tables": [
+        {
+            "filename": "naval_units_to_unit_abilites_junctions",
+            "version": "0",
+            "path": "db/naval_units_to_unit_abilites_junctions_tables/naval_units_to_unit_abilites_junctions",
+            "table": "naval_units_to_unit_abilites_junctions_tables"
+        }
+    ],
+    "naval_weapons_enums_tables": [
+        {
+            "filename": "naval_weapons_enums",
+            "version": "0",
+            "path": "db/naval_weapons_enums_tables/naval_weapons_enums",
+            "table": "naval_weapons_enums_tables"
+        }
+    ],
+    "naval_weapons_tables": [
+        {
+            "filename": "naval_weapons",
+            "version": "2",
+            "path": "db/naval_weapons_tables/naval_weapons",
+            "table": "naval_weapons_tables"
+        }
+    ],
+    "particle_effects_tables": [
+        {
+            "filename": "particle_effects",
+            "version": "0",
+            "path": "db/particle_effects_tables/particle_effects",
+            "table": "particle_effects_tables"
+        }
+    ],
+    "pdlc_tables": [
+        {
+            "filename": "pdlc",
+            "version": "3",
+            "path": "db/pdlc_tables/pdlc",
+            "table": "pdlc_tables"
+        }
+    ],
+    "plagues_permitted_campaigns_tables": [
+        {
+            "filename": "plagues_permitted_campaigns",
+            "version": "0",
+            "path": "db/plagues_permitted_campaigns_tables/plagues_permitted_campaigns",
+            "table": "plagues_permitted_campaigns_tables"
+        }
+    ],
+    "plagues_tables": [
+        {
+            "filename": "plagues",
+            "version": "0",
+            "path": "db/plagues_tables/plagues",
+            "table": "plagues_tables"
+        }
+    ],
+    "political_actions_dilemma_junctions_tables": [],
+    "political_actions_effect_bundles_tables": [
+        {
+            "filename": "political_actions_effect_bundles",
+            "version": "2",
+            "path": "db/political_actions_effect_bundles_tables/political_actions_effect_bundles",
+            "table": "political_actions_effect_bundles_tables"
+        }
+    ],
+    "political_actions_incidents_junctions_tables": [],
+    "political_actions_mission_junctions_tables": [],
+    "political_actions_tables": [
+        {
+            "filename": "political_actions",
+            "version": "2",
+            "path": "db/political_actions_tables/political_actions",
+            "table": "political_actions_tables"
+        }
+    ],
+    "political_parties_loyalty_effect_bundles_tables": [
+        {
+            "filename": "political_parties_loyalty_effect_bundles",
+            "version": "0",
+            "path": "db/political_parties_loyalty_effect_bundles_tables/political_parties_loyalty_effect_bundles",
+            "table": "political_parties_loyalty_effect_bundles_tables"
+        }
+    ],
+    "political_parties_power_effect_bundles_tables": [
+        {
+            "filename": "political_parties_power_effect_bundles",
+            "version": "0",
+            "path": "db/political_parties_power_effect_bundles_tables/political_parties_power_effect_bundles",
+            "table": "political_parties_power_effect_bundles_tables"
+        }
+    ],
+    "political_parties_tables": [
+        {
+            "filename": "political_parties",
+            "version": "5",
+            "path": "db/political_parties_tables/political_parties",
+            "table": "political_parties_tables"
+        }
+    ],
+    "political_traits_tables": [
+        {
+            "filename": "political_traits",
+            "version": "0",
+            "path": "db/political_traits_tables/political_traits",
+            "table": "political_traits_tables"
+        }
+    ],
+    "politics_government_actions_tables": [
+        {
+            "filename": "politics_government_actions",
+            "version": "0",
+            "path": "db/politics_government_actions_tables/politics_government_actions",
+            "table": "politics_government_actions_tables"
+        }
+    ],
+    "politics_government_types_tables": [
+        {
+            "filename": "politics_government_types",
+            "version": "0",
+            "path": "db/politics_government_types_tables/politics_government_types",
+            "table": "politics_government_types_tables"
+        }
+    ],
+    "politics_government_type_political_action_junctions_tables": [
+        {
+            "filename": "politics_government_type_political_action_junctions",
+            "version": "0",
+            "path": "db/politics_government_type_political_action_junctions_tables/politics_government_type_political_action_junctions",
+            "table": "politics_government_type_political_action_junctions_tables"
+        }
+    ],
+    "population_classes_tables": [
+        {
+            "filename": "population_classes",
+            "version": "0",
+            "path": "db/population_classes_tables/population_classes",
+            "table": "population_classes_tables"
+        }
+    ],
+    "portrait_types_tables": [
+        {
+            "filename": "portrait_types",
+            "version": "0",
+            "path": "db/portrait_types_tables/portrait_types",
+            "table": "portrait_types_tables"
+        }
+    ],
+    "pre_battle_speeches_tables": [
+        {
+            "filename": "pre_battle_speeches",
+            "version": "1",
+            "path": "db/pre_battle_speeches_tables/pre_battle_speeches",
+            "table": "pre_battle_speeches_tables"
+        }
+    ],
+    "projectiles_explosions_tables": [
+        {
+            "filename": "projectiles_explosions",
+            "version": "3",
+            "path": "db/projectiles_explosions_tables/projectiles_explosions",
+            "table": "projectiles_explosions_tables"
+        }
+    ],
+    "projectiles_missile_type_enum_tables": [
+        {
+            "filename": "projectiles_missile_type_enum",
+            "version": "0",
+            "path": "db/projectiles_missile_type_enum_tables/projectiles_missile_type_enum",
+            "table": "projectiles_missile_type_enum_tables"
+        }
+    ],
+    "projectiles_tables": [
+        {
+            "filename": "projectiles",
+            "version": "20",
+            "path": "db/projectiles_tables/projectiles",
+            "table": "projectiles_tables"
+        }
+    ],
+    "projectile_displays_tables": [
+        {
+            "filename": "projectile_displays",
+            "version": "3",
+            "path": "db/projectile_displays_tables/projectile_displays",
+            "table": "projectile_displays_tables"
+        }
+    ],
+    "projectile_impacts_tables": [
+        {
+            "filename": "projectile_impacts",
+            "version": "5",
+            "path": "db/projectile_impacts_tables/projectile_impacts",
+            "table": "projectile_impacts_tables"
+        }
+    ],
+    "projectile_shot_type_enum_tables": [
+        {
+            "filename": "projectile_shot_type_enum",
+            "version": "3",
+            "path": "db/projectile_shot_type_enum_tables/projectile_shot_type_enum",
+            "table": "projectile_shot_type_enum_tables"
+        }
+    ],
+    "projectile_trails_tables": [
+        {
+            "filename": "projectile_trails",
+            "version": "0",
+            "path": "db/projectile_trails_tables/projectile_trails",
+            "table": "projectile_trails_tables"
+        }
+    ],
+    "prologue_chapters_tables": [
+        {
+            "filename": "prologue_chapters",
+            "version": "1",
+            "path": "db/prologue_chapters_tables/prologue_chapters",
+            "table": "prologue_chapters_tables"
+        }
+    ],
+    "prologue_loading_screens_tables": [
+        {
+            "filename": "prologue_loading_screens",
+            "version": "1",
+            "path": "db/prologue_loading_screens_tables/prologue_loading_screens",
+            "table": "prologue_loading_screens_tables"
+        }
+    ],
+    "provinces_tables": [
+        {
+            "filename": "provinces",
+            "version": "0",
+            "path": "db/provinces_tables/provinces",
+            "table": "provinces_tables"
+        }
+    ],
+    "province_to_mercenary_set_junctions_tables": [
+        {
+            "filename": "province_to_mercenary_set_junctions",
+            "version": "1",
+            "path": "db/province_to_mercenary_set_junctions_tables/province_to_mercenary_set_junctions",
+            "table": "province_to_mercenary_set_junctions_tables"
+        }
+    ],
+    "provincial_initiatives_to_subculture_junctions_tables": [
+        {
+            "filename": "provincial_initiatives_to_subculture_junctions",
+            "version": "0",
+            "path": "db/provincial_initiatives_to_subculture_junctions_tables/provincial_initiatives_to_subculture_junctions",
+            "table": "provincial_initiatives_to_subculture_junctions_tables"
+        }
+    ],
+    "provincial_initiative_records_tables": [
+        {
+            "filename": "provincial_initiative_records",
+            "version": "2",
+            "path": "db/provincial_initiative_records_tables/provincial_initiative_records",
+            "table": "provincial_initiative_records_tables"
+        }
+    ],
+    "public_order_factors_tables": [
+        {
+            "filename": "public_order_factors",
+            "version": "1",
+            "path": "db/public_order_factors_tables/public_order_factors",
+            "table": "public_order_factors_tables"
+        }
+    ],
+    "quotes_people_tables": [
+        {
+            "filename": "quotes_people",
+            "version": "0",
+            "path": "db/quotes_people_tables/quotes_people",
+            "table": "quotes_people_tables"
+        }
+    ],
+    "quotes_tables": [
+        {
+            "filename": "quotes",
+            "version": "0",
+            "path": "db/quotes_tables/quotes",
+            "table": "quotes_tables"
+        }
+    ],
+    "random_localisation_strings_tables": [
+        {
+            "filename": "random_localisation_strings",
+            "version": "0",
+            "path": "db/random_localisation_strings_tables/random_localisation_strings",
+            "table": "random_localisation_strings_tables"
+        }
+    ],
+    "regions_continents_tables": [
+        {
+            "filename": "regions_continents",
+            "version": "0",
+            "path": "db/regions_continents_tables/regions_continents",
+            "table": "regions_continents_tables"
+        }
+    ],
+    "regions_tables": [
+        {
+            "filename": "regions",
+            "version": "3",
+            "path": "db/regions_tables/regions",
+            "table": "regions_tables"
+        }
+    ],
+    "regions_to_region_groups_junctions_tables": [
+        {
+            "filename": "regions_to_region_groups_junctions",
+            "version": "0",
+            "path": "db/regions_to_region_groups_junctions_tables/regions_to_region_groups_junctions",
+            "table": "regions_to_region_groups_junctions_tables"
+        }
+    ],
+    "region_campaign_overrides_tables": [
+        {
+            "filename": "region_campaign_overrides",
+            "version": "0",
+            "path": "db/region_campaign_overrides_tables/region_campaign_overrides",
+            "table": "region_campaign_overrides_tables"
+        }
+    ],
+    "region_economics_factors_tables": [
+        {
+            "filename": "region_economics_factors",
+            "version": "0",
+            "path": "db/region_economics_factors_tables/region_economics_factors",
+            "table": "region_economics_factors_tables"
+        }
+    ],
+    "region_groups_tables": [
+        {
+            "filename": "region_groups",
+            "version": "1",
+            "path": "db/region_groups_tables/region_groups",
+            "table": "region_groups_tables"
+        }
+    ],
+    "region_religions_tables": [
+        {
+            "filename": "region_religions",
+            "version": "0",
+            "path": "db/region_religions_tables/region_religions",
+            "table": "region_religions_tables"
+        }
+    ],
+    "region_to_province_junctions_tables": [
+        {
+            "filename": "region_to_province_junctions",
+            "version": "0",
+            "path": "db/region_to_province_junctions_tables/region_to_province_junctions",
+            "table": "region_to_province_junctions_tables"
+        }
+    ],
+    "region_unit_resources_tables": [
+        {
+            "filename": "region_unit_resources",
+            "version": "0",
+            "path": "db/region_unit_resources_tables/region_unit_resources",
+            "table": "region_unit_resources_tables"
+        }
+    ],
+    "religions_tables": [
+        {
+            "filename": "religions",
+            "version": "0",
+            "path": "db/religions_tables/religions",
+            "table": "religions_tables"
+        }
+    ],
+    "religion_conversion_mods_tables": [
+        {
+            "filename": "religion_conversion_mods",
+            "version": "0",
+            "path": "db/religion_conversion_mods_tables/religion_conversion_mods",
+            "table": "religion_conversion_mods_tables"
+        }
+    ],
+    "resources_tables": [
+        {
+            "filename": "resources",
+            "version": "2",
+            "path": "db/resources_tables/resources",
+            "table": "resources_tables"
+        }
+    ],
+    "resource_effects_tables": [
+        {
+            "filename": "resource_effects",
+            "version": "0",
+            "path": "db/resource_effects_tables/resource_effects",
+            "table": "resource_effects_tables"
+        }
+    ],
+    "scripted_objectives_tables": [
+        {
+            "filename": "scripted_objectives",
+            "version": "1",
+            "path": "db/scripted_objectives_tables/scripted_objectives",
+            "table": "scripted_objectives_tables"
+        }
+    ],
+    "scripted_subtitles_tables": [
+        {
+            "filename": "scripted_subtitles",
+            "version": "2",
+            "path": "db/scripted_subtitles_tables/scripted_subtitles",
+            "table": "scripted_subtitles_tables"
+        }
+    ],
+    "seasons_tables": [
+        {
+            "filename": "seasons",
+            "version": "0",
+            "path": "db/seasons_tables/seasons",
+            "table": "seasons_tables"
+        }
+    ],
+    "season_attritions_tables": [
+        {
+            "filename": "season_attritions",
+            "version": "0",
+            "path": "db/season_attritions_tables/season_attritions",
+            "table": "season_attritions_tables"
+        }
+    ],
+    "season_province_effect_bundles_tables": [
+        {
+            "filename": "season_province_effect_bundles",
+            "version": "0",
+            "path": "db/season_province_effect_bundles_tables/season_province_effect_bundles",
+            "table": "season_province_effect_bundles_tables"
+        }
+    ],
+    "sea_climate_details_tables": [],
+    "sea_surfaces_tables": [
+        {
+            "filename": "sea_surfaces",
+            "version": "2",
+            "path": "db/sea_surfaces_tables/sea_surfaces",
+            "table": "sea_surfaces_tables"
+        }
+    ],
+    "send_diplomat_incidents_tables": [
+        {
+            "filename": "send_diplomat_incidents",
+            "version": "0",
+            "path": "db/send_diplomat_incidents_tables/send_diplomat_incidents",
+            "table": "send_diplomat_incidents_tables"
+        }
+    ],
+    "ship_dbs_tables": [
+        {
+            "filename": "ship_dbs",
+            "version": "0",
+            "path": "db/ship_dbs_tables/ship_dbs",
+            "table": "ship_dbs_tables"
+        }
+    ],
+    "ship_names_tables": [],
+    "slots_art_tables": [],
+    "slots_gdp_values_tables": [
+        {
+            "filename": "slots_gdp_values",
+            "version": "0",
+            "path": "db/slots_gdp_values_tables/slots_gdp_values",
+            "table": "slots_gdp_values_tables"
+        }
+    ],
+    "slots_tables": [
+        {
+            "filename": "slots",
+            "version": "1",
+            "path": "db/slots_tables/slots",
+            "table": "slots_tables"
+        }
+    ],
+    "slots_templates_models_tables": [
+        {
+            "filename": "slots_templates_models",
+            "version": "0",
+            "path": "db/slots_templates_models_tables/slots_templates_models",
+            "table": "slots_templates_models_tables"
+        }
+    ],
+    "slot_templates_tables": [
+        {
+            "filename": "slot_templates",
+            "version": "0",
+            "path": "db/slot_templates_tables/slot_templates",
+            "table": "slot_templates_tables"
+        }
+    ],
+    "slot_template_to_building_superchain_junctions_tables": [
+        {
+            "filename": "slot_template_to_building_superchain_junctions",
+            "version": "0",
+            "path": "db/slot_template_to_building_superchain_junctions_tables/slot_template_to_building_superchain_junctions",
+            "table": "slot_template_to_building_superchain_junctions_tables"
+        }
+    ],
+    "slot_types_tables": [
+        {
+            "filename": "slot_types",
+            "version": "0",
+            "path": "db/slot_types_tables/slot_types",
+            "table": "slot_types_tables"
+        }
+    ],
+    "small_vegetation_climates_jct_tables": [],
+    "sound_events_tables": [
+        {
+            "filename": "sound_events",
+            "version": "0",
+            "path": "db/sound_events_tables/sound_events",
+            "table": "sound_events_tables"
+        }
+    ],
+    "special_ability_groups_tables": [
+        {
+            "filename": "special_ability_groups",
+            "version": "1",
+            "path": "db/special_ability_groups_tables/special_ability_groups",
+            "table": "special_ability_groups_tables"
+        }
+    ],
+    "special_ability_groups_to_factions_junctions_tables": [
+        {
+            "filename": "special_ability_groups_to_factions_junctions",
+            "version": "0",
+            "path": "db/special_ability_groups_to_factions_junctions_tables/special_ability_groups_to_factions_junctions",
+            "table": "special_ability_groups_to_factions_junctions_tables"
+        }
+    ],
+    "special_ability_groups_to_unit_abilities_junctions_tables": [
+        {
+            "filename": "special_ability_groups_to_unit_abilities_junctions",
+            "version": "1",
+            "path": "db/special_ability_groups_to_unit_abilities_junctions_tables/special_ability_groups_to_unit_abilities_junctions",
+            "table": "special_ability_groups_to_unit_abilities_junctions_tables"
+        }
+    ],
+    "special_ability_invalid_usage_flags_tables": [
+        {
+            "filename": "special_ability_invalid_usage_flags",
+            "version": "0",
+            "path": "db/special_ability_invalid_usage_flags_tables/special_ability_invalid_usage_flags",
+            "table": "special_ability_invalid_usage_flags_tables"
+        }
+    ],
+    "special_ability_phases_tables": [
+        {
+            "filename": "special_ability_phases",
+            "version": "11",
+            "path": "db/special_ability_phases_tables/special_ability_phases",
+            "table": "special_ability_phases_tables"
+        }
+    ],
+    "special_ability_phase_attribute_effects_tables": [
+        {
+            "filename": "special_ability_phase_attribute_effects",
+            "version": "0",
+            "path": "db/special_ability_phase_attribute_effects_tables/special_ability_phase_attribute_effects",
+            "table": "special_ability_phase_attribute_effects_tables"
+        }
+    ],
+    "special_ability_phase_stat_effects_tables": [
+        {
+            "filename": "special_ability_phase_stat_effects",
+            "version": "1",
+            "path": "db/special_ability_phase_stat_effects_tables/special_ability_phase_stat_effects",
+            "table": "special_ability_phase_stat_effects_tables"
+        }
+    ],
+    "special_ability_to_auto_deactivate_flags_tables": [
+        {
+            "filename": "special_ability_to_auto_deactivate_flags",
+            "version": "0",
+            "path": "db/special_ability_to_auto_deactivate_flags_tables/special_ability_to_auto_deactivate_flags",
+            "table": "special_ability_to_auto_deactivate_flags_tables"
+        }
+    ],
+    "special_ability_to_invalid_usage_flags_tables": [
+        {
+            "filename": "special_ability_to_invalid_usage_flags",
+            "version": "0",
+            "path": "db/special_ability_to_invalid_usage_flags_tables/special_ability_to_invalid_usage_flags",
+            "table": "special_ability_to_invalid_usage_flags_tables"
+        }
+    ],
+    "special_ability_to_special_ability_phase_junctions_tables": [
+        {
+            "filename": "special_ability_to_special_ability_phase_junctions",
+            "version": "1",
+            "path": "db/special_ability_to_special_ability_phase_junctions_tables/special_ability_to_special_ability_phase_junctions",
+            "table": "special_ability_to_special_ability_phase_junctions_tables"
+        }
+    ],
+    "spotting_and_hiding_values_tables": [
+        {
+            "filename": "spotting_and_hiding_values",
+            "version": "1",
+            "path": "db/spotting_and_hiding_values_tables/spotting_and_hiding_values",
+            "table": "spotting_and_hiding_values_tables"
+        }
+    ],
+    "stances_tables": [
+        {
+            "filename": "stances",
+            "version": "0",
+            "path": "db/stances_tables/stances",
+            "table": "stances_tables"
+        }
+    ],
+    "start_pos_faction_effect_bundles_tables": [],
+    "start_pos_family_relationships_tables": [
+        {
+            "filename": "start_pos_family_relationships",
+            "version": "1",
+            "path": "db/start_pos_family_relationships_tables/start_pos_family_relationships",
+            "table": "start_pos_family_relationships_tables"
+        }
+    ],
+    "start_pos_past_events_tables": [
+        {
+            "filename": "start_pos_past_events",
+            "version": "0",
+            "path": "db/start_pos_past_events_tables/start_pos_past_events",
+            "table": "start_pos_past_events_tables"
+        }
+    ],
+    "start_pos_region_slot_templates_tables": [
+        {
+            "filename": "start_pos_region_slot_templates",
+            "version": "0",
+            "path": "db/start_pos_region_slot_templates_tables/start_pos_region_slot_templates",
+            "table": "start_pos_region_slot_templates_tables"
+        }
+    ],
+    "state_gift_values_tables": [
+        {
+            "filename": "state_gift_values",
+            "version": "0",
+            "path": "db/state_gift_values_tables/state_gift_values",
+            "table": "state_gift_values_tables"
+        }
+    ],
+    "stats_clans_tables": [
+        {
+            "filename": "stats_clans",
+            "version": "1",
+            "path": "db/stats_clans_tables/stats_clans",
+            "table": "stats_clans_tables"
+        }
+    ],
+    "stats_tables": [
+        {
+            "filename": "stats",
+            "version": "1",
+            "path": "db/stats_tables/stats",
+            "table": "stats_tables"
+        }
+    ],
+    "subtitle_timings_tables": [
+        {
+            "filename": "subtitle_timings",
+            "version": "0",
+            "path": "db/subtitle_timings_tables/subtitle_timings",
+            "table": "subtitle_timings_tables"
+        }
+    ],
+    "taxes_classes_tables": [
+        {
+            "filename": "taxes_classes",
+            "version": "0",
+            "path": "db/taxes_classes_tables/taxes_classes",
+            "table": "taxes_classes_tables"
+        }
+    ],
+    "taxes_effects_jct_tables": [
+        {
+            "filename": "taxes_effects_jct",
+            "version": "1",
+            "path": "db/taxes_effects_jct_tables/taxes_effects_jct",
+            "table": "taxes_effects_jct_tables"
+        }
+    ],
+    "taxes_keys_tables": [
+        {
+            "filename": "taxes_keys",
+            "version": "0",
+            "path": "db/taxes_keys_tables/taxes_keys",
+            "table": "taxes_keys_tables"
+        }
+    ],
+    "taxes_levels_tables": [
+        {
+            "filename": "taxes_levels",
+            "version": "0",
+            "path": "db/taxes_levels_tables/taxes_levels",
+            "table": "taxes_levels_tables"
+        }
+    ],
+    "team_colours_tables": [
+        {
+            "filename": "team_colours",
+            "version": "0",
+            "path": "db/team_colours_tables/team_colours",
+            "table": "team_colours_tables"
+        }
+    ],
+    "technologies_tables": [
+        {
+            "filename": "technologies",
+            "version": "4",
+            "path": "db/technologies_tables/technologies",
+            "table": "technologies_tables"
+        }
+    ],
+    "technology_categories_tables": [
+        {
+            "filename": "technology_categories",
+            "version": "0",
+            "path": "db/technology_categories_tables/technology_categories",
+            "table": "technology_categories_tables"
+        }
+    ],
+    "technology_category_modules_tables": [
+        {
+            "filename": "technology_category_modules",
+            "version": "0",
+            "path": "db/technology_category_modules_tables/technology_category_modules",
+            "table": "technology_category_modules_tables"
+        }
+    ],
+    "technology_category_parents_tables": [
+        {
+            "filename": "technology_category_parents",
+            "version": "0",
+            "path": "db/technology_category_parents_tables/technology_category_parents",
+            "table": "technology_category_parents_tables"
+        }
+    ],
+    "technology_effects_junction_tables": [
+        {
+            "filename": "technology_effects_junction",
+            "version": "0",
+            "path": "db/technology_effects_junction_tables/technology_effects_junction",
+            "table": "technology_effects_junction_tables"
+        }
+    ],
+    "technology_faction_junctions_tables": [],
+    "technology_nodes_tables": [
+        {
+            "filename": "technology_nodes",
+            "version": "0",
+            "path": "db/technology_nodes_tables/technology_nodes",
+            "table": "technology_nodes_tables"
+        }
+    ],
+    "technology_node_links_tables": [
+        {
+            "filename": "technology_node_links",
+            "version": "1",
+            "path": "db/technology_node_links_tables/technology_node_links",
+            "table": "technology_node_links_tables"
+        }
+    ],
+    "technology_node_sets_tables": [
+        {
+            "filename": "technology_node_sets",
+            "version": "1",
+            "path": "db/technology_node_sets_tables/technology_node_sets",
+            "table": "technology_node_sets_tables"
+        }
+    ],
+    "technology_required_building_levels_junctions_tables": [
+        {
+            "filename": "technology_required_building_levels_junctions",
+            "version": "0",
+            "path": "db/technology_required_building_levels_junctions_tables/technology_required_building_levels_junctions",
+            "table": "technology_required_building_levels_junctions_tables"
+        }
+    ],
+    "technology_required_technology_junctions_tables": [
+        {
+            "filename": "technology_required_technology_junctions",
+            "version": "0",
+            "path": "db/technology_required_technology_junctions_tables/technology_required_technology_junctions",
+            "table": "technology_required_technology_junctions_tables"
+        }
+    ],
+    "technology_unit_upgrades_tables": [
+        {
+            "filename": "technology_unit_upgrades",
+            "version": "0",
+            "path": "db/technology_unit_upgrades_tables/technology_unit_upgrades",
+            "table": "technology_unit_upgrades_tables"
+        }
+    ],
+    "terrain_tilesets_tables": [
+        {
+            "filename": "terrain_tilesets",
+            "version": "0",
+            "path": "db/terrain_tilesets_tables/terrain_tilesets",
+            "table": "terrain_tilesets_tables"
+        }
+    ],
+    "town_wealth_growth_factors_tables": [
+        {
+            "filename": "town_wealth_growth_factors",
+            "version": "0",
+            "path": "db/town_wealth_growth_factors_tables/town_wealth_growth_factors",
+            "table": "town_wealth_growth_factors_tables"
+        }
+    ],
+    "trade_details_tables": [
+        {
+            "filename": "trade_details",
+            "version": "0",
+            "path": "db/trade_details_tables/trade_details",
+            "table": "trade_details_tables"
+        }
+    ],
+    "trade_display_campaign_originating_culture_produced_resource_trade_model_options_tables": [],
+    "trade_display_campaign_originating_culture_trade_model_options_tables": [
+        {
+            "filename": "trade_display_campaign_originating_culture_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_campaign_originating_culture_trade_model_options_tables/trade_display_campaign_originating_culture_trade_model_options",
+            "table": "trade_display_campaign_originating_culture_trade_model_options_tables"
+        }
+    ],
+    "trade_display_campaign_originating_subculture_produced_resource_trade_model_options_tables": [],
+    "trade_display_campaign_originating_subculture_trade_model_options_tables": [],
+    "trade_display_campaign_owning_culture_produced_resource_trade_model_options_tables": [
+        {
+            "filename": "trade_display_campaign_owning_culture_produced_resource_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_campaign_owning_culture_produced_resource_trade_model_options_tables/trade_display_campaign_owning_culture_produced_resource_trade_model_options",
+            "table": "trade_display_campaign_owning_culture_produced_resource_trade_model_options_tables"
+        }
+    ],
+    "trade_display_campaign_owning_culture_trade_model_options_tables": [
+        {
+            "filename": "trade_display_campaign_owning_culture_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_campaign_owning_culture_trade_model_options_tables/trade_display_campaign_owning_culture_trade_model_options",
+            "table": "trade_display_campaign_owning_culture_trade_model_options_tables"
+        }
+    ],
+    "trade_display_campaign_owning_faction_produced_resource_trade_model_options_tables": [],
+    "trade_display_campaign_owning_faction_trade_model_options_tables": [],
+    "trade_display_campaign_owning_subculture_produced_resource_trade_model_options_tables": [],
+    "trade_display_campaign_owning_subculture_trade_model_options_tables": [],
+    "trade_display_campaign_produced_resource_trade_model_options_tables": [],
+    "trade_display_campaign_trade_model_options_tables": [
+        {
+            "filename": "trade_display_campaign_trade_model_options",
+            "version": "0",
+            "path": "db/trade_display_campaign_trade_model_options_tables/trade_display_campaign_trade_model_options",
+            "table": "trade_display_campaign_trade_model_options_tables"
+        }
+    ],
+    "trade_display_generic_trade_model_options_tables": [
+        {
+            "filename": "trade_display_generic_trade_model_options",
+            "version": "0",
+            "path": "db/trade_display_generic_trade_model_options_tables/trade_display_generic_trade_model_options",
+            "table": "trade_display_generic_trade_model_options_tables"
+        }
+    ],
+    "trade_display_originating_culture_produced_resource_trade_model_options_tables": [],
+    "trade_display_originating_culture_trade_model_options_tables": [
+        {
+            "filename": "trade_display_originating_culture_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_originating_culture_trade_model_options_tables/trade_display_originating_culture_trade_model_options",
+            "table": "trade_display_originating_culture_trade_model_options_tables"
+        }
+    ],
+    "trade_display_originating_subculture_produced_resource_trade_model_options_tables": [],
+    "trade_display_originating_subculture_trade_model_options_tables": [
+        {
+            "filename": "trade_display_originating_subculture_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_originating_subculture_trade_model_options_tables/trade_display_originating_subculture_trade_model_options",
+            "table": "trade_display_originating_subculture_trade_model_options_tables"
+        }
+    ],
+    "trade_display_owning_culture_produced_resource_trade_model_options_tables": [],
+    "trade_display_owning_culture_trade_model_options_tables": [
+        {
+            "filename": "trade_display_owning_culture_trade_model_options",
+            "version": "0",
+            "path": "db/trade_display_owning_culture_trade_model_options_tables/trade_display_owning_culture_trade_model_options",
+            "table": "trade_display_owning_culture_trade_model_options_tables"
+        }
+    ],
+    "trade_display_owning_faction_produced_resource_trade_model_options_tables": [],
+    "trade_display_owning_faction_trade_model_options_tables": [
+        {
+            "filename": "trade_display_owning_faction_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_owning_faction_trade_model_options_tables/trade_display_owning_faction_trade_model_options",
+            "table": "trade_display_owning_faction_trade_model_options_tables"
+        }
+    ],
+    "trade_display_owning_subculture_produced_resource_trade_model_options_tables": [],
+    "trade_display_owning_subculture_trade_model_options_tables": [],
+    "trade_display_produced_resource_trade_model_options_tables": [
+        {
+            "filename": "trade_display_produced_resource_trade_model_options",
+            "version": "1",
+            "path": "db/trade_display_produced_resource_trade_model_options_tables/trade_display_produced_resource_trade_model_options",
+            "table": "trade_display_produced_resource_trade_model_options_tables"
+        }
+    ],
+    "trade_display_trade_models_tables": [
+        {
+            "filename": "trade_display_trade_models",
+            "version": "1",
+            "path": "db/trade_display_trade_models_tables/trade_display_trade_models",
+            "table": "trade_display_trade_models_tables"
+        }
+    ],
+    "trade_nodes_tables": [],
+    "trade_node_groups_tables": [
+        {
+            "filename": "trade_node_groups",
+            "version": "0",
+            "path": "db/trade_node_groups_tables/trade_node_groups",
+            "table": "trade_node_groups_tables"
+        }
+    ],
+    "trait_attribute_effects_tables": [],
+    "trait_categories_tables": [
+        {
+            "filename": "trait_categories",
+            "version": "0",
+            "path": "db/trait_categories_tables/trait_categories",
+            "table": "trait_categories_tables"
+        }
+    ],
+    "trait_info_tables": [
+        {
+            "filename": "trait_info",
+            "version": "0",
+            "path": "db/trait_info_tables/trait_info",
+            "table": "trait_info_tables"
+        }
+    ],
+    "trait_level_effects_tables": [
+        {
+            "filename": "trait_level_effects",
+            "version": "0",
+            "path": "db/trait_level_effects_tables/trait_level_effects",
+            "table": "trait_level_effects_tables"
+        }
+    ],
+    "trait_to_antitraits_tables": [
+        {
+            "filename": "trait_to_antitraits",
+            "version": "0",
+            "path": "db/trait_to_antitraits_tables/trait_to_antitraits",
+            "table": "trait_to_antitraits_tables"
+        }
+    ],
+    "trait_to_included_agents_tables": [
+        {
+            "filename": "trait_to_included_agents",
+            "version": "0",
+            "path": "db/trait_to_included_agents_tables/trait_to_included_agents",
+            "table": "trait_to_included_agents_tables"
+        }
+    ],
+    "trees_tables": [
+        {
+            "filename": "trees",
+            "version": "0",
+            "path": "db/trees_tables/trees",
+            "table": "trees_tables"
+        }
+    ],
+    "trigger_effects_tables": [
+        {
+            "filename": "trigger_effects",
+            "version": "0",
+            "path": "db/trigger_effects_tables/trigger_effects",
+            "table": "trigger_effects_tables"
+        }
+    ],
+    "trigger_events_tables": [
+        {
+            "filename": "trigger_events",
+            "version": "0",
+            "path": "db/trigger_events_tables/trigger_events",
+            "table": "trigger_events_tables"
+        }
+    ],
+    "trigger_event_to_excluded_agent_types_tables": [],
+    "ui_effects_tables": [
+        {
+            "filename": "ui_effects",
+            "version": "1",
+            "path": "db/ui_effects_tables/ui_effects",
+            "table": "ui_effects_tables"
+        }
+    ],
+    "ui_unit_stats_filters_tables": [
+        {
+            "filename": "ui_unit_stats_filters",
+            "version": "0",
+            "path": "db/ui_unit_stats_filters_tables/ui_unit_stats_filters",
+            "table": "ui_unit_stats_filters_tables"
+        }
+    ],
+    "ui_unit_stats_tables": [
+        {
+            "filename": "ui_unit_stats",
+            "version": "3",
+            "path": "db/ui_unit_stats_tables/ui_unit_stats",
+            "table": "ui_unit_stats_tables"
+        }
+    ],
+    "ui_unit_stat_to_classes_tables": [
+        {
+            "filename": "ui_unit_stat_to_classes",
+            "version": "3",
+            "path": "db/ui_unit_stat_to_classes_tables/ui_unit_stat_to_classes",
+            "table": "ui_unit_stat_to_classes_tables"
+        }
+    ],
+    "units_custom_battle_permissions_tables": [
+        {
+            "filename": "units_custom_battle_permissions",
+            "version": "4",
+            "path": "db/units_custom_battle_permissions_tables/units_custom_battle_permissions",
+            "table": "units_custom_battle_permissions_tables"
+        }
+    ],
+    "units_tables": [],
+    "units_to_exclusive_faction_permissions_tables": [
+        {
+            "filename": "units_to_exclusive_faction_permissions",
+            "version": "0",
+            "path": "db/units_to_exclusive_faction_permissions_tables/units_to_exclusive_faction_permissions",
+            "table": "units_to_exclusive_faction_permissions_tables"
+        }
+    ],
+    "units_to_gov_types_conversion_jcts_tables": [],
+    "units_to_gov_type_permissions_tables": [],
+    "units_to_groupings_military_permissions_tables": [
+        {
+            "filename": "units_to_groupings_military_permissions",
+            "version": "0",
+            "path": "db/units_to_groupings_military_permissions_tables/units_to_groupings_military_permissions",
+            "table": "units_to_groupings_military_permissions_tables"
+        }
+    ],
+    "unit_abilities_tables": [
+        {
+            "filename": "unit_abilities",
+            "version": "4",
+            "path": "db/unit_abilities_tables/unit_abilities",
+            "table": "unit_abilities_tables"
+        }
+    ],
+    "unit_armour_types_tables": [
+        {
+            "filename": "unit_armour_types",
+            "version": "1",
+            "path": "db/unit_armour_types_tables/unit_armour_types",
+            "table": "unit_armour_types_tables"
+        }
+    ],
+    "unit_attributes_groups_tables": [
+        {
+            "filename": "unit_attributes_groups",
+            "version": "0",
+            "path": "db/unit_attributes_groups_tables/unit_attributes_groups",
+            "table": "unit_attributes_groups_tables"
+        }
+    ],
+    "unit_attributes_tables": [
+        {
+            "filename": "unit_attributes",
+            "version": "3",
+            "path": "db/unit_attributes_tables/unit_attributes",
+            "table": "unit_attributes_tables"
+        }
+    ],
+    "unit_attributes_to_groups_junctions_tables": [
+        {
+            "filename": "unit_attributes_to_groups_junctions",
+            "version": "2",
+            "path": "db/unit_attributes_to_groups_junctions_tables/unit_attributes_to_groups_junctions",
+            "table": "unit_attributes_to_groups_junctions_tables"
+        }
+    ],
+    "unit_castes_tables": [
+        {
+            "filename": "unit_castes",
+            "version": "2",
+            "path": "db/unit_castes_tables/unit_castes",
+            "table": "unit_castes_tables"
+        }
+    ],
+    "unit_category_tables": [
+        {
+            "filename": "unit_category",
+            "version": "3",
+            "path": "db/unit_category_tables/unit_category",
+            "table": "unit_category_tables"
+        }
+    ],
+    "unit_class_tables": [
+        {
+            "filename": "unit_class",
+            "version": "3",
+            "path": "db/unit_class_tables/unit_class",
+            "table": "unit_class_tables"
+        }
+    ],
+    "unit_class_to_population_class_priorities_tables": [],
+    "unit_description_gameplay_texts_tables": [
+        {
+            "filename": "unit_description_gameplay_texts",
+            "version": "0",
+            "path": "db/unit_description_gameplay_texts_tables/unit_description_gameplay_texts",
+            "table": "unit_description_gameplay_texts_tables"
+        }
+    ],
+    "unit_description_historical_texts_tables": [
+        {
+            "filename": "unit_description_historical_texts",
+            "version": "0",
+            "path": "db/unit_description_historical_texts_tables/unit_description_historical_texts",
+            "table": "unit_description_historical_texts_tables"
+        }
+    ],
+    "unit_description_short_texts_tables": [
+        {
+            "filename": "unit_description_short_texts",
+            "version": "0",
+            "path": "db/unit_description_short_texts_tables/unit_description_short_texts",
+            "table": "unit_description_short_texts_tables"
+        }
+    ],
+    "unit_description_strengths_weaknesses_texts_tables": [
+        {
+            "filename": "unit_description_strengths_weaknesses_texts",
+            "version": "0",
+            "path": "db/unit_description_strengths_weaknesses_texts_tables/unit_description_strengths_weaknesses_texts",
+            "table": "unit_description_strengths_weaknesses_texts_tables"
+        }
+    ],
+    "unit_experience_bonuses_tables": [
+        {
+            "filename": "unit_experience_bonuses",
+            "version": "1",
+            "path": "db/unit_experience_bonuses_tables/unit_experience_bonuses",
+            "table": "unit_experience_bonuses_tables"
+        }
+    ],
+    "unit_experience_thresholds_tables": [
+        {
+            "filename": "unit_experience_thresholds",
+            "version": "0",
+            "path": "db/unit_experience_thresholds_tables/unit_experience_thresholds",
+            "table": "unit_experience_thresholds_tables"
+        }
+    ],
+    "unit_experience_threshold_modifiers_tables": [
+        {
+            "filename": "unit_experience_threshold_modifiers",
+            "version": "0",
+            "path": "db/unit_experience_threshold_modifiers_tables/unit_experience_threshold_modifiers",
+            "table": "unit_experience_threshold_modifiers_tables"
+        }
+    ],
+    "unit_fatigue_effects_tables": [
+        {
+            "filename": "unit_fatigue_effects",
+            "version": "2",
+            "path": "db/unit_fatigue_effects_tables/unit_fatigue_effects",
+            "table": "unit_fatigue_effects_tables"
+        }
+    ],
+    "unit_ground_type_movement_modifiers_tables": [
+        {
+            "filename": "unit_ground_type_movement_modifiers",
+            "version": "0",
+            "path": "db/unit_ground_type_movement_modifiers_tables/unit_ground_type_movement_modifiers",
+            "table": "unit_ground_type_movement_modifiers_tables"
+        }
+    ],
+    "unit_regiment_names_tables": [],
+    "unit_required_technology_junctions_tables": [
+        {
+            "filename": "unit_required_technology_junctions",
+            "version": "0",
+            "path": "db/unit_required_technology_junctions_tables/unit_required_technology_junctions",
+            "table": "unit_required_technology_junctions_tables"
+        }
+    ],
+    "unit_sets_tables": [
+        {
+            "filename": "unit_sets",
+            "version": "0",
+            "path": "db/unit_sets_tables/unit_sets",
+            "table": "unit_sets_tables"
+        }
+    ],
+    "unit_set_to_unit_junctions_tables": [
+        {
+            "filename": "unit_set_to_unit_junctions",
+            "version": "0",
+            "path": "db/unit_set_to_unit_junctions_tables/unit_set_to_unit_junctions",
+            "table": "unit_set_to_unit_junctions_tables"
+        }
+    ],
+    "unit_shield_types_tables": [
+        {
+            "filename": "unit_shield_types",
+            "version": "3",
+            "path": "db/unit_shield_types_tables/unit_shield_types",
+            "table": "unit_shield_types_tables"
+        }
+    ],
+    "unit_spacings_tables": [
+        {
+            "filename": "unit_spacings",
+            "version": "2",
+            "path": "db/unit_spacings_tables/unit_spacings",
+            "table": "unit_spacings_tables"
+        }
+    ],
+    "unit_special_abilities_tables": [
+        {
+            "filename": "unit_special_abilities",
+            "version": "16",
+            "path": "db/unit_special_abilities_tables/unit_special_abilities",
+            "table": "unit_special_abilities_tables"
+        }
+    ],
+    "unit_special_ability_effects_tables": [],
+    "unit_stats_land_experience_bonuses_tables": [
+        {
+            "filename": "unit_stats_land_experience_bonuses",
+            "version": "0",
+            "path": "db/unit_stats_land_experience_bonuses_tables/unit_stats_land_experience_bonuses",
+            "table": "unit_stats_land_experience_bonuses_tables"
+        }
+    ],
+    "unit_stats_naval_crew_tables": [
+        {
+            "filename": "unit_stats_naval_crew",
+            "version": "2",
+            "path": "db/unit_stats_naval_crew_tables/unit_stats_naval_crew",
+            "table": "unit_stats_naval_crew_tables"
+        }
+    ],
+    "unit_stats_naval_crew_to_factions_tables": [
+        {
+            "filename": "unit_stats_naval_crew_to_factions",
+            "version": "0",
+            "path": "db/unit_stats_naval_crew_to_factions_tables/unit_stats_naval_crew_to_factions",
+            "table": "unit_stats_naval_crew_to_factions_tables"
+        }
+    ],
+    "unit_stats_naval_experience_bonuses_tables": [
+        {
+            "filename": "unit_stats_naval_experience_bonuses",
+            "version": "1",
+            "path": "db/unit_stats_naval_experience_bonuses_tables/unit_stats_naval_experience_bonuses",
+            "table": "unit_stats_naval_experience_bonuses_tables"
+        }
+    ],
+    "unit_stat_modifiers_tables": [
+        {
+            "filename": "unit_stat_modifiers",
+            "version": "1",
+            "path": "db/unit_stat_modifiers_tables/unit_stat_modifiers",
+            "table": "unit_stat_modifiers_tables"
+        }
+    ],
+    "unit_to_unit_abilities_junctions_tables": [],
+    "unit_type_enums_tables": [
+        {
+            "filename": "unit_type_enums",
+            "version": "0",
+            "path": "db/unit_type_enums_tables/unit_type_enums",
+            "table": "unit_type_enums_tables"
+        }
+    ],
+    "unit_variants_colours_tables": [
+        {
+            "filename": "unit_variants_colours",
+            "version": "1",
+            "path": "db/unit_variants_colours_tables/unit_variants_colours",
+            "table": "unit_variants_colours_tables"
+        }
+    ],
+    "unit_variants_tables": [
+        {
+            "filename": "unit_variants",
+            "version": "4",
+            "path": "db/unit_variants_tables/unit_variants",
+            "table": "unit_variants_tables"
+        }
+    ],
+    "unit_voice_categories_tables": [
+        {
+            "filename": "unit_voice_categories",
+            "version": "0",
+            "path": "db/unit_voice_categories_tables/unit_voice_categories",
+            "table": "unit_voice_categories_tables"
+        }
+    ],
+    "unit_voice_events_junctions_tables": [],
+    "unit_weights_tables": [
+        {
+            "filename": "unit_weights",
+            "version": "0",
+            "path": "db/unit_weights_tables/unit_weights",
+            "table": "unit_weights_tables"
+        }
+    ],
+    "unrest_cause_to_demands_tables": [],
+    "variants_tables": [
+        {
+            "filename": "variants",
+            "version": "0",
+            "path": "db/variants_tables/variants",
+            "table": "variants_tables"
+        }
+    ],
+    "victory_conditions_tables": [
+        {
+            "filename": "victory_conditions",
+            "version": "0",
+            "path": "db/victory_conditions_tables/victory_conditions",
+            "table": "victory_conditions_tables"
+        }
+    ],
+    "videos_tables": [
+        {
+            "filename": "videos",
+            "version": "2",
+            "path": "db/videos_tables/videos",
+            "table": "videos_tables"
+        }
+    ],
+    "voice_events_tables": [],
+    "voice_types_tables": [
+        {
+            "filename": "voice_types",
+            "version": "0",
+            "path": "db/voice_types_tables/voice_types",
+            "table": "voice_types_tables"
+        }
+    ],
+    "warscape_animated_lod_tables": [
+        {
+            "filename": "warscape_animated_lod",
+            "version": "1",
+            "path": "db/warscape_animated_lod_tables/warscape_animated_lod",
+            "table": "warscape_animated_lod_tables"
+        }
+    ],
+    "warscape_animated_tables": [
+        {
+            "filename": "warscape_animated",
+            "version": "2",
+            "path": "db/warscape_animated_tables/warscape_animated",
+            "table": "warscape_animated_tables"
+        }
+    ],
+    "warscape_equipment_items_tables": [
+        {
+            "filename": "warscape_equipment_items",
+            "version": "2",
+            "path": "db/warscape_equipment_items_tables/warscape_equipment_items",
+            "table": "warscape_equipment_items_tables"
+        }
+    ],
+    "warscape_equipment_themes_tables": [
+        {
+            "filename": "warscape_equipment_themes",
+            "version": "1",
+            "path": "db/warscape_equipment_themes_tables/warscape_equipment_themes",
+            "table": "warscape_equipment_themes_tables"
+        }
+    ],
+    "warscape_rigid_lod_range_tables": [
+        {
+            "filename": "warscape_rigid_lod_range",
+            "version": "1",
+            "path": "db/warscape_rigid_lod_range_tables/warscape_rigid_lod_range",
+            "table": "warscape_rigid_lod_range_tables"
+        }
+    ],
+    "warscape_rigid_lod_tables": [
+        {
+            "filename": "warscape_rigid_lod",
+            "version": "1",
+            "path": "db/warscape_rigid_lod_tables/warscape_rigid_lod",
+            "table": "warscape_rigid_lod_tables"
+        }
+    ],
+    "warscape_rigid_tables": [
+        {
+            "filename": "warscape_rigid",
+            "version": "2",
+            "path": "db/warscape_rigid_tables/warscape_rigid",
+            "table": "warscape_rigid_tables"
+        }
+    ],
+    "warscape_trees_tables": [
+        {
+            "filename": "warscape_trees",
+            "version": "0",
+            "path": "db/warscape_trees_tables/warscape_trees",
+            "table": "warscape_trees_tables"
+        }
+    ],
+    "warscape_underlay_textures_tables": [
+        {
+            "filename": "warscape_underlay_textures",
+            "version": "2",
+            "path": "db/warscape_underlay_textures_tables/warscape_underlay_textures",
+            "table": "warscape_underlay_textures_tables"
+        }
+    ],
+    "wind_levels_tables": [
+        {
+            "filename": "wind_levels",
+            "version": "0",
+            "path": "db/wind_levels_tables/wind_levels",
+            "table": "wind_levels_tables"
+        }
+    ],
+    "_kv_experience_bonuses_tables": [
+        {
+            "filename": "_kv_experience_bonuses",
+            "version": "0",
+            "path": "db/_kv_experience_bonuses_tables/_kv_experience_bonuses",
+            "table": "_kv_experience_bonuses_tables"
+        }
+    ],
+    "_kv_fatigue_tables": [
+        {
+            "filename": "_kv_fatigue",
+            "version": "0",
+            "path": "db/_kv_fatigue_tables/_kv_fatigue",
+            "table": "_kv_fatigue_tables"
+        }
+    ],
+    "_kv_key_buildings_tables": [
+        {
+            "filename": "_kv_key_buildings",
+            "version": "0",
+            "path": "db/_kv_key_buildings_tables/_kv_key_buildings",
+            "table": "_kv_key_buildings_tables"
+        }
+    ],
+    "_kv_morale_tables": [
+        {
+            "filename": "_kv_morale",
+            "version": "0",
+            "path": "db/_kv_morale_tables/_kv_morale",
+            "table": "_kv_morale_tables"
+        }
+    ],
+    "_kv_naval_morale_tables": [
+        {
+            "filename": "_kv_naval_morale",
+            "version": "0",
+            "path": "db/_kv_naval_morale_tables/_kv_naval_morale",
+            "table": "_kv_naval_morale_tables"
+        }
+    ],
+    "_kv_rules_tables": [
+        {
+            "filename": "_kv_rules",
+            "version": "0",
+            "path": "db/_kv_rules_tables/_kv_rules",
+            "table": "_kv_rules_tables"
+        }
+    ]
+}
