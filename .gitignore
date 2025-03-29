@@ -1,3 +1,4 @@
 .idea
 .venv
 r2docs/public
+.deps
