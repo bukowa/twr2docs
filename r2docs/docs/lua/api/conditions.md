@@ -19,6 +19,10 @@ You should not rely 100% on the below list, as it may contain errors or missing 
 **Description:**  
 Are any of the regions adjacent to the region rebelling
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108109c0`
+
 
 
 ## AnyFactionDestroyedLastTurn
@@ -29,6 +33,10 @@ Are any of the regions adjacent to the region rebelling
 
 **Description:**  
 Has any faction been destroyed since the last turn
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10810a80`
 
 
 
@@ -41,6 +49,10 @@ Has any faction been destroyed since the last turn
 **Description:**  
 Does the army belong to a faction allied to the player faction
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10810af0`
+
 
 
 ## ArmyIsLocalCampaign
@@ -51,6 +63,10 @@ Does the army belong to a faction allied to the player faction
 
 **Description:**  
 Does the army belong to the player faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10810bb0`
 
 
 
@@ -63,6 +79,10 @@ Does the army belong to the player faction?
 **Description:**  
 Returns true if the alliance has deployables
 
+**Author:** `Dylan`
+
+**Function:** `FUN_10163ca0`
+
 
 
 ## BattleAllianceIsAttacker
@@ -73,6 +93,10 @@ Returns true if the alliance has deployables
 
 **Description:**  
 Returns true if the alliance is the attacker from the campaign map
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10163d60`
 
 
 
@@ -85,6 +109,10 @@ Returns true if the alliance is the attacker from the campaign map
 **Description:**  
 Returns true if the alliance contains the players army
 
+**Author:** `Ingimar`
+
+**Function:** `LAB_10163e20`
+
 
 
 ## BattleAllianceNumberOfShips
@@ -95,6 +123,10 @@ Returns true if the alliance contains the players army
 
 **Description:**  
 Returns the number of ships in all the armies of the alliance
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10163f10`
 
 
 
@@ -107,6 +139,10 @@ Returns the number of ships in all the armies of the alliance
 **Description:**  
 Returns the number of units in all the armies of the alliance
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10163ff0`
+
 
 
 ## BattleCommanderIsGeneral
@@ -117,6 +153,10 @@ Returns the number of units in all the armies of the alliance
 
 **Description:**  
 Returns true if the the alliance has a general and not just a colonel
+
+**Author:** `Ingimar`
+
+**Function:** `LAB_10164060`
 
 
 
@@ -129,6 +169,10 @@ Returns true if the the alliance has a general and not just a colonel
 **Description:**  
 Checks the percentage of enemy units ( in alliance ) that can hide, returns a percentage
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164150`
+
 
 
 ## BattleEnemyAlliancePercentageOfClassAndCategory
@@ -139,6 +183,10 @@ Checks the percentage of enemy units ( in alliance ) that can hide, returns a pe
 
 **Description:**  
 Takes in class and category of a particular unit and goes through every enemy army, returning the percentage of units that match the class and category
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164240`
 
 
 
@@ -151,6 +199,10 @@ Takes in class and category of a particular unit and goes through every enemy ar
 **Description:**  
 Determine the percentage of units in the enemies army that have the type of mount passed to the condition
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101643e0`
+
 
 
 ## BattleEnemyAlliancePercentageOfSpecialAbility
@@ -161,6 +213,10 @@ Determine the percentage of units in the enemies army that have the type of moun
 
 **Description:**  
 Checks all of the Armies in the enemy alliances for the particular special ability
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164530`
 
 
 
@@ -173,6 +229,10 @@ Checks all of the Armies in the enemy alliances for the particular special abili
 **Description:**  
 Take in the name of the unit\'s category and returns the percentage of units in the alliance that match the given category
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164650`
+
 
 
 ## BattleEnemyAlliancePercentageOfUnitClass
@@ -183,6 +243,10 @@ Take in the name of the unit\'s category and returns the percentage of units in 
 
 **Description:**  
 Takes in the name of the unit\'s class and returns the percentage of units in the alliance that match the given class
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101647f0`
 
 
 
@@ -195,6 +259,10 @@ Takes in the name of the unit\'s class and returns the percentage of units in th
 **Description:**  
 Returns true if the passed parameter matches the direction of melee attack for the enemy unit
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164990`
+
 
 
 ## BattleEnemyHasMissileSuperiority
@@ -205,6 +273,10 @@ Returns true if the passed parameter matches the direction of melee attack for t
 
 **Description:**  
 Returns true if the combined missile streangth of the enemy is greater than the missile streangth of the player
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164ab0`
 
 
 
@@ -217,6 +289,10 @@ Returns true if the combined missile streangth of the enemy is greater than the 
 **Description:**  
 Returns true if the action status of the enemy ship matches : dismasted, firing, hull_damaged, routing, sinking, wavering.
 
+**Author:** `Ingimar`
+
+**Function:** `LAB_10164e60`
+
 
 
 ## BattleEnemyShipOnFire
@@ -227,6 +303,10 @@ Returns true if the action status of the enemy ship matches : dismasted, firing,
 
 **Description:**  
 Checks whether any of the enemies ships are on fire, returns true or false
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10164f50`
 
 
 
@@ -239,6 +319,10 @@ Checks whether any of the enemies ships are on fire, returns true or false
 **Description:**  
 Returns true if the action status of the enemy unit matches : charging, exhausted, fighting_melee, firing, hiding, idling moving, moving_fast, pursue_routers, rallying, routing, wavering.
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165080`
+
 
 
 ## BattleEnemyUnitCategory
@@ -249,6 +333,10 @@ Returns true if the action status of the enemy unit matches : charging, exhauste
 
 **Description:**  
 Takes in a unit category string and returns true if there is an enemy and it matches the category of the enemy unit
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165150`
 
 
 
@@ -261,6 +349,10 @@ Takes in a unit category string and returns true if there is an enemy and it mat
 **Description:**  
 Takes in a unit class string and returns true if it matches the unit class of the enemy unit
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165230`
+
 
 
 ## BattleEnemyUnitCurrentFormation
@@ -271,6 +363,10 @@ Takes in a unit class string and returns true if it matches the unit class of th
 
 **Description:**  
 Returns true if the unit has an enemy and the string matches the current formation employed by the enemy, otherwise it returns false
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165300`
 
 
 
@@ -283,6 +379,10 @@ Returns true if the unit has an enemy and the string matches the current formati
 **Description:**  
 Returns true if there\'s an enemy unit on the left flank
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101653f0`
+
 
 
 ## BattleEnemyUnitOnRightFlank
@@ -293,6 +393,10 @@ Returns true if there\'s an enemy unit on the left flank
 
 **Description:**  
 Returns true if there\'s an enemy unit on the right flank
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165470`
 
 
 
@@ -305,6 +409,10 @@ Returns true if there\'s an enemy unit on the right flank
 **Description:**  
 If there is an enemy unit then the condition checks all of the enemy unit\'s special abilities and returns true if the unit has the special ability
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101654f0`
+
 
 
 ## BattleEnemyUnitTechnologySupported
@@ -315,6 +423,10 @@ If there is an enemy unit then the condition checks all of the enemy unit\'s spe
 
 **Description:**  
 Checks whether the unit has the technology passed in and returns true if the unit has the technology
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101655e0`
 
 
 
@@ -327,6 +439,10 @@ Checks whether the unit has the technology passed in and returns true if the uni
 **Description:**  
 Returns true if it finds an occupiable building
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165690`
+
 
 
 ## BattleHasCoverWalls
@@ -337,6 +453,10 @@ Returns true if it finds an occupiable building
 
 **Description:**  
 Returns true if the battlefield has walls that the men can take cover against
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165740`
 
 
 
@@ -349,6 +469,10 @@ Returns true if the battlefield has walls that the men can take cover against
 **Description:**  
 Returns true if there is a fort in the battle
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101657c0`
+
 
 
 ## BattleIsLandConflict
@@ -359,6 +483,10 @@ Returns true if there is a fort in the battle
 
 **Description:**  
 Returns true if battle is being fought on land (this will NOT return true for fort battles)
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165830`
 
 
 
@@ -371,6 +499,10 @@ Returns true if battle is being fought on land (this will NOT return true for fo
 **Description:**  
 Returns true if battle is being fought on sea
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101658d0`
+
 
 
 ## BattleIsSiegeConflict
@@ -381,6 +513,10 @@ Returns true if battle is being fought on sea
 
 **Description:**  
 Returns true if there is a fort in the battle
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165960`
 
 
 
@@ -393,6 +529,10 @@ Returns true if there is a fort in the battle
 **Description:**  
 Returns true if a unit in the alliance is stationed on a hill
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101659f0`
+
 
 
 ## BattlePlayerAlliancePercentageCanHide
@@ -403,6 +543,10 @@ Returns true if a unit in the alliance is stationed on a hill
 
 **Description:**  
 Checks the percentage of player units ( in alliance ) that can hide, returns a percentage
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165b40`
 
 
 
@@ -415,6 +559,10 @@ Checks the percentage of player units ( in alliance ) that can hide, returns a p
 **Description:**  
 Goes through the players alliance and searches for all the units that have guerrilla deployment
 
+**Author:** `Scott`
+
+**Function:** `LAB_10165bb0`
+
 
 
 ## BattlePlayerAlliancePercentageOfAmmoType
@@ -425,6 +573,10 @@ Goes through the players alliance and searches for all the units that have guerr
 
 **Description:**  
 Returns the percentage of units in the alliance that have the specified ammo type
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165ce0`
 
 
 
@@ -437,6 +589,10 @@ Returns the percentage of units in the alliance that have the specified ammo typ
 **Description:**  
 Takes in Class and Category of a particular unit and goes through players army and returns the percentage that match the class and category
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165e60`
+
 
 
 ## BattlePlayerAlliancePercentageOfMountType
@@ -447,6 +603,10 @@ Takes in Class and Category of a particular unit and goes through players army a
 
 **Description:**  
 Determine the percentage of units in the players army that have the type of mount passed to the condition
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10165fd0`
 
 
 
@@ -459,6 +619,10 @@ Determine the percentage of units in the players army that have the type of moun
 **Description:**  
 Checks all of the Armies in the players alliance for the special ability
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101660d0`
+
 
 
 ## BattlePlayerAlliancePercentageOfTechnology
@@ -469,6 +633,10 @@ Checks all of the Armies in the players alliance for the special ability
 
 **Description:**  
 Checks all of the Armies in the players alliance for the technology and returns the percentage of those that have it
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166170`
 
 
 
@@ -481,6 +649,10 @@ Checks all of the Armies in the players alliance for the technology and returns 
 **Description:**  
 Goes through the players alliance and searches for all the units that fit the given category description
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101661f0`
+
 
 
 ## BattlePlayerAlliancePercentageOfUnitClass
@@ -491,6 +663,10 @@ Goes through the players alliance and searches for all the units that fit the gi
 
 **Description:**  
 Goes through the players alliance and searches for all the units that fit the given class description
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166350`
 
 
 
@@ -503,6 +679,10 @@ Goes through the players alliance and searches for all the units that fit the gi
 **Description:**  
 Returns the ratio PlayersAlliance/EnemyAlliance in terms of men on the battlefield
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101664b0`
+
 
 
 ## BattlePlayerDefendingFort
@@ -513,6 +693,10 @@ Returns the ratio PlayersAlliance/EnemyAlliance in terms of men on the battlefie
 
 **Description:**  
 Returns true if player is still in control of the fort and is tasked to defend it.
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166720`
 
 
 
@@ -525,6 +709,10 @@ Returns true if player is still in control of the fort and is tasked to defend i
 **Description:**  
 Returns true if the passed parameter matches the direction of melee attack for the unit
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166810`
+
 
 
 ## BattlePlayerDirectionOfMissileAttack
@@ -535,6 +723,10 @@ Returns true if the passed parameter matches the direction of melee attack for t
 
 **Description:**  
 Returns true if the passed parameter matches the direction of missile attack for the unit
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166900`
 
 
 
@@ -547,6 +739,10 @@ Returns true if the passed parameter matches the direction of missile attack for
 **Description:**  
 Returns the floating point value of percentage damaged in the range 0.0 to 100.0
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166a20`
+
 
 
 ## BattlePlayerShipActionStatus
@@ -557,6 +753,10 @@ Returns the floating point value of percentage damaged in the range 0.0 to 100.0
 
 **Description:**  
 Returns true if the action status of the ship : dismasted, firing, hull_damaged, routing, sinking, wavering.
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166aa0`
 
 
 
@@ -569,6 +769,10 @@ Returns true if the action status of the ship : dismasted, firing, hull_damaged,
 **Description:**  
 Takes in a ship class and returns true if it matches the ship class of the ship
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166b40`
+
 
 
 ## BattlePlayerUnitActionStatus
@@ -579,6 +783,10 @@ Takes in a ship class and returns true if it matches the ship class of the ship
 
 **Description:**  
 Returns true if the action status of the unit matches UNIT: charging, exhausted, fighting_melee, firing, hiding, idling moving, moving_fast, pursue_routers, rallying, routing, wavering.
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166b80`
 
 
 
@@ -591,6 +799,10 @@ Returns true if the action status of the unit matches UNIT: charging, exhausted,
 **Description:**  
 Returns true if the unit has the ammo type
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166c20`
+
 
 
 ## BattlePlayerUnitCategory
@@ -601,6 +813,10 @@ Returns true if the unit has the ammo type
 
 **Description:**  
 Takes in a unit category string and returns true if it matches the unit category of the unit
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166cd0`
 
 
 
@@ -613,6 +829,10 @@ Takes in a unit category string and returns true if it matches the unit category
 **Description:**  
 Takes in a unit class string and returns true if it matches the unit class of the unit
 
+**Author:** `Ingimar`
+
+**Function:** `LAB_10166d70`
+
 
 
 ## BattlePlayerUnitCurrentFormation
@@ -623,6 +843,10 @@ Takes in a unit class string and returns true if it matches the unit class of th
 
 **Description:**  
 Returns true if the string matches the current formation employed, otherwise it returns false
+
+**Author:** `Ingimar`
+
+**Function:** `LAB_10166e10`
 
 
 
@@ -635,6 +859,10 @@ Returns true if the string matches the current formation employed, otherwise it 
 **Description:**  
 Returns true if a unit is stationed on a hill
 
+**Author:** `Ingimar`
+
+**Function:** `LAB_10166ec0`
+
 
 
 ## BattlePlayerUnitEngaged
@@ -645,6 +873,10 @@ Returns true if a unit is stationed on a hill
 
 **Description:**  
 Returns true if a unit is either in a firefight or melee
+
+**Author:** `Ingimar`
+
+**Function:** `LAB_10167010`
 
 
 
@@ -657,6 +889,10 @@ Returns true if a unit is either in a firefight or melee
 **Description:**  
 Returns true if a unit is in a melee fight
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166fa0`
+
 
 
 ## BattlePlayerUnitMountType
@@ -667,6 +903,10 @@ Returns true if a unit is in a melee fight
 
 **Description:**  
 Determines whether the unit is mounted on the type of mount passed to the condition
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101670e0`
 
 
 
@@ -679,6 +919,10 @@ Determines whether the unit is mounted on the type of mount passed to the condit
 **Description:**  
 Returns true if the unit is moving fast, otherwise false
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10167190`
+
 
 
 ## BattlePlayerUnitSpecialAbilityActive
@@ -689,6 +933,10 @@ Returns true if the unit is moving fast, otherwise false
 
 **Description:**  
 Checks whether the specified unit ability is active
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101672b0`
 
 
 
@@ -701,6 +949,10 @@ Checks whether the specified unit ability is active
 **Description:**  
 Checks all of the units special abilities and returns true if the unit has ability
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10167390`
+
 
 
 ## BattlePlayerUnitTechnologySupported
@@ -711,6 +963,10 @@ Checks all of the units special abilities and returns true if the unit has abili
 
 **Description:**  
 Checks whether the unit has the technology passed in and returns true if the unit has the technology
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10167450`
 
 
 
@@ -723,6 +979,10 @@ Checks whether the unit has the technology passed in and returns true if the uni
 **Description:**  
 Returns true if the battle result matches the one supplied
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10810db0`
+
 
 
 ## BattleShipIsPlayers
@@ -733,6 +993,10 @@ Returns true if the battle result matches the one supplied
 
 **Description:**  
 Returns true if the unit is part of the players army
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101674c0`
 
 
 
@@ -745,6 +1009,10 @@ Returns true if the unit is part of the players army
 **Description:**  
 Returns the percentile of damage the sails have recieved in the range 0.0 to 100.0
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10166a20`
+
 
 
 ## BattleTimeLimitSet
@@ -755,6 +1023,10 @@ Returns the percentile of damage the sails have recieved in the range 0.0 to 100
 
 **Description:**  
 Returns true if there\'s an alliance in a the battle that will win on a timeout
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_10167670`
 
 
 
@@ -767,6 +1039,10 @@ Returns true if there\'s an alliance in a the battle that will win on a timeout
 **Description:**  
 Returns true if the battle type matches the one supplied
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_10167700`
+
 
 
 ## BattleUnitIsAllied
@@ -777,6 +1053,10 @@ Returns true if the battle type matches the one supplied
 
 **Description:**  
 Returns true if the unit is part of the players alliance
+
+**Author:** `Ingimar`
+
+**Function:** `FUN_101677b0`
 
 
 
@@ -789,6 +1069,10 @@ Returns true if the unit is part of the players alliance
 **Description:**  
 Returns true if the unit is part of the players army
 
+**Author:** `Ingimar`
+
+**Function:** `FUN_101678b0`
+
 
 
 ## BattlesFought
@@ -799,6 +1083,10 @@ Returns true if the unit is part of the players army
 
 **Description:**  
 How many battles has this character fought in?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10810f20`
 
 
 
@@ -811,6 +1099,10 @@ How many battles has this character fought in?
 **Description:**  
 Flags whether or not the context contains the supplied building level record
 
+**Author:** `DAT_1173e50c`
+
+**Function:** `FUN_108b6e30`
+
 
 
 ## BuildingTypeExistsAtSettlement
@@ -821,6 +1113,10 @@ Flags whether or not the context contains the supplied building level record
 
 **Description:**  
 Tests if a building of the specified type exists in the region settlement
+
+**Author:** `DAT_117a1590`
+
+**Function:** `LAB_10810f70`
 
 
 
@@ -833,6 +1129,10 @@ Tests if a building of the specified type exists in the region settlement
 **Description:**  
 Tests if a building of the specified type exists in the region slot
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10811040`
+
 
 
 ## CampaignBattleType
@@ -843,6 +1143,10 @@ Tests if a building of the specified type exists in the region slot
 
 **Description:**  
 Returns true if the battle type matches the one supplied
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108116f0`
 
 
 
@@ -855,6 +1159,10 @@ Returns true if the battle type matches the one supplied
 **Description:**  
 Returns whether or not the current campaign name matches the supplied parameter
 
+**Author:** `DAT_1173e50c`
+
+**Function:** `FUN_108117d0`
+
 
 
 ## CampaignNumberOfUnitsInEnemyAlliance
@@ -865,6 +1173,10 @@ Returns whether or not the current campaign name matches the supplied parameter
 
 **Description:**  
 Number of units in the alliance opposing character in context
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108118d0`
 
 
 
@@ -877,6 +1189,10 @@ Number of units in the alliance opposing character in context
 **Description:**  
 Number of units in the primary army of the primary faction of the force opposing the army commanded by the character in context
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108119c0`
+
 
 
 ## CampaignNumberOfUnitsInPlayerAlliance
@@ -887,6 +1203,10 @@ Number of units in the primary army of the primary faction of the force opposing
 
 **Description:**  
 Number of units in the alliance containing character in context
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10811ad0`
 
 
 
@@ -899,6 +1219,10 @@ Number of units in the alliance containing character in context
 **Description:**  
 Number of units in the army commanded by the character in context
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10811bc0`
+
 
 
 ## CampaignPercentageOfOwnCaptured
@@ -909,6 +1233,10 @@ Number of units in the army commanded by the character in context
 
 **Description:**  
 Percentage of own men/ships captured in the battle that just took place
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10811cf0`
 
 
 
@@ -921,6 +1249,10 @@ Percentage of own men/ships captured in the battle that just took place
 **Description:**  
 Percentage of own men/ships killed in the battle that just took place
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10811dc0`
+
 
 
 ## CampaignPercentageOfOwnRouted
@@ -931,6 +1263,10 @@ Percentage of own men/ships killed in the battle that just took place
 
 **Description:**  
 Percentage of own men/ships that routed in the battle that just took place
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10811ef0`
 
 
 
@@ -943,6 +1279,10 @@ Percentage of own men/ships that routed in the battle that just took place
 **Description:**  
 Percentage of opposing men/ships captured in the battle that just took place
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812030`
+
 
 
 ## CampaignPercentageOfThemKilled
@@ -953,6 +1293,10 @@ Percentage of opposing men/ships captured in the battle that just took place
 
 **Description:**  
 Percentage of opposing men/ships killed in the battle that just took place
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812100`
 
 
 
@@ -965,6 +1309,10 @@ Percentage of opposing men/ships killed in the battle that just took place
 **Description:**  
 Percentage of opposing men/ships that routed in the battle that just took place
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812230`
+
 
 
 ## CampaignPercentageOfUnitCategory
@@ -975,6 +1323,10 @@ Percentage of opposing men/ships that routed in the battle that just took place
 
 **Description:**  
 Percentage of type of ships/units under an admirals/generals command
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812370`
 
 
 
@@ -987,6 +1339,10 @@ Percentage of type of ships/units under an admirals/generals command
 **Description:**  
 DAT_1173dad0
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10970f80`
+
 
 
 ## CharacterAbility
@@ -997,6 +1353,10 @@ DAT_1173dad0
 
 **Description:**  
 Returns whether a character can perform the ability specified
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_108124f0`
 
 
 
@@ -1009,6 +1369,10 @@ Returns whether a character can perform the ability specified
 **Description:**  
 Test to see if an army involved in the current pending battle and belonging to the player can replenish
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812580`
+
 
 
 ## CharacterArmyUsedCoverBuildings
@@ -1019,6 +1383,10 @@ Test to see if an army involved in the current pending battle and belonging to t
 
 **Description:**  
 Did the characters army use buildings for conver?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812630`
 
 
 
@@ -1031,6 +1399,10 @@ Did the characters army use buildings for conver?
 **Description:**  
 Did the characters army use walls for cover?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812740`
+
 
 
 ## CharacterAttribute
@@ -1041,6 +1413,10 @@ Did the characters army use walls for cover?
 
 **Description:**  
 Returns the value of the attribute specified.  This doesn\'t account for any given situation bonuses
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `LAB_10812850`
 
 
 
@@ -1053,6 +1429,10 @@ Returns the value of the attribute specified.  This doesn\'t account for any giv
 **Description:**  
 Did the characters army breach the walls of a fort?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812870`
+
 
 
 ## CharacterBuildingConstructed
@@ -1063,6 +1443,10 @@ Did the characters army breach the walls of a fort?
 
 **Description:**  
 Did this building type just get constructed?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812980`
 
 
 
@@ -1075,6 +1459,10 @@ Did this building type just get constructed?
 **Description:**  
 Did the given character capture an enemy ship?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812a10`
+
 
 
 ## CharacterCommandsNavy
@@ -1085,6 +1473,10 @@ Did the given character capture an enemy ship?
 
 **Description:**  
 Does a character command a navy?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10812aa0`
 
 
 
@@ -1097,6 +1489,10 @@ Does a character command a navy?
 **Description:**  
 Returns true if the character context is of the culture specified
 
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10812b10`
+
 
 
 ## CharacterDuelWeapon
@@ -1107,6 +1503,10 @@ Returns true if the character context is of the culture specified
 
 **Description:**  
 Did the given character use the given weapon in the duel?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10166b40`
 
 
 
@@ -1119,6 +1519,10 @@ Did the given character use the given weapon in the duel?
 **Description:**  
 Number of duels a character has fought. Character context
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10812bc0`
+
 
 
 ## CharacterDuelsLost
@@ -1129,6 +1533,10 @@ Number of duels a character has fought. Character context
 
 **Description:**  
 Number of duels a character has lost. Character context
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10812c30`
 
 
 
@@ -1141,6 +1549,10 @@ Number of duels a character has lost. Character context
 **Description:**  
 Number of duels a character has won. Character context
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10812ca0`
+
 
 
 ## CharacterEndedInAmbushPosition
@@ -1151,6 +1563,10 @@ Number of duels a character has won. Character context
 
 **Description:**  
 Returns true if the character is in an ambush position, as used in conjunction with out of mp this has just happened
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812d10`
 
 
 
@@ -1163,6 +1579,10 @@ Returns true if the character is in an ambush position, as used in conjunction w
 **Description:**  
 How many admirals does this characters faction have?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812d70`
+
 
 
 ## CharacterFactionGeneralCount
@@ -1173,6 +1593,10 @@ How many admirals does this characters faction have?
 
 **Description:**  
 How many generals does this characters faction have?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812d70`
 
 
 
@@ -1185,6 +1609,10 @@ How many generals does this characters faction have?
 **Description:**  
 Does the characters faction have the specified technology
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10812e20`
+
 
 
 ## CharacterFactionMinisterAncillary
@@ -1195,6 +1623,10 @@ Does the characters faction have the specified technology
 
 **Description:**  
 Tests whether any minister in the characters faction has the specified ancillary
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812ef0`
 
 
 
@@ -1207,6 +1639,10 @@ Tests whether any minister in the characters faction has the specified ancillary
 **Description:**  
 Tests whether any minister in the characters faction has the named trait
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10812ff0`
+
 
 
 ## CharacterFactionName
@@ -1217,6 +1653,10 @@ Tests whether any minister in the characters faction has the named trait
 
 **Description:**  
 Is characters faction the one specified?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108130f0`
 
 
 
@@ -1229,6 +1669,10 @@ Is characters faction the one specified?
 **Description:**  
 Returns whether the religion of the character context\'s faction matches the specified religion
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108131a0`
+
 
 
 ## CharacterFactionSubcultureType
@@ -1239,6 +1683,10 @@ Returns whether the religion of the character context\'s faction matches the spe
 
 **Description:**  
 Is the character part of the given subculture?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813260`
 
 
 
@@ -1251,6 +1699,10 @@ Is the character part of the given subculture?
 **Description:**  
 Does the character have this forename?
 
+**Author:** `DAT_117a2ed8`
+
+**Function:** `LAB_108132f0`
+
 
 
 ## CharacterFoughtCulture
@@ -1261,6 +1713,10 @@ Does the character have this forename?
 
 **Description:**  
 Has this character just fought this culture?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108133a0`
 
 
 
@@ -1273,6 +1729,10 @@ Has this character just fought this culture?
 **Description:**  
 Tests whether the character has the specified ancillary
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108134a0`
+
 
 
 ## CharacterHasTrait
@@ -1283,6 +1743,10 @@ Tests whether the character has the specified ancillary
 
 **Description:**  
 Does this character have the given trait?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813550`
 
 
 
@@ -1295,6 +1759,10 @@ Does this character have the given trait?
 **Description:**  
 Is this character a minister with a post?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_108135f0`
+
 
 
 ## CharacterHusbandHasTrait
@@ -1305,6 +1773,10 @@ Is this character a minister with a post?
 
 **Description:**  
 Does this character\'s husband have the given trait?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10813660`
 
 
 
@@ -1317,6 +1789,10 @@ Does this character\'s husband have the given trait?
 **Description:**  
 Is the character in a building of this chain type?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_10813720`
+
 
 
 ## CharacterInBuildingType
@@ -1327,6 +1803,10 @@ Is the character in a building of this chain type?
 
 **Description:**  
 Is the character in a building of this type?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813870`
 
 
 
@@ -1339,6 +1819,10 @@ Is the character in a building of this type?
 **Description:**  
 Is the character in enemy lands?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108139b0`
+
 
 
 ## CharacterInHomeRegion
@@ -1349,6 +1833,10 @@ Is the character in enemy lands?
 
 **Description:**  
 Is the character in their home region?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813a40`
 
 
 
@@ -1361,6 +1849,10 @@ Is the character in their home region?
 **Description:**  
 Is the character in their own factions lands?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813ad0`
+
 
 
 ## CharacterInRegion
@@ -1371,6 +1863,10 @@ Is the character in their own factions lands?
 
 **Description:**  
 Is the character in the given region?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10813b60`
 
 
 
@@ -1383,6 +1879,10 @@ Is the character in the given region?
 **Description:**  
 Is the character in the specified theatre
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10813c00`
+
 
 
 ## CharacterIsAlliedCampaign
@@ -1393,6 +1893,10 @@ Is the character in the specified theatre
 
 **Description:**  
 The character is allied to the local faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10813ce0`
 
 
 
@@ -1405,6 +1909,10 @@ The character is allied to the local faction?
 **Description:**  
 The character is an enemy of the local faction?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10813d90`
+
 
 
 ## CharacterIsFemale
@@ -1415,6 +1923,10 @@ The character is an enemy of the local faction?
 
 **Description:**  
 Returns whether the character in context is female
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10813e40`
 
 
 
@@ -1427,6 +1939,10 @@ Returns whether the character in context is female
 **Description:**  
 Does the character belong to the player faction?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10813eb0`
+
 
 
 ## CharacterMPPercentageRemaining
@@ -1437,6 +1953,10 @@ Does the character belong to the player faction?
 
 **Description:**  
 Returns the percentage of movement points remaining as in integer value
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10813f60`
 
 
 
@@ -1449,6 +1969,10 @@ Returns the percentage of movement points remaining as in integer value
 **Description:**  
 Does the character hold the specified ministerial position?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814000`
+
 
 
 ## CharacterNumberOfChildren
@@ -1459,6 +1983,10 @@ Does the character hold the specified ministerial position?
 
 **Description:**  
 How many children does this character have?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108140a0`
 
 
 
@@ -1471,6 +1999,10 @@ How many children does this character have?
 **Description:**  
 Returns whether the character is older than the given age
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108140f0`
+
 
 
 ## CharacterRallied
@@ -1481,6 +2013,10 @@ Returns whether the character is older than the given age
 
 **Description:**  
 Did the general rally at least one unit?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10814170`
 
 
 
@@ -1493,6 +2029,10 @@ Did the general rally at least one unit?
 **Description:**  
 Rank of character (1-6)
 
+**Author:** `DAT_117a2ed8`
+
+**Function:** `FUN_108142c0`
+
 
 
 ## CharacterRouted
@@ -1503,6 +2043,10 @@ Rank of character (1-6)
 
 **Description:**  
 Has the character routed? in the last battle?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814330`
 
 
 
@@ -1515,6 +2059,10 @@ Has the character routed? in the last battle?
 **Description:**  
 Test to see if the character runs a spy network
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10814470`
+
 
 
 ## CharacterSpouseHasTrait
@@ -1525,6 +2073,10 @@ Test to see if the character runs a spy network
 
 **Description:**  
 Does this character\'s spouse have the given trait?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108144c0`
 
 
 
@@ -1537,6 +2089,10 @@ Does this character\'s spouse have the given trait?
 **Description:**  
 Was the character stationary last turn (or longer)
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10814570`
+
 
 
 ## CharacterSurname
@@ -1547,6 +2103,10 @@ Was the character stationary last turn (or longer)
 
 **Description:**  
 Does the character have this surname?
+
+**Author:** `DAT_117a2ed8`
+
+**Function:** `FUN_108145e0`
 
 
 
@@ -1559,6 +2119,10 @@ Does the character have this surname?
 **Description:**  
 Returns the value of the specified trait (0 if not present)
 
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10814690`
+
 
 
 ## CharacterTurnsAtHome
@@ -1569,6 +2133,10 @@ Returns the value of the specified trait (0 if not present)
 
 **Description:**  
 Returns the number of turns in home regions exclusively
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814740`
 
 
 
@@ -1581,6 +2149,10 @@ Returns the number of turns in home regions exclusively
 **Description:**  
 Returns the number of turns at sea exclusively
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_10814790`
+
 
 
 ## CharacterTurnsInEnemyLands
@@ -1591,6 +2163,10 @@ Returns the number of turns at sea exclusively
 
 **Description:**  
 Returns the number of turns in enemy regions exclusively
+
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_108147e0`
 
 
 
@@ -1603,6 +2179,10 @@ Returns the number of turns in enemy regions exclusively
 **Description:**  
 Returns true if the character context is of the agent type specified
 
+**Author:** `DAT_117a2ecc`
+
+**Function:** `LAB_10814830`
+
 
 
 ## CharacterWasAttacker
@@ -1613,6 +2193,10 @@ Returns true if the character context is of the agent type specified
 
 **Description:**  
 Was the character the attacker in the last battle?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108148c0`
 
 
 
@@ -1625,6 +2209,10 @@ Was the character the attacker in the last battle?
 **Description:**  
 Does this character\'s wife have the given trait?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10814950`
+
 
 
 ## CharacterWithdrewFromBattle
@@ -1635,6 +2223,10 @@ Does this character\'s wife have the given trait?
 
 **Description:**  
 Did the characters army withdraw from battle?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `LAB_10814a10`
 
 
 
@@ -1647,6 +2239,10 @@ Did the characters army withdraw from battle?
 **Description:**  
 Is the character part of the winning alliance in a battle
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10814b20`
+
 
 
 ## CharacterWonDuel
@@ -1657,6 +2253,10 @@ Is the character part of the winning alliance in a battle
 
 **Description:**  
 Did the given character win the Duel?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10166b40`
 
 
 
@@ -1669,6 +2269,10 @@ Did the given character win the Duel?
 **Description:**  
 Did the generals unit rally?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10814bb0`
+
 
 
 ## CommanderAncillary
@@ -1679,6 +2283,10 @@ Did the generals unit rally?
 
 **Description:**  
 Returns whether the commander has the specified ancillary
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814d00`
 
 
 
@@ -1691,6 +2299,10 @@ Returns whether the commander has the specified ancillary
 **Description:**  
 Did the characters unit fight in the battle? (melee or missile)
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814dc0`
+
 
 
 ## CommanderFoughtInMelee
@@ -1701,6 +2313,10 @@ Did the characters unit fight in the battle? (melee or missile)
 
 **Description:**  
 Did the characters unit engage in melee in the battle?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10814f00`
 
 
 
@@ -1713,6 +2329,10 @@ Did the characters unit engage in melee in the battle?
 **Description:**  
 Returns the value of the specified trait (0 if not present)
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10815040`
+
 
 
 ## DateAndWeekInRange
@@ -1723,6 +2343,10 @@ Returns the value of the specified trait (0 if not present)
 
 **Description:**  
 Test to see if the current calendar year and week in year is within the years and weeks specified.  Week should be 0 <= week < 48.  start <= current <= end
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10815100`
 
 
 
@@ -1735,6 +2359,10 @@ Test to see if the current calendar year and week in year is within the years an
 **Description:**  
 Test to see if the current calendar year is within the years specified.  start <= current <= end
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10815260`
+
 
 
 ## DefensiveSiegesFought
@@ -1745,6 +2373,10 @@ Test to see if the current calendar year is within the years specified.  start <
 
 **Description:**  
 Returns the number of siege defences a general has attempted
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10815310`
 
 
 
@@ -1757,6 +2389,10 @@ Returns the number of siege defences a general has attempted
 **Description:**  
 Returns the number of siege defences a general has won
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10815380`
+
 
 
 ## DifficultyLevel
@@ -1767,6 +2403,10 @@ Returns the number of siege defences a general has won
 
 **Description:**  
 What is the local faction\'s difficulty level?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108153f0`
 
 
 
@@ -1779,6 +2419,10 @@ What is the local faction\'s difficulty level?
 **Description:**  
 Is the enemies army stronger than ours?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10815490`
+
 
 
 ## FactionAllyCount
@@ -1789,6 +2433,10 @@ Is the enemies army stronger than ours?
 
 **Description:**  
 Returns the number of allies the characters faction has
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10815660`
 
 
 
@@ -1801,6 +2449,10 @@ Returns the number of allies the characters faction has
 **Description:**  
 Does the specified faction have at least one of the specified building
 
+**Author:** `Paul K`
+
+**Function:** `LAB_10815770`
+
 
 
 ## FactionBuildingUnderConstruction
@@ -1811,6 +2463,10 @@ Does the specified faction have at least one of the specified building
 
 **Description:**  
 Does the specified faction have at least one of the specified building under construction
+
+**Author:** `Paul K`
+
+**Function:** `FUN_108158c0`
 
 
 
@@ -1823,6 +2479,10 @@ Does the specified faction have at least one of the specified building under con
 **Description:**  
 Can the faction build the specified building at this point
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10815ac0`
+
 
 
 ## FactionCashFlow
@@ -1833,6 +2493,10 @@ Can the faction build the specified building at this point
 
 **Description:**  
 Returns the percentage surplus/loss of the factions regular income and expenditure
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10815cb0`
 
 
 
@@ -1845,6 +2509,10 @@ Returns the percentage surplus/loss of the factions regular income and expenditu
 **Description:**  
 Did this characters faction destroy another faction this turn?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10815da0`
+
 
 
 ## FactionExists
@@ -1855,6 +2523,10 @@ Did this characters faction destroy another faction this turn?
 
 **Description:**  
 Does the given faction exist?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10815e10`
 
 
 
@@ -1867,6 +2539,10 @@ Does the given faction exist?
 **Description:**  
 Is the faction\'s government type equal to the passed government type
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10815eb0`
+
 
 
 ## FactionHasAllies
@@ -1877,6 +2553,10 @@ Is the faction\'s government type equal to the passed government type
 
 **Description:**  
 Returns whether or not the characters faction has any allies
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10815fa0`
 
 
 
@@ -1889,6 +2569,10 @@ Returns whether or not the characters faction has any allies
 **Description:**  
 Checks whether a faction has ever recruited any agents
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108160a0`
+
 
 
 ## FactionHasTradeShipNotInTradeNode
@@ -1899,6 +2583,10 @@ Checks whether a faction has ever recruited any agents
 
 **Description:**  
 Does the faction in context have a trade ship that is not in a trade node. Requires faction context
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10816110`
 
 
 
@@ -1911,6 +2599,10 @@ Does the faction in context have a trade ship that is not in a trade node. Requi
 **Description:**  
 Is the faction allied to the player faction?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108161f0`
+
 
 
 ## FactionIsEnemyCampaign
@@ -1921,6 +2613,10 @@ Is the faction allied to the player faction?
 
 **Description:**  
 Is the specified faction at war with the player faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10816270`
 
 
 
@@ -1933,6 +2629,10 @@ Is the specified faction at war with the player faction?
 **Description:**  
 Is the faction human?
 
+**Author:** `DAT_117a2ed8`
+
+**Function:** `FUN_10816330`
+
 
 
 ## FactionIsLocal
@@ -1943,6 +2643,10 @@ Is the faction human?
 
 **Description:**  
 Is the faction the local faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108163c0`
 
 
 
@@ -1955,6 +2659,10 @@ Is the faction the local faction?
 **Description:**  
 Is the faction the local player (and human)?
 
+**Author:** `DAT_117a2ed8`
+
+**Function:** `LAB_10816440`
+
 
 
 ## FactionLeadersAttribute
@@ -1965,6 +2673,10 @@ Is the faction the local player (and human)?
 
 **Description:**  
 Gets the level of the faction leaders attribute specified as a parameter
+
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_10812850`
 
 
 
@@ -1977,6 +2689,10 @@ Gets the level of the faction leaders attribute specified as a parameter
 **Description:**  
 Returns the value of the specified trait for the characters faction leader (0 if not present)
 
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_108164f0`
+
 
 
 ## FactionName
@@ -1987,6 +2703,10 @@ Returns the value of the specified trait for the characters faction leader (0 if
 
 **Description:**  
 Is the faction the one specified?
+
+**Author:** `DAT_117a2ed8`
+
+**Function:** `FUN_108165d0`
 
 
 
@@ -1999,6 +2719,10 @@ Is the faction the one specified?
 **Description:**  
 Did the specified faction participate in the battle?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10816670`
+
 
 
 ## FactionPatrioticFervour
@@ -2009,6 +2733,10 @@ Did the specified faction participate in the battle?
 
 **Description:**  
 Does this faction have patriotic fervour?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10816730`
 
 
 
@@ -2021,6 +2749,10 @@ Does this faction have patriotic fervour?
 **Description:**  
 What percentage of the factions expenditure is spent on army upkeep
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108167a0`
+
 
 
 ## FactionTaxLevel
@@ -2031,6 +2763,10 @@ What percentage of the factions expenditure is spent on army upkeep
 
 **Description:**  
 Returns the average tax level for the faction
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10816830`
 
 
 
@@ -2043,6 +2779,10 @@ Returns the average tax level for the faction
 **Description:**  
 Does the specified faction have the specified technology
 
+**Author:** `Paul K`
+
+**Function:** `FUN_108168b0`
+
 
 
 ## FactionTradeResourceExists
@@ -2053,6 +2793,10 @@ Does the specified faction have the specified technology
 
 **Description:**  
 Returns whether the faction has access to the trade resource
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108169b0`
 
 
 
@@ -2065,6 +2809,10 @@ Returns whether the faction has access to the trade resource
 **Description:**  
 Returns the absolute value of the factions global trade
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10816d70`
+
 
 
 ## FactionTradeValuePercentage
@@ -2075,6 +2823,10 @@ Returns the absolute value of the factions global trade
 
 **Description:**  
 Returns the percentage value of global trade owned by the faction
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10816b80`
 
 
 
@@ -2087,6 +2839,10 @@ Returns the percentage value of global trade owned by the faction
 **Description:**  
 Returns the factions treasury value
 
+**Author:** `DAT_1179b680`
+
+**Function:** `LAB_10817020`
+
 
 
 ## FactionTreasuryWorldPercentage
@@ -2097,6 +2853,10 @@ Returns the factions treasury value
 
 **Description:**  
 Returns the characters factions treasury value as a percentage of the sum of all factions treasury values
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10816f10`
 
 
 
@@ -2109,6 +2869,10 @@ Returns the characters factions treasury value as a percentage of the sum of all
 **Description:**  
 Does this faction have war weariness?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10816730`
+
 
 
 ## FactionwideAncillaryTypeExists
@@ -2119,6 +2883,10 @@ Does this faction have war weariness?
 
 **Description:**  
 Returns whether the named ancillary exists in the faction somewhere
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10817090`
 
 
 
@@ -2131,6 +2899,10 @@ Returns whether the named ancillary exists in the faction somewhere
 **Description:**  
 Returns whether the two commanded forces combined match the list of unit keys provided
 
+**Author:** `DAT_1179b680`
+
+**Function:** `LAB_10817130`
+
 
 
 ## GarrisonIsLocal
@@ -2141,6 +2913,10 @@ Returns whether the two commanded forces combined match the list of unit keys pr
 
 **Description:**  
 Does the garrison belong to the player faction?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10817420`
 
 
 
@@ -2153,6 +2929,10 @@ Does the garrison belong to the player faction?
 **Description:**  
 Returns the number of units in the garrison context
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108174a0`
+
 
 
 ## GovernorTaxLevel
@@ -2163,6 +2943,10 @@ Returns the number of units in the garrison context
 
 **Description:**  
 If the character is the governor returns the tax level set for that governorship.  Returns -1 if not.
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10817520`
 
 
 
@@ -2175,6 +2959,10 @@ If the character is the governor returns the tax level set for that governorship
 **Description:**  
 Does the context\'s governorship key match the parameter
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10166b40`
+
 
 
 ## GovernorshipTaxLevel
@@ -2185,6 +2973,10 @@ Does the context\'s governorship key match the parameter
 
 **Description:**  
 Returns the governorships tax level
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10817560`
 
 
 
@@ -2197,6 +2989,10 @@ Returns the governorships tax level
 **Description:**  
 Returns the current tax level for this govenorship
 
+**Author:** `Shane`
+
+**Function:** `FUN_108175a0`
+
 
 
 ## HasUnspecialisedPort
@@ -2207,6 +3003,10 @@ Returns the current tax level for this govenorship
 
 **Description:**  
 Does the region have a port with no building?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10817600`
 
 
 
@@ -2219,6 +3019,10 @@ Does the region have a port with no building?
 **Description:**  
 Is the character in a port?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817690`
+
 
 
 ## InSettlement
@@ -2229,6 +3033,10 @@ Is the character in a port?
 
 **Description:**  
 Checks that a character is in a settlement
+
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_10817730`
 
 
 
@@ -2241,6 +3049,10 @@ Checks that a character is in a settlement
 **Description:**  
 Has the characters faction put down a rebellion in this turn (or the turn that is just ending)
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10817770`
+
 
 
 ## IsAdmiral
@@ -2251,6 +3063,10 @@ Has the characters faction put down a rebellion in this turn (or the turn that i
 
 **Description:**  
 Is the character an admiral?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_108177e0`
 
 
 
@@ -2263,6 +3079,10 @@ Is the character an admiral?
 **Description:**  
 Is the character besieging?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817880`
+
 
 
 ## IsBlockading
@@ -2273,6 +3093,10 @@ Is the character besieging?
 
 **Description:**  
 Is the character blockading?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108178f0`
 
 
 
@@ -2285,6 +3109,10 @@ Is the character blockading?
 **Description:**  
 Is garrison residence\'s building (all slots and fortifications for settlements) in the building chain specified by the parameter?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817960`
+
 
 
 ## IsBuildingOfType
@@ -2295,6 +3123,10 @@ Is garrison residence\'s building (all slots and fortifications for settlements)
 
 **Description:**  
 Is garrison residence\'s building type (all slots and fortifications for settlements) equal to the parameter?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817ac0`
 
 
 
@@ -2307,6 +3139,10 @@ Is garrison residence\'s building type (all slots and fortifications for settlem
 **Description:**  
 Is the character transporting an army?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817c00`
+
 
 
 ## IsChildOf
@@ -2317,6 +3153,10 @@ Is the character transporting an army?
 
 **Description:**  
 Returns true if the components parent, (or parent\'s parent, or parent\'s parent\'s parent etc) has the id specified 
+
+**Author:** `DAT_117b0390`
+
+**Function:** `FUN_116c8160`
 
 
 
@@ -2329,6 +3169,10 @@ Returns true if the components parent, (or parent\'s parent, or parent\'s parent
 **Description:**  
 Is the region a colony
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817ca0`
+
 
 
 ## IsComponentType
@@ -2339,6 +3183,10 @@ Is the region a colony
 
 **Description:**  
 Returns true if the event was fired by the component named
+
+**Author:** `DAT_117b0390`
+
+**Function:** `FUN_116c8200`
 
 
 
@@ -2351,6 +3199,10 @@ Returns true if the event was fired by the component named
 **Description:**  
 Is the context faction besieging the specified settlement? Intended for use with faction start of turn event.
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10817d50`
+
 
 
 ## IsFactionLeader
@@ -2361,6 +3213,10 @@ Is the context faction besieging the specified settlement? Intended for use with
 
 **Description:**  
 Is the character the faction leader?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10817ee0`
 
 
 
@@ -2373,6 +3229,10 @@ Is the character the faction leader?
 **Description:**  
 Is this character the faction leader and are they female? (Queen)
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10817e20`
+
 
 
 ## IsFamilyMember
@@ -2383,6 +3243,10 @@ Is this character the faction leader and are they female? (Queen)
 
 **Description:**  
 Is the character a family member?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10817f50`
 
 
 
@@ -2395,6 +3259,10 @@ Is the character a family member?
 **Description:**  
 Is garrison residence garrisoned?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `LAB_10817fd0`
+
 
 
 ## IsHomeRegion
@@ -2405,6 +3273,10 @@ Is garrison residence garrisoned?
 
 **Description:**  
 Is this region the home region of the owning faction
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818040`
 
 
 
@@ -2417,6 +3289,10 @@ Is this region the home region of the owning faction
 **Description:**  
 Returns true if the event that triggered the condition check was for the message named
 
+**Author:** `DAT_117b0390`
+
+**Function:** `FUN_116c8200`
+
 
 
 ## IsMultiplayer
@@ -2427,6 +3303,10 @@ Returns true if the event that triggered the condition check was for the message
 
 **Description:**  
 Returns true when in multiplayer campaign
+
+**Author:** `DAT_1179ebf0`
+
+**Function:** `FUN_108180e0`
 
 
 
@@ -2439,6 +3319,10 @@ Returns true when in multiplayer campaign
 **Description:**  
 Was the battle a night battle
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10818150`
+
 
 
 ## IsPlayerTurn
@@ -2449,6 +3333,10 @@ Was the battle a night battle
 
 **Description:**  
 Is this the players turn?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108181d0`
 
 
 
@@ -2461,6 +3349,10 @@ Is this the players turn?
 **Description:**  
 Is the port garrisoned by a navy?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818260`
+
 
 
 ## IsTheatreGovernor
@@ -2471,6 +3363,10 @@ Is the port garrisoned by a navy?
 
 **Description:**  
 Returns whether the character is a governor
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10166b40`
 
 
 
@@ -2483,6 +3379,10 @@ Returns whether the character is a governor
 **Description:**  
 DAT_1173dad0
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_109e20a0`
+
 
 
 ## IsUnderBlockade
@@ -2493,6 +3393,10 @@ DAT_1173dad0
 
 **Description:**  
 Is the character under blockade?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108182d0`
 
 
 
@@ -2505,6 +3409,10 @@ Is the character under blockade?
 **Description:**  
 Is the character under siege?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818380`
+
 
 
 ## LosingMoney
@@ -2515,6 +3423,10 @@ Is the character under siege?
 
 **Description:**  
 Returns whether or not the factions regular expenditure exceeds their regular income
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10818440`
 
 
 
@@ -2527,6 +3439,10 @@ Returns whether or not the factions regular expenditure exceeds their regular in
 **Description:**  
 check to see if a map location matches the one return by the context
 
+**Author:** `DAT_1179ebf0`
+
+**Function:** `FUN_107e7c00`
+
 
 
 ## MapPositionNear
@@ -2537,6 +3453,10 @@ check to see if a map location matches the one return by the context
 
 **Description:**  
 check to see if a map location is near the one returned by the context
+
+**Author:** `DAT_1179b680`
+
+**Function:** `LAB_107e7b40`
 
 
 
@@ -2549,6 +3469,10 @@ check to see if a map location is near the one returned by the context
 **Description:**  
 Has an action occured this turn for this character?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_108184d0`
+
 
 
 ## OffensiveSiegesFought
@@ -2559,6 +3483,10 @@ Has an action occured this turn for this character?
 
 **Description:**  
 Returns the number of siege offences a general has attempted
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818530`
 
 
 
@@ -2571,6 +3499,10 @@ Returns the number of siege offences a general has attempted
 **Description:**  
 Returns the number of siege offences a general has won
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108185a0`
+
 
 
 ## OnAWarFooting
@@ -2581,6 +3513,10 @@ Returns the number of siege offences a general has won
 
 **Description:**  
 Returns whether or not the characters faction is at war with anyone
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10818610`
 
 
 
@@ -2593,6 +3529,10 @@ Returns whether or not the characters faction is at war with anyone
 **Description:**  
 Returns true if the name of the Components parent matches the id specified
 
+**Author:** `DAT_117b0390`
+
+**Function:** `LAB_116c8280`
+
 
 
 ## PercentageUnspentIncome
@@ -2603,6 +3543,10 @@ Returns true if the name of the Components parent matches the id specified
 
 **Description:**  
 What percentage of the characters factions income remains unspent?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10818980`
 
 
 
@@ -2615,6 +3559,10 @@ What percentage of the characters factions income remains unspent?
 **Description:**  
 Is the attackers faction the local faction?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10818ad0`
+
 
 
 ## PortBlockaded
@@ -2625,6 +3573,10 @@ Is the attackers faction the local faction?
 
 **Description:**  
 Is the port blockaded, and did it start in the last round?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10818c50`
 
 
 
@@ -2637,6 +3589,10 @@ Is the port blockaded, and did it start in the last round?
 **Description:**  
 Is the port blockaded by the local faction, and did it start in the last round?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10818b60`
+
 
 
 ## RandomPercentCampaign
@@ -2647,6 +3603,10 @@ Is the port blockaded by the local faction, and did it start in the last round?
 
 **Description:**  
 Returns true parameter-value-percent of the time
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818e30`
 
 
 
@@ -2659,6 +3619,10 @@ Returns true parameter-value-percent of the time
 **Description:**  
 Has the slot not been developed?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10818f20`
+
 
 
 ## RegionBuildingFinished
@@ -2669,6 +3633,10 @@ Has the slot not been developed?
 
 **Description:**  
 Gets the key of the last building constructed in the region
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819050`
 
 
 
@@ -2681,6 +3649,10 @@ Gets the key of the last building constructed in the region
 **Description:**  
 Is the population in this region clamouring for reform
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108190d0`
+
 
 
 ## RegionCultureIsFactionCulture
@@ -2691,6 +3663,10 @@ Is the population in this region clamouring for reform
 
 **Description:**  
 Is the region\'s originating culture the same as the owning factions culture
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819140`
 
 
 
@@ -2703,6 +3679,10 @@ Is the region\'s originating culture the same as the owning factions culture
 **Description:**  
 Is the population in this region writing letters of demand
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108191f0`
+
 
 
 ## RegionEconomicGrowthLow
@@ -2713,6 +3693,10 @@ Is the population in this region writing letters of demand
 
 **Description:**  
 Is this regions economic growth low?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10819260`
 
 
 
@@ -2725,6 +3709,10 @@ Is this regions economic growth low?
 **Description:**  
 Gets the level of the regions governers attribute specified as a parameter
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_10812850`
+
 
 
 ## RegionIsLocal
@@ -2735,6 +3723,10 @@ Gets the level of the regions governers attribute specified as a parameter
 
 **Description:**  
 Does the region belong to the player faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108192d0`
 
 
 
@@ -2747,6 +3739,10 @@ Does the region belong to the player faction?
 **Description:**  
 Is the specified region rebelling. Requires faction context.
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819380`
+
 
 
 ## RegionMajorityReligion
@@ -2757,6 +3753,10 @@ Is the specified region rebelling. Requires faction context.
 
 **Description:**  
 Returns whether the region context\'s religion with largest percentage matches the specified religion
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10819420`
 
 
 
@@ -2769,6 +3769,10 @@ Returns whether the region context\'s religion with largest percentage matches t
 **Description:**  
 Is the region the one specified?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10819550`
+
 
 
 ## RegionPopulationLow
@@ -2779,6 +3783,10 @@ Is the region the one specified?
 
 **Description:**  
 Tests if the population of a region is has dropped below the previous town spawn threshold e.g. region has 5 towns but has dropped below the population requirement for 4 towns
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108195f0`
 
 
 
@@ -2791,6 +3799,10 @@ Tests if the population of a region is has dropped below the previous town spawn
 **Description:**  
 Tests if the population of a region the maximum population
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_108196a0`
+
 
 
 ## RegionRebels
@@ -2801,6 +3813,10 @@ Tests if the population of a region the maximum population
 
 **Description:**  
 Is the region rebelling
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819720`
 
 
 
@@ -2813,6 +3829,10 @@ Is the region rebelling
 **Description:**  
 Is the region\'s religion the same as the owning factions religion
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819790`
+
 
 
 ## RegionResourceExists
@@ -2823,6 +3843,10 @@ Is the region\'s religion the same as the owning factions religion
 
 **Description:**  
 Returns whether the resource exists in the region
+
+**Author:** `DAT_1179b680`
+
+**Function:** `LAB_10819830`
 
 
 
@@ -2835,6 +3859,10 @@ Returns whether the resource exists in the region
 **Description:**  
 Returns whether the resource is produced in the region
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10819990`
+
 
 
 ## RegionRiots
@@ -2845,6 +3873,10 @@ Returns whether the resource is produced in the region
 
 **Description:**  
 Is the population in this region rioting
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819a50`
 
 
 
@@ -2857,6 +3889,10 @@ Is the population in this region rioting
 **Description:**  
 Counts the number of buildings in the region slots in the region
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819ac0`
+
 
 
 ## RegionSlotBuildingCultureExists
@@ -2867,6 +3903,10 @@ Counts the number of buildings in the region slots in the region
 
 **Description:**  
 Tests if the region has a building from the given culture
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819b60`
 
 
 
@@ -2879,6 +3919,10 @@ Tests if the region has a building from the given culture
 **Description:**  
 Counts the number of buildings in the region slots in the region of the specified type
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819c90`
+
 
 
 ## RegionSlotBuildingTypeExists
@@ -2889,6 +3933,10 @@ Counts the number of buildings in the region slots in the region of the specifie
 
 **Description:**  
 Tests if a building of the specified type exists in the region
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819db0`
 
 
 
@@ -2901,6 +3949,10 @@ Tests if a building of the specified type exists in the region
 **Description:**  
 Counts the number of slots in a region including settlement slots
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819e80`
+
 
 
 ## RegionSlotEmptyCount
@@ -2911,6 +3963,10 @@ Counts the number of slots in a region including settlement slots
 
 **Description:**  
 Counts the number of empty (no building) slots in a region including settlement slots
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_10819f20`
 
 
 
@@ -2923,6 +3979,10 @@ Counts the number of empty (no building) slots in a region including settlement 
 **Description:**  
 Tests to see if the region has a slot (in any status) whose type matches the parameter
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a010`
+
 
 
 ## RegionTaxExempt
@@ -2933,6 +3993,10 @@ Tests to see if the region has a slot (in any status) whose type matches the par
 
 **Description:**  
 Gets whether the region is tax exempt or not
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081a0d0`
 
 
 
@@ -2945,6 +4009,10 @@ Gets whether the region is tax exempt or not
 **Description:**  
 Returns the regions tax level
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081a130`
+
 
 
 ## RegionTaxTownWealthGrowthReduction
@@ -2955,6 +4023,10 @@ Returns the regions tax level
 
 **Description:**  
 Returns the percentage of the regions town wealth growth lost due to taxes
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081a1c0`
 
 
 
@@ -2967,6 +4039,10 @@ Returns the percentage of the regions town wealth growth lost due to taxes
 **Description:**  
 Returns the town wealth growth of the region
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081a240`
+
 
 
 ## RegionWealthDecrease
@@ -2977,6 +4053,10 @@ Returns the town wealth growth of the region
 
 **Description:**  
 How much has the regions wealth decreased?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081a2b0`
 
 
 
@@ -2989,6 +4069,10 @@ How much has the regions wealth decreased?
 **Description:**  
 How much has the regions wealth increased?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_1081a350`
+
 
 
 ## RegionWouldBeHappyWithNoTaxExemption
@@ -2999,6 +4083,10 @@ How much has the regions wealth increased?
 
 **Description:**  
 Checks whether the region happiness would be zero or greater if it was not exempt from tax
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_10166b40`
 
 
 
@@ -3011,6 +4099,10 @@ Checks whether the region happiness would be zero or greater if it was not exemp
 **Description:**  
 Is the research just completed of this category?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_1081a3f0`
+
 
 
 ## ResearchQueueIdle
@@ -3021,6 +4113,10 @@ Is the research just completed of this category?
 
 **Description:**  
 Is faction not researching any tech evn though they could be
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a4a0`
 
 
 
@@ -3033,6 +4129,10 @@ Is faction not researching any tech evn though they could be
 **Description:**  
 Is the technology just researched of this type?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081a5f0`
+
 
 
 ## ResearchTypeUniqueToFaction
@@ -3043,6 +4143,10 @@ Is the technology just researched of this type?
 
 **Description:**  
 Are we the first faction to research this technology type?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081a510`
 
 
 
@@ -3055,6 +4159,10 @@ Are we the first faction to research this technology type?
 **Description:**  
 Was one of this factions sea trade routes has been raided in the last round?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081a680`
+
 
 
 ## SettlementBuildingQueueIdleDespiteCash
@@ -3065,6 +4173,10 @@ Was one of this factions sea trade routes has been raided in the last round?
 
 **Description:**  
 Is the settlement\'s building queue empty even though the faction can afford to build the cheapest building in any of its slot?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a6e0`
 
 
 
@@ -3077,6 +4189,10 @@ Is the settlement\'s building queue empty even though the faction can afford to 
 **Description:**  
 Is the settlements\'s fortification building queue empty even though the faction can afford to build the cheapest building?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `LAB_1081a7d0`
+
 
 
 ## SettlementIsLocal
@@ -3087,6 +4203,10 @@ Is the settlements\'s fortification building queue empty even though the faction
 
 **Description:**  
 Does the settlement belong to the player faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a870`
 
 
 
@@ -3099,6 +4219,10 @@ Does the settlement belong to the player faction?
 **Description:**  
 Is the settlement\'s unique id equal to the parameter?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a8f0`
+
 
 
 ## SlotBuildingQueueIdleDespiteCash
@@ -3109,6 +4233,10 @@ Is the settlement\'s unique id equal to the parameter?
 
 **Description:**  
 Is the slot\'s building queue empty even though the faction can afford to build the cheapest building?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081a9c0`
 
 
 
@@ -3121,6 +4249,10 @@ Is the slot\'s building queue empty even though the faction can afford to build 
 **Description:**  
 Does the slot belong to a faction allied to the player faction?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `LAB_1081aa50`
+
 
 
 ## SlotIsLocal
@@ -3131,6 +4263,10 @@ Does the slot belong to a faction allied to the player faction?
 
 **Description:**  
 Does the slot belong to the player faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081aad0`
 
 
 
@@ -3143,6 +4279,10 @@ Does the slot belong to the player faction?
 **Description:**  
 Returns if the passed slot name is equal to the slot\'s name
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081ab50`
+
 
 
 ## SlotSuperchain
@@ -3153,6 +4293,10 @@ Returns if the passed slot name is equal to the slot\'s name
 
 **Description:**  
 Is the slot\'s superchain from the building superchains table equal to the parameter?
+
+**Author:** `DAT_117a1594`
+
+**Function:** `FUN_1081ac00`
 
 
 
@@ -3165,6 +4309,10 @@ Is the slot\'s superchain from the building superchains table equal to the param
 **Description:**  
 Is the slot\'s type from the slots table equal to the parameter?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081acc0`
+
 
 
 ## SupportCostsPercentage
@@ -3175,6 +4323,10 @@ Is the slot\'s type from the slots table equal to the parameter?
 
 **Description:**  
 The percentage of outgoings used for upkeep in the recent turns for the given faction
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081ad60`
 
 
 
@@ -3187,6 +4339,10 @@ The percentage of outgoings used for upkeep in the recent turns for the given fa
 **Description:**  
 The does the target army have greater combat strength than the character?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081ae70`
+
 
 
 ## TargetCharacterIsAlliedCampaign
@@ -3197,6 +4353,10 @@ The does the target army have greater combat strength than the character?
 
 **Description:**  
 The target character is allied to the character?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081af10`
 
 
 
@@ -3209,6 +4369,10 @@ The target character is allied to the character?
 **Description:**  
 The target character is an enemy of the character?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081afb0`
+
 
 
 ## TargetInStrikingRangeOfEnemy
@@ -3219,6 +4383,10 @@ The target character is an enemy of the character?
 
 **Description:**  
 The character is an enemy of the local faction?
+
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081b050`
 
 
 
@@ -3231,6 +4399,10 @@ The character is an enemy of the local faction?
 **Description:**  
 Are all the factions government building at the maximum level (and thus impossible to upgrade)?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081b0f0`
+
 
 
 ## TaxLevel
@@ -3241,6 +4413,10 @@ Are all the factions government building at the maximum level (and thus impossib
 
 **Description:**  
 Returns the tax level for the given tax key
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081b1e0`
 
 
 
@@ -3253,6 +4429,10 @@ Returns the tax level for the given tax key
 **Description:**  
 Is there an unoccupied trade node (worldwide). Requires faction context
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081b2c0`
+
 
 
 ## TradePortsAtMaxLevel
@@ -3263,6 +4443,10 @@ Is there an unoccupied trade node (worldwide). Requires faction context
 
 **Description:**  
 Are all of the regions trade ports at the maximum level (and thus impossible to upgrade)?
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081b350`
 
 
 
@@ -3275,6 +4459,10 @@ Are all of the regions trade ports at the maximum level (and thus impossible to 
 **Description:**  
 Returns whether the trade route attacked is used by an enemy of the local faction
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081b410`
+
 
 
 ## TradeRouteIsLocal
@@ -3285,6 +4473,10 @@ Returns whether the trade route attacked is used by an enemy of the local factio
 
 **Description:**  
 Returns whether the trade route attacked is used by the local faction
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081b540`
 
 
 
@@ -3297,6 +4489,10 @@ Returns whether the trade route attacked is used by the local faction
 **Description:**  
 Has the faction reached its limit of trade routes?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081b690`
+
 
 
 ## TurnNumber
@@ -3307,6 +4503,10 @@ Has the faction reached its limit of trade routes?
 
 **Description:**  
 Returns the number of the turn currently being taken, starting at 1
+
+**Author:** `DAT_1173e50c`
+
+**Function:** `FUN_1081b780`
 
 
 
@@ -3319,6 +4519,10 @@ Returns the number of the turn currently being taken, starting at 1
 **Description:**  
 The number of turns since the advice thread was last advanced - 0 signifies that the thread is unadvanced or the number of turns cannot be established
 
+**Author:** `DAT_1173e50c`
+
+**Function:** `FUN_100e2390`
+
 
 
 ## UnitCategory
@@ -3329,6 +4533,10 @@ The number of turns since the advice thread was last advanced - 0 signifies that
 
 **Description:**  
 Is the unit of this category type?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081b930`
 
 
 
@@ -3341,6 +4549,10 @@ Is the unit of this category type?
 **Description:**  
 Is the unit of this class?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081b9e0`
+
 
 
 ## UnitCrushedInsurrection
@@ -3351,6 +4563,10 @@ Is the unit of this class?
 
 **Description:**  
 Did the given unit crush an insurrection in the last turn?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10166b40`
 
 
 
@@ -3363,6 +4579,10 @@ Did the given unit crush an insurrection in the last turn?
 **Description:**  
 Is the unit of this culture type?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081ba90`
+
 
 
 ## UnitFoughtInBattle
@@ -3373,6 +4593,10 @@ Is the unit of this culture type?
 
 **Description:**  
 Did the unit fight in the last battle?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081bb50`
 
 
 
@@ -3385,6 +4609,10 @@ Did the unit fight in the last battle?
 **Description:**  
 Did the unit melee fight in the last battle?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081bc80`
+
 
 
 ## UnitInTheatre
@@ -3395,6 +4623,10 @@ Did the unit melee fight in the last battle?
 
 **Description:**  
 Is this unit within the specified theatre?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081bdb0`
 
 
 
@@ -3407,6 +4639,10 @@ Is this unit within the specified theatre?
 **Description:**  
 Is the given unit on the specified continent?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_10166b40`
+
 
 
 ## UnitRouted
@@ -3417,6 +4653,10 @@ Is the given unit on the specified continent?
 
 **Description:**  
 Did the given unit rout?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081bea0`
 
 
 
@@ -3429,6 +4669,10 @@ Did the given unit rout?
 **Description:**  
 What percentage of casualties did this unit suffer?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081bfd0`
+
 
 
 ## UnitTrait
@@ -3439,6 +4683,10 @@ What percentage of casualties did this unit suffer?
 
 **Description:**  
 Returns the value of the specified trait (0 if not present)
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081c190`
 
 
 
@@ -3451,6 +4699,10 @@ Returns the value of the specified trait (0 if not present)
 **Description:**  
 Is the unit\'s unit record key equal to the parameter?
 
+**Author:** `DAT_117a1590`
+
+**Function:** `FUN_1081c220`
+
 
 
 ## UnitWonBattle
@@ -3461,6 +4713,10 @@ Is the unit\'s unit record key equal to the parameter?
 
 **Description:**  
 Is the unit part of the winning alliance in a battle?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081c2d0`
 
 
 
@@ -3473,6 +4729,10 @@ Is the unit part of the winning alliance in a battle?
 **Description:**  
 Could the faction establish a new international trade route?
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081c360`
+
 
 
 ## WarEndedCharacterFaction
@@ -3483,6 +4743,10 @@ Could the faction establish a new international trade route?
 
 **Description:**  
 Was peace declared between this faction and another faction this turn?
+
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081c450`
 
 
 
@@ -3495,6 +4759,10 @@ Was peace declared between this faction and another faction this turn?
 **Description:**  
 Did a war start between this faction and another faction this turn?
 
+**Author:** `DAT_117a159c`
+
+**Function:** `FUN_1081c4c0`
+
 
 
 ## WorldResourceExists
@@ -3505,6 +4773,10 @@ Did a war start between this faction and another faction this turn?
 
 **Description:**  
 Returns whether the resource exists anywhere
+
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081c530`
 
 
 
@@ -3517,6 +4789,10 @@ Returns whether the resource exists anywhere
 **Description:**  
 Returns whether the resource is produced by any faction
 
+**Author:** `DAT_1179b680`
+
+**Function:** `FUN_1081c6e0`
+
 
 
 ## WorldwideAncillaryTypeExists
@@ -3528,6 +4804,10 @@ Returns whether the resource is produced by any faction
 **Description:**  
 Returns whether the named ancillary exists in the world somewhere
 
+**Author:** `DAT_117a2ecc`
+
+**Function:** `FUN_1081c7c0`
+
 
 
 ## is_advice_audio_playing
@@ -3538,4 +4818,9 @@ Returns whether the named ancillary exists in the world somewhere
 
 **Description:**  
 Returns whether audio for any advice is currently playing
+
+**Author:** `DAT_1173e71c`
+
+**Function:** `LAB_100eab40`
+
 

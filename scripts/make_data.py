@@ -32,11 +32,13 @@ def make_events_markdown(_funcs):
         _event_code = _p[0]
         _event_desc = _p[2]
         _event_context = _p[3]
+        _event_author = _p[4]
         _collection.append(dict(
             name=_event_name,
             code=_event_code,
             description=_event_desc,
             context=_event_context,
+            author=_event_author,
         ))
 
     # Convert to dict
@@ -58,12 +60,24 @@ def make_events_markdown(_funcs):
     # Sort list by name
     _collection.sort(key=lambda x: x["name"])
 
-    md_content = ["# Events Reference\n"]
+    md_content = ["""---
+title: events
+summary: A brief description of my document.
+---
+
+# Introduction
+Not all conditions are documented.  
+Not all conditions are expected to work.  
+
+Below list is result of extracting the game decompiled code.  
+You should not rely 100% on the below list, as it may contain errors or missing conditions.
+"""]
     for event in _collection:
         md_content.append(f"## {event['name']}\n")
         md_content.append(f"**Code:** `{event['code']}`  \n")
         md_content.append(f"**Context:** `{event['context']}`  \n\n")
         md_content.append(f"**Description:**  \n{event['description']}\n")
+        md_content.append(f"**Author:** `{event['author']}`\n")
 
     with open("events.md", "w", encoding="utf-8") as f:
         f.write("\n".join(md_content))
@@ -85,11 +99,15 @@ def make_conditions_markdown(_funcs):
         _condition_arg_desc = _p[1]
         _condition_desc = _p[2]
         _condition_example = _p[3]
+        _condition_author = _p[4]
+        _condition_func = _p[5]
         _collection.append(dict(
             name=_condition_name,
             args=_condition_arg_desc,
             description=_condition_desc,
             example=_condition_example,
+            author=_condition_author,
+            func=_condition_func,
         ))
     # convert to  dict
     _collection = {condition["name"]: condition for condition in _collection}
@@ -108,13 +126,26 @@ def make_conditions_markdown(_funcs):
     # sort list by name
     _collection.sort(key=lambda x: x["name"])
 
-    md_content = ["# Conditions Reference\n"]
+    md_content = ["""---
+title: conditions
+summary: A brief description of my document.
+---
+
+# Introduction
+Not all conditions are documented.  
+Not all conditions are expected to work.  
+
+Below list is result of extracting the game decompiled code.  
+You should not rely 100% on the below list, as it may contain errors or missing conditions.
+"""]
 
     for condition in _collection:
         md_content.append(f"## {condition['name']}\n")
         md_content.append(f"**Example:** `{condition['example']}`\n")
         md_content.append(f"**Arguments:** `{condition['args']}`\n")
         md_content.append(f"**Description:**  \n{condition['description']}\n")
+        md_content.append(f"**Author:** `{condition['author']}`\n")
+        md_content.append(f"**Function:** `{condition['func']}`\n")
         md_content.append("\n")
 
     with open("conditions.md", "w", encoding="utf-8") as f:

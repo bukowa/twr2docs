@@ -4,11 +4,11 @@ summary: A brief description of my document.
 ---
 
 # Introduction
-Not all events are documented.  
-Not all events are expected to work.
+Not all conditions are documented.  
+Not all conditions are expected to work.  
 
 Below list is result of extracting the game decompiled code.  
-You should not rely 100% on the below list, as it may contain errors or missing events.
+You should not rely 100% on the below list, as it may contain errors or missing conditions.
 
 ## AdviceFinishedTrigger
 
@@ -20,6 +20,8 @@ You should not rely 100% on the below list, as it may contain errors or missing 
 **Description:**  
 Notify scripters when current advice has finished playing
 
+**Author:** `DAT_117afd64`
+
 ## AreaCameraEntered
 
 **Code:** `AREA_TRIGGER_CAMERA_ENTER_EVENT`  
@@ -29,6 +31,8 @@ Notify scripters when current advice has finished playing
 
 **Description:**  
 Fired when the camera enters an area trigger
+
+**Author:** `DAT_1179b680`
 
 ## AreaCameraExited
 
@@ -40,6 +44,8 @@ Fired when the camera enters an area trigger
 **Description:**  
 Fired when the camera exits an area trigger
 
+**Author:** `DAT_1179b680`
+
 ## AreaEntered
 
 **Code:** `AREA_TRIGGER_ENTER_EVENT`  
@@ -49,6 +55,8 @@ Fired when the camera exits an area trigger
 
 **Description:**  
 Fired when a piece enters an area trigger
+
+**Author:** `DAT_1179b680`
 
 ## AreaExited
 
@@ -60,6 +68,8 @@ Fired when a piece enters an area trigger
 **Description:**  
 Fired when a piece exits an area trigger
 
+**Author:** `DAT_1179b680`
+
 ## BattleBoardingActionCommenced
 
 **Code:** `BATTLE_BOARDING_ACTION_COMMENCED`  
@@ -69,6 +79,8 @@ Fired when a piece exits an area trigger
 
 **Description:**  
 Fired each time a ship commences the boarding of an enemy vessel
+
+**Author:** `Ingimar`
 
 ## BattleBoardingShip
 
@@ -80,6 +92,8 @@ Fired each time a ship commences the boarding of an enemy vessel
 **Description:**  
 Gets triggered when the order to board a ship is issued
 
+**Author:** `Ingimar`
+
 ## BattleCommandingShipRouts
 
 **Code:** `BATTLE_COMMANDING_SHIP_ROUTS`  
@@ -89,6 +103,8 @@ Gets triggered when the order to board a ship is issued
 
 **Description:**  
 The ship containing the fleet admiral has just routed
+
+**Author:** `Ingimar`
 
 ## BattleCommandingUnitRouts
 
@@ -100,6 +116,8 @@ The ship containing the fleet admiral has just routed
 **Description:**  
 Fires off an event for when a unit that has a commanding general attached to it routs
 
+**Author:** `Ingimar`
+
 ## BattleCompleted
 
 **Code:** `BATTLE_COMPLETED`  
@@ -109,6 +127,8 @@ Fires off an event for when a unit that has a commanding general attached to it 
 
 **Description:**  
 A battle has been completed on the campaign map
+
+**Author:** `DAT_117a1590`
 
 ## BattleConflictPhaseCommenced
 
@@ -120,6 +140,8 @@ A battle has been completed on the campaign map
 **Description:**  
 Fired once at the start of conflict
 
+**Author:** `Ingimar`
+
 ## BattleDeploymentPhaseCommenced
 
 **Code:** `BATTLE_DEPLOYMENT_PHASE_COMMENCED`  
@@ -129,6 +151,8 @@ Fired once at the start of conflict
 
 **Description:**  
 Fired once at the start of deployment
+
+**Author:** `Ingimar`
 
 ## BattleFortPlazaCaptureCommenced
 
@@ -140,6 +164,8 @@ Fired once at the start of deployment
 **Description:**  
 Fired each time an attacking unit starts capturing the capture location inside a fort
 
+**Author:** `Ingimar`
+
 ## BattleShipAttacksEnemyShip
 
 **Code:** `BATTLE_SHIP_ATTACKS_ENEMY_SHIP`  
@@ -149,6 +175,8 @@ Fired each time an attacking unit starts capturing the capture location inside a
 
 **Description:**  
 Gets fired off for every attack order executed by a ship
+
+**Author:** `Ingimar`
 
 ## BattleShipCaughtFire
 
@@ -160,6 +188,8 @@ Gets fired off for every attack order executed by a ship
 **Description:**  
 A ship just caught fire
 
+**Author:** `Ingimar`
+
 ## BattleShipMagazineExplosion
 
 **Code:** `BATTLE_SHIP_MAGAZINE_EXPLOSION`  
@@ -169,6 +199,8 @@ A ship just caught fire
 
 **Description:**  
 Fired off when a ship explodes
+
+**Author:** `Ingimar`
 
 ## BattleShipRouts
 
@@ -180,6 +212,8 @@ Fired off when a ship explodes
 **Description:**  
 Fires off whenever a ship enters the rout state of morale
 
+**Author:** `Ingimar`
+
 ## BattleShipRunAground
 
 **Code:** `BATTLE_SHIP_RUN_AGROUND`  
@@ -189,6 +223,8 @@ Fires off whenever a ship enters the rout state of morale
 
 **Description:**  
 Fired off when a ship collides with the terrain
+
+**Author:** `Ingimar`
 
 ## BattleShipSailingIntoWind
 
@@ -200,6 +236,8 @@ Fired off when a ship collides with the terrain
 **Description:**  
 Fired off when a ship is sailing approximately into the wind
 
+**Author:** `Ingimar`
+
 ## BattleShipSurrendered
 
 **Code:** `BATTLE_SHIP_SURRENDERED`  
@@ -209,6 +247,8 @@ Fired off when a ship is sailing approximately into the wind
 
 **Description:**  
 Fired off when a ship surrenders
+
+**Author:** `Ingimar`
 
 ## BattleUnitAttacksBuilding
 
@@ -220,6 +260,8 @@ Fired off when a ship surrenders
 **Description:**  
 Gets fired off for every attack order executed by a unit
 
+**Author:** `Ingimar`
+
 ## BattleUnitAttacksEnemyUnit
 
 **Code:** `BATTLE_UNIT_ATTACKS_ENEMY_UNIT`  
@@ -229,6 +271,8 @@ Gets fired off for every attack order executed by a unit
 
 **Description:**  
 Gets fired off for every attack order executed by a unit
+
+**Author:** `Ingimar`
 
 ## BattleUnitAttacksWalls
 
@@ -240,6 +284,8 @@ Gets fired off for every attack order executed by a unit
 **Description:**  
 Gets fired off for every attack order executed by a unit when attacking a fort building
 
+**Author:** `Ingimar`
+
 ## BattleUnitCapturesBuilding
 
 **Code:** `BATTLE_UNIT_CAPTURES_BUILDING`  
@@ -249,6 +295,8 @@ Gets fired off for every attack order executed by a unit when attacking a fort b
 
 **Description:**  
 Gets fired each time a building has a new alliance as an owner, initiated by a unit
+
+**Author:** `Ingimar`
 
 ## BattleUnitDestroysBuilding
 
@@ -260,6 +308,8 @@ Gets fired each time a building has a new alliance as an owner, initiated by a u
 **Description:**  
 Gets fired each time a building gets destroyed by a unit
 
+**Author:** `Ingimar`
+
 ## BattleUnitRouts
 
 **Code:** `BATTLE_UNIT_ROUTS`  
@@ -269,6 +319,8 @@ Gets fired each time a building gets destroyed by a unit
 
 **Description:**  
 Fires off an event for when a unit enters rout.
+
+**Author:** `Ingimar`
 
 ## BattleUnitUsingWall
 
@@ -280,6 +332,8 @@ Fires off an event for when a unit enters rout.
 **Description:**  
 Fires off when a unit attaches itself to a wall
 
+**Author:** `Ingimar`
+
 ## BuildingCardSelected
 
 **Code:** `BUILDING_CARD_SELECTED`  
@@ -289,6 +343,8 @@ Fires off when a unit attaches itself to a wall
 
 **Description:**  
 Fires when a building card is clicked on on the hud
+
+**Author:** `DAT_117a2ecc`
 
 ## BuildingCompleted
 
@@ -300,6 +356,8 @@ Fires when a building card is clicked on on the hud
 **Description:**  
 A building has been completed
 
+**Author:** `DAT_1179b680`
+
 ## BuildingConstructionIssuedByPlayer
 
 **Code:** `BUILDING_CONSTRUCTION_ISSUED_BY_PLAYER`  
@@ -309,6 +367,8 @@ A building has been completed
 
 **Description:**  
 Fired when the player adds a building to the queue
+
+**Author:** `DAT_117a1590`
 
 ## BuildingInfoPanelOpenedCampaign
 
@@ -320,6 +380,8 @@ Fired when the player adds a building to the queue
 **Description:**  
 triggers when the building info panel is opened by the user in the campaign game
 
+**Author:** `shane`
+
 ## CameraMoverCancelled
 
 **Code:** `CAMERA_MOVER_CANCELLED`  
@@ -329,6 +391,8 @@ triggers when the building info panel is opened by the user in the campaign game
 
 **Description:**  
 When the camera controller is cancelled before completion
+
+**Author:** `DAT_1179b680`
 
 ## CameraMoverFinished
 
@@ -340,6 +404,8 @@ When the camera controller is cancelled before completion
 **Description:**  
 When the camera reaches the end of its path, or when another camera transition cuts in
 
+**Author:** `DAT_1179ebf0`
+
 ## CampaignArmiesMerge
 
 **Code:** `MILITARY_FORCE_MERGE_EVENT`  
@@ -349,6 +415,8 @@ When the camera reaches the end of its path, or when another camera transition c
 
 **Description:**  
 Two campaign armies merge
+
+**Author:** `DAT_117a1590`
 
 ## CampaignBuildingDamaged
 
@@ -360,6 +428,8 @@ Two campaign armies merge
 **Description:**  
 A building is damaged
 
+**Author:** `DAT_117a1590`
+
 ## CampaignCoastalAssaultOnCharacter
 
 **Code:** `CHARACTER_COASTAL_CHARACTER_ASSAULT`  
@@ -369,6 +439,8 @@ A building is damaged
 
 **Description:**  
 Fired when a character initiates a coastal assault on a character
+
+**Author:** `DAT_1179b680`
 
 ## CampaignCoastalAssaultOnGarrison
 
@@ -380,6 +452,8 @@ Fired when a character initiates a coastal assault on a character
 **Description:**  
 Fired when a character initiates a coastal assault on a garrison
 
+**Author:** `DAT_1179b680`
+
 ## CampaignEffectsBundleAwarded
 
 **Code:** `FACTION_AWARDED_EFFECT_BUNDLE`  
@@ -389,6 +463,8 @@ Fired when a character initiates a coastal assault on a garrison
 
 **Description:**  
 A faction has gained an effect bundle
+
+**Author:** `DAT_1179b680`
 
 ## CharacterAttacksAlly
 
@@ -400,6 +476,8 @@ A faction has gained an effect bundle
 **Description:**  
 A character has attacked an ally
 
+**Author:** `DAT_117a159c`
+
 ## CharacterBecomesFactionLeader
 
 **Code:** `CHARACTER_BECOMES_FACTION_LEADER`  
@@ -409,6 +487,8 @@ A character has attacked an ally
 
 **Description:**  
 A character has become faction leader
+
+**Author:** `DAT_1179b680`
 
 ## CharacterBesiegesSettlement
 
@@ -420,6 +500,8 @@ A character has become faction leader
 **Description:**  
 Fired when a character besieges a settlement
 
+**Author:** `Chris Budd`
+
 ## CharacterBlockadedPort
 
 **Code:** `CHARACTER_BLOCKADED_PORT_EVENT`  
@@ -429,6 +511,8 @@ Fired when a character besieges a settlement
 
 **Description:**  
 A character successfully blockades a port
+
+**Author:** `DAT_1179b680`
 
 ## CharacterBrokePortBlockade
 
@@ -440,6 +524,8 @@ A character successfully blockades a port
 **Description:**  
 A character successfully broke a port blockade
 
+**Author:** `DAT_1179b680`
+
 ## CharacterBuildingCompleted
 
 **Code:** `CHARACTER_BUILDING_COMPLETED_EVENT`  
@@ -449,6 +535,8 @@ A character successfully broke a port blockade
 
 **Description:**  
 A building has been completed
+
+**Author:** `DAT_117a159c`
 
 ## CharacterCanLiberate
 
@@ -460,6 +548,8 @@ A building has been completed
 **Description:**  
 A character was given the opportunity to liberate a region
 
+**Author:** `DAT_1179b680`
+
 ## CharacterCandidateBecomesMinister
 
 **Code:** `CHARACTER_CANDIDATE_BECOMES_MINISER`  
@@ -469,6 +559,8 @@ A character was given the opportunity to liberate a region
 
 **Description:**  
 Fired when a candidate becomes a minister
+
+**Author:** `DAT_1179b680`
 
 ## CharacterCharacterTargetAction
 
@@ -480,6 +572,8 @@ Fired when a candidate becomes a minister
 **Description:**  
 A character has performed an agent action against a character
 
+**Author:** `DAT_117a1590`
+
 ## CharacterComesOfAge
 
 **Code:** `CHARACTER_COMES_OF_AGE`  
@@ -489,6 +583,8 @@ A character has performed an agent action against a character
 
 **Description:**  
 An agent has failed to bribe an enemy army
+
+**Author:** `DAT_1179b680`
 
 ## CharacterCompletedBattle
 
@@ -500,6 +596,8 @@ An agent has failed to bribe an enemy army
 **Description:**  
 A character took part in a battle and didn\'t die
 
+**Author:** `DAT_117a1590`
+
 ## CharacterCreated
 
 **Code:** `CHARACTER_CREATION`  
@@ -509,6 +607,8 @@ A character took part in a battle and didn\'t die
 
 **Description:**  
 Fired when a character is created
+
+**Author:** `DAT_117a2ecc`
 
 ## CharacterDeselected
 
@@ -520,6 +620,8 @@ Fired when a character is created
 **Description:**  
 triggers when a character has been deselected on the campaign map
 
+**Author:** `Christian`
+
 ## CharacterDiscovered
 
 **Code:** `CHARACTER_DISCOVERED`  
@@ -529,6 +631,8 @@ triggers when a character has been deselected on the campaign map
 
 **Description:**  
 Fired when an character is discovered
+
+**Author:** `Chris Budd`
 
 ## CharacterDisembarksNavy
 
@@ -540,6 +644,8 @@ Fired when an character is discovered
 **Description:**  
 A character disembarks a navy
 
+**Author:** `DAT_117a1590`
+
 ## CharacterEmbarksNavy
 
 **Code:** `CHARACTER_EMBARKS_NAVY`  
@@ -549,6 +655,8 @@ A character disembarks a navy
 
 **Description:**  
 A character embarks on a navy
+
+**Author:** `DAT_117a1590`
 
 ## CharacterEntersAttritionalArea
 
@@ -560,6 +668,8 @@ A character embarks on a navy
 **Description:**  
 Fired when a characters ends its movement in a position where it will suffer attrition
 
+**Author:** `DAT_1179b680`
+
 ## CharacterEntersGarrison
 
 **Code:** `CHARACTER_ENTERS_GARRISON`  
@@ -569,6 +679,8 @@ Fired when a characters ends its movement in a position where it will suffer att
 
 **Description:**  
 A character enters a garrison (settlement, slot or fort)
+
+**Author:** `DAT_117a1590`
 
 ## CharacterFactionCompletesResearch
 
@@ -580,6 +692,8 @@ A character enters a garrison (settlement, slot or fort)
 **Description:**  
 research completed
 
+**Author:** `Chris Budd`
+
 ## CharacterFamilyRelationDied
 
 **Code:** `CHARACTER_FAMILY_RELATION_DIED_EVENT`  
@@ -589,6 +703,8 @@ research completed
 
 **Description:**  
 A character\'s immediate family member has died
+
+**Author:** `Chris Budd`
 
 ## CharacterGarrisonTargetAction
 
@@ -600,6 +716,8 @@ A character\'s immediate family member has died
 **Description:**  
 A character has performed an agent action against a garrison
 
+**Author:** `DAT_117a1590`
+
 ## CharacterGeneralDiedInBattle
 
 **Code:** `CHARACTER_GENERAL_DIED_IN_BATTLE`  
@@ -609,6 +727,8 @@ A character has performed an agent action against a garrison
 
 **Description:**  
 A character took part in a battle as a general and died
+
+**Author:** `DAT_117ac470`
 
 ## CharacterInfoPanelOpened
 
@@ -620,6 +740,8 @@ A character took part in a battle as a general and died
 **Description:**  
 triggers the character information panel has been opened
 
+**Author:** `DAT_117b0390`
+
 ## CharacterLeavesGarrison
 
 **Code:** `CHARACTER_LEAVES_GARRISON`  
@@ -629,6 +751,8 @@ triggers the character information panel has been opened
 
 **Description:**  
 A character leaves a garrison (settlement, slot or fort)
+
+**Author:** `DAT_1179b680`
 
 ## CharacterLootedSettlement
 
@@ -640,6 +764,8 @@ A character leaves a garrison (settlement, slot or fort)
 **Description:**  
 A character loots a settlement
 
+**Author:** `DAT_117a1590`
+
 ## CharacterMarriage
 
 **Code:** `CHARACTER_MARRIES`  
@@ -649,6 +775,8 @@ A character loots a settlement
 
 **Description:**  
 A character has married
+
+**Author:** `DAT_1179b680`
 
 ## CharacterMilitaryForceTraditionPointAllocated
 
@@ -660,6 +788,8 @@ A character has married
 **Description:**  
 Fired when a military force is assigned a tradition point
 
+**Author:** `Chris Budd`
+
 ## CharacterParticipatedAsSecondaryGeneralInBattle
 
 **Code:** `CHARACTER_PARTICIPATED_AS_SECONDARY_GENERAL_IN_BATTLE`  
@@ -669,6 +799,8 @@ Fired when a military force is assigned a tradition point
 
 **Description:**  
 A character took part in a battle as a secondary general and didn\'t die
+
+**Author:** `DAT_117a2ed8`
 
 ## CharacterPerformsActionAgainstFriendlyTarget
 
@@ -680,6 +812,8 @@ A character took part in a battle as a secondary general and didn\'t die
 **Description:**  
 Fired when an agent ends turn in a settlement or army
 
+**Author:** `DAT_117a1590`
+
 ## CharacterPoliticalAction
 
 **Code:** `CHARACTER_POLITICAL_ACTION`  
@@ -689,6 +823,8 @@ Fired when an agent ends turn in a settlement or army
 
 **Description:**  
 Fired when a character performs a political action
+
+**Author:** `Oleg Zlatarski`
 
 ## CharacterPoliticalActionPoliticalMariage
 
@@ -700,6 +836,8 @@ Fired when a character performs a political action
 **Description:**  
 Fired when a character is married politically
 
+**Author:** `Chris Budd`
+
 ## CharacterPoliticalAdoption
 
 **Code:** `CHARACTER_POLITICAL_ADOPTION`  
@@ -709,6 +847,8 @@ Fired when a character is married politically
 
 **Description:**  
 Fired when a character is adopted
+
+**Author:** `Chris Budd`
 
 ## CharacterPoliticalAssassination
 
@@ -720,6 +860,8 @@ Fired when a character is adopted
 **Description:**  
 Fired when a character is assassinated
 
+**Author:** `Oleg Zlatarski`
+
 ## CharacterPoliticalBribe
 
 **Code:** `CHARACTER_POLITICAL_BRIBE`  
@@ -729,6 +871,8 @@ Fired when a character is assassinated
 
 **Description:**  
 Fired when a character is bribed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalDivorce
 
@@ -740,6 +884,8 @@ Fired when a character is bribed
 **Description:**  
 Fired when a character is divorced politically
 
+**Author:** `Chris Budd`
+
 ## CharacterPoliticalEmbezzleFunds
 
 **Code:** `CHARACTER_POLITICAL_EMBEZZLE_FUNDS`  
@@ -749,6 +895,8 @@ Fired when a character is divorced politically
 
 **Description:**  
 Fired when Embezzle Funds political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalEntice
 
@@ -760,6 +908,8 @@ Fired when Embezzle Funds political action executed
 **Description:**  
 Fired when Entice political action executed
 
+**Author:** `Veli Mollov`
+
 ## CharacterPoliticalFlirt
 
 **Code:** `CHARACTER_POLITICAL_FLIRT`  
@@ -769,6 +919,8 @@ Fired when Entice political action executed
 
 **Description:**  
 Fired when Flirt political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalGatherSupport
 
@@ -780,6 +932,8 @@ Fired when Flirt political action executed
 **Description:**  
 Fired when Gather Support political action executed
 
+**Author:** `Oleg Zlatarski`
+
 ## CharacterPoliticalInsult
 
 **Code:** `CHARACTER_POLITICAL_INSULT`  
@@ -789,6 +943,8 @@ Fired when Gather Support political action executed
 
 **Description:**  
 Fired when Insult political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalOrganizeGames
 
@@ -800,6 +956,8 @@ Fired when Insult political action executed
 **Description:**  
 Fired when Organize Games political action executed
 
+**Author:** `Veli Mollov`
+
 ## CharacterPoliticalPartyProvoke
 
 **Code:** `CHARACTER_POLITICAL_PARTY_PROVOKE`  
@@ -809,6 +967,8 @@ Fired when Organize Games political action executed
 
 **Description:**  
 Fired when Party Provoke political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalPartyPurge
 
@@ -820,6 +980,8 @@ Fired when Party Provoke political action executed
 **Description:**  
 Fired when Party Purge political action executed
 
+**Author:** `Veli Mollov`
+
 ## CharacterPoliticalPartySecureLoyalty
 
 **Code:** `CHARACTER_POLITICAL_PARTY_SECURE_LOYALTY`  
@@ -829,6 +991,8 @@ Fired when Party Purge political action executed
 
 **Description:**  
 Fired when Party Secure Loyalty political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalPraise
 
@@ -840,6 +1004,8 @@ Fired when Party Secure Loyalty political action executed
 **Description:**  
 Fired when Praise political action executed
 
+**Author:** `Veli Mollov`
+
 ## CharacterPoliticalPromotion
 
 **Code:** `CHARACTER_POLITICAL_PROMOTION`  
@@ -849,6 +1015,8 @@ Fired when Praise political action executed
 
 **Description:**  
 Fired when character secure promoted
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalProvoke
 
@@ -860,6 +1028,8 @@ Fired when character secure promoted
 **Description:**  
 Fired when Provoke political action executed
 
+**Author:** `Oleg Zlatarski`
+
 ## CharacterPoliticalRumours
 
 **Code:** `CHARACTER_POLITICAL_RUMOURS`  
@@ -869,6 +1039,8 @@ Fired when Provoke political action executed
 
 **Description:**  
 Fired when rumours are spread about a character
+
+**Author:** `Chris Budd`
 
 ## CharacterPoliticalSecureLoyalty
 
@@ -880,6 +1052,8 @@ Fired when rumours are spread about a character
 **Description:**  
 Fired when Insult political action executed
 
+**Author:** `Oleg Zlatarski`
+
 ## CharacterPoliticalSendDiplomat
 
 **Code:** `CHARACTER_POLITICAL_SEND_DIPLOMAT`  
@@ -889,6 +1063,8 @@ Fired when Insult political action executed
 
 **Description:**  
 Fired when Organize Games political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalSendEmissary
 
@@ -900,6 +1076,8 @@ Fired when Organize Games political action executed
 **Description:**  
 Fired when Send Emissary political action executed
 
+**Author:** `Veli Mollov`
+
 ## CharacterPoliticalSendGift
 
 **Code:** `CHARACTER_POLITICAL_SEND_GIFT`  
@@ -909,6 +1087,8 @@ Fired when Send Emissary political action executed
 
 **Description:**  
 Fired when Send Gift political action executed
+
+**Author:** `Veli Mollov`
 
 ## CharacterPoliticalSuicide
 
@@ -920,6 +1100,8 @@ Fired when Send Gift political action executed
 **Description:**  
 Fired when a character suicides
 
+**Author:** `Veli Mollov`
+
 ## CharacterPostBattleEnslave
 
 **Code:** `CHARACTER_POSTBATTLE_ENSLAVE_EVENT`  
@@ -929,6 +1111,8 @@ Fired when a character suicides
 
 **Description:**  
 Occurs when a user selects to enslave prisoners after a battle
+
+**Author:** `Chris Budd`
 
 ## CharacterPostBattleRelease
 
@@ -940,6 +1124,8 @@ Occurs when a user selects to enslave prisoners after a battle
 **Description:**  
 Occurs when a user selects to release prisoners after a battle
 
+**Author:** `Chris Budd`
+
 ## CharacterPostBattleSlaughter
 
 **Code:** `CHARACTER_POSTBATTLE_SLAUGHTER_EVENT`  
@@ -949,6 +1135,8 @@ Occurs when a user selects to release prisoners after a battle
 
 **Description:**  
 Occurs when a user selects to slaughter prisoners after a battle
+
+**Author:** `Chris Budd`
 
 ## CharacterPromoted
 
@@ -960,6 +1148,8 @@ Occurs when a user selects to slaughter prisoners after a battle
 **Description:**  
 A character has been promoted
 
+**Author:** `DAT_117a159c`
+
 ## CharacterRankUp
 
 **Code:** `CHARACTER_RANK_UP`  
@@ -969,6 +1159,8 @@ A character has been promoted
 
 **Description:**  
 Fired when a character ranks up
+
+**Author:** `DAT_117a2ed8`
 
 ## CharacterRankUpNeedsAncillary
 
@@ -980,6 +1172,8 @@ Fired when a character ranks up
 **Description:**  
 Fired when a character ranks up and needs an ancillary generated
 
+**Author:** `DAT_117a2ed8`
+
 ## CharacterRelativeKilled
 
 **Code:** `CHARACTER_RELATIVE_KILLED`  
@@ -989,6 +1183,8 @@ Fired when a character ranks up and needs an ancillary generated
 
 **Description:**  
 An agent has failed to bribe an enemy army
+
+**Author:** `DAT_1179b680`
 
 ## CharacterSelected
 
@@ -1000,6 +1196,8 @@ An agent has failed to bribe an enemy army
 **Description:**  
 Fired when a character is selected
 
+**Author:** `DAT_117a1590`
+
 ## CharacterSettlementBesieged
 
 **Code:** `SETTLEMENT_BESIEGED`  
@@ -1009,6 +1207,8 @@ Fired when a character is selected
 
 **Description:**  
 Fired when a settlement garrisoned by a character is besieged
+
+**Author:** `Chris Budd`
 
 ## CharacterSettlementBlockaded
 
@@ -1020,6 +1220,8 @@ Fired when a settlement garrisoned by a character is besieged
 **Description:**  
 Fired when a settlement garrisoned by a character is besieged
 
+**Author:** `Chris Budd`
+
 ## CharacterSkillPointAllocated
 
 **Code:** `CHARACTER_SKILL_POINT_ALLOCATED`  
@@ -1029,6 +1231,8 @@ Fired when a settlement garrisoned by a character is besieged
 
 **Description:**  
 Fired when an character has a skill point allocated
+
+**Author:** `Chris Budd`
 
 ## CharacterTurnEnd
 
@@ -1040,6 +1244,8 @@ Fired when an character has a skill point allocated
 **Description:**  
 Fired for every character at the start of their turn
 
+**Author:** `DAT_117a2ecc`
+
 ## CharacterTurnStart
 
 **Code:** `CHARACTER_START_TURN_EVENT`  
@@ -1049,6 +1255,8 @@ Fired for every character at the start of their turn
 
 **Description:**  
 Fired for every character at the start of their turn
+
+**Author:** `DAT_117a2ecc`
 
 ## CharacterTurnStartCarthage
 
@@ -1060,6 +1268,8 @@ Fired for every character at the start of their turn
 **Description:**  
 Fired for every character at the start of their turn
 
+**Author:** `DAT_117a2ecc`
+
 ## CharacterTurnStartRome
 
 **Code:** `CHARACTER_START_TURN_EVENT_ROME`  
@@ -1069,6 +1279,8 @@ Fired for every character at the start of their turn
 
 **Description:**  
 Fired for every character at the start of their turn
+
+**Author:** `DAT_117a2ecc`
 
 ## ClanBecomesVassal
 
@@ -1080,6 +1292,8 @@ Fired for every character at the start of their turn
 **Description:**  
 A clan has become a vassal
 
+**Author:** `DAT_1179b680`
+
 ## ComponentCreated
 
 **Code:** `COMPONENT_CREATED_EVENT`  
@@ -1089,6 +1303,8 @@ A clan has become a vassal
 
 **Description:**  
 Fires when a Component is first created (at end of RunScript)
+
+**Author:** `Krishna`
 
 ## ComponentLClickUp
 
@@ -1100,6 +1316,8 @@ Fires when a Component is first created (at end of RunScript)
 **Description:**  
 Triggered when a user clicks on any component
 
+**Author:** `DAT_117a2ecc`
+
 ## ComponentMouseOn
 
 **Code:** `COMPONENT_MOUSEON_EVENT`  
@@ -1109,6 +1327,8 @@ Triggered when a user clicks on any component
 
 **Description:**  
 Triggered when a user mouses over any component
+
+**Author:** `Shane`
 
 ## ComponentMoved
 
@@ -1120,6 +1340,8 @@ Triggered when a user mouses over any component
 **Description:**  
 Triggered when a user releases the left button after dragging an item
 
+**Author:** `Shane`
+
 ## CustomMission
 
 **Code:** `CUSTOM_MISSION_EVENT`  
@@ -1129,6 +1351,8 @@ Triggered when a user releases the left button after dragging an item
 
 **Description:**  
 Internal event: does not fire and cannot be used in the script
+
+**Author:** `DAT_1179ebf0`
 
 ## EncylopediaEntryRequested
 
@@ -1140,6 +1364,8 @@ Internal event: does not fire and cannot be used in the script
 **Description:**  
 Fired when an advice button is pressed.
 
+**Author:** `Shane`
+
 ## EventMessageOpenedBattle
 
 **Code:** `MESSAGE_OPENED_EVENT_BATTLE`  
@@ -1149,6 +1375,8 @@ Fired when an advice button is pressed.
 
 **Description:**  
 triggers when a dropdown message is opened by the user
+
+**Author:** `DAT_117b0390`
 
 ## EventMessageOpenedCampaign
 
@@ -1160,6 +1388,8 @@ triggers when a dropdown message is opened by the user
 **Description:**  
 triggers when a dropdown message is opened by the user
 
+**Author:** `DAT_117b0390`
+
 ## FactionAboutToEndTurn
 
 **Code:** `FACTION_ABOUT_TO_END_TURN`  
@@ -1169,6 +1399,8 @@ triggers when a dropdown message is opened by the user
 
 **Description:**  
 Faction about to end it\'s turn
+
+**Author:** `DAT_1179b680`
 
 ## FactionBattleDefeat
 
@@ -1180,6 +1412,8 @@ Faction about to end it\'s turn
 **Description:**  
 Fired when faction lose a battle
 
+**Author:** `Veli Mollov`
+
 ## FactionBattleVictory
 
 **Code:** `FACTION_BATTLE_VICTORY`  
@@ -1189,6 +1423,8 @@ Fired when faction lose a battle
 
 **Description:**  
 Fired when faction wins a battle
+
+**Author:** `Veli Mollov`
 
 ## FactionBecomesLiberationVassal
 
@@ -1200,6 +1436,8 @@ Fired when faction wins a battle
 **Description:**  
 A faction has liberated another faction
 
+**Author:** `DAT_1179b680`
+
 ## FactionBecomesWorldLeader
 
 **Code:** `FACTION_BECOMES_WORLD_LEADER_EVENT`  
@@ -1209,6 +1447,8 @@ A faction has liberated another faction
 
 **Description:**  
 A faction has become world leader
+
+**Author:** `DAT_1179b680`
 
 ## FactionBeginTurnPhaseNormal
 
@@ -1220,6 +1460,8 @@ A faction has become world leader
 **Description:**  
 Faction begins its Normal turn phase
 
+**Author:** `DAT_1179b680`
+
 ## FactionCapturesWorldCapital
 
 **Code:** `FACTION_CAPTURES_WORLD_CAPITAL_EVENT`  
@@ -1229,6 +1471,8 @@ Faction begins its Normal turn phase
 
 **Description:**  
 A faction has captured the world capital
+
+**Author:** `DAT_1179b680`
 
 ## FactionCivilWarEnd
 
@@ -1240,6 +1484,8 @@ A faction has captured the world capital
 **Description:**  
 Fired when civil war in faction ends
 
+**Author:** `Veli Mollov`
+
 ## FactionEncountersOtherFaction
 
 **Code:** `FACTION_ENCOUNTERS_OTHER_FACTION`  
@@ -1249,6 +1495,8 @@ Fired when civil war in faction ends
 
 **Description:**  
 A faction encounters another faction
+
+**Author:** `DAT_117a1590`
 
 ## FactionFameLevelUp
 
@@ -1260,6 +1508,8 @@ A faction encounters another faction
 **Description:**  
 Faction fame as gone up a level
 
+**Author:** `Chris Budd`
+
 ## FactionGovernmentTypeChanged
 
 **Code:** `FACTION_GOVERNMENT_TYPE_CHANGED`  
@@ -1269,6 +1519,8 @@ Faction fame as gone up a level
 
 **Description:**  
 The factions government type has changed
+
+**Author:** `DAT_117a159c`
 
 ## FactionLeaderDeclaresWar
 
@@ -1280,6 +1532,8 @@ The factions government type has changed
 **Description:**  
 War has been declared
 
+**Author:** `DAT_1179b680`
+
 ## FactionLeaderIssuesEdict
 
 **Code:** `FACTION_LEADER_ISSUES_EDICT`  
@@ -1289,6 +1543,8 @@ War has been declared
 
 **Description:**  
 Fired when a faction issues an edict
+
+**Author:** `Chris Budd`
 
 ## FactionLeaderSignsPeaceTreaty
 
@@ -1300,6 +1556,8 @@ Fired when a faction issues an edict
 **Description:**  
 A peace treaty has been signed
 
+**Author:** `DAT_1179b680`
+
 ## FactionPoliticsGovernmentActionTriggered
 
 **Code:** `FACTION_POLITICS_GOVERNMENT_ACTION_TRIGGERED`  
@@ -1309,6 +1567,8 @@ A peace treaty has been signed
 
 **Description:**  
 Fired when a custom scripted action must be executed for a particular politics government type 
+
+**Author:** `Mihail Balabanov`
 
 ## FactionPoliticsGovernmentTypeChanged
 
@@ -1320,6 +1580,8 @@ Fired when a custom scripted action must be executed for a particular politics g
 **Description:**  
 Fired when politics government type has changed
 
+**Author:** `Veli Mollov`
+
 ## FactionRoundStart
 
 **Code:** `FACTION_START_ROUND`  
@@ -1329,6 +1591,8 @@ Fired when politics government type has changed
 
 **Description:**  
 Faction starts the round
+
+**Author:** `DAT_117a159c`
 
 ## FactionSecessionEnd
 
@@ -1340,6 +1604,8 @@ Faction starts the round
 **Description:**  
 Fired when secession in faction ends
 
+**Author:** `Veli Mollov`
+
 ## FactionSubjugatesOtherFaction
 
 **Code:** `FACTION_SUBJUGATES_OTHER_FACTION`  
@@ -1349,6 +1615,8 @@ Fired when secession in faction ends
 
 **Description:**  
 A faction subjugates another faction
+
+**Author:** `DAT_117a2ed8`
 
 ## FactionTurnEnd
 
@@ -1360,6 +1628,8 @@ A faction subjugates another faction
 **Description:**  
 Faction ends it\'s turn
 
+**Author:** `DAT_117a1590`
+
 ## FactionTurnStart
 
 **Code:** `FACTION_START_TURN`  
@@ -1369,6 +1639,8 @@ Faction ends it\'s turn
 
 **Description:**  
 Faction starts it\'s turn
+
+**Author:** `DAT_117a1590`
 
 ## FirstTickAfterNewCampaignStarted
 
@@ -1380,6 +1652,8 @@ Faction starts it\'s turn
 **Description:**  
 A new campaign game has being started and the first tick is just being done - not triggered when processing startpos. Guarantees UI is open.
 
+**Author:** `DAT_117a2ed8`
+
 ## FirstTickAfterWorldCreated
 
 **Code:** `FIRST_TICK_AFTER_WORLD_CREATED`  
@@ -1389,6 +1663,8 @@ A new campaign game has being started and the first tick is just being done - no
 
 **Description:**  
 First tick after a game was started or loaded
+
+**Author:** `DAT_117a2ed8`
 
 ## ForceAdoptsStance
 
@@ -1400,6 +1676,8 @@ First tick after a game was started or loaded
 **Description:**  
 Fired when an characters military force changes stance
 
+**Author:** `Chris Budd`
+
 ## FrontendScreenTransition
 
 **Code:** `FRONTEND_TRANSITION_EVENT`  
@@ -1409,6 +1687,8 @@ Fired when an characters military force changes stance
 
 **Description:**  
 triggers we change screens in the frontend
+
+**Author:** `DAT_117b0390`
 
 ## GarrisonAttackedEvent
 
@@ -1420,6 +1700,8 @@ triggers we change screens in the frontend
 **Description:**  
 DAT_1173dad0
 
+**Author:** `DAT_1173dad0`
+
 ## GarrisonOccupiedEvent
 
 **Code:** `GARRISON_OCCUPIED_EVENT`  
@@ -1429,6 +1711,8 @@ DAT_1173dad0
 
 **Description:**  
 DAT_1173dad0
+
+**Author:** `DAT_1173dad0`
 
 ## GarrisonResidenceCaptured
 
@@ -1440,6 +1724,8 @@ DAT_1173dad0
 **Description:**  
 A garrison residence (settlement, fort, port &c.) has been captured
 
+**Author:** `DAT_1173e50c`
+
 ## GovernorshipTaxRateChanged
 
 **Code:** `GOVERNORSHIP_TAX_RATE_CHANGE`  
@@ -1449,6 +1735,8 @@ A garrison residence (settlement, fort, port &c.) has been captured
 
 **Description:**  
 A tax rate in a governorship has changed
+
+**Author:** `DAT_117a1590`
 
 ## HistoricBattleEvent
 
@@ -1460,6 +1748,8 @@ A tax rate in a governorship has changed
 **Description:**  
 Events fired from Historic battle, will send the name of next battle to be played !
 
+**Author:** `Krishna`
+
 ## HistoricalCharacters
 
 **Code:** `HISTORICAL_CHARACTER_GENERATION_EVENT`  
@@ -1469,6 +1759,8 @@ Events fired from Historic battle, will send the name of next battle to be playe
 
 **Description:**  
 DAT_1173dad0
+
+**Author:** `DAT_1179b680`
 
 ## HistoricalEvents
 
@@ -1480,6 +1772,8 @@ DAT_1173dad0
 **Description:**  
 DAT_1173dad0
 
+**Author:** `DAT_1179b680`
+
 ## HudRefresh
 
 **Code:** `HUD_REFRESH_EVENT`  
@@ -1489,6 +1783,8 @@ DAT_1173dad0
 
 **Description:**  
 triggers when the HUD is reconstructed
+
+**Author:** `Shane`
 
 ## IncomingMessage
 
@@ -1500,6 +1796,8 @@ triggers when the HUD is reconstructed
 **Description:**  
 triggers when a dropdown message first starts falling down the screen
 
+**Author:** `DAT_117b0390`
+
 ## LandTradeRouteRaided
 
 **Code:** `LAND_TRADE_ROUTE_ATTACKED_EVENT`  
@@ -1509,6 +1807,8 @@ triggers when a dropdown message first starts falling down the screen
 
 **Description:**  
 A character has raided a land trade route
+
+**Author:** `DAT_117a159c`
 
 ## LoadingGame
 
@@ -1520,6 +1820,8 @@ A character has raided a land trade route
 **Description:**  
 A game is being loaded
 
+**Author:** `DAT_1179ebf0`
+
 ## LoadingScreenDismissed
 
 **Code:** `LOADING_SCREEN_DISMISSED_EVENT`  
@@ -1529,6 +1831,8 @@ A game is being loaded
 
 **Description:**  
 triggers when loading screen dismissed by player
+
+**Author:** `ScottB`
 
 ## LocationEntered
 
@@ -1540,6 +1844,8 @@ triggers when loading screen dismissed by player
 **Description:**  
 When a piece enters a location trigger, fire ony once per trigger
 
+**Author:** `DAT_1179ebf0`
+
 ## LocationUnveiled
 
 **Code:** `LOCATION_UNVEILED_EVENT`  
@@ -1549,6 +1855,8 @@ When a piece enters a location trigger, fire ony once per trigger
 
 **Description:**  
 When the location becomes visible for the first time
+
+**Author:** `DAT_1179ebf0`
 
 ## MissionCancelled
 
@@ -1560,6 +1868,8 @@ When the location becomes visible for the first time
 **Description:**  
 A mission has been cancelled - ie is no longer viable
 
+**Author:** `DAT_117a2ed8`
+
 ## MissionFailed
 
 **Code:** `MISSION_FAILED`  
@@ -1569,6 +1879,8 @@ A mission has been cancelled - ie is no longer viable
 
 **Description:**  
 The player has failed a mission
+
+**Author:** `DAT_1173e50c`
 
 ## MissionIssued
 
@@ -1580,6 +1892,8 @@ The player has failed a mission
 **Description:**  
 A mission has been issued to the player
 
+**Author:** `DAT_1173e50c`
+
 ## MissionNearingExpiry
 
 **Code:** `MISSION_NEARING_EXPIRY`  
@@ -1589,6 +1903,8 @@ A mission has been issued to the player
 
 **Description:**  
 A mission only has a quarter of its time left before its too late to complete it
+
+**Author:** `DAT_1173e50c`
 
 ## MissionSucceeded
 
@@ -1600,6 +1916,8 @@ A mission only has a quarter of its time left before its too late to complete it
 **Description:**  
 A mission has been successfully completed
 
+**Author:** `DAT_1173e50c`
+
 ## ModelCreated
 
 **Code:** `MODEL_CREATED`  
@@ -1609,6 +1927,8 @@ A mission has been successfully completed
 
 **Description:**  
 A game is being started or loaded, at this point the most vital parts pf the game are initialized
+
+**Author:** `DAT_1179b680`
 
 ## MovementPointsExhausted
 
@@ -1620,6 +1940,8 @@ A game is being started or loaded, at this point the most vital parts pf the gam
 **Description:**  
 A general can move no more
 
+**Author:** `DAT_117a1590`
+
 ## MultiTurnMove
 
 **Code:** `CHARACTER_MULTITURN_MOVE_ISSUED_EVENT`  
@@ -1629,6 +1951,8 @@ A general can move no more
 
 **Description:**  
 A character has been issued a movement that will take more than one turn
+
+**Author:** `DAT_117a159c`
 
 ## NewCampaignStarted
 
@@ -1640,6 +1964,8 @@ A character has been issued a movement that will take more than one turn
 **Description:**  
 A new campaign game is being started - called exactly once during a campaign, when it is created for the first time - NOT called when loading, NOT called when processing startpos
 
+**Author:** `DAT_117a2ed8`
+
 ## NewSession
 
 **Code:** `NEW_GAME_EVENT`  
@@ -1649,6 +1975,8 @@ A new campaign game is being started - called exactly once during a campaign, wh
 
 **Description:**  
 A game is being started, could be a new game or loading a save game
+
+**Author:** `DAT_1179ebf0`
 
 ## PanelAdviceRequestedBattle
 
@@ -1660,6 +1988,8 @@ A game is being started, could be a new game or loading a save game
 **Description:**  
 triggers when the user clicks on the request advice button on a panel in battle
 
+**Author:** `DAT_117b0390`
+
 ## PanelAdviceRequestedCampaign
 
 **Code:** `PANEL_ADVICE_EVENT_CAMPAIGN`  
@@ -1669,6 +1999,8 @@ triggers when the user clicks on the request advice button on a panel in battle
 
 **Description:**  
 triggers when the user clicks on the request advice button on a panel in the campaign game
+
+**Author:** `DAT_117b0390`
 
 ## PanelClosedBattle
 
@@ -1680,6 +2012,8 @@ triggers when the user clicks on the request advice button on a panel in the cam
 **Description:**  
 triggers when a ui panel is closed by the user in battle
 
+**Author:** `DAT_117b0390`
+
 ## PanelClosedCampaign
 
 **Code:** `PANEL_CLOSED_EVENT_CAMPAIGN`  
@@ -1689,6 +2023,8 @@ triggers when a ui panel is closed by the user in battle
 
 **Description:**  
 triggers when a ui panel is closed by the user in the campaign game
+
+**Author:** `DAT_117b0390`
 
 ## PanelOpenedBattle
 
@@ -1700,6 +2036,8 @@ triggers when a ui panel is closed by the user in the campaign game
 **Description:**  
 triggers when a ui panel is opened by the user in battle
 
+**Author:** `DAT_117b0390`
+
 ## PanelOpenedCampaign
 
 **Code:** `PANEL_OPEN_EVENT_CAMPAIGN`  
@@ -1709,6 +2047,8 @@ triggers when a ui panel is opened by the user in battle
 
 **Description:**  
 triggers when a ui panel is opened by the user in the campaign game
+
+**Author:** `DAT_117b0390`
 
 ## PendingBankruptcy
 
@@ -1720,6 +2060,8 @@ triggers when a ui panel is opened by the user in the campaign game
 **Description:**  
 The faction is about to go bankrupt
 
+**Author:** `DAT_1179b680`
+
 ## PendingBattle
 
 **Code:** `PENDING_BATTLE_EVENT`  
@@ -1729,6 +2071,8 @@ The faction is about to go bankrupt
 
 **Description:**  
 A battle is about to occur
+
+**Author:** `DAT_1179b680`
 
 ## PositiveDiplomaticEvent
 
@@ -1740,6 +2084,8 @@ A battle is about to occur
 **Description:**  
 Fires when a user performs a positive diplomatic action
 
+**Author:** `Chris Budd`
+
 ## RecruitmentItemIssuedByPlayer
 
 **Code:** `RECRUITMENT_ITEM_ISSUED_BY_PLAYER`  
@@ -1749,6 +2095,8 @@ Fires when a user performs a positive diplomatic action
 
 **Description:**  
 Fired when the player selects adds a unit to the queue
+
+**Author:** `DAT_1179ebf0`
 
 ## RegionChangedFaction
 
@@ -1760,6 +2108,8 @@ Fired when the player selects adds a unit to the queue
 **Description:**  
 Fired when a region changes faction
 
+**Author:** `Tsvetan`
+
 ## RegionGainedDevlopmentPoint
 
 **Code:** `REGION_GAINED_DEVELOPMENT_POINT`  
@@ -1769,6 +2119,8 @@ Fired when a region changes faction
 
 **Description:**  
 Region gained a development point
+
+**Author:** `Chris Budd`
 
 ## RegionIssuesDemands
 
@@ -1780,6 +2132,8 @@ Region gained a development point
 **Description:**  
 This region has issued demands
 
+**Author:** `DAT_117a159c`
+
 ## RegionRebels
 
 **Code:** `REGION_REBELS`  
@@ -1789,6 +2143,8 @@ This region has issued demands
 
 **Description:**  
 This region has started rebelling
+
+**Author:** `DAT_117a159c`
 
 ## RegionRiots
 
@@ -1800,6 +2156,8 @@ This region has started rebelling
 **Description:**  
 This region has started riots
 
+**Author:** `DAT_117a159c`
+
 ## RegionSelected
 
 **Code:** `REGION_SELECTED_EVENT`  
@@ -1809,6 +2167,8 @@ This region has started riots
 
 **Description:**  
 Fired when a region is selected
+
+**Author:** `DAT_1179b680`
 
 ## RegionStrikes
 
@@ -1820,6 +2180,8 @@ Fired when a region is selected
 **Description:**  
 This region has started striking
 
+**Author:** `DAT_117a1590`
+
 ## RegionTurnEnd
 
 **Code:** `REGION_END_TURN`  
@@ -1829,6 +2191,8 @@ This region has started striking
 
 **Description:**  
 Region ends it\'s turn
+
+**Author:** `DAT_117a1590`
 
 ## RegionTurnStart
 
@@ -1840,6 +2204,8 @@ Region ends it\'s turn
 **Description:**  
 Region starts it\'s turn
 
+**Author:** `DAT_117a1590`
+
 ## ResearchCompleted
 
 **Code:** `RESEARCH_COMPLETED_EVENT`  
@@ -1849,6 +2215,8 @@ Region starts it\'s turn
 
 **Description:**  
 Research has been completed in this slot
+
+**Author:** `Luke, modified by Alan`
 
 ## ResearchStarted
 
@@ -1860,6 +2228,8 @@ Research has been completed in this slot
 **Description:**  
 Research has been started
 
+**Author:** `DAT_117a1590`
+
 ## SavingGame
 
 **Code:** `SAVE_GAME_EVENT`  
@@ -1869,6 +2239,8 @@ Research has been started
 
 **Description:**  
 A game is being saveed
+
+**Author:** `DAT_1179ebf0`
 
 ## ScriptedAgentCreated
 
@@ -1880,6 +2252,8 @@ A game is being saveed
 **Description:**  
 Fired when the an agent is created through script
 
+**Author:** `DAT_1179b680`
+
 ## ScriptedAgentCreationFailed
 
 **Code:** `SCRIPTED_AGENT_CREATION_FAILED`  
@@ -1889,6 +2263,8 @@ Fired when the an agent is created through script
 
 **Description:**  
 Fired when the an agent is unable to be created through script
+
+**Author:** `DAT_1179b680`
 
 ## ScriptedCharacterUnhidden
 
@@ -1900,6 +2276,8 @@ Fired when the an agent is unable to be created through script
 **Description:**  
 Fired when a character is sucessfully unhidden by script
 
+**Author:** `DAT_1179b680`
+
 ## ScriptedCharacterUnhiddenFailed
 
 **Code:** `SCRIPTED_CHARACTER_UNHIDDEN_FAILED`  
@@ -1909,6 +2287,8 @@ Fired when a character is sucessfully unhidden by script
 
 **Description:**  
 Fired when a character is unsucessfully unhidden by script
+
+**Author:** `DAT_1179b680`
 
 ## ScriptedForceCreated
 
@@ -1920,6 +2300,8 @@ Fired when a character is unsucessfully unhidden by script
 **Description:**  
 Fired when the a force is created through script
 
+**Author:** `DAT_1179b680`
+
 ## SeaTradeRouteRaided
 
 **Code:** `SEA_TRADE_ROUTE_ATTACKED_EVENT`  
@@ -1929,6 +2311,8 @@ Fired when the a force is created through script
 
 **Description:**  
 A character has raided a sea trade route
+
+**Author:** `DAT_117a159c`
 
 ## SettlementDeselected
 
@@ -1940,6 +2324,8 @@ A character has raided a sea trade route
 **Description:**  
 triggers when a settlement has been deselected on the campaign map
 
+**Author:** `Christian`
+
 ## SettlementSelected
 
 **Code:** `SETTLEMENT_SELECTED_EVENT`  
@@ -1949,6 +2335,8 @@ triggers when a settlement has been deselected on the campaign map
 
 **Description:**  
 Fired when the player selects a settlement on the map
+
+**Author:** `DAT_117a2ecc`
 
 ## ShortcutTriggered
 
@@ -1960,6 +2348,8 @@ Fired when the player selects a settlement on the map
 **Description:**  
 Fired when a keyboard shortcut is triggered
 
+**Author:** `DAT_1179b680`
+
 ## SlotOpens
 
 **Code:** `REGION_SLOT_POPPED_EVENT`  
@@ -1969,6 +2359,8 @@ Fired when a keyboard shortcut is triggered
 
 **Description:**  
 A slot has just opened
+
+**Author:** `DAT_117a159c`
 
 ## SlotRoundStart
 
@@ -1980,6 +2372,8 @@ A slot has just opened
 **Description:**  
 The start of round for this slot
 
+**Author:** `DAT_117a159c`
+
 ## SlotSelected
 
 **Code:** `SLOT_SELECTED_EVENT`  
@@ -1989,6 +2383,8 @@ The start of round for this slot
 
 **Description:**  
 Fired when the player selects a settlement slot on the map
+
+**Author:** `DAT_117a2ecc`
 
 ## SlotTurnStart
 
@@ -2000,6 +2396,8 @@ Fired when the player selects a settlement slot on the map
 **Description:**  
 The start of turn for this slot
 
+**Author:** `DAT_117a159c`
+
 ## TechnologyInfoPanelOpenedCampaign
 
 **Code:** `TECHNOLOGY_INFO_PANEL_OPEN_EVENT_CAMPAIGN`  
@@ -2009,6 +2407,8 @@ The start of turn for this slot
 
 **Description:**  
 triggers when the technology info panel is opened by the user in the campaign game
+
+**Author:** `shane`
 
 ## TestEvent
 
@@ -2020,6 +2420,8 @@ triggers when the technology info panel is opened by the user in the campaign ga
 **Description:**  
 Test event
 
+**Author:** `DAT_117a1590`
+
 ## TooltipAdvice
 
 **Code:** `TOOLTIP_ADVICE_EVENT`  
@@ -2029,6 +2431,8 @@ Test event
 
 **Description:**  
 triggers when a tooltip cycles though all of it\'s available lines (only happens at end of first sequence
+
+**Author:** `DAT_117b0390`
 
 ## TouchUsed
 
@@ -2040,6 +2444,8 @@ triggers when a tooltip cycles though all of it\'s available lines (only happens
 **Description:**  
 Trigger when touch controls have been used
 
+**Author:** `Petr Tomicek`
+
 ## TradeNodeConnected
 
 **Code:** `CHARACTER_ESTABLISHED_DOMESTIC_TRADE_ROUTE`  
@@ -2049,6 +2455,8 @@ Trigger when touch controls have been used
 
 **Description:**  
 Fired when a character enters a trade node and establishes a trade route
+
+**Author:** `DAT_1179b680`
 
 ## TradeRouteEstablished
 
@@ -2060,6 +2468,8 @@ Fired when a character enters a trade node and establishes a trade route
 **Description:**  
 A trade route has been established with this faction
 
+**Author:** `DAT_117a159c`
+
 ## UICreated
 
 **Code:** `UI_CREATED_EVENT`  
@@ -2069,6 +2479,8 @@ A trade route has been established with this faction
 
 **Description:**  
 Fires when the UI is first created
+
+**Author:** `DAT_117a2ecc`
 
 ## UIDestroyed
 
@@ -2080,6 +2492,8 @@ Fires when the UI is first created
 **Description:**  
 Fires when the UI is destroyed
 
+**Author:** `DAT_117a2ecc`
+
 ## UnitCompletedBattle
 
 **Code:** `UNIT_COMPLETED_BATTLE_EVENT`  
@@ -2089,6 +2503,8 @@ Fires when the UI is destroyed
 
 **Description:**  
 A unit has completed the battle
+
+**Author:** `DAT_117a159c`
 
 ## UnitCreated
 
@@ -2100,6 +2516,8 @@ A unit has completed the battle
 **Description:**  
 A unit has been created
 
+**Author:** `DAT_117a159c`
+
 ## UnitSelectedCampaign
 
 **Code:** `UNIT_SELECTED_EVENT_CAMPAIGN`  
@@ -2109,6 +2527,8 @@ A unit has been created
 
 **Description:**  
 Fires when a unit card is selected on the campaign map
+
+**Author:** `DAT_117a2ecc`
 
 ## UnitTrained
 
@@ -2120,6 +2540,8 @@ Fires when a unit card is selected on the campaign map
 **Description:**  
 A unit is trained
 
+**Author:** `DAT_117a1590`
+
 ## UnitTurnEnd
 
 **Code:** `UNIT_TURN_END_EVENT`  
@@ -2130,6 +2552,8 @@ A unit is trained
 **Description:**  
 A unit has ended its turn
 
+**Author:** `DAT_117a159c`
+
 ## WorldCreated
 
 **Code:** `WORLD_CREATED`  
@@ -2139,3 +2563,5 @@ A unit has ended its turn
 
 **Description:**  
 A game is being started or loaded, at this point the most vital parts of the game are initialized
+
+**Author:** `DAT_117a1590`
