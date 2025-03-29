@@ -61,19 +61,32 @@ Required a few scripts to setup but seems pretty usable.
 
         # Start the table with headers
         markdown_table = [
-            "| Field Name | Description | Is Key |"]
+            "| Name | Key | Type | Description | RefTable | RefKey",]
         markdown_table.append(
-            "|------------|-------------|--------|")
+            "|------|---------|--------|--------|--------|--------|")
 
         # Add rows for each field entry
         # grab the entry with proper version
 
         for field in entry['fields']:
-
+            refs = field.get('is_reference', '')
+            if refs:
+                # first is the table name we can make a link on
+                # the current page with # fragment # second is the key
+                # build a link to the table, and display key after the link
+                table = refs[0] + '_tables'
+                key = refs[1]
+                ref_table = f"[{table}](#{table})"
+                ref_key = key
+            else:
+                ref_table,ref_key = '', ''
             row = [
                 field.get('name', ''),
+                field.get('is_key', ''),
+                field.get('field_type', ''),
                 field.get('description', ''),
-                field.get('is_key', '')
+                ref_table,
+                ref_key
             ]
             markdown_table.append(f"| {' | '.join(str(val) for val in row)} |")
 
