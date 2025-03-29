@@ -1,5 +1,5 @@
 ---
-title: index
+title: welcome
 summary: A brief description of my document.
 ---
 

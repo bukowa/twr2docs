@@ -4,6 +4,11 @@ repo_name: Total War Rome 2 Docs
 nav:
   - Home:
       - index.md
+  - External:
+      - r2-dei-discord: https://discord.gg/8RtJypzEQT
+      - agora-discord: https://discord.gg/hQYzzJxaZr
+      - tw-modding-wiki: https://tw-modding.com/wiki/Main_Page
+      - tw-modding-discord: https://discord.com/invite/dd4TUDm
   - Database:
       - database/tables.md
   - Scripting:
@@ -12,6 +17,8 @@ nav:
           - lua/api/conditions.md
 theme:
   name: material
+  features:
+    - navigation.expand
   palette:
 
     # Palette toggle for automatic mode
