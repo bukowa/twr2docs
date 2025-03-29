@@ -244,6 +244,7 @@ clean:
 setup: \
 	setup-rpfm_cli \
 	setup-rpfm_schema \
+	convert-rpfm-schema \
 	setup-etwng \
 	setup-7zip \
 	setup-ruby \
