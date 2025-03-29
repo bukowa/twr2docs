@@ -16,9 +16,10 @@ title: schema
 summary: A brief description of my document.
 ---
 
-# Introduction
+# Tables
 Database schema extracted from RPFM.
 Required a few scripts to setup but seems pretty usable.
+
 
 """]
     # Iterate over the tables and fields
