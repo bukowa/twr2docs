@@ -2,11 +2,11 @@
 title: events
 summary: A brief description of my document.
 ---
-# Events
+
+# Introduction
 Not all events are documented.  
 Not all events are expected to work.
 
-# Events Reference
 Below list is result of extracting the game decompiled code.  
 You should not rely 100% on the below list, as it may contain errors or missing events.
 

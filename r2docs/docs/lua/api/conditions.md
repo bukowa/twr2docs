@@ -2,11 +2,11 @@
 title: conditions
 summary: A brief description of my document.
 ---
-# Conditions
+
+# Introduction
 Not all conditions are documented.  
 Not all conditions are expected to work.  
 
-# Conditions Reference
 Below list is result of extracting the game decompiled code.  
 You should not rely 100% on the below list, as it may contain errors or missing conditions.
 
