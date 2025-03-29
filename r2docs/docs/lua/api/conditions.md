@@ -3,7 +3,7 @@ title: conditions
 summary: A brief description of my document.
 ---
 
-# Introduction
+# Conditions
 Not all conditions are documented.  
 Not all conditions are expected to work.  
 

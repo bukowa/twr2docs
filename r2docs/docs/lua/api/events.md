@@ -3,7 +3,7 @@ title: events
 summary: A brief description of my document.
 ---
 
-# Introduction
+# Events
 Not all conditions are documented.  
 Not all conditions are expected to work.  
 

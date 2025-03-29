@@ -1,4 +1,7 @@
-# Total War Rome 2 Docs
+---
+title: index
+summary: A brief description of my document.
+---
 
 ### About
 

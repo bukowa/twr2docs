@@ -1,9 +1,11 @@
-site_name: Total War Rome 2 Docs
+site_name: Total War Rome 2 Documentation
 repo_url: https://github.com/bukowa/twr2docs
 repo_name: Total War Rome 2 Docs
 nav:
   - Home:
       - index.md
+  - Database:
+      - database/tables.md
   - Scripting:
       - api:
           - lua/api/events.md
@@ -35,14 +37,14 @@ theme:
 #extra_css:
 #  - css/rtd_dark.css
 plugins:
-  search: {}
+  search: { }
 markdown_extensions:
   toc:
-      permalink: "#"
-  smarty: {}
-  sane_lists: {}
-  pymdownx.critic: {}
-  pymdownx.caret: {}
-  pymdownx.keys: {}
-  pymdownx.mark: {}
-  pymdownx.tilde: {}
+    permalink: "#"
+  smarty: { }
+  sane_lists: { }
+  pymdownx.critic: { }
+  pymdownx.caret: { }
+  pymdownx.keys: { }
+  pymdownx.mark: { }
+  pymdownx.tilde: { }

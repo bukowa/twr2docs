@@ -11,8 +11,16 @@ if __name__ == '__main__':
     with open(filename, 'r') as f:
         data = json.load(f)
 
-    markdown_content = []
+    markdown_content = ["""---
+title: schema
+summary: A brief description of my document.
+---
 
+# Introduction
+Database schema extracted from RPFM.
+Required a few scripts to setup but seems pretty usable.
+
+"""]
     # Iterate over the tables and fields
     for table_name, fields_list in data['definitions'].items():
 
@@ -74,5 +82,5 @@ if __name__ == '__main__':
         markdown_content.append("\n".join(markdown_table))
 
     # write to file
-    with open('schema.md', 'w') as f:
+    with open('tables.md', 'w') as f:
         f.write('\n'.join(markdown_content))
