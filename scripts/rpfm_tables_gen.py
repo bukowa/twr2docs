@@ -1,7 +1,7 @@
 import json
 
 if __name__ == '__main__':
-    headers_filename = './rpfm_dbtsv_getheader.json'
+    headers_filename = './rpfm_dbtsv_getheader_game.json'
 
     with open(headers_filename, 'r') as f:
         headers = json.load(f)
