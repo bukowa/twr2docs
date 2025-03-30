@@ -42,8 +42,9 @@ Required a few scripts to setup but seems pretty usable.
 
         # skip if there are multiple files for the table (too hard)
         if len(headers[table_name]) > 1:
-            print(f"!!!Table {table_name} has multiple headers")
-            continue
+            # print(f"!!!Table {table_name} has multiple files")
+            # just grab the first file...
+            headers[table_name] = [headers[table_name][0]]
 
         # look for the latest version entry
         # if theres only one entry, use it

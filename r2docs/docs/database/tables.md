@@ -3783,6 +3783,25 @@ Required a few scripts to setup but seems pretty usable.
 | ui_image | False | StringU8 |  |  |  |
 | prioritised | False | Boolean |  |  |  |
   
+## land_unit_articulated_vehicles_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| ammo_caisson_destroyed_model | False | OptionalStringU8 |  |  |  |
+| ammo_caisson_destruction | False | StringU8 |  | [warscape_animated_tables](#warscape_animated_tables) | key |
+| ammo_caisson_entity | False | OptionalStringU8 |  | [battle_entities_tables](#battle_entities_tables) | key |
+| ammo_caisson_model | False | OptionalStringU8 |  | [warscape_animated_tables](#warscape_animated_tables) | key |
+| articulated_entity | True | OptionalStringU8 |  | [battle_entities_tables](#battle_entities_tables) | key |
+| key | True | StringU8 |  |  |  |
+| articulation_node_1_offset | False | F32 | distance from front of model. place this at the draught entity connector to the beam to prevent draughts moving outside of beam when turning |  |  |
+| articulation_node_1_radius | False | F32 | size of node 1. do not let node circles overlap. |  |  |
+| articulation_node_2_offset | False | F32 | distance from front of model. should be at location of beam joint of chariot |  |  |
+| articulation_node_2_radius | False | F32 | size of node 2. do not let node circles overlap. |  |  |
+| articulation_node_3_offset | False | F32 | distance from front of model. will prevent node 1 from ever overlapping with node 3, but this should already be limited by the angle. |  |  |
+| articulation_node_3_radius | False | F32 | size of node 3. do not let node circles overlap. |  |  |
+| articulation_max_angle | False | F32 | left and right angle, measured from node 2 facing forwards |  |  |
+| head_offset | False | F32 | Offset of soft collision centre, positve numbers move it backwards from centre of beam |  |  |
+  
 ## land_units_officers_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4096,6 +4115,17 @@ Required a few scripts to setup but seems pretty usable.
 | ui_image | False | StringU8 |  |  |  |
 | prioritised | False | Boolean |  |  |  |
   
+## models_building_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| display_path | False | OptionalStringU8 |  |  |  |
+| logic_file_override | False | OptionalStringU8 | Override the Logic File? |  |  |
+| collision_file_override | False | OptionalStringU8 | Override the Collision File? |  |  |
+| key | True | StringU8 |  |  |  |
+| logic_file | False | StringU8 |  |  |  |
+| collision_file | False | StringU8 |  |  |  |
+  
 ## models_deployables_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4113,6 +4143,19 @@ Required a few scripts to setup but seems pretty usable.
 | logic_file | False | StringU8 |  |  |  |
 | model_file | False | StringU8 |  |  |  |
   
+## models_naval_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| key | True | StringU8 |  |  |  |
+| rigging_file | False | StringU8 |  |  |  |
+| destruction_file | False | OptionalStringU8 |  |  |  |
+| display_folder | False | StringU8 |  |  |  |
+| oar_upper | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
+| oar_middle | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
+| oar_lower | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
+| selection_indicator_shape | False | StringU8 |  |  |  |
+  
 ## models_oars_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4123,6 +4166,15 @@ Required a few scripts to setup but seems pretty usable.
 | left_end | False | OptionalStringU8 |  |  |  |
 | right_row | False | OptionalStringU8 |  |  |  |
 | right_end | False | OptionalStringU8 |  |  |  |
+  
+## models_sieges_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| display_path | False | OptionalStringU8 |  |  |  |
+| key | True | StringU8 |  |  |  |
+| model_file | False | StringU8 |  |  |  |
+| logic_file | False | StringU8 |  |  |  |
   
 ## mount_variants_tables
 
@@ -4333,6 +4385,15 @@ Required a few scripts to setup but seems pretty usable.
 | name | True | StringU8 |  |  |  |
 | military_force_effect_bundle | False | StringU8 |  | [effect_bundles_tables](#effect_bundles_tables) | key |
   
+## political_actions_dilemma_junctions_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| dilemma | False | StringU8 |  | [dilemmas_tables](#dilemmas_tables) | key |
+| political_action | True | StringU8 |  | [political_actions_tables](#political_actions_tables) | political_action_key |
+| weighting | False | I32 |  |  |  |
+| optimal_outcome | False | Boolean |  |  |  |
+  
 ## political_actions_effect_bundles_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4340,6 +4401,15 @@ Required a few scripts to setup but seems pretty usable.
 | action | True | StringU8 |  |  |  |
 | effect_bundle | False | StringU8 |  | [effect_bundles_tables](#effect_bundles_tables) | key |
 | duration | False | I32 |  |  |  |
+  
+## political_actions_incidents_junctions_tables
+
+| Name | Key | Type | Description | RefTable | RefKey
+|------|---------|--------|--------|--------|--------|
+| incident | False | StringU8 |  | [incidents_tables](#incidents_tables) | key |
+| political_action | True | StringU8 |  | [political_actions_tables](#political_actions_tables) | political_action_key |
+| weighting | False | I32 |  |  |  |
+| optimal_outcome | False | Boolean |  |  |  |
   
 ## political_actions_tables
 
