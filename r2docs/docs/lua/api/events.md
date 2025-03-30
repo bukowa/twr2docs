@@ -1199,7 +1199,11 @@ Fired when a character is selected
 **Author:** `DAT_117a1590`
 
 ## CharacterSettlementBesieged
-
+---
+WORKS
+```
+empty context :(
+```
 **Code:** `SETTLEMENT_BESIEGED`  
 
 **Context:** `Garrison Residence`  
