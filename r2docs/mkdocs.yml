@@ -4,6 +4,7 @@ repo_name: Total War Rome 2 Docs
 nav:
   - Home:
       - index.md
+      - contributing.md
   - Database:
       - database/tables.md
   - Scripting:
