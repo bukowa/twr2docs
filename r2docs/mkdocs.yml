@@ -8,6 +8,7 @@ nav:
   - Database:
       - database/tables.md
   - Scripting:
+      - "1. Lua File Loading": lua/lua_loading.md
       - api:
           - lua/api/events.md
           - lua/api/conditions.md
