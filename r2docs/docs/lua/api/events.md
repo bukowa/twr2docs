@@ -1215,7 +1215,11 @@ Fired when a settlement garrisoned by a character is besieged
 **Author:** `Chris Budd`
 
 ## CharacterSettlementBlockaded
-
+---
+WORKS
+```
+empty context :(
+```
 **Code:** `SETTLEMENT_BLOCKADED`  
 
 **Context:** `Garrison Residence`  
