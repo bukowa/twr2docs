@@ -1667,11 +1667,14 @@ First tick after a game was started or loaded
 **Author:** `DAT_117a2ed8`
 
 ## ForceAdoptsStance
-
+---
+WORKS
+```
+{military_force: force_interface, stance_adopted: int}
+```
 **Code:** `FORCE_ADOPTS_STANCE`  
 
 **Context:** `Character`  
-
 
 **Description:**  
 Fired when an characters military force changes stance
@@ -1679,7 +1682,6 @@ Fired when an characters military force changes stance
 **Author:** `Chris Budd`
 
 ## FrontendScreenTransition
-
 **Code:** `FRONTEND_TRANSITION_EVENT`  
 
 **Context:** `string (name of layout transitioned to)`  
