@@ -4,6 +4,7 @@ summary: A brief description of my document.
 ---
 
 # Tables
+---
 Database schema extracted from RPFM.
 Required a few scripts to setup but seems pretty usable.
 
@@ -437,13 +438,6 @@ Required a few scripts to setup but seems pretty usable.
 | name | True | StringU8 |  |  |  |
 | province_effect_bundle | False | StringU8 |  | [effect_bundles_tables](#effect_bundles_tables) | key |
 | weight | False | I32 |  |  |  |
-  
-## battle_animations_table_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | True | StringU8 |  |  |  |
-| skeleton | False | StringU8 | This creates an AGF dependency. | [battle_skeletons_tables](#battle_skeletons_tables) | name |
   
 ## battle_autoresolver_balances_tables
 
@@ -1809,12 +1803,6 @@ Required a few scripts to setup but seems pretty usable.
 | manager_key | True | StringU8 |  | [campaign_ai_technology_managers_tables](#campaign_ai_technology_managers_tables) | key |
 | path_key | True | StringU8 |  | [campaign_ai_technology_paths_tables](#campaign_ai_technology_paths_tables) | key |
 | priority | False | I32 |  |  |  |
-  
-## campaign_ai_technology_managers_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | True | StringU8 |  |  |  |
   
 ## campaign_ai_technology_path_junctions_tables
 
@@ -3783,25 +3771,6 @@ Required a few scripts to setup but seems pretty usable.
 | ui_image | False | StringU8 |  |  |  |
 | prioritised | False | Boolean |  |  |  |
   
-## land_unit_articulated_vehicles_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| ammo_caisson_destroyed_model | False | OptionalStringU8 |  |  |  |
-| ammo_caisson_destruction | False | StringU8 |  | [warscape_animated_tables](#warscape_animated_tables) | key |
-| ammo_caisson_entity | False | OptionalStringU8 |  | [battle_entities_tables](#battle_entities_tables) | key |
-| ammo_caisson_model | False | OptionalStringU8 |  | [warscape_animated_tables](#warscape_animated_tables) | key |
-| articulated_entity | True | OptionalStringU8 |  | [battle_entities_tables](#battle_entities_tables) | key |
-| key | True | StringU8 |  |  |  |
-| articulation_node_1_offset | False | F32 | distance from front of model. place this at the draught entity connector to the beam to prevent draughts moving outside of beam when turning |  |  |
-| articulation_node_1_radius | False | F32 | size of node 1. do not let node circles overlap. |  |  |
-| articulation_node_2_offset | False | F32 | distance from front of model. should be at location of beam joint of chariot |  |  |
-| articulation_node_2_radius | False | F32 | size of node 2. do not let node circles overlap. |  |  |
-| articulation_node_3_offset | False | F32 | distance from front of model. will prevent node 1 from ever overlapping with node 3, but this should already be limited by the angle. |  |  |
-| articulation_node_3_radius | False | F32 | size of node 3. do not let node circles overlap. |  |  |
-| articulation_max_angle | False | F32 | left and right angle, measured from node 2 facing forwards |  |  |
-| head_offset | False | F32 | Offset of soft collision centre, positve numbers move it backwards from centre of beam |  |  |
-  
 ## land_units_officers_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4115,17 +4084,6 @@ Required a few scripts to setup but seems pretty usable.
 | ui_image | False | StringU8 |  |  |  |
 | prioritised | False | Boolean |  |  |  |
   
-## models_building_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| display_path | False | OptionalStringU8 |  |  |  |
-| logic_file_override | False | OptionalStringU8 | Override the Logic File? |  |  |
-| collision_file_override | False | OptionalStringU8 | Override the Collision File? |  |  |
-| key | True | StringU8 |  |  |  |
-| logic_file | False | StringU8 |  |  |  |
-| collision_file | False | StringU8 |  |  |  |
-  
 ## models_deployables_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4143,19 +4101,6 @@ Required a few scripts to setup but seems pretty usable.
 | logic_file | False | StringU8 |  |  |  |
 | model_file | False | StringU8 |  |  |  |
   
-## models_naval_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | True | StringU8 |  |  |  |
-| rigging_file | False | StringU8 |  |  |  |
-| destruction_file | False | OptionalStringU8 |  |  |  |
-| display_folder | False | StringU8 |  |  |  |
-| oar_upper | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
-| oar_middle | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
-| oar_lower | False | StringU8 |  | [models_oars_tables](#models_oars_tables) | key |
-| selection_indicator_shape | False | StringU8 |  |  |  |
-  
 ## models_oars_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4166,15 +4111,6 @@ Required a few scripts to setup but seems pretty usable.
 | left_end | False | OptionalStringU8 |  |  |  |
 | right_row | False | OptionalStringU8 |  |  |  |
 | right_end | False | OptionalStringU8 |  |  |  |
-  
-## models_sieges_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| display_path | False | OptionalStringU8 |  |  |  |
-| key | True | StringU8 |  |  |  |
-| model_file | False | StringU8 |  |  |  |
-| logic_file | False | StringU8 |  |  |  |
   
 ## mount_variants_tables
 
@@ -4385,15 +4321,6 @@ Required a few scripts to setup but seems pretty usable.
 | name | True | StringU8 |  |  |  |
 | military_force_effect_bundle | False | StringU8 |  | [effect_bundles_tables](#effect_bundles_tables) | key |
   
-## political_actions_dilemma_junctions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| dilemma | False | StringU8 |  | [dilemmas_tables](#dilemmas_tables) | key |
-| political_action | True | StringU8 |  | [political_actions_tables](#political_actions_tables) | political_action_key |
-| weighting | False | I32 |  |  |  |
-| optimal_outcome | False | Boolean |  |  |  |
-  
 ## political_actions_effect_bundles_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -4401,15 +4328,6 @@ Required a few scripts to setup but seems pretty usable.
 | action | True | StringU8 |  |  |  |
 | effect_bundle | False | StringU8 |  | [effect_bundles_tables](#effect_bundles_tables) | key |
 | duration | False | I32 |  |  |  |
-  
-## political_actions_incidents_junctions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| incident | False | StringU8 |  | [incidents_tables](#incidents_tables) | key |
-| political_action | True | StringU8 |  | [political_actions_tables](#political_actions_tables) | political_action_key |
-| weighting | False | I32 |  |  |  |
-| optimal_outcome | False | Boolean |  |  |  |
   
 ## political_actions_tables
 
@@ -4555,7 +4473,6 @@ Required a few scripts to setup but seems pretty usable.
 | Name | Key | Type | Description | RefTable | RefKey
 |------|---------|--------|--------|--------|--------|
 | key | False | StringU8 | delete this field if you see it |  |  |
-| type | False | StringU8 |  | [projectiles_trail_types_enum_tables](#projectiles_trail_types_enum_tables) | key |
 | width | False | F32 |  |  |  |
 | duration | False | F32 |  |  |  |
 | min_aparent_width_distance | False | F32 |  |  |  |
@@ -4908,12 +4825,6 @@ Required a few scripts to setup but seems pretty usable.
 | model | False | StringU8 |  | [models_naval_tables](#models_naval_tables) | key |
 | spacing | False | StringU8 |  | [unit_spacings_tables](#unit_spacings_tables) | key |
   
-## shortcut_localisation_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | True | OptionalStringU8 | Key that matches up to default_keys.xml |  |  |
-  
 ## slot_template_to_building_superchain_junctions_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -5072,247 +4983,6 @@ Required a few scripts to setup but seems pretty usable.
 |------|---------|--------|--------|--------|--------|
 | key | True | StringU8 |  |  |  |
 | onscreen | False | StringU8 |  |  |  |
-  
-## start_pos_calendars_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| campaign | True | StringU8 |  | [campaigns_tables](#campaigns_tables) | campaign_name |
-| start_year | False | I32 |  |  |  |
-| turns_per_year | False | I32 |  |  |  |
-| start_season | False | StringU8 |  | [seasons_tables](#seasons_tables) | season |
-| start_week_of_year | False | I32 |  |  |  |
-  
-## start_pos_character_ancillaries_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| id | True | StringU8 |  |  |  |
-| character_id | False | StringU8 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| ancillary | False | StringU8 |  | [ancillary_info_tables](#ancillary_info_tables) | ancillary |
-  
-## start_pos_character_to_settlements_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| character | True | StringU8 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| settlement | False | StringU8 |  | [start_pos_settlements_tables](#start_pos_settlements_tables) | id |
-  
-## start_pos_character_traits_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| id | True | StringU8 |  |  |  |
-| character_id | False | StringU8 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| trait_level | False | StringU8 |  | [character_trait_levels_tables](#character_trait_levels_tables) | key |
-  
-## start_pos_characters_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| ID | True | StringU8 |  |  |  |
-| faction | False | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| Name | False | StringU8 |  | [names_tables](#names_tables) | id |
-| Surname | False | OptionalStringU8 |  | [names_tables](#names_tables) | id |
-| Age | False | I32 |  |  |  |
-| Type | False | StringU8 |  | [agents_tables](#agents_tables) | key |
-| startx | False | F32 |  |  |  |
-| starty | False | F32 |  |  |  |
-| ministerial_position | False | OptionalStringU8 |  | [ministerial_positions_tables](#ministerial_positions_tables) | minister_key |
-| portrait_id | False | OptionalStringU8 |  | [campaign_character_art_sets_tables](#campaign_character_art_sets_tables) | art_set_id |
-| model | False | OptionalStringU8 |  |  |  |
-| immortal | False | Boolean |  |  |  |
-| override_general_unit | False | OptionalStringU8 |  | [main_units_tables](#main_units_tables) | unit |
-| is_in_generals_pool | False | Boolean |  |  |  |
-| is_male | False | Boolean |  |  |  |
-| loyalty | False | I32 |  |  |  |
-| clan_name | False | OptionalStringU8 |  | [names_tables](#names_tables) | id |
-| other_name | False | OptionalStringU8 |  | [names_tables](#names_tables) | id |
-| ambition | False | I32 |  |  |  |
-| political_party | False | OptionalStringU8 |  | [political_parties_tables](#political_parties_tables) | key |
-| death_type | False | OptionalStringU8 |  | [death_types_tables](#death_types_tables) | key |
-| turns_died_before_start | False | OptionalStringU8 |  |  |  |
-| progenitor | False | Boolean |  |  |  |
-| xp | False | I32 |  |  |  |
-  
-## start_pos_diplomacy_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | False | StringU8 |  |  |  |
-| faction1 | True | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| faction2 | True | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| stance | False | StringU8 |  | [stances_tables](#stances_tables) | key |
-| grants_military_access | False | Boolean |  |  |  |
-| grants_trade_agreement | False | Boolean |  |  |  |
-| non_aggression_pact | False | Boolean |  |  |  |
-  
-## start_pos_factions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| ID | True | StringU8 |  |  |  |
-| faction | False | StringU8 |  | [factions_tables](#factions_tables) | key |
-| campaign | False | StringU8 |  | [start_pos_calendars_tables](#start_pos_calendars_tables) | campaign |
-| playable | False | Boolean |  |  |  |
-| treasury | False | I32 |  |  |  |
-| starting_order | False | I32 |  |  |  |
-| government_type | False | StringU8 |  | [government_types_tables](#government_types_tables) | government_type |
-| state_religion | False | StringU8 |  | [religions_tables](#religions_tables) | religion_key |
-| is_major | False | Boolean |  |  |  |
-| difficulty | False | StringU16 |  |  |  |
-| ai_manager | False | StringU8 |  | [campaign_ai_managers_tables](#campaign_ai_managers_tables) | manager |
-| ai_personality | False | StringU8 |  | [campaign_ai_personalities_tables](#campaign_ai_personalities_tables) | personality |
-| long_victory_region_count | False | I32 |  |  |  |
-| short_victory_region_count | False | I32 |  |  |  |
-| prestige_victory_region_count | False | I32 |  |  |  |
-| world_domination_victory_region_count | False | I32 |  |  |  |
-| short_victory_year_end | False | I32 |  |  |  |
-| long_victory_year_end | False | I32 |  |  |  |
-| prestige_victory_year_end | False | I32 |  |  |  |
-| world_domination_victory_year_end | False | I32 |  |  |  |
-| prestige_army | False | I32 |  |  |  |
-| prestige_navy | False | I32 |  |  |  |
-| prestige_economy | False | I32 |  |  |  |
-| prestige_enlightenment | False | I32 |  |  |  |
-| short_victory_week_in_year_end | False | I32 |  |  |  |
-| long_victory_week_in_year_end | False | I32 |  |  |  |
-| prestige_victory_week_in_year_end | False | I32 |  |  |  |
-| world_domination_victory_week_in_year_end | False | I32 |  |  |  |
-| honour | False | I32 |  |  |  |
-| ai_technology_manager | False | OptionalStringU8 |  | [campaign_ai_technology_managers_tables](#campaign_ai_technology_managers_tables) | key |
-| ai_character_skill_tree_manager | False | OptionalStringU8 |  | [campaign_ai_character_skill_tree_managers_tables](#campaign_ai_character_skill_tree_managers_tables) | key |
-| cai_agent_distribution_profile | False | StringU8 |  | [cai_agent_distribution_profiles_tables](#cai_agent_distribution_profiles_tables) | key |
-| cai_agent_recruitment_profile | False | StringU8 |  | [cai_agent_recruitment_profiles_tables](#cai_agent_recruitment_profiles_tables) | key |
-| cai_starting_personality | False | OptionalStringU8 |  | [cai_personalities_tables](#cai_personalities_tables) | key |
-| mp_one_vs_one_region_count | False | I32 |  |  |  |
-| mp_2p_co_op_region_count | False | I32 |  |  |  |
-| mp_2p_co_op_region_count_long | False | I32 |  |  |  |
-| long_description | False | OptionalStringU8 |  |  |  |
-| can_ever_convert_religion | False | Boolean |  |  |  |
-| cdir_military_generator_config | False | StringU8 |  | [cdir_military_generator_configs_tables](#cdir_military_generator_configs_tables) | key |
-  
-## start_pos_family_relationships_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| character | True | I32 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| related_to | True | I32 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| relationship | False | StringU8 |  | [family_relationship_types_tables](#family_relationship_types_tables) | relationship_type |
-| bastard | False | Boolean |  |  |  |
-| adopted | False | Boolean |  |  |  |
-  
-## start_pos_land_units_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| id | True | StringU8 |  |  |  |
-| unit_type | False | StringU8 |  | [main_units_tables](#main_units_tables) | unit |
-| general | False | StringU8 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-| soldiers | False | I32 |  |  |  |
-  
-## start_pos_naval_units_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| ID | True | StringU8 |  |  |  |
-| unit_type | False | StringU8 |  | [main_units_tables](#main_units_tables) | unit |
-| admiral | False | StringU8 |  | [start_pos_characters_tables](#start_pos_characters_tables) | ID |
-  
-## start_pos_past_events_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| event | True | StringU8 |  | [cai_personality_diplomatic_events_tables](#cai_personality_diplomatic_events_tables) | id |
-| source | True | StringU8 |  | [factions_tables](#factions_tables) | key |
-| target | True | StringU8 |  | [factions_tables](#factions_tables) | key |
-| turns_ago | True | I32 |  |  |  |
-  
-## start_pos_region_religions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| region | True | I32 |  | [start_pos_regions_tables](#start_pos_regions_tables) | id |
-| religion | True | StringU8 |  | [religions_tables](#religions_tables) | religion_key |
-| percentage | False | F32 |  |  |  |
-  
-## start_pos_region_slot_templates_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| campaign | True | StringU8 |  | [campaigns_tables](#campaigns_tables) | campaign_name |
-| id | True | StringU8 |  |  |  |
-| region | True | StringU8 |  | [regions_tables](#regions_tables) | key |
-| slot_template | True | StringU8 |  | [slot_templates_tables](#slot_templates_tables) | key |
-| slot_type | True | StringU8 |  | [slot_types_tables](#slot_types_tables) | key |
-  
-## start_pos_regions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| id | False | I64 |  |  |  |
-| region | True | StringU8 |  | [regions_tables](#regions_tables) | key |
-| campaign | True | StringU8 |  | [campaigns_tables](#campaigns_tables) | campaign_name |
-| owning_faction | False | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| faction_capital | False | Boolean |  |  |  |
-| base_population | False | I32 |  |  |  |
-| base_max_population | False | I32 |  |  |  |
-| population | False | I32 |  |  |  |
-| base_gdp | False | I32 |  |  |  |
-| road_upgrades | False | I32 |  |  |  |
-| canals | False | Boolean |  |  |  |
-| railways | False | Boolean |  |  |  |
-| town_wealth | False | I32 |  |  |  |
-| governorship | False | StringU8 |  | [governorships_tables](#governorships_tables) | governorship |
-| rebel_faction | False | StringU8 |  | [factions_tables](#factions_tables) | key |
-| cultural_originator | False | StringU8 |  | [cultures_subcultures_tables](#cultures_subcultures_tables) | subculture |
-| settler_rebellions_enabled | False | Boolean |  |  |  |
-| capture_prestige | False | I32 |  |  |  |
-| alternative_rebel_faction | False | StringU8 |  | [factions_tables](#factions_tables) | key |
-| long_description | False | OptionalStringU8 |  |  |  |
-| development_points | False | I32 |  |  |  |
-  
-## start_pos_regions_to_unit_resources_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| key | True | StringU8 |  | [start_pos_regions_tables](#start_pos_regions_tables) | id |
-| resource | True | StringU8 |  | [region_unit_resources_tables](#region_unit_resources_tables) | key |
-  
-## start_pos_settlements_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| settlement_id | True | StringU8 |  | [campaign_map_settlements_tables](#campaign_map_settlements_tables) | settlement_id |
-| region | True | I32 |  | [start_pos_regions_tables](#start_pos_regions_tables) | id |
-| building1 | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| building2 | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| building3 | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| building4 | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| building5 | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| wealth | False | I32 |  |  |  |
-| fortification | False | I32 |  |  |  |
-| id | False | I64 |  |  |  |
-| roads | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| fortifications | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| primary_building | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| port_building | False | OptionalStringU8 |  | [building_levels_tables](#building_levels_tables) | level_name |
-| startpos_slave_points | False | I32 |  |  |  |
-  
-## start_pos_technologies_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| faction | True | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| technology | True | StringU8 |  | [technologies_tables](#technologies_tables) | key |
-  
-## start_pos_victory_conditions_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| start_pos_faction | True | StringU8 |  | [start_pos_factions_tables](#start_pos_factions_tables) | ID |
-| region | True | StringU8 |  | [regions_tables](#regions_tables) | key |
-| victory_type | True | StringU8 |  | [victory_types_tables](#victory_types_tables) | victory_type |
   
 ## state_gift_values_tables
 
@@ -6106,16 +5776,6 @@ Required a few scripts to setup but seems pretty usable.
 |------|---------|--------|--------|--------|--------|
 | condition | True | StringU8 |  |  |  |
   
-## victory_types_tables
-
-| Name | Key | Type | Description | RefTable | RefKey
-|------|---------|--------|--------|--------|--------|
-| victory_type | True | OptionalStringU8 |  |  |  |
-| tree_y | False | I32 | Tree y position for ui display |  |  |
-| tree_x | False | I32 | Tree x position for ui display |  |  |
-| length_type | False | StringU8 |  |  |  |
-| icon | False | StringU8 | Icon for tree in ui display |  |  |
-  
 ## videos_tables
 
 | Name | Key | Type | Description | RefTable | RefKey
@@ -6160,12 +5820,6 @@ Required a few scripts to setup but seems pretty usable.
 | Name | Key | Type | Description | RefTable | RefKey
 |------|---------|--------|--------|--------|--------|
 | theme | True | StringU16 |  |  |  |
-| primary_weapon | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
-| secondary_weapon | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
-| defensive | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
-| ambient | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
-| personal | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
-| banners | False | OptionalStringU16 |  | [warscape_equipment_collections_tables](#warscape_equipment_collections_tables) | collection_key |
   
 ## warscape_rigid_lod_range_tables
 
@@ -6217,3 +5871,1551 @@ Required a few scripts to setup but seems pretty usable.
 | magnitudeX | False | F32 |  |  |  |
 | magnitudeY | False | F32 |  |  |  |
 | sort_order | False | I32 |  |  |  |
+  
+
+## Tables Not Found in the RPFM Schema
+---
+The following tables were not found in the RPFM schema but were found in the assembly kit.  
+Game tables can reference them, but they are (probably) not editable in RPFM.  
+We used the TWaD_ definition file to extract the fields.  
+  
+
+
+  
+## action_results_additional_outcomes_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## genders_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | gender | True | text |  | None | None |
+  | onscreen | False | text |  | None | None |
+  
+## audio_materials_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## battle_animations_table_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## audio_projectiles_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## audio_vo_actors_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## battle_entities_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## battle_entities_shape_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## battle_personality_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## battle_skeleton_category_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | type | True | text |  | None | None |
+  
+## gun_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## building_description_texts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | long_description | False | text |  | None | None |
+  
+## building_short_description_texts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | short_description | False | text |  | None | None |
+  
+## building_flavour_texts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | flavour | False | text |  | None | None |
+  
+## campaign_ai_character_skill_tree_managers_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_ai_technology_managers_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_ai_character_skill_tree_distributions_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_ai_character_skill_tree_agent_managers_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_ai_behaviours_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | behaviour | True | text |  | None | None |
+  | description | False | text |  | None | None |
+  
+## campaign_ai_personality_properties_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | property | True | text |  | None | None |
+  | description | False | text |  | None | None |
+  
+## campaign_ai_technology_paths_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_battle_type_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_bonus_value_battle_context_force_status_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_bonus_value_battle_context_territory_status_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_anim_set_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | name | True | text |  | None | None |
+  | skeleton | False | text |  | None | None |
+  
+## campaign_effect_scope_character_force_relationships_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_effect_scope_locations_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_effect_scope_ownerships_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_effect_scope_objects_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_map_attrition_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_maps_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | mapname | True | text |  | None | None |
+  | minx | False | integer |  | None | None |
+  | miny | False | integer |  | None | None |
+  | maxx | False | integer |  | None | None |
+  | maxy | False | integer |  | None | None |
+  
+## campaign_map_settlement_templates_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | template_name | True | text |  | None | None |
+  | slot_total | False | integer |  | None | None |
+  
+## campaign_map_tooltip_select_contexts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | select_context | True | text |  | None | None |
+  
+## campaign_map_tooltip_over_contexts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | over_contexts | True | text |  | None | None |
+  
+## campaign_map_tooltip_texts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | tooltip_text | False | text |  | None | None |
+  
+## campaign_settlement_display_building_construction_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | type | True | text |  | None | None |
+  
+## campaign_settlement_display_buildings_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | type | True | text |  | None | None |
+  
+## campaign_statistics_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_vfx_campaign_vfx_event_ids_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | campaign_vfx_event | True | text |  | None | None |
+  
+## cdir_config_values_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## cdir_desires_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## cdir_events_dilemma_choices_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | choice_key | True | text |  | None | None |
+  
+## cdir_events_dilemma_options_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | option_key | True | text |  | None | None |
+  
+## cdir_events_incident_options_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | option_key | True | text |  | None | None |
+  
+## cdir_events_mission_statuses_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | status_key | True | text |  | None | None |
+  
+## cdir_events_mission_options_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | option_key | True | text |  | None | None |
+  
+## pre_battle_speech_parameters_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## cursor_mouse_events_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## unit_stat_modifiers_how_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_bonus_value_ids_agent_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_basic_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_battle_contexts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_bonus_value_ids_battlefield_deployables_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_building_chain_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_building_sets_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_action_results_additional_outcomes_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_sets_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_projectile_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_provincial_initiative_effect_records_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_religion_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_resource_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_siege_items_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_technology_categories_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_ability_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_caste_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_category_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_class_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## campaign_bonus_value_ids_unit_records_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | notes | False | text |  | None | None |
+  
+## effect_bundle_targets_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## campaign_localised_strings_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | string | False | text |  | None | None |
+  
+## personality_location_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## unit_training_level_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## audio_vo_selected_switches_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## unit_melee_weapons_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## message_event_text_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | text | False | text |  | None | None |
+  
+## message_event_layout_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | Type | True | text |  | None | None |
+  
+## mission_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## mp_budget_sizes_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## mp_force_gen_templates_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## name_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## projectile_incendiary_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## pre_battle_speech_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | index | True | integer |  | None | None |
+  | description | False | text |  | None | None |
+  
+## projectiles_detonator_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | detonator_type | True | text |  | None | None |
+  
+## projectiles_detonation_types_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## audio_explosions_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## projectile_category_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## projectile_trajectory_sight_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## projectile_penetration_enum_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## send_diplomat_outcomes_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## special_ability_phase_effect_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | effect_type | True | text |  | None | None |
+  
+## special_ability_stance_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## languages_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  | full_name | False | text |  | None | None |
+  
+## vo_scripts_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | id | True | integer |  | None | None |
+  | name | False | text |  | None | None |
+  
+## TExc_LocalisableFields_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | autonumber |  | None | None |
+  | table_name | False | text |  | TExc_ImplementedTables | table_name |
+  | field | False | text |  | None | None |
+  | destination_file | False | text |  | None | None |
+  | ready_for_export | False | yesno |  | None | None |
+  | spreadsheet | False | text |  | None | None |
+  | field_as_key | False | text |  | None | None |
+  | for_vo | False | yesno |  | None | None |
+  
+## trait_triggers_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | trigger | True | text |  | None | None |
+  | event | False | text |  | trigger_events | event |
+  | conditions | False | text |  | None | None |
+  
+## special_abilities_specific_behaviour_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## uniform_type_enums_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+## video_types_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | video_type | True | text |  | None | None |
+  
+## warscape_categories_tables
+
+
+/// admonition | Attention
+    type: attention
+This table was not found in the RPFM schema. [See for more details](#tables-not-found-in-the-rpfm-schema).
+///
+  
+
+
+  | Name | Key | Type | Description | RefTable | RefKey
+  |------|---------|--------|--------|--------|--------|
+  | key | True | text |  | None | None |
+  
+
+## Problematic Tables
+---
+The following tables had problems / or there were other reasons
+for not including them. They are still here for reference.
+  
+
+
+  
+## land_unit_articulated_vehicles_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## models_building_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## models_naval_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## models_sieges_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## political_actions_dilemma_junctions_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## political_actions_incidents_junctions_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## start_pos_family_relationships_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## start_pos_past_events_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+
+
+  
+## start_pos_region_slot_templates_tables
+
+
+/// admonition | Warning
+    type: warning
+This table had problems in RPFM / other reasons. [See for more details](#problematic-tables).
+///
+  
+

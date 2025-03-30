@@ -1,1 +1,2 @@
 pycparser==2.22
+lxml==5.3.1
