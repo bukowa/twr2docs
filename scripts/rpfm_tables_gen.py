@@ -55,6 +55,7 @@ Required a few scripts to setup but seems pretty usable.
             version = int(headers[table_name][0]['version'])
             # find the entry with the same version
             entries = [e for e in fields_list if int(e['version']) == version]
+            entry = entries[0]
 
         markdown_content.append(f"  ")
         markdown_content.append(f"## {table_name}\n")
