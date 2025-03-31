@@ -46,14 +46,11 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 
-extra_javascript:
-  - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
-  - javascript/tablesort.js
-
+#extra_css:
+#  - css/rtd_dark.css
 plugins:
   search: { }
 markdown_extensions:
-  tables: {}
   toc:
     permalink: "#"
   smarty: { }
