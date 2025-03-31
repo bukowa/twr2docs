@@ -2,3 +2,4 @@
 .venv
 r2docs/public
 .deps
+r2docs/site

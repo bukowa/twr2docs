@@ -86,8 +86,6 @@ Database schemas extracted from the assembly kit `TWaD_` files.
             markdown_content.append(row)
 
 
-    # Join the table rows and append to the markdown content
-    markdown_content.append("\n".join(markdown_content))
     # Write the markdown content to a file
-    with open("../r2docs/docs/database/assemblykit_db.md", 'w', encoding='utf-8') as f:
+    with open("../r2docs/docs/database/assemblykit.md", 'w', encoding='utf-8') as f:
         f.write("\n".join(markdown_content))
