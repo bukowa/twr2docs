@@ -7,6 +7,7 @@ nav:
       - contributing.md
   - Database:
       - database/tables.md
+      - database/assemblykit.md
   - Scripting:
       - "1. Lua File Loading": lua/lua_loading.md
       - api:
