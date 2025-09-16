@@ -13,6 +13,7 @@ nav:
       - api:
           - lua/api/events.md
           - lua/api/conditions.md
+          - lua/api/payloads.md
   - External:
       - r2-dei-discord: https://discord.gg/8RtJypzEQT
       - agora-discord: https://discord.gg/hQYzzJxaZr
