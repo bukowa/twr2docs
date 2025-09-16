@@ -15,6 +15,7 @@ scripting.game_interface:trigger_custom_dilemma(
 )
 ```
 
+Working:
 ```lua
 "payload { money 5000; }"
 "payload { unit_restriction { unit_key Rom_Hastati; disable;  } }"
@@ -24,35 +25,27 @@ scripting.game_interface:trigger_custom_dilemma(
 "payload { set_capital rom_italia_latium; }"
 ```
 
+Probably working:
+```
+issue_mission
+```
+
 
 To be done
 ```
-money
+
 honour
 town_wealth
 clan_fame
 game_victory
-rebellion
-issue_mission
 demolish_chain
 damage_buildings
-diplomacy_change
 building_restriction
-unit_restriction
-grant_agent
-effect_bundle
-kill_character
-adjust_loyalty_for_character
-set_capital
-Failed parsing clan fame change
 grant_unit
-effect_bundle
 Unhandled payload token
 issue_mission requires an argument
 game_victory does not take an argument - ignoring the argument
-adjust_loyalty_for_character payload currently unsupported via direct scripting
-kill_character payload currently unsupported via direct scripting
-diplomacy_change payload currently unsupported via direct scripting
+
 unit_key
 enable
 disable
