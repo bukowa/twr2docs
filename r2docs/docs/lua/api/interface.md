@@ -878,6 +878,27 @@ summary: A brief description of my document.
 
 ```
 
+```lua
+  ["effect"] = {
+    ["OpenBrowser"] = "function: 57590158",
+    ["add_agent_experience"] = "function: 575901A0",
+    ["add_military_force_experience"] = "function: 575901B8",
+    ["adjust_treasury"] = "function: 57590140",
+    ["advance_contextual_advice_thread"] = "function: 5758E280",
+    ["advance_scripted_advice_thread"] = "function: 57590248",
+    ["advance_scripted_advice_thread_located"] = "function: 57590260",
+    ["advice"] = "function: 57590218",
+    ["ancillary"] = "function: 57590170",
+    ["historical_character"] = "function: 575901D0",
+    ["historical_event"] = "function: 575901E8",
+    ["remove_ancillary"] = "function: 57590188",
+    ["remove_trait"] = "function: 575900F8",
+    ["rewind_scripted_advice"] = "function: 57590278",
+    ["suspend_contextual_advice"] = "function: 57590200",
+    ["trait"] = "function: 57590110",
+  },
+```
+
 cai strategic stance
 ```
 CAI_STRATEGIC_STANCE_BEST_FRIENDS
