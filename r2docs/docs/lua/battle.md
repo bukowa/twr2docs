@@ -7,6 +7,7 @@ summary: How you can script campaign battle.
 When the battle starts in campaign mode, following events are triggered, in order:
 - PanelOpenedBattle
 - BattleDeploymentPhaseCommenced (twice: for Attacker and Defender):
+- BattleConflictPhaseCommenced
 ```lua
 -- this is probably first place to gather some information about the battle
 table.insert(events.BattleDeploymentPhaseCommenced, function(context)
@@ -14,6 +15,11 @@ table.insert(events.BattleDeploymentPhaseCommenced, function(context)
     consul.log:info(tostring(conditions.BattleAllianceIsPlayers(context)))
 end)
 ```
+
+Events that trigger during battle:
+- BattleUnitRouts
+- BattleUnitAttacksEnemyUnit
+- BattleCommandingUnitRouts
 
 Theres "BattleUnitAttacksEnemyUnit" that can be checked like:
 ```lua
