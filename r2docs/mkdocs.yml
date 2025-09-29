@@ -10,6 +10,7 @@ nav:
       - database/assemblykit.md
   - Scripting:
       - "1. Lua File Loading": lua/lua_loading.md
+      - battle: lua/battle.md
       - api:
           - lua/api/events.md
           - lua/api/conditions.md
