@@ -1,0 +1,1880 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../payloads/">
+      
+      
+        <link rel="next" href="../ui/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>interface - Total War Rome 2 Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Total War Rome 2 Documentation" class="md-header__button md-logo" aria-label="Total War Rome 2 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Total War Rome 2 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              interface
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bukowa/twr2docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Total War Rome 2 Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Total War Rome 2 Documentation" class="md-nav__button md-logo" aria-label="Total War Rome 2 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Total War Rome 2 Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bukowa/twr2docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Total War Rome 2 Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    welcome
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Database
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Database
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../database/tables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    schema
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../database/assemblykit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    assemblykit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lua_loading/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Lua File Loading
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../battle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    battle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    api
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            api
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payloads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    payloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    interface
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ui
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    db
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            db
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../db/cdir_events_options/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    cdir events options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    External
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            External
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/8RtJypzEQT" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    r2-dei-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/hQYzzJxaZr" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    agora-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://tw-modding.com/wiki/Main_Page" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tw-modding-wiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.com/invite/dd4TUDm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tw-modding-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>interface</h1>
+
+<pre><code class="language-lua">[&quot;BUILDING_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;is_empty&quot;] = &quot;function: 2CDB1E48&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDB2548&quot;,
+[&quot;new&quot;] = &quot;function: 58D0CD78&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDB2508&quot;,
+},
+[&quot;BUILDING_SCRIPT_INTERFACE&quot;] = {
+[&quot;chain&quot;] = &quot;function: 2CDB2AC8&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDB32C8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB2C48&quot;,
+[&quot;name&quot;] = &quot;function: 2CDB2AE8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0CC28&quot;,
+[&quot;region&quot;] = &quot;function: 2CDB2BC8&quot;,
+[&quot;slot&quot;] = &quot;function: 2CDB2C88&quot;,
+[&quot;superchain&quot;] = &quot;function: 2CDB2A88&quot;,
+},
+[&quot;CAMPAIGN_AI_SCRIPT_INTERFACE&quot;] = {
+[&quot;new&quot;] = &quot;function: 58D0D168&quot;,
+[&quot;strategic_stance_between_factions&quot;] = &quot;function: 2CDAA2E8&quot;,
+[&quot;strategic_stance_between_factions_available&quot;] = &quot;function: 2CDAA088&quot;,
+[&quot;strategic_stance_between_factions_is_being_blocked&quot;] = &quot;function: 2CDA96A8&quot;,
+[&quot;strategic_stance_between_factions_is_being_blocked_until&quot;] = &quot;function: 2CDA9D08&quot;,
+[&quot;strategic_stance_between_factions_promotion_current_level&quot;] = &quot;function: 2CDAA168&quot;,
+[&quot;strategic_stance_between_factions_promotion_end_level&quot;] = &quot;function: 2CDA9D68&quot;,
+[&quot;strategic_stance_between_factions_promotion_end_round&quot;] = &quot;function: 2CDA9C28&quot;,
+[&quot;strategic_stance_between_factions_promotion_is_active&quot;] = &quot;function: 2CDA9E48&quot;,
+[&quot;strategic_stance_between_factions_promotion_or_blocking_is_set&quot;] = &quot;function: 2CDAA1E8&quot;,
+[&quot;strategic_stance_between_factions_promotion_start_level&quot;] = &quot;function: 2CDAA068&quot;,
+[&quot;strategic_stance_between_factions_promotion_start_round&quot;] = &quot;function: 2CDA9D48&quot;,
+},
+[&quot;CAMPAIGN_MISSION_SCRIPT_INTERFACE&quot;] = {
+[&quot;model&quot;] = &quot;function: 2CDAA5A8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0D498&quot;,
+},
+[&quot;CAMPAIGN_POLITICS_SCRIPT_INTERFACE&quot;] = {
+[&quot;get_current_politics_government_type&quot;] = &quot;function: 2CDA93E8&quot;,
+[&quot;get_parties&quot;] = &quot;function: 2CDA9568&quot;,
+[&quot;government_type_key&quot;] = &quot;function: 2CDA94C8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0D1E0&quot;,
+[&quot;state_changed&quot;] = &quot;function: 2CDA9488&quot;,
+},
+[&quot;CHARACTER_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;is_empty&quot;] = &quot;function: 2CDB8C28&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDB8E68&quot;,
+[&quot;new&quot;] = &quot;function: 58D0BEF0&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDB8D28&quot;,
+},
+[&quot;CHARACTER_SCRIPT_INTERFACE&quot;] = {
+[&quot;action_points_per_turn&quot;] = &quot;function: 2CDBD848&quot;,
+[&quot;action_points_remaining_percent&quot;] = &quot;function: 2CDBDA48&quot;,
+[&quot;age&quot;] = &quot;function: 2CDBD7A8&quot;,
+[&quot;battles_fought&quot;] = &quot;function: 2CDBDA08&quot;,
+[&quot;battles_won&quot;] = &quot;function: 2CDBB1A8&quot;,
+[&quot;body_guard_casulties&quot;] = &quot;function: 2CDB9028&quot;,
+[&quot;character_type&quot;] = &quot;function: 2CDBE688&quot;,
+[&quot;cqi&quot;] = &quot;function: 2CDB1968&quot;,
+[&quot;defensive_ambush_battles_fought&quot;] = &quot;function: 2CDB9E68&quot;,
+[&quot;defensive_ambush_battles_won&quot;] = &quot;function: 2CDB9D28&quot;,
+[&quot;defensive_battles_fought&quot;] = &quot;function: 2CDBA8E8&quot;,
+[&quot;defensive_battles_won&quot;] = &quot;function: 2CDBB1C8&quot;,
+[&quot;defensive_naval_battles_fought&quot;] = &quot;function: 2CDB9F28&quot;,
+[&quot;defensive_naval_battles_won&quot;] = &quot;function: 2CDBA2A8&quot;,
+[&quot;defensive_sieges_fought&quot;] = &quot;function: 2CDBC0E8&quot;,
+[&quot;defensive_sieges_won&quot;] = &quot;function: 2CDBBF68&quot;,
+[&quot;display_position_x&quot;] = &quot;function: 2CDBB728&quot;,
+[&quot;display_position_y&quot;] = &quot;function: 2CDBB2A8&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDBFAE8&quot;,
+[&quot;forename&quot;] = &quot;function: 2CDBF788&quot;,
+[&quot;fought_in_battle&quot;] = &quot;function: 2CDBC108&quot;,
+[&quot;garrison_residence&quot;] = &quot;function: 2CDBFC28&quot;,
+[&quot;get_forename&quot;] = &quot;function: 2CDBF188&quot;,
+[&quot;get_political_party_id&quot;] = &quot;function: 2CDB8EA8&quot;,
+[&quot;get_surname&quot;] = &quot;function: 2CDBF088&quot;,
+[&quot;has_ancillary&quot;] = &quot;function: 2CDBD9C8&quot;,
+[&quot;has_garrison_residence&quot;] = &quot;function: 2CDC0288&quot;,
+[&quot;has_military_force&quot;] = &quot;function: 2CDBFEA8&quot;,
+[&quot;has_recruited_mercenaries&quot;] = &quot;function: 2CDB9348&quot;,
+[&quot;has_region&quot;] = &quot;function: 2CDC0188&quot;,
+[&quot;has_skill&quot;] = &quot;function: 2CDB9D68&quot;,
+[&quot;has_spouse&quot;] = &quot;function: 2CDBFBC8&quot;,
+[&quot;has_trait&quot;] = &quot;function: 2CDBE308&quot;,
+[&quot;in_port&quot;] = &quot;function: 2CDBE948&quot;,
+[&quot;in_settlement&quot;] = &quot;function: 2CDBE9C8&quot;,
+[&quot;is_ambushing&quot;] = &quot;function: 2CDBD628&quot;,
+[&quot;is_besieging&quot;] = &quot;function: 2CDBE808&quot;,
+[&quot;is_blockading&quot;] = &quot;function: 2CDBE868&quot;,
+[&quot;is_carrying_troops&quot;] = &quot;function: 2CDBE848&quot;,
+[&quot;is_deployed&quot;] = &quot;function: 2CDB9C48&quot;,
+[&quot;is_embedded_in_military_force&quot;] = &quot;function: 2CDB9C28&quot;,
+[&quot;is_faction_leader&quot;] = &quot;function: 2CDBC968&quot;,
+[&quot;is_hidden&quot;] = &quot;function: 2CDB95C8&quot;,
+[&quot;is_male&quot;] = &quot;function: 2CDBD768&quot;,
+[&quot;is_polititian&quot;] = &quot;function: 2CDB9048&quot;,
+[&quot;logical_position_x&quot;] = &quot;function: 2CDBB5A8&quot;,
+[&quot;logical_position_y&quot;] = &quot;function: 2CF57800&quot;,
+[&quot;military_force&quot;] = &quot;function: 2CDBFC68&quot;,
+[&quot;model&quot;] = &quot;function: 2CDC00A8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C088&quot;,
+[&quot;number_of_traits&quot;] = &quot;function: 2CDB9308&quot;,
+[&quot;offensive_ambush_battles_fought&quot;] = &quot;function: 2CDB9EE8&quot;,
+[&quot;offensive_ambush_battles_won&quot;] = &quot;function: 2CDB9EA8&quot;,
+[&quot;offensive_battles_fought&quot;] = &quot;function: 2CDBAC88&quot;,
+[&quot;offensive_battles_won&quot;] = &quot;function: 2CDBAEA8&quot;,
+[&quot;offensive_naval_battles_fought&quot;] = &quot;function: 2CDBA3E8&quot;,
+[&quot;offensive_naval_battles_won&quot;] = &quot;function: 2CDBA868&quot;,
+[&quot;offensive_sieges_fought&quot;] = &quot;function: 2CDBC008&quot;,
+[&quot;offensive_sieges_won&quot;] = &quot;function: 2CDBBFC8&quot;,
+[&quot;percentage_of_own_alliance_killed&quot;] = &quot;function: 2CDBB828&quot;,
+[&quot;performed_action_this_turn&quot;] = &quot;function: 2CDBD668&quot;,
+[&quot;rank&quot;] = &quot;function: 2CDBC0A8&quot;,
+[&quot;region&quot;] = &quot;function: 2CDBFA88&quot;,
+[&quot;routed_in_battle&quot;] = &quot;function: 2CDB95A8&quot;,
+[&quot;spouse&quot;] = &quot;function: 2CDC0148&quot;,
+[&quot;surname&quot;] = &quot;function: 2CDBF1E8&quot;,
+[&quot;trait_level&quot;] = &quot;function: 2CDB8FA8&quot;,
+[&quot;trait_points&quot;] = &quot;function: 2CDBE348&quot;,
+[&quot;turns_at_sea&quot;] = &quot;function: 2CDBD948&quot;,
+[&quot;turns_in_enemy_regions&quot;] = &quot;function: 2CDBD1E8&quot;,
+[&quot;turns_in_own_regions&quot;] = &quot;function: 2CDBCFC8&quot;,
+[&quot;turns_without_battle_in_home_lands&quot;] = &quot;function: 2CDBC848&quot;,
+[&quot;won_battle&quot;] = &quot;function: 2CDBB748&quot;,
+},
+[&quot;CampaignCharacter&quot;] = {
+[&quot;ActionPointsRatio&quot;] = &quot;function: 2CDA0068&quot;,
+[&quot;Release&quot;] = &quot;function: 5D34C298&quot;,
+[&quot;new&quot;] = &quot;function: 58D0DC90&quot;,
+},
+[&quot;CampaignSettlement&quot;] = {
+[&quot;LabelDetails&quot;] = &quot;function: 5D34BA38&quot;,
+[&quot;ListDetails&quot;] = &quot;function: 5D34B918&quot;,
+[&quot;Release&quot;] = &quot;function: 5D34B6D8&quot;,
+[&quot;Settlement&quot;] = &quot;function: 5D34BEB8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0DD38&quot;,
+},
+[&quot;CampaignUI&quot;] = {
+[&quot;ClearSelection&quot;] = &quot;function: 58D0D930&quot;,
+[&quot;CurrentTabTypename&quot;] = &quot;function: 58D0D960&quot;,
+[&quot;GetCameraPosition&quot;] = &quot;function: 58D0D510&quot;,
+[&quot;HighlightComponent&quot;] = &quot;function: 58D0D528&quot;,
+[&quot;HighlightConstructionItem&quot;] = &quot;function: 58D0D570&quot;,
+[&quot;HighlightRecruitmentItem&quot;] = &quot;function: 58D0D618&quot;,
+[&quot;IsMultiplayer&quot;] = &quot;function: 58D0D588&quot;,
+[&quot;IsPreBattleTypeSiege&quot;] = &quot;function: 58D0D948&quot;,
+[&quot;SetCameraHeading&quot;] = &quot;function: 58D0D7B0&quot;,
+[&quot;SetCameraMaxTiltAngle&quot;] = &quot;function: 58D0D6A8&quot;,
+[&quot;SetCameraMinDistance&quot;] = &quot;function: 58D0D5E8&quot;,
+[&quot;SetCameraTarget&quot;] = &quot;function: 58D0D648&quot;,
+[&quot;SetCameraTargetInstant&quot;] = &quot;function: 58D0D858&quot;,
+[&quot;SetCameraZoom&quot;] = &quot;function: 58D0D630&quot;,
+[&quot;ToggleCinematicBorders&quot;] = &quot;function: 58D0D558&quot;,
+[&quot;ToggleScreenCover&quot;] = &quot;function: 58D0D750&quot;,
+[&quot;clear_highlights&quot;] = &quot;function: 58D0D8E8&quot;,
+[&quot;highlight_character&quot;] = &quot;function: 58D0D870&quot;,
+[&quot;highlight_position&quot;] = &quot;function: 58D0D8D0&quot;,
+[&quot;highlight_settlement&quot;] = &quot;function: 58D0D8A0&quot;,
+[&quot;unhighlight_character&quot;] = &quot;function: 58D0D888&quot;,
+[&quot;unhighlight_position&quot;] = &quot;function: 58D0D918&quot;,
+[&quot;unhighlight_settlement&quot;] = &quot;function: 58D0D8B8&quot;,
+},
+[&quot;CoreUtils&quot;] = {
+[&quot;Clamp&quot;] = &quot;function: 58D15790&quot;,
+[&quot;CompareByValue&quot;] = &quot;function: 58D158B0&quot;,
+[&quot;CopyIntoTable&quot;] = &quot;function: 58D15898&quot;,
+[&quot;CopyTable&quot;] = &quot;function: 58D15868&quot;,
+[&quot;LoadTable&quot;] = &quot;function: 58D159A0&quot;,
+[&quot;Max&quot;] = &quot;function: 58D157A8&quot;,
+[&quot;Min&quot;] = &quot;function: 58D157C0&quot;,
+[&quot;NamespaceFile&quot;] = &quot;function: 58D15850&quot;,
+[&quot;OffsetFrom&quot;] = &quot;function: 58D158E0&quot;,
+[&quot;PickFGColour&quot;] = &quot;function: 58D158C8&quot;,
+[&quot;PrintTable&quot;] = &quot;function: 58D15820&quot;,
+[&quot;Require&quot;] = &quot;function: 58D157F0&quot;,
+[&quot;RoundToInt&quot;] = &quot;function: 58D15760&quot;,
+[&quot;RupToInt&quot;] = &quot;function: 58D15778&quot;,
+[&quot;SaveTable&quot;] = &quot;function: 58D15940&quot;,
+[&quot;TimeString&quot;] = &quot;function: 58D159B8&quot;,
+[&quot;TruncToInt&quot;] = &quot;function: 58D15748&quot;,
+[&quot;UnRequire&quot;] = &quot;function: 58D15808&quot;,
+[&quot;UnRequireAll&quot;] = &quot;function: 58D15838&quot;,
+[&quot;_M&quot;] = &lt;cycle&gt;,
+[&quot;_NAME&quot;] = &quot;CoreUtils&quot;,
+[&quot;_PACKAGE&quot;] = &quot;&quot;,
+[&quot;outputbitfield&quot;] = &quot;function: 58D157D8&quot;,
+},
+[&quot;Cursor&quot;] = {
+[&quot;DistanceToBL&quot;] = &quot;function: 2CDA0908&quot;,
+[&quot;Mode&quot;] = &quot;function: 2CDA0928&quot;,
+[&quot;ModeString&quot;] = &quot;function: 2CDA0A08&quot;,
+[&quot;Modes&quot;] = &quot;function: 2CDA0A88&quot;,
+[&quot;SetMode&quot;] = &quot;function: 2CDA0AE8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0DA38&quot;,
+},
+[&quot;EpisodicScripting&quot;] = {
+[&quot;AddEventCallBack&quot;] = &quot;function: 2CDBA2C8&quot;,
+[&quot;ClearEventCallbacks&quot;] = &quot;function: 58D338C8&quot;,
+[&quot;ClearMessageAutoShowOverrides&quot;] = &quot;function: 58D16768&quot;,
+[&quot;DisableFeature&quot;] = &quot;function: 58D167C8&quot;,
+[&quot;EnableComponent&quot;] = &quot;function: 58D15A18&quot;,
+[&quot;EnableFeature&quot;] = &quot;function: 58D167E0&quot;,
+[&quot;HideComponent&quot;] = &quot;function: 58D159D0&quot;,
+[&quot;HighlightComponent&quot;] = &quot;function: 58D15A30&quot;,
+[&quot;HighlightConstructionItem&quot;] = &quot;function: 58D15A48&quot;,
+[&quot;HighlightRecruitmentItem&quot;] = &quot;function: 58D15A78&quot;,
+[&quot;InitFeature&quot;] = &quot;function: 58D16780&quot;,
+[&quot;IsOnCampaignMap&quot;] = &quot;function: 58D15958&quot;,
+[&quot;OnUICreated&quot;] = &quot;function: 2CE521C8&quot;,
+[&quot;OverrideMessageAutoShow&quot;] = &quot;function: 58D167F8&quot;,
+[&quot;RevealComponent&quot;] = &quot;function: 58D15A00&quot;,
+[&quot;SetCampaign&quot;] = &quot;function: 58D16708&quot;,
+[&quot;ShowHUD&quot;] = &quot;function: 58D15AA8&quot;,
+[&quot;_M&quot;] = &lt;cycle&gt;,
+[&quot;_NAME&quot;] = &quot;lua_scripts.EpisodicScripting&quot;,
+[&quot;_PACKAGE&quot;] = &quot;lua_scripts.&quot;,
+[&quot;game_interface&quot;] = &quot;GAME (24C36A98)&quot;,
+[&quot;m_root&quot;] = &quot;UIComponent (2E989C34)&quot;,
+},
+[&quot;FACTION_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;is_empty&quot;] = &quot;function: 2CDC5928&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDCA2E8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0AF78&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDC5FA8&quot;,
+},
+[&quot;FACTION_SCRIPT_INTERFACE&quot;] = {
+[&quot;allied_with&quot;] = &quot;function: 2CDCA288&quot;,
+[&quot;ancillary_exists&quot;] = &quot;function: 2CDCADC8&quot;,
+[&quot;at_war&quot;] = &quot;function: 2CDCA508&quot;,
+[&quot;character_list&quot;] = &quot;function: 2CDCC808&quot;,
+[&quot;culture&quot;] = &quot;function: 2CDC7EC8&quot;,
+[&quot;difficulty_level&quot;] = &quot;function: 2CDC6768&quot;,
+[&quot;ended_war_this_turn&quot;] = &quot;function: 2CDCAEC8&quot;,
+[&quot;faction_attitudes&quot;] = &quot;function: 2CDCA428&quot;,
+[&quot;faction_leader&quot;] = &quot;function: 2CDCB808&quot;,
+[&quot;government_type&quot;] = &quot;function: 2CDC6488&quot;,
+[&quot;has_faction_leader&quot;] = &quot;function: 2CDCAF68&quot;,
+[&quot;has_food_shortage&quot;] = &quot;function: 2CF5E140&quot;,
+[&quot;has_home_region&quot;] = &quot;function: 2CDCB168&quot;,
+[&quot;has_researched_all_technologies&quot;] = &quot;function: 2CDC85C8&quot;,
+[&quot;has_technology&quot;] = &quot;function: 2CDC8A88&quot;,
+[&quot;home_region&quot;] = &quot;function: 2CDCB7C8&quot;,
+[&quot;imperium_level&quot;] = &quot;function: 2CDC7408&quot;,
+[&quot;is_human&quot;] = &quot;function: 2CDCBCC8&quot;,
+[&quot;losing_money&quot;] = &quot;function: 2CDC90E8&quot;,
+[&quot;military_force_list&quot;] = &quot;function: 2CDCC2A8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDCC708&quot;,
+[&quot;name&quot;] = &quot;function: 2CDCBD08&quot;,
+[&quot;new&quot;] = &quot;function: 58D0BBF0&quot;,
+[&quot;num_allies&quot;] = &quot;function: 2CDCAD88&quot;,
+[&quot;num_enemy_trespassing_armies&quot;] = &quot;function: 2CDCA408&quot;,
+[&quot;num_factions_in_war_with&quot;] = &quot;function: 2CDCB288&quot;,
+[&quot;num_generals&quot;] = &quot;function: 2CDC7D48&quot;,
+[&quot;num_trade_agreements&quot;] = &quot;function: 2CDCA048&quot;,
+[&quot;politics&quot;] = &quot;function: 2CDC6FC8&quot;,
+[&quot;politics_party_add_loyalty_modifier&quot;] = &quot;function: 2CDC6F68&quot;,
+[&quot;region_list&quot;] = &quot;function: 2CDCC288&quot;,
+[&quot;research_queue_idle&quot;] = &quot;function: 2CDC8A28&quot;,
+[&quot;sea_trade_route_raided&quot;] = &quot;function: 2CDC93A8&quot;,
+[&quot;started_war_this_turn&quot;] = &quot;function: 2CDCADE8&quot;,
+[&quot;state_religion&quot;] = &quot;function: 2CDC8A68&quot;,
+[&quot;subculture&quot;] = &quot;function: 2CDC7868&quot;,
+[&quot;tax_category&quot;] = &quot;function: 2CDC8BA8&quot;,
+[&quot;tax_level&quot;] = &quot;function: 2CDC91E8&quot;,
+[&quot;total_food&quot;] = &quot;function: 2CDC7268&quot;,
+[&quot;trade_resource_exists&quot;] = &quot;function: 2CDCA148&quot;,
+[&quot;trade_route_limit_reached&quot;] = &quot;function: 2CDC9CE8&quot;,
+[&quot;trade_ship_not_in_trade_node&quot;] = &quot;function: 2CDC9408&quot;,
+[&quot;trade_value&quot;] = &quot;function: 2CDCA188&quot;,
+[&quot;trade_value_percent&quot;] = &quot;function: 2CDC9F88&quot;,
+[&quot;treasury&quot;] = &quot;function: 2CDC9228&quot;,
+[&quot;treasury_percent&quot;] = &quot;function: 2CDC92A8&quot;,
+[&quot;treaty_details&quot;] = &quot;function: 2CDCA2C8&quot;,
+[&quot;unused_international_trade_route&quot;] = &quot;function: 2CDC9C48&quot;,
+[&quot;upkeep_expenditure_percent&quot;] = &quot;function: 2CDC8CA8&quot;,
+},
+[&quot;GAME&quot;] = {
+[&quot;add_agent_experience&quot;] = &quot;function: 2CE54828&quot;,
+[&quot;add_attack_of_opportunity_overrides&quot;] = &quot;function: 2CE54328&quot;,
+[&quot;add_building_model_override&quot;] = &quot;function: 2CE55428&quot;,
+[&quot;add_circle_area_trigger&quot;] = &quot;function: 2CE4C6E8&quot;,
+[&quot;add_custom_battlefield&quot;] = &quot;function: 2CE5B868&quot;,
+[&quot;add_development_points_to_region&quot;] = &quot;function: 2CE3E648&quot;,
+[&quot;add_event_restricted_building_record&quot;] = &quot;function: 2CE41768&quot;,
+[&quot;add_event_restricted_building_record_for_faction&quot;] = &quot;function: 2CE420A8&quot;,
+[&quot;add_event_restricted_unit_record&quot;] = &quot;function: 2CE43388&quot;,
+[&quot;add_event_restricted_unit_record_for_faction&quot;] = &quot;function: 2CE422A8&quot;,
+[&quot;add_exclusion_zone&quot;] = &quot;function: 2CE59A88&quot;,
+[&quot;add_location_trigger&quot;] = &quot;function: 2CE5B368&quot;,
+[&quot;add_marker&quot;] = &quot;function: 2CE50C68&quot;,
+[&quot;add_outline_area_trigger&quot;] = &quot;function: 2CE4C7C8&quot;,
+[&quot;add_restricted_building_level_record&quot;] = &quot;function: 2CE5BE68&quot;,
+[&quot;add_restricted_building_level_record_for_faction&quot;] = &quot;function: 2CE5BB68&quot;,
+[&quot;add_settlement_model_override&quot;] = &quot;function: 2CE552E8&quot;,
+[&quot;add_time_trigger&quot;] = &quot;function: 2CE578E8&quot;,
+[&quot;add_unit_model_overrides&quot;] = &quot;function: 2CE542E8&quot;,
+[&quot;add_visibility_trigger&quot;] = &quot;function: 2CE5B768&quot;,
+[&quot;advance_to_next_campaign&quot;] = &quot;function: 2CE57888&quot;,
+[&quot;allow_player_to_embark_navies&quot;] = &quot;function: 2CE48AA8&quot;,
+[&quot;apply_effect_bundle&quot;] = &quot;function: 2CE4BC08&quot;,
+[&quot;apply_effect_bundle_to_characters_force&quot;] = &quot;function: 2CE4B428&quot;,
+[&quot;apply_effect_bundle_to_force&quot;] = &quot;function: 2CE4B468&quot;,
+[&quot;attack&quot;] = &quot;function: 2CE4F208&quot;,
+[&quot;autosave_at_next_opportunity&quot;] = &quot;function: 2CE42DE8&quot;,
+[&quot;award_experience_level&quot;] = &quot;function: 2CE54708&quot;,
+[&quot;cai_strategic_stance_manager_block_all_stances_but_that_specified_towards_target_faction&quot;] = &quot;function: 2CE3EB88&quot;,
+[&quot;cai_strategic_stance_manager_clear_all_blocking_between_factions&quot;] = &quot;function: 2CE3DEA8&quot;,
+[&quot;cai_strategic_stance_manager_clear_all_promotions_between_factions&quot;] = &quot;function: 2CE3CE08&quot;,
+[&quot;cai_strategic_stance_manager_force_stance_update_between_factions&quot;] = &quot;function: 2CE3DC28&quot;,
+[&quot;cai_strategic_stance_manager_promote_specified_stance_towards_target_faction&quot;] = &quot;function: 2CE3E348&quot;,
+[&quot;cai_strategic_stance_manager_promote_specified_stance_towards_target_faction_by_number&quot;] = &quot;function: 2CE3D1E8&quot;,
+[&quot;cai_strategic_stance_manager_set_stance_blocking_between_factions_for_a_given_stance&quot;] = &quot;function: 2CE3D188&quot;,
+[&quot;cai_strategic_stance_manager_set_stance_promotion_between_factions_for_a_given_stance&quot;] = &quot;function: 2CE3D0A8&quot;,
+[&quot;cancel_actions_for&quot;] = &quot;function: 2CE59488&quot;,
+[&quot;cinematic&quot;] = &quot;function: 2CE3B2C8&quot;,
+[&quot;compare_localised_string&quot;] = &quot;function: 2CE59508&quot;,
+[&quot;create_agent&quot;] = &quot;function: 2CE4B2A8&quot;,
+[&quot;create_force&quot;] = &quot;function: 2CE4DE68&quot;,
+[&quot;disable_elections&quot;] = &quot;function: 2CE5ACC8&quot;,
+[&quot;disable_end_turn&quot;] = &quot;function: 2CE4DF48&quot;,
+[&quot;disable_movement_for_ai_under_shroud&quot;] = &quot;function: 2CE59548&quot;,
+[&quot;disable_movement_for_character&quot;] = &quot;function: 2CE56FA8&quot;,
+[&quot;disable_movement_for_faction&quot;] = &quot;function: 2CE577A8&quot;,
+[&quot;disable_rebellions_worldwide&quot;] = &quot;function: 2CE52C88&quot;,
+[&quot;disable_saving_game&quot;] = &quot;function: 2CE4EDA8&quot;,
+[&quot;disable_shopping_for_ai_under_shroud&quot;] = &quot;function: 2CE55588&quot;,
+[&quot;disable_shortcut&quot;] = &quot;function: 2CE4C5A8&quot;,
+[&quot;dismiss_advice&quot;] = &quot;function: 2CE58148&quot;,
+[&quot;dismiss_advice_at_end_turn&quot;] = &quot;function: 2CE48AE8&quot;,
+[&quot;display_turns&quot;] = &quot;function: 2CE55708&quot;,
+[&quot;enable_auto_generated_missions&quot;] = &quot;function: 2CE54A48&quot;,
+[&quot;enable_movement_for_character&quot;] = &quot;function: 2CE4E128&quot;,
+[&quot;enable_movement_for_faction&quot;] = &quot;function: 2CE4DFC8&quot;,
+[&quot;enable_ui&quot;] = &quot;function: 2CE546E8&quot;,
+[&quot;end_turn&quot;] = &quot;function: 2CE4DD28&quot;,
+[&quot;exempt_region_from_tax&quot;] = &quot;function: 2CE52F48&quot;,
+[&quot;force_add_ancillary&quot;] = &quot;function: 2CE51D08&quot;,
+[&quot;force_add_skill&quot;] = &quot;function: 2CE51D48&quot;,
+[&quot;force_add_trait&quot;] = &quot;function: 2CE52408&quot;,
+[&quot;force_agent_action_success_for_human&quot;] = &quot;function: 2CE49508&quot;,
+[&quot;force_assassination_success_for_human&quot;] = &quot;function: 2CE53508&quot;,
+[&quot;force_change_cai_faction_personality&quot;] = &quot;function: 2CE486E8&quot;,
+[&quot;force_character_force_into_stance&quot;] = &quot;function: 2CE3FCE8&quot;,
+[&quot;force_declare_war&quot;] = &quot;function: 2CE52AE8&quot;,
+[&quot;force_diplomacy&quot;] = &quot;function: 2CE56048&quot;,
+[&quot;force_garrison_infiltration_success_for_human&quot;] = &quot;function: 2CE52F28&quot;,
+[&quot;force_make_peace&quot;] = &quot;function: 2CE52008&quot;,
+[&quot;force_make_trade_agreement&quot;] = &quot;function: 2CE508E8&quot;,
+[&quot;force_make_vassal&quot;] = &quot;function: 2CE52C48&quot;,
+[&quot;force_rebellion_in_region&quot;] = &quot;function: 2CE52CA8&quot;,
+[&quot;grant_faction_handover&quot;] = &quot;function: 2CE5A5E8&quot;,
+[&quot;grant_unit&quot;] = &quot;function: 2CE53688&quot;,
+[&quot;hide_character&quot;] = &quot;function: 2CE4CA08&quot;,
+[&quot;infect_force_with_plague&quot;] = &quot;function: 2CE3CCE8&quot;,
+[&quot;infect_region_with_plague&quot;] = &quot;function: 2CE3CC88&quot;,
+[&quot;instant_set_building_health_percent&quot;] = &quot;function: 2CE49368&quot;,
+[&quot;instantly_dismantle_building&quot;] = &quot;function: 2CE4B048&quot;,
+[&quot;instantly_repair_building&quot;] = &quot;function: 2CE49728&quot;,
+[&quot;is_new_game&quot;] = &quot;function: 2CE55408&quot;,
+[&quot;join_garrison&quot;] = &quot;function: 2CE4FAE8&quot;,
+[&quot;kill_character&quot;] = &quot;function: 2CE49E68&quot;,
+[&quot;leave_garrison&quot;] = &quot;function: 2CE4FB28&quot;,
+[&quot;load_named_value&quot;] = &quot;function: 2CE557A8&quot;,
+[&quot;lock_technology&quot;] = &quot;function: 2CE494A8&quot;,
+[&quot;make_neighbouring_regions_seen_in_shroud&quot;] = &quot;function: 2CE56648&quot;,
+[&quot;make_neighbouring_regions_visible_in_shroud&quot;] = &quot;function: 2CE566C8&quot;,
+[&quot;make_region_seen_in_shroud&quot;] = &quot;function: 2CE3E928&quot;,
+[&quot;make_region_visible_in_shroud&quot;] = &quot;function: 2CE3F488&quot;,
+[&quot;make_sea_region_seen_in_shroud&quot;] = &quot;function: 2CE56308&quot;,
+[&quot;make_sea_region_visible_in_shroud&quot;] = &quot;function: 2CE56388&quot;,
+[&quot;make_son_come_of_age&quot;] = &quot;function: 2CE48EA8&quot;,
+[&quot;model&quot;] = &quot;function: 2CE3F548&quot;,
+[&quot;modify_next_autoresolve_battle&quot;] = &quot;function: 2CE4A6C8&quot;,
+[&quot;move_to&quot;] = &quot;function: 2CE50448&quot;,
+[&quot;new&quot;] = &quot;function: 58D0BC80&quot;,
+[&quot;optional_extras_for_episodics&quot;] = &quot;function: 2CE55148&quot;,
+[&quot;override_ui&quot;] = &quot;function: 2CE49AC8&quot;,
+[&quot;pending_auto_show_messages&quot;] = &quot;function: 2CE59188&quot;,
+[&quot;register_instant_movie&quot;] = &quot;function: 2CFAAA98&quot;,
+[&quot;register_movies&quot;] = &quot;function: 2CE59B88&quot;,
+[&quot;register_outro_movie&quot;] = &quot;function: 2CE53DE8&quot;,
+[&quot;remove_area_trigger&quot;] = &quot;function: 2CE4C728&quot;,
+[&quot;remove_attack_of_opportunity_overrides&quot;] = &quot;function: 2CE53E88&quot;,
+[&quot;remove_barrier&quot;] = &quot;function: 2CE5B6C8&quot;,
+[&quot;remove_building_model_override&quot;] = &quot;function: 2CE551A8&quot;,
+[&quot;remove_custom_battlefield&quot;] = &quot;function: 2CE5B808&quot;,
+[&quot;remove_effect_bundle&quot;] = &quot;function: 2CE4C588&quot;,
+[&quot;remove_effect_bundle_from_characters_force&quot;] = &quot;function: 2CE4AA88&quot;,
+[&quot;remove_effect_bundle_from_force&quot;] = &quot;function: 2CE4B2C8&quot;,
+[&quot;remove_event_restricted_building_record&quot;] = &quot;function: 2CE41688&quot;,
+[&quot;remove_event_restricted_building_record_for_faction&quot;] = &quot;function: 2CE41548&quot;,
+[&quot;remove_event_restricted_unit_record&quot;] = &quot;function: 2CE42DA8&quot;,
+[&quot;remove_event_restricted_unit_record_for_faction&quot;] = &quot;function: 2CE42228&quot;,
+[&quot;remove_location_trigger&quot;] = &quot;function: 2CE5ADC8&quot;,
+[&quot;remove_marker&quot;] = &quot;function: 2CE50A48&quot;,
+[&quot;remove_restricted_building_level_record&quot;] = &quot;function: 2CE5BE08&quot;,
+[&quot;remove_restricted_building_level_record_for_faction&quot;] = &quot;function: 2CE5BB08&quot;,
+[&quot;remove_settlement_model_override&quot;] = &quot;function: 2CE55188&quot;,
+[&quot;remove_time_trigger&quot;] = &quot;function: 2CE56F48&quot;,
+[&quot;remove_visibility_trigger&quot;] = &quot;function: 2CE5B468&quot;,
+[&quot;render_campaign_to_file&quot;] = &quot;function: 2CE41588&quot;,
+[&quot;replenish_action_points&quot;] = &quot;function: 2CE49E28&quot;,
+[&quot;restore_shroud_from_snapshot&quot;] = &quot;function: 2CE56948&quot;,
+[&quot;save_named_value&quot;] = &quot;function: 2CE55748&quot;,
+[&quot;scroll_camera&quot;] = &quot;function: 2CE59268&quot;,
+[&quot;scroll_camera_with_direction&quot;] = &quot;function: 2CE57988&quot;,
+[&quot;seek_exchange&quot;] = &quot;function: 2CE4EE88&quot;,
+[&quot;set_ai_uses_human_display_speed&quot;] = &quot;function: 2CE3F568&quot;,
+[&quot;set_campaign_ai_force_all_factions_boardering_human_vassals_to_have_invasion_behaviour&quot;] = &quot;function: 2CE5A0E8&quot;,
+[&quot;set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour&quot;] = &quot;function: 2CE5A568&quot;,
+[&quot;set_character_experience_disabled&quot;] = &quot;function: 2CE43DE8&quot;,
+[&quot;set_character_skill_tier_limit&quot;] = &quot;function: 2CE43268&quot;,
+[&quot;set_event_generation_enabled&quot;] = &quot;function: 2CE43208&quot;,
+[&quot;set_general_offered_dilemma_permitted&quot;] = &quot;function: 2CE493C8&quot;,
+[&quot;set_ignore_end_of_turn_public_order&quot;] = &quot;function: 2CE44028&quot;,
+[&quot;set_liberation_options_disabled&quot;] = &quot;function: 2CE4E148&quot;,
+[&quot;set_looting_options_disabled_for_human&quot;] = &quot;function: 2CE4ED48&quot;,
+[&quot;set_map_bounds&quot;] = &quot;function: 2CE5ABA8&quot;,
+[&quot;set_non_scripted_ancillaries_disabled&quot;] = &quot;function: 2CE4E028&quot;,
+[&quot;set_non_scripted_traits_disabled&quot;] = &quot;function: 2CE4E188&quot;,
+[&quot;set_public_order_of_province_for_region&quot;] = &quot;function: 2CE3F508&quot;,
+[&quot;set_tax_disabled&quot;] = &quot;function: 2CE3AD08&quot;,
+[&quot;set_tax_rate&quot;] = &quot;function: 2CE53548&quot;,
+[&quot;set_technology_research_disabled&quot;] = &quot;function: 2CE4DF88&quot;,
+[&quot;set_ui_notification_of_victory_disabled&quot;] = &quot;function: 2CFA83D8&quot;,
+[&quot;set_zoom_limit&quot;] = &quot;function: 2CE5A608&quot;,
+[&quot;show_message_event&quot;] = &quot;function: 2CE53D48&quot;,
+[&quot;show_shroud&quot;] = &quot;function: 2CE572A8&quot;,
+[&quot;shown_message&quot;] = &quot;function: 2CE59348&quot;,
+[&quot;speedup_active&quot;] = &quot;function: 2CE4D7C8&quot;,
+[&quot;steal_user_input&quot;] = &quot;function: 2CE555E8&quot;,
+[&quot;stop_camera&quot;] = &quot;function: 2CE581A8&quot;,
+[&quot;stop_user_input&quot;] = &quot;function: 2CE56028&quot;,
+[&quot;take_shroud_snapshot&quot;] = &quot;function: 2CE569A8&quot;,
+[&quot;technology_osmosis_for_playables_enable_all&quot;] = &quot;function: 2CE53E28&quot;,
+[&quot;technology_osmosis_for_playables_enable_culture&quot;] = &quot;function: 2CE53788&quot;,
+[&quot;toggle_speedup&quot;] = &quot;function: 2CE4D468&quot;,
+[&quot;transfer_region_to_faction&quot;] = &quot;function: 2CE3CDC8&quot;,
+[&quot;treasury_mod&quot;] = &quot;function: 2CE4A688&quot;,
+[&quot;trigger_custom_dilemma&quot;] = &quot;function: 2CE5A1C8&quot;,
+[&quot;trigger_custom_incident&quot;] = &quot;function: 2CE5A8C8&quot;,
+[&quot;trigger_custom_mission&quot;] = &quot;function: 2CE5A5A8&quot;,
+[&quot;unhide_character&quot;] = &quot;function: 2CE4C9E8&quot;,
+[&quot;win_next_autoresolve_battle&quot;] = &quot;function: 2CE4AAA8&quot;,
+[&quot;zero_action_points&quot;] = &quot;function: 2CE4A308&quot;,
+},
+[&quot;GARRISON_RESIDENCE_SCRIPT_INTERFACE&quot;] = {
+[&quot;army&quot;] = &quot;function: 2CDB5F48&quot;,
+[&quot;buildings&quot;] = &quot;function: 2CDB5E48&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDB6088&quot;,
+[&quot;has_army&quot;] = &quot;function: 2CDB60C8&quot;,
+[&quot;has_navy&quot;] = &quot;function: 2CDB63C8&quot;,
+[&quot;is_settlement&quot;] = &quot;function: 2CDB5AC8&quot;,
+[&quot;is_slot&quot;] = &quot;function: 2CDB5F88&quot;,
+[&quot;is_under_siege&quot;] = &quot;function: 2CDB5DC8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB5FA8&quot;,
+[&quot;navy&quot;] = &quot;function: 2CDB5E68&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C478&quot;,
+[&quot;region&quot;] = &quot;function: 2CDB5E08&quot;,
+[&quot;settlement_interface&quot;] = &quot;function: 2CDB5A48&quot;,
+[&quot;slot_interface&quot;] = &quot;function: 2CDB5AE8&quot;,
+[&quot;unit_count&quot;] = &quot;function: 2CDB5D88&quot;,
+},
+[&quot;Keyboard&quot;] = {
+[&quot;DisableQuickload&quot;] = &quot;function: 58D0D5B8&quot;,
+[&quot;ReturnKey&quot;] = &quot;function: 58D0D5A0&quot;,
+[&quot;StealKey&quot;] = &quot;function: 58D0D6F0&quot;,
+},
+[&quot;MILITARY_FORCE_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;is_empty&quot;] = &quot;function: 2CDB0388&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDB09E8&quot;,
+[&quot;new&quot;] = &quot;function: 58CF7F40&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDB06C8&quot;,
+},
+[&quot;MILITARY_FORCE_SCRIPT_INTERFACE&quot;] = {
+[&quot;character_list&quot;] = &quot;function: 2CDB1248&quot;,
+[&quot;contains_mercenaries&quot;] = &quot;function: 2CDB0E88&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDB0F28&quot;,
+[&quot;garrison_residence&quot;] = &quot;function: 2CDB11E8&quot;,
+[&quot;general_character&quot;] = &quot;function: 2CDB14E8&quot;,
+[&quot;has_garrison_residence&quot;] = &quot;function: 2CDB0EC8&quot;,
+[&quot;has_general&quot;] = &quot;function: 2CDB1AA8&quot;,
+[&quot;is_army&quot;] = &quot;function: 2CDB19C8&quot;,
+[&quot;is_navy&quot;] = &quot;function: 2CDB1688&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB1628&quot;,
+[&quot;new&quot;] = &quot;function: 58D0D210&quot;,
+[&quot;unit_list&quot;] = &quot;function: 2CDB1528&quot;,
+[&quot;upkeep&quot;] = &quot;function: 2CDB0F08&quot;,
+},
+[&quot;MODEL_SCRIPT_INTERFACE&quot;] = {
+[&quot;campaign_ai&quot;] = &quot;function: 2CDCDC08&quot;,
+[&quot;campaign_name&quot;] = &quot;function: 2CDD0608&quot;,
+[&quot;campaign_type&quot;] = &quot;function: 2CDCD3A8&quot;,
+[&quot;character_can_reach_character&quot;] = &quot;function: 2CDCEC28&quot;,
+[&quot;date_and_week_in_range&quot;] = &quot;function: 2CDD0748&quot;,
+[&quot;date_in_range&quot;] = &quot;function: 2CE37928&quot;,
+[&quot;difficulty_level&quot;] = &quot;function: 2CDCEF28&quot;,
+[&quot;faction_is_local&quot;] = &quot;function: 2CDCE2C8&quot;,
+[&quot;is_multiplayer&quot;] = &quot;function: 2CDCF6C8&quot;,
+[&quot;is_player_turn&quot;] = &quot;function: 2CDCEF68&quot;,
+[&quot;new&quot;] = &quot;function: 58D0B620&quot;,
+[&quot;pending_battle&quot;] = &quot;function: 2CE38128&quot;,
+[&quot;player_steam_id_is_odd&quot;] = &quot;function: 2CDCE188&quot;,
+[&quot;random_number&quot;] = &quot;function: 2CDCFBA8&quot;,
+[&quot;random_percent&quot;] = &quot;function: 2CDD0228&quot;,
+[&quot;season&quot;] = &quot;function: 2CDCCF48&quot;,
+[&quot;turn_number&quot;] = &quot;function: 2CDD16E8&quot;,
+[&quot;world&quot;] = &quot;function: 2CE37888&quot;,
+},
+[&quot;MPAvatar&quot;] = {
+[&quot;Free&quot;] = &quot;function: 2CDA02E8&quot;,
+[&quot;SetComponentTexture&quot;] = &quot;function: 2CDA0248&quot;,
+[&quot;Valid&quot;] = &quot;function: 2CDA0128&quot;,
+[&quot;new&quot;] = &quot;function: 58D0DB58&quot;,
+},
+[&quot;MessageManager&quot;] = {
+[&quot;CanDismissAllMessages&quot;] = &quot;function: 58D0DE88&quot;,
+[&quot;CheckForAutoOpen&quot;] = &quot;function: 58D0DED0&quot;,
+[&quot;ClearMessagesFromEnv&quot;] = &quot;function: 58D0DE28&quot;,
+[&quot;ClearOverrides&quot;] = &quot;function: 58D0DDB0&quot;,
+[&quot;ClosePanelIfNoMessage&quot;] = &quot;function: 58D0DEE8&quot;,
+[&quot;DestroyAllMessages&quot;] = &quot;function: 58D0DF00&quot;,
+[&quot;DismissAllMessages&quot;] = &quot;function: 58D0DE70&quot;,
+[&quot;HasMessagesStored&quot;] = &quot;function: 58D0DE40&quot;,
+[&quot;HideAllMessages&quot;] = &quot;function: 58D0DEB8&quot;,
+[&quot;HideMessage&quot;] = &quot;function: 58D0DEA0&quot;,
+[&quot;HidingMessage&quot;] = &quot;function: 58D0DDE0&quot;,
+[&quot;InitMessageCallback&quot;] = &quot;function: 58D16588&quot;,
+[&quot;OverrideAutoShow&quot;] = &quot;function: 58D0DD50&quot;,
+[&quot;PendingAutoShowMessage&quot;] = &quot;function: 58D0DE10&quot;,
+[&quot;ReInitialiseStackbase&quot;] = &quot;function: 58D0DD98&quot;,
+[&quot;RestoreMessages&quot;] = &quot;function: 58D0DE58&quot;,
+[&quot;SelectLayout&quot;] = &quot;function: 58D14C98&quot;,
+[&quot;SetCurrentMessageUnread&quot;] = &quot;function: 58D14C80&quot;,
+[&quot;ShowingMessage&quot;] = &quot;function: 58D0DDC8&quot;,
+[&quot;StoreMessages&quot;] = &quot;function: 58D0DDF8&quot;,
+},
+[&quot;NULL_SCRIPT_INTERFACE&quot;] = {
+[&quot;new&quot;] = &quot;function: 58D0AF60&quot;,
+},
+[&quot;OnKeyPressed&quot;] = &quot;function: 58D433C8&quot;,
+[&quot;OnLETCharacterCreated&quot;] = &quot;function: 58D0EA40&quot;,
+[&quot;OnLETCharacterDeselected&quot;] = &quot;function: 58D0E9E0&quot;,
+[&quot;OnLETCharacterSelected&quot;] = &quot;function: 58D0E9C8&quot;,
+[&quot;OnLETFactionTurnStart&quot;] = &quot;function: 58D0E9F8&quot;,
+[&quot;OnLETLoadingGame&quot;] = &quot;function: 58D0EA28&quot;,
+[&quot;OnLETSavingGame&quot;] = &quot;function: 58D0EA10&quot;,
+[&quot;PENDING_BATTLE_SCRIPT_INTERFACE&quot;] = {
+[&quot;ambush_battle&quot;] = &quot;function: 2CDAAEA8&quot;,
+[&quot;attacker&quot;] = &quot;function: 2CDAB688&quot;,
+[&quot;attacker_battle_result&quot;] = &quot;function: 2CDAB1C8&quot;,
+[&quot;attacker_commander_fought_in_battle&quot;] = &quot;function: 2CDAB288&quot;,
+[&quot;attacker_commander_fought_in_melee&quot;] = &quot;function: 2CDAB228&quot;,
+[&quot;attacker_is_stronger&quot;] = &quot;function: 2CDAB668&quot;,
+[&quot;battle_type&quot;] = &quot;function: 2CDAAB68&quot;,
+[&quot;contested_garrison&quot;] = &quot;function: 2CDAB628&quot;,
+[&quot;defender&quot;] = &quot;function: 2CDABD08&quot;,
+[&quot;defender_battle_result&quot;] = &quot;function: 2CDAAE68&quot;,
+[&quot;defender_commander_fought_in_battle&quot;] = &quot;function: 2CDAAF68&quot;,
+[&quot;defender_commander_fought_in_melee&quot;] = &quot;function: 2CDAAEE8&quot;,
+[&quot;failed_ambush_battle&quot;] = &quot;function: 2CDAA8A8&quot;,
+[&quot;has_attacker&quot;] = &quot;function: 2CDAC128&quot;,
+[&quot;has_contested_garrison&quot;] = &quot;function: 2CDAB968&quot;,
+[&quot;has_defender&quot;] = &quot;function: 2CDAC1E8&quot;,
+[&quot;is_active&quot;] = &quot;function: 2CDAB5A8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDABE28&quot;,
+[&quot;naval_battle&quot;] = &quot;function: 2CDAAF48&quot;,
+[&quot;new&quot;] = &quot;function: 58CFD910&quot;,
+[&quot;night_battle&quot;] = &quot;function: 2CDAABC8&quot;,
+[&quot;percentage_of_attacker_killed&quot;] = &quot;function: 2CDAB4A8&quot;,
+[&quot;percentage_of_attacker_routed&quot;] = &quot;function: 2CDAB4C8&quot;,
+[&quot;percentage_of_defender_killed&quot;] = &quot;function: 2CDAB248&quot;,
+[&quot;percentage_of_defender_routed&quot;] = &quot;function: 2CDAB208&quot;,
+[&quot;seige_battle&quot;] = &quot;function: 2CDAABA8&quot;,
+},
+[&quot;REGION_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;is_empty&quot;] = &quot;function: 2CDB6408&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDB6748&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C208&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDB6468&quot;,
+},
+[&quot;REGION_MANAGER_SCRIPT_INTERFACE&quot;] = {
+[&quot;faction_region_list&quot;] = &quot;function: 2CDB84C8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB8AE8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0BDA0&quot;,
+[&quot;region_by_key&quot;] = &quot;function: 2CDB8BE8&quot;,
+[&quot;region_list&quot;] = &quot;function: 2CDB8AA8&quot;,
+[&quot;resource_exists_anywhere&quot;] = &quot;function: 2CDB83E8&quot;,
+[&quot;settlement_by_key&quot;] = &quot;function: 2CDB8428&quot;,
+[&quot;slot_by_key&quot;] = &quot;function: 2CDB7F28&quot;,
+},
+[&quot;REGION_SCRIPT_INTERFACE&quot;] = {
+[&quot;adjacent_region_list&quot;] = &quot;function: 2CDB7348&quot;,
+[&quot;building_exists&quot;] = &quot;function: 2CDB74A8&quot;,
+[&quot;building_superchain_exists&quot;] = &quot;function: 2CDB6E08&quot;,
+[&quot;garrison_residence&quot;] = &quot;function: 2CDB77C8&quot;,
+[&quot;last_building_constructed_key&quot;] = &quot;function: 2CDB7308&quot;,
+[&quot;majority_religion&quot;] = &quot;function: 2CDB7188&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB7EC8&quot;,
+[&quot;name&quot;] = &quot;function: 2CDB7768&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C100&quot;,
+[&quot;num_buildings&quot;] = &quot;function: 2CDB77A8&quot;,
+[&quot;owning_faction&quot;] = &quot;function: 2CDB7CA8&quot;,
+[&quot;province_name&quot;] = &quot;function: 2CDB7DC8&quot;,
+[&quot;public_order&quot;] = &quot;function: 2CDB7488&quot;,
+[&quot;region_wealth&quot;] = &quot;function: 2CDB70C8&quot;,
+[&quot;region_wealth_change_percent&quot;] = &quot;function: 2CDB7148&quot;,
+[&quot;resource_exists&quot;] = &quot;function: 2CDB7448&quot;,
+[&quot;sanitation&quot;] = &quot;function: 2CDB6DC8&quot;,
+[&quot;settlement&quot;] = &quot;function: 2CDB7A88&quot;,
+[&quot;slot_list&quot;] = &quot;function: 2CDB7C88&quot;,
+[&quot;slot_type_exists&quot;] = &quot;function: 2CDB7368&quot;,
+[&quot;squalor&quot;] = &quot;function: 2CDB71A8&quot;,
+[&quot;tax_income&quot;] = &quot;function: 2CDB7108&quot;,
+[&quot;town_wealth_growth&quot;] = &quot;function: 2CDB7288&quot;,
+},
+[&quot;SETTLEMENT_SCRIPT_INTERFACE&quot;] = {
+[&quot;castle_slot&quot;] = &quot;function: 2CDB4628&quot;,
+[&quot;commander&quot;] = &quot;function: 2CDB4C68&quot;,
+[&quot;display_position_x&quot;] = &quot;function: 2CDB52A8&quot;,
+[&quot;display_position_y&quot;] = &quot;function: 2CDB4CC8&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDB4CA8&quot;,
+[&quot;has_castle_slot&quot;] = &quot;function: 2CDB5788&quot;,
+[&quot;has_commander&quot;] = &quot;function: 2CDB50C8&quot;,
+[&quot;logical_position_x&quot;] = &quot;function: 2CDB5728&quot;,
+[&quot;logical_position_y&quot;] = &quot;function: 2CDB4FC8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB4F88&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C790&quot;,
+[&quot;region&quot;] = &quot;function: 2CDB4BC8&quot;,
+[&quot;slot_list&quot;] = &quot;function: 2CDB4768&quot;,
+},
+[&quot;SLOT_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;buliding_type_exists&quot;] = &quot;function: 2CDB34C8&quot;,
+[&quot;is_empty&quot;] = &quot;function: 2CDB3608&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDB3668&quot;,
+[&quot;new&quot;] = &quot;function: 58D0CA18&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDB3648&quot;,
+[&quot;slot_type_exists&quot;] = &quot;function: 2CDB35C8&quot;,
+},
+[&quot;SLOT_SCRIPT_INTERFACE&quot;] = {
+[&quot;building&quot;] = &quot;function: 2CDB4148&quot;,
+[&quot;faction&quot;] = &quot;function: 2CDB3948&quot;,
+[&quot;has_building&quot;] = &quot;function: 2CDB3EA8&quot;,
+[&quot;model&quot;] = &quot;function: 2CDB41A8&quot;,
+[&quot;name&quot;] = &quot;function: 2CDB3828&quot;,
+[&quot;new&quot;] = &quot;function: 58D0C898&quot;,
+[&quot;region&quot;] = &quot;function: 2CDB3E48&quot;,
+[&quot;type&quot;] = &quot;function: 2CDB3E88&quot;,
+},
+[&quot;ScriptedValueRegistry&quot;] = {
+[&quot;LoadBool&quot;] = &quot;function: 2CDA1588&quot;,
+[&quot;SaveBool&quot;] = &quot;function: 2CDA16A8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0D660&quot;,
+},
+[&quot;UIComponent&quot;] = {
+[&quot;Address&quot;] = &quot;function: 2CDA6BE8&quot;,
+[&quot;Adopt&quot;] = &quot;function: 2CDA7148&quot;,
+[&quot;AttachCustomControl&quot;] = &quot;function: 2CDA4C48&quot;,
+[&quot;Bounds&quot;] = &quot;function: 2CDA8928&quot;,
+[&quot;CallbackId&quot;] = &quot;function: 2CDA6748&quot;,
+[&quot;ChildCount&quot;] = &quot;function: 2CDA7708&quot;,
+[&quot;CurrentAnimationId&quot;] = &quot;function: 2CDA1FA8&quot;,
+[&quot;CurrentState&quot;] = &quot;function: 2CDA7A28&quot;,
+[&quot;CurrentStateUI&quot;] = &quot;function: 2CDA3048&quot;,
+[&quot;DestroyChildren&quot;] = &quot;function: 2CDA7188&quot;,
+[&quot;Dimensions&quot;] = &quot;function: 2CDA6028&quot;,
+[&quot;Divorce&quot;] = &quot;function: 2CDA6F88&quot;,
+[&quot;DockingPoint&quot;] = &quot;function: 2CDA3808&quot;,
+[&quot;Find&quot;] = &quot;function: 2CDA5AE8&quot;,
+[&quot;FindPositionIntoCurrentText&quot;] = &quot;function: 2CDA3A68&quot;,
+[&quot;FindTextSnapPosition&quot;] = &quot;function: 2CDA3DC8&quot;,
+[&quot;ForceEvent&quot;] = &quot;function: 2CDA2F28&quot;,
+[&quot;GetProperty&quot;] = &quot;function: 2CDA7EE8&quot;,
+[&quot;GetStateText&quot;] = &quot;function: 2CDA7F48&quot;,
+[&quot;GetStateTextDetails&quot;] = &quot;function: 2CDA3848&quot;,
+[&quot;GetTooltipText&quot;] = &quot;function: 2CDA6FE8&quot;,
+[&quot;GlobalExists&quot;] = &quot;function: 2CDA50C8&quot;,
+[&quot;HasInterface&quot;] = &quot;function: 2CDA2D28&quot;,
+[&quot;Height&quot;] = &quot;function: 2CDA8628&quot;,
+[&quot;Highlight&quot;] = &quot;function: 2CDA4108&quot;,
+[&quot;Id&quot;] = &quot;function: 2CDA69A8&quot;,
+[&quot;InterfaceFunction&quot;] = &quot;function: 2CDA3008&quot;,
+[&quot;IsCharPrintable&quot;] = &quot;function: 2CF46480&quot;,
+[&quot;IsDragged&quot;] = &quot;function: 2CDA6248&quot;,
+[&quot;IsInteractive&quot;] = &quot;function: 2CDA49C8&quot;,
+[&quot;IsMouseOverChildren&quot;] = &quot;function: 2CDA30C8&quot;,
+[&quot;IsMoveable&quot;] = &quot;function: 2CDA45E8&quot;,
+[&quot;Layout&quot;] = &quot;function: 2CDA5D08&quot;,
+[&quot;LockPriority&quot;] = &quot;function: 2CDA2CA8&quot;,
+[&quot;LuaCall&quot;] = &quot;function: 2CDA7A08&quot;,
+[&quot;MoveTo&quot;] = &quot;function: 2CDA7BA8&quot;,
+[&quot;Parent&quot;] = &quot;function: 2CDA59A8&quot;,
+[&quot;PopulateTextures&quot;] = &quot;function: 2CDA4628&quot;,
+[&quot;Position&quot;] = &quot;function: 2CDA7AE8&quot;,
+[&quot;Priority&quot;] = &quot;function: 2CDA6E88&quot;,
+[&quot;PropagateImageColour&quot;] = &quot;function: 2CDA50E8&quot;,
+[&quot;PropagateOpacity&quot;] = &quot;function: 2CDA5868&quot;,
+[&quot;PropagatePriority&quot;] = &quot;function: 2CDA79C8&quot;,
+[&quot;PropagateVisibility&quot;] = &quot;function: 2CDA76A8&quot;,
+[&quot;ReorderChildren&quot;] = &quot;function: 2CDA62C8&quot;,
+[&quot;Resize&quot;] = &quot;function: 2CDA6EA8&quot;,
+[&quot;RestoreUIHeirarchy&quot;] = &quot;function: 2CDA3A48&quot;,
+[&quot;RunScript&quot;] = &quot;function: 2CDA45A8&quot;,
+[&quot;SaveUIHeirarchy&quot;] = &quot;function: 2CF45D80&quot;,
+[&quot;SequentialFind&quot;] = &quot;function: 2CDA5A48&quot;,
+[&quot;SetDisabled&quot;] = &quot;function: 2CDA4A28&quot;,
+[&quot;SetDockingPoint&quot;] = &quot;function: 2CDA3528&quot;,
+[&quot;SetDragged&quot;] = &quot;function: 2CDA6148&quot;,
+[&quot;SetEventCallback&quot;] = &quot;function: 2CDA4B08&quot;,
+[&quot;SetGlobal&quot;] = &quot;function: 2CDA4DE8&quot;,
+[&quot;SetImageColour&quot;] = &quot;function: 2CDA5A08&quot;,
+[&quot;SetImageRotation&quot;] = &quot;function: 2CDA5AA8&quot;,
+[&quot;SetInteractive&quot;] = &quot;function: 2CDA4B48&quot;,
+[&quot;SetMoveable&quot;] = &quot;function: 2CDA4668&quot;,
+[&quot;SetOpacity&quot;] = &quot;function: 2CDA5088&quot;,
+[&quot;SetProperty&quot;] = &quot;function: 2CDA7E68&quot;,
+[&quot;SetState&quot;] = &quot;function: 2CDA7F28&quot;,
+[&quot;SetStateColours&quot;] = &quot;function: 2CDA2088&quot;,
+[&quot;SetStateText&quot;] = &quot;function: 2CDA7EA8&quot;,
+[&quot;SetStateTextDetails&quot;] = &quot;function: 2CDA3B88&quot;,
+[&quot;SetStateTextXOffset&quot;] = &quot;function: 2CDA3E28&quot;,
+[&quot;SetTooltipText&quot;] = &quot;function: 2CDA7108&quot;,
+[&quot;SetVisible&quot;] = &quot;function: 2CDA7628&quot;,
+[&quot;ShaderTechniqueGet&quot;] = &quot;function: 2CDA5FC8&quot;,
+[&quot;ShaderTechniqueSet&quot;] = &quot;function: 2CDA6168&quot;,
+[&quot;ShaderVarsGet&quot;] = &quot;function: 2CDA5DA8&quot;,
+[&quot;ShaderVarsSet&quot;] = &quot;function: 2CDA5EC8&quot;,
+[&quot;SimulateClick&quot;] = &quot;function: 2CDA2008&quot;,
+[&quot;SimulateKey&quot;] = &quot;function: 2CDA1F68&quot;,
+[&quot;StealInputFocus&quot;] = &quot;function: 2CDA4128&quot;,
+[&quot;StealShortcutKey&quot;] = &quot;function: 2CDA4948&quot;,
+[&quot;TextDimensions&quot;] = &quot;function: 2CDA2188&quot;,
+[&quot;TextShaderTechniqueSet&quot;] = &quot;function: 2CDA5EE8&quot;,
+[&quot;TextShaderVarsGet&quot;] = &quot;function: 2CDA5E88&quot;,
+[&quot;TextShaderVarsSet&quot;] = &quot;function: 2CDA5D48&quot;,
+[&quot;TriggerAnimation&quot;] = &quot;function: 2CDA2CE8&quot;,
+[&quot;TriggerShortcut&quot;] = &quot;function: 2CDA1EC8&quot;,
+[&quot;UnLockPriority&quot;] = &quot;function: 2CDA2828&quot;,
+[&quot;Visible&quot;] = &quot;function: 2CDA6FC8&quot;,
+[&quot;Width&quot;] = &quot;function: 2CDA8988&quot;,
+[&quot;WidthOfTextLine&quot;] = &quot;function: 2CDA34C8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0D3C0&quot;,
+},
+[&quot;UNIT_LIST_SCRIPT_INTERFACE&quot;] = {
+[&quot;has_unit&quot;] = &quot;function: 2CDAC328&quot;,
+[&quot;is_empty&quot;] = &quot;function: 2CDAC848&quot;,
+[&quot;item_at&quot;] = &quot;function: 2CDAC708&quot;,
+[&quot;new&quot;] = &quot;function: 58CF8060&quot;,
+[&quot;num_items&quot;] = &quot;function: 2CDAC8A8&quot;,
+},
+[&quot;UNIT_SCRIPT_INTERFACE&quot;] = {
+[&quot;faction&quot;] = &quot;function: 2CDAD328&quot;,
+[&quot;force_commander&quot;] = &quot;function: 2CDAE3C8&quot;,
+[&quot;has_force_commander&quot;] = &quot;function: 2CDAF988&quot;,
+[&quot;has_unit_commander&quot;] = &quot;function: 2CDAFA68&quot;,
+[&quot;is_land_unit&quot;] = &quot;function: 2CDAEF08&quot;,
+[&quot;is_naval_unit&quot;] = &quot;function: 2CDAEC08&quot;,
+[&quot;military_force&quot;] = &quot;function: 2CDAD688&quot;,
+[&quot;model&quot;] = &quot;function: 2CDAEB88&quot;,
+[&quot;new&quot;] = &quot;function: 58CFD5B0&quot;,
+[&quot;percentage_proportion_of_full_strength&quot;] = &quot;function: 2CDAD0A8&quot;,
+[&quot;unit_category&quot;] = &quot;function: 2CDAD548&quot;,
+[&quot;unit_class&quot;] = &quot;function: 2CDAD2E8&quot;,
+[&quot;unit_commander&quot;] = &quot;function: 2CDAE288&quot;,
+[&quot;unit_key&quot;] = &quot;function: 2CDAD508&quot;,
+},
+[&quot;WORLD_SCRIPT_INTERFACE&quot;] = {
+[&quot;ancillary_exists&quot;] = &quot;function: 2CE38B68&quot;,
+[&quot;faction_by_key&quot;] = &quot;function: 2CE39EC8&quot;,
+[&quot;faction_exists&quot;] = &quot;function: 2CE38EA8&quot;,
+[&quot;faction_list&quot;] = &quot;function: 2CE39488&quot;,
+[&quot;model&quot;] = &quot;function: 2CE38FC8&quot;,
+[&quot;new&quot;] = &quot;function: 58D0BF50&quot;,
+[&quot;region_manager&quot;] = &quot;function: 2CE397C8&quot;,
+},
+{
+[&quot;CampaignCharacter&quot;] = {
+[&quot;ActionPointsRatio&quot;] = &quot;function: 2CF5F200&quot;,
+[&quot;Release&quot;] = &quot;function: 2CF60020&quot;,
+[&quot;new&quot;] = &quot;function: 2CFD90B8&quot;,
+},
+[&quot;CampaignSettlement&quot;] = {
+[&quot;LabelDetails&quot;] = &quot;function: 2D04CB78&quot;,
+[&quot;ListDetails&quot;] = &quot;function: 2D04C978&quot;,
+[&quot;Release&quot;] = &quot;function: 2D04C958&quot;,
+[&quot;Settlement&quot;] = &quot;function: 2D04CB98&quot;,
+[&quot;new&quot;] = &quot;function: 2CFD9190&quot;,
+},
+[&quot;CampaignUI&quot;] = {
+[&quot;ClearSelection&quot;] = &quot;function: 2CFD8E30&quot;,
+[&quot;CurrentTabTypename&quot;] = &quot;function: 2CFD8E60&quot;,
+[&quot;GetCameraPosition&quot;] = &quot;function: 2CFD8CF8&quot;,
+[&quot;HighlightComponent&quot;] = &quot;function: 2CFD8C68&quot;,
+[&quot;HighlightConstructionItem&quot;] = &quot;function: 2CFD8C50&quot;,
+[&quot;HighlightRecruitmentItem&quot;] = &quot;function: 2CFD8C80&quot;,
+[&quot;IsMultiplayer&quot;] = &quot;function: 2CFD8D10&quot;,
+[&quot;IsPreBattleTypeSiege&quot;] = &quot;function: 2CFD8E48&quot;,
+[&quot;SetCameraHeading&quot;] = &quot;function: 2CFD8D58&quot;,
+[&quot;SetCameraMaxTiltAngle&quot;] = &quot;function: 2CFD8C98&quot;,
+[&quot;SetCameraMinDistance&quot;] = &quot;function: 2CFD8CB0&quot;,
+[&quot;SetCameraTarget&quot;] = &quot;function: 2CFD8CE0&quot;,
+[&quot;SetCameraTargetInstant&quot;] = &quot;function: 2CFD8D70&quot;,
+[&quot;SetCameraZoom&quot;] = &quot;function: 2CFD8CC8&quot;,
+[&quot;ToggleCinematicBorders&quot;] = &quot;function: 2CFD8D40&quot;,
+[&quot;ToggleScreenCover&quot;] = &quot;function: 2CFD8D28&quot;,
+[&quot;clear_highlights&quot;] = &quot;function: 2CFD8E18&quot;,
+[&quot;highlight_character&quot;] = &quot;function: 2CFD8D88&quot;,
+[&quot;highlight_position&quot;] = &quot;function: 2CFD8DE8&quot;,
+[&quot;highlight_settlement&quot;] = &quot;function: 2CFD8DB8&quot;,
+[&quot;unhighlight_character&quot;] = &quot;function: 2CFD8DA0&quot;,
+[&quot;unhighlight_position&quot;] = &quot;function: 2CFD8E00&quot;,
+[&quot;unhighlight_settlement&quot;] = &quot;function: 2CFD8DD0&quot;,
+},
+[&quot;Cursor&quot;] = {
+[&quot;DistanceToBL&quot;] = &quot;function: 2CF5F300&quot;,
+[&quot;Mode&quot;] = &quot;function: 2CF5F360&quot;,
+[&quot;ModeString&quot;] = &quot;function: 2CF5F320&quot;,
+[&quot;Modes&quot;] = &quot;function: 2CF5F340&quot;,
+[&quot;SetMode&quot;] = &quot;function: 2CF5F380&quot;,
+[&quot;new&quot;] = &quot;function: 2CFD8F08&quot;,
+},
+[&quot;HudManager&quot;] = {
+[&quot;Dimensions&quot;] = &quot;function: 2CFD9808&quot;,
+[&quot;MoveRelativeToHUD&quot;] = &quot;function: 2CFD97F0&quot;,
+[&quot;RegisterHud&quot;] = &quot;function: 2CFD97D8&quot;,
+},
+[&quot;MPAvatar&quot;] = {
+[&quot;Free&quot;] = &quot;function: 2CF5F280&quot;,
+[&quot;SetComponentTexture&quot;] = &quot;function: 2CF5F2A0&quot;,
+[&quot;Valid&quot;] = &quot;function: 2CF5F260&quot;,
+[&quot;new&quot;] = &quot;function: 2CFD8FE0&quot;,
+},
+[&quot;MessageManager&quot;] = {
+[&quot;CanDismissAllMessages&quot;] = &quot;function: 2CFD9E98&quot;,
+[&quot;CheckForAutoOpen&quot;] = &quot;function: 2CFD9EE0&quot;,
+[&quot;ClearMessagesFromEnv&quot;] = &quot;function: 2CFD9E50&quot;,
+[&quot;ClearOverrides&quot;] = &quot;function: 2CFD9DC0&quot;,
+[&quot;ClosePanelIfNoMessage&quot;] = &quot;function: 2CFD9F28&quot;,
+[&quot;DestroyAllMessages&quot;] = &quot;function: 2CFD9EF8&quot;,
+[&quot;DismissAllMessages&quot;] = &quot;function: 2CFD9E80&quot;,
+[&quot;HasMessagesStored&quot;] = &quot;function: 2CFD9E20&quot;,
+[&quot;HideAllMessages&quot;] = &quot;function: 2CFD9EC8&quot;,
+[&quot;HideMessage&quot;] = &quot;function: 2CFD9EB0&quot;,
+[&quot;HidingMessage&quot;] = &quot;function: 2CFD9DF0&quot;,
+[&quot;InitMessageCallback&quot;] = &quot;function: 2CFD9F10&quot;,
+[&quot;OverrideAutoShow&quot;] = &quot;function: 2CFD9820&quot;,
+[&quot;PendingAutoShowMessage&quot;] = &quot;function: 2CFD9E38&quot;,
+[&quot;ReInitialiseStackbase&quot;] = &quot;function: 2CFD9DA8&quot;,
+[&quot;RestoreMessages&quot;] = &quot;function: 2CFD9E68&quot;,
+[&quot;SelectLayout&quot;] = &quot;function: 2CFD9F58&quot;,
+[&quot;SetCurrentMessageUnread&quot;] = &quot;function: 2CFD9F40&quot;,
+[&quot;ShowingMessage&quot;] = &quot;function: 2CFD9DD8&quot;,
+[&quot;StoreMessages&quot;] = &quot;function: 2CFD9E08&quot;,
+},
+[&quot;PanelManager&quot;] = {
+[&quot;ClearCachedComponent&quot;] = &quot;function: 2CFD9208&quot;,
+[&quot;CloseAllPanels&quot;] = &quot;function: 2CFD9238&quot;,
+[&quot;ClosePanel&quot;] = &quot;function: 2CFD91F0&quot;,
+[&quot;IsPanelOpen&quot;] = &quot;function: 2CFD91D8&quot;,
+[&quot;OpenPanel&quot;] = &quot;function: 2CFD91A8&quot;,
+[&quot;OpenPanels&quot;] = &quot;function: 2CFD9220&quot;,
+[&quot;Reset&quot;] = &quot;function: 2CFD9250&quot;,
+},
+[&quot;decoda_name&quot;] = &quot;CampaignScriptingInterface&quot;,
+[&quot;out&quot;] = {
+[&quot;design&quot;] = &quot;function: 2CFD8C20&quot;,
+[&quot;dylan&quot;] = &quot;function: 2CFD8BC0&quot;,
+[&quot;kostas&quot;] = &quot;function: 2CFD8BD8&quot;,
+[&quot;scott_b&quot;] = &quot;function: 2CFD8C08&quot;,
+[&quot;shane&quot;] = &quot;function: 2CFD8B90&quot;,
+[&quot;ting&quot;] = &quot;function: 2CFD8BF0&quot;,
+[&quot;tom&quot;] = &quot;function: 2CFD8BA8&quot;,
+},
+},
+
+</code></pre>
+<pre><code class="language-lua">  [&quot;effect&quot;] = {
+    [&quot;OpenBrowser&quot;] = &quot;function: 57590158&quot;,
+    [&quot;add_agent_experience&quot;] = &quot;function: 575901A0&quot;,
+    [&quot;add_military_force_experience&quot;] = &quot;function: 575901B8&quot;,
+    [&quot;adjust_treasury&quot;] = &quot;function: 57590140&quot;,
+    [&quot;advance_contextual_advice_thread&quot;] = &quot;function: 5758E280&quot;,
+    [&quot;advance_scripted_advice_thread&quot;] = &quot;function: 57590248&quot;,
+    [&quot;advance_scripted_advice_thread_located&quot;] = &quot;function: 57590260&quot;,
+    [&quot;advice&quot;] = &quot;function: 57590218&quot;,
+    [&quot;ancillary&quot;] = &quot;function: 57590170&quot;,
+    [&quot;historical_character&quot;] = &quot;function: 575901D0&quot;,
+    [&quot;historical_event&quot;] = &quot;function: 575901E8&quot;,
+    [&quot;remove_ancillary&quot;] = &quot;function: 57590188&quot;,
+    [&quot;remove_trait&quot;] = &quot;function: 575900F8&quot;,
+    [&quot;rewind_scripted_advice&quot;] = &quot;function: 57590278&quot;,
+    [&quot;suspend_contextual_advice&quot;] = &quot;function: 57590200&quot;,
+    [&quot;trait&quot;] = &quot;function: 57590110&quot;,
+  },
+</code></pre>
+<p>cai strategic stance</p>
+<pre><code>CAI_STRATEGIC_STANCE_BEST_FRIENDS
+CAI_STRATEGIC_STANCE_VERY_FRIENDLY
+CAI_STRATEGIC_STANCE_FRIENDLY
+CAI_STRATEGIC_STANCE_NEUTRAL
+CAI_STRATEGIC_STANCE_UNFRIENDLY
+CAI_STRATEGIC_STANCE_VERY_UNFRIENDLY
+CAI_STRATEGIC_STANCE_BITTER_ENEMIES
+</code></pre>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
