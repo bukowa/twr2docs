@@ -1,911 +1,1810 @@
 ---
-title: interface
+title: interfaces
 summary: A brief description of my document.
 ---
 
-```lua
-["BUILDING_LIST_SCRIPT_INTERFACE"] = {
-["is_empty"] = "function: 2CDB1E48",
-["item_at"] = "function: 2CDB2548",
-["new"] = "function: 58D0CD78",
-["num_items"] = "function: 2CDB2508",
-},
-["BUILDING_SCRIPT_INTERFACE"] = {
-["chain"] = "function: 2CDB2AC8",
-["faction"] = "function: 2CDB32C8",
-["model"] = "function: 2CDB2C48",
-["name"] = "function: 2CDB2AE8",
-["new"] = "function: 58D0CC28",
-["region"] = "function: 2CDB2BC8",
-["slot"] = "function: 2CDB2C88",
-["superchain"] = "function: 2CDB2A88",
-},
-["CAMPAIGN_AI_SCRIPT_INTERFACE"] = {
-["new"] = "function: 58D0D168",
-["strategic_stance_between_factions"] = "function: 2CDAA2E8",
-["strategic_stance_between_factions_available"] = "function: 2CDAA088",
-["strategic_stance_between_factions_is_being_blocked"] = "function: 2CDA96A8",
-["strategic_stance_between_factions_is_being_blocked_until"] = "function: 2CDA9D08",
-["strategic_stance_between_factions_promotion_current_level"] = "function: 2CDAA168",
-["strategic_stance_between_factions_promotion_end_level"] = "function: 2CDA9D68",
-["strategic_stance_between_factions_promotion_end_round"] = "function: 2CDA9C28",
-["strategic_stance_between_factions_promotion_is_active"] = "function: 2CDA9E48",
-["strategic_stance_between_factions_promotion_or_blocking_is_set"] = "function: 2CDAA1E8",
-["strategic_stance_between_factions_promotion_start_level"] = "function: 2CDAA068",
-["strategic_stance_between_factions_promotion_start_round"] = "function: 2CDA9D48",
-},
-["CAMPAIGN_MISSION_SCRIPT_INTERFACE"] = {
-["model"] = "function: 2CDAA5A8",
-["new"] = "function: 58D0D498",
-},
-["CAMPAIGN_POLITICS_SCRIPT_INTERFACE"] = {
-["get_current_politics_government_type"] = "function: 2CDA93E8",
-["get_parties"] = "function: 2CDA9568",
-["government_type_key"] = "function: 2CDA94C8",
-["new"] = "function: 58D0D1E0",
-["state_changed"] = "function: 2CDA9488",
-},
-["CHARACTER_LIST_SCRIPT_INTERFACE"] = {
-["is_empty"] = "function: 2CDB8C28",
-["item_at"] = "function: 2CDB8E68",
-["new"] = "function: 58D0BEF0",
-["num_items"] = "function: 2CDB8D28",
-},
-["CHARACTER_SCRIPT_INTERFACE"] = {
-["action_points_per_turn"] = "function: 2CDBD848",
-["action_points_remaining_percent"] = "function: 2CDBDA48",
-["age"] = "function: 2CDBD7A8",
-["battles_fought"] = "function: 2CDBDA08",
-["battles_won"] = "function: 2CDBB1A8",
-["body_guard_casulties"] = "function: 2CDB9028",
-["character_type"] = "function: 2CDBE688",
-["cqi"] = "function: 2CDB1968",
-["defensive_ambush_battles_fought"] = "function: 2CDB9E68",
-["defensive_ambush_battles_won"] = "function: 2CDB9D28",
-["defensive_battles_fought"] = "function: 2CDBA8E8",
-["defensive_battles_won"] = "function: 2CDBB1C8",
-["defensive_naval_battles_fought"] = "function: 2CDB9F28",
-["defensive_naval_battles_won"] = "function: 2CDBA2A8",
-["defensive_sieges_fought"] = "function: 2CDBC0E8",
-["defensive_sieges_won"] = "function: 2CDBBF68",
-["display_position_x"] = "function: 2CDBB728",
-["display_position_y"] = "function: 2CDBB2A8",
-["faction"] = "function: 2CDBFAE8",
-["forename"] = "function: 2CDBF788",
-["fought_in_battle"] = "function: 2CDBC108",
-["garrison_residence"] = "function: 2CDBFC28",
-["get_forename"] = "function: 2CDBF188",
-["get_political_party_id"] = "function: 2CDB8EA8",
-["get_surname"] = "function: 2CDBF088",
-["has_ancillary"] = "function: 2CDBD9C8",
-["has_garrison_residence"] = "function: 2CDC0288",
-["has_military_force"] = "function: 2CDBFEA8",
-["has_recruited_mercenaries"] = "function: 2CDB9348",
-["has_region"] = "function: 2CDC0188",
-["has_skill"] = "function: 2CDB9D68",
-["has_spouse"] = "function: 2CDBFBC8",
-["has_trait"] = "function: 2CDBE308",
-["in_port"] = "function: 2CDBE948",
-["in_settlement"] = "function: 2CDBE9C8",
-["is_ambushing"] = "function: 2CDBD628",
-["is_besieging"] = "function: 2CDBE808",
-["is_blockading"] = "function: 2CDBE868",
-["is_carrying_troops"] = "function: 2CDBE848",
-["is_deployed"] = "function: 2CDB9C48",
-["is_embedded_in_military_force"] = "function: 2CDB9C28",
-["is_faction_leader"] = "function: 2CDBC968",
-["is_hidden"] = "function: 2CDB95C8",
-["is_male"] = "function: 2CDBD768",
-["is_polititian"] = "function: 2CDB9048",
-["logical_position_x"] = "function: 2CDBB5A8",
-["logical_position_y"] = "function: 2CF57800",
-["military_force"] = "function: 2CDBFC68",
-["model"] = "function: 2CDC00A8",
-["new"] = "function: 58D0C088",
-["number_of_traits"] = "function: 2CDB9308",
-["offensive_ambush_battles_fought"] = "function: 2CDB9EE8",
-["offensive_ambush_battles_won"] = "function: 2CDB9EA8",
-["offensive_battles_fought"] = "function: 2CDBAC88",
-["offensive_battles_won"] = "function: 2CDBAEA8",
-["offensive_naval_battles_fought"] = "function: 2CDBA3E8",
-["offensive_naval_battles_won"] = "function: 2CDBA868",
-["offensive_sieges_fought"] = "function: 2CDBC008",
-["offensive_sieges_won"] = "function: 2CDBBFC8",
-["percentage_of_own_alliance_killed"] = "function: 2CDBB828",
-["performed_action_this_turn"] = "function: 2CDBD668",
-["rank"] = "function: 2CDBC0A8",
-["region"] = "function: 2CDBFA88",
-["routed_in_battle"] = "function: 2CDB95A8",
-["spouse"] = "function: 2CDC0148",
-["surname"] = "function: 2CDBF1E8",
-["trait_level"] = "function: 2CDB8FA8",
-["trait_points"] = "function: 2CDBE348",
-["turns_at_sea"] = "function: 2CDBD948",
-["turns_in_enemy_regions"] = "function: 2CDBD1E8",
-["turns_in_own_regions"] = "function: 2CDBCFC8",
-["turns_without_battle_in_home_lands"] = "function: 2CDBC848",
-["won_battle"] = "function: 2CDBB748",
-},
-["CampaignCharacter"] = {
-["ActionPointsRatio"] = "function: 2CDA0068",
-["Release"] = "function: 5D34C298",
-["new"] = "function: 58D0DC90",
-},
-["CampaignSettlement"] = {
-["LabelDetails"] = "function: 5D34BA38",
-["ListDetails"] = "function: 5D34B918",
-["Release"] = "function: 5D34B6D8",
-["Settlement"] = "function: 5D34BEB8",
-["new"] = "function: 58D0DD38",
-},
-["CampaignUI"] = {
-["ClearSelection"] = "function: 58D0D930",
-["CurrentTabTypename"] = "function: 58D0D960",
-["GetCameraPosition"] = "function: 58D0D510",
-["HighlightComponent"] = "function: 58D0D528",
-["HighlightConstructionItem"] = "function: 58D0D570",
-["HighlightRecruitmentItem"] = "function: 58D0D618",
-["IsMultiplayer"] = "function: 58D0D588",
-["IsPreBattleTypeSiege"] = "function: 58D0D948",
-["SetCameraHeading"] = "function: 58D0D7B0",
-["SetCameraMaxTiltAngle"] = "function: 58D0D6A8",
-["SetCameraMinDistance"] = "function: 58D0D5E8",
-["SetCameraTarget"] = "function: 58D0D648",
-["SetCameraTargetInstant"] = "function: 58D0D858",
-["SetCameraZoom"] = "function: 58D0D630",
-["ToggleCinematicBorders"] = "function: 58D0D558",
-["ToggleScreenCover"] = "function: 58D0D750",
-["clear_highlights"] = "function: 58D0D8E8",
-["highlight_character"] = "function: 58D0D870",
-["highlight_position"] = "function: 58D0D8D0",
-["highlight_settlement"] = "function: 58D0D8A0",
-["unhighlight_character"] = "function: 58D0D888",
-["unhighlight_position"] = "function: 58D0D918",
-["unhighlight_settlement"] = "function: 58D0D8B8",
-},
-["CoreUtils"] = {
-["Clamp"] = "function: 58D15790",
-["CompareByValue"] = "function: 58D158B0",
-["CopyIntoTable"] = "function: 58D15898",
-["CopyTable"] = "function: 58D15868",
-["LoadTable"] = "function: 58D159A0",
-["Max"] = "function: 58D157A8",
-["Min"] = "function: 58D157C0",
-["NamespaceFile"] = "function: 58D15850",
-["OffsetFrom"] = "function: 58D158E0",
-["PickFGColour"] = "function: 58D158C8",
-["PrintTable"] = "function: 58D15820",
-["Require"] = "function: 58D157F0",
-["RoundToInt"] = "function: 58D15760",
-["RupToInt"] = "function: 58D15778",
-["SaveTable"] = "function: 58D15940",
-["TimeString"] = "function: 58D159B8",
-["TruncToInt"] = "function: 58D15748",
-["UnRequire"] = "function: 58D15808",
-["UnRequireAll"] = "function: 58D15838",
-["_M"] = <cycle>,
-["_NAME"] = "CoreUtils",
-["_PACKAGE"] = "",
-["outputbitfield"] = "function: 58D157D8",
-},
-["Cursor"] = {
-["DistanceToBL"] = "function: 2CDA0908",
-["Mode"] = "function: 2CDA0928",
-["ModeString"] = "function: 2CDA0A08",
-["Modes"] = "function: 2CDA0A88",
-["SetMode"] = "function: 2CDA0AE8",
-["new"] = "function: 58D0DA38",
-},
-["EpisodicScripting"] = {
-["AddEventCallBack"] = "function: 2CDBA2C8",
-["ClearEventCallbacks"] = "function: 58D338C8",
-["ClearMessageAutoShowOverrides"] = "function: 58D16768",
-["DisableFeature"] = "function: 58D167C8",
-["EnableComponent"] = "function: 58D15A18",
-["EnableFeature"] = "function: 58D167E0",
-["HideComponent"] = "function: 58D159D0",
-["HighlightComponent"] = "function: 58D15A30",
-["HighlightConstructionItem"] = "function: 58D15A48",
-["HighlightRecruitmentItem"] = "function: 58D15A78",
-["InitFeature"] = "function: 58D16780",
-["IsOnCampaignMap"] = "function: 58D15958",
-["OnUICreated"] = "function: 2CE521C8",
-["OverrideMessageAutoShow"] = "function: 58D167F8",
-["RevealComponent"] = "function: 58D15A00",
-["SetCampaign"] = "function: 58D16708",
-["ShowHUD"] = "function: 58D15AA8",
-["_M"] = <cycle>,
-["_NAME"] = "lua_scripts.EpisodicScripting",
-["_PACKAGE"] = "lua_scripts.",
-["game_interface"] = "GAME (24C36A98)",
-["m_root"] = "UIComponent (2E989C34)",
-},
-["FACTION_LIST_SCRIPT_INTERFACE"] = {
-["is_empty"] = "function: 2CDC5928",
-["item_at"] = "function: 2CDCA2E8",
-["new"] = "function: 58D0AF78",
-["num_items"] = "function: 2CDC5FA8",
-},
-["FACTION_SCRIPT_INTERFACE"] = {
-["allied_with"] = "function: 2CDCA288",
-["ancillary_exists"] = "function: 2CDCADC8",
-["at_war"] = "function: 2CDCA508",
-["character_list"] = "function: 2CDCC808",
-["culture"] = "function: 2CDC7EC8",
-["difficulty_level"] = "function: 2CDC6768",
-["ended_war_this_turn"] = "function: 2CDCAEC8",
-["faction_attitudes"] = "function: 2CDCA428",
-["faction_leader"] = "function: 2CDCB808",
-["government_type"] = "function: 2CDC6488",
-["has_faction_leader"] = "function: 2CDCAF68",
-["has_food_shortage"] = "function: 2CF5E140",
-["has_home_region"] = "function: 2CDCB168",
-["has_researched_all_technologies"] = "function: 2CDC85C8",
-["has_technology"] = "function: 2CDC8A88",
-["home_region"] = "function: 2CDCB7C8",
-["imperium_level"] = "function: 2CDC7408",
-["is_human"] = "function: 2CDCBCC8",
-["losing_money"] = "function: 2CDC90E8",
-["military_force_list"] = "function: 2CDCC2A8",
-["model"] = "function: 2CDCC708",
-["name"] = "function: 2CDCBD08",
-["new"] = "function: 58D0BBF0",
-["num_allies"] = "function: 2CDCAD88",
-["num_enemy_trespassing_armies"] = "function: 2CDCA408",
-["num_factions_in_war_with"] = "function: 2CDCB288",
-["num_generals"] = "function: 2CDC7D48",
-["num_trade_agreements"] = "function: 2CDCA048",
-["politics"] = "function: 2CDC6FC8",
-["politics_party_add_loyalty_modifier"] = "function: 2CDC6F68",
-["region_list"] = "function: 2CDCC288",
-["research_queue_idle"] = "function: 2CDC8A28",
-["sea_trade_route_raided"] = "function: 2CDC93A8",
-["started_war_this_turn"] = "function: 2CDCADE8",
-["state_religion"] = "function: 2CDC8A68",
-["subculture"] = "function: 2CDC7868",
-["tax_category"] = "function: 2CDC8BA8",
-["tax_level"] = "function: 2CDC91E8",
-["total_food"] = "function: 2CDC7268",
-["trade_resource_exists"] = "function: 2CDCA148",
-["trade_route_limit_reached"] = "function: 2CDC9CE8",
-["trade_ship_not_in_trade_node"] = "function: 2CDC9408",
-["trade_value"] = "function: 2CDCA188",
-["trade_value_percent"] = "function: 2CDC9F88",
-["treasury"] = "function: 2CDC9228",
-["treasury_percent"] = "function: 2CDC92A8",
-["treaty_details"] = "function: 2CDCA2C8",
-["unused_international_trade_route"] = "function: 2CDC9C48",
-["upkeep_expenditure_percent"] = "function: 2CDC8CA8",
-},
-["GAME"] = {
-["add_agent_experience"] = "function: 2CE54828",
-["add_attack_of_opportunity_overrides"] = "function: 2CE54328",
-["add_building_model_override"] = "function: 2CE55428",
-["add_circle_area_trigger"] = "function: 2CE4C6E8",
-["add_custom_battlefield"] = "function: 2CE5B868",
-["add_development_points_to_region"] = "function: 2CE3E648",
-["add_event_restricted_building_record"] = "function: 2CE41768",
-["add_event_restricted_building_record_for_faction"] = "function: 2CE420A8",
-["add_event_restricted_unit_record"] = "function: 2CE43388",
-["add_event_restricted_unit_record_for_faction"] = "function: 2CE422A8",
-["add_exclusion_zone"] = "function: 2CE59A88",
-["add_location_trigger"] = "function: 2CE5B368",
-["add_marker"] = "function: 2CE50C68",
-["add_outline_area_trigger"] = "function: 2CE4C7C8",
-["add_restricted_building_level_record"] = "function: 2CE5BE68",
-["add_restricted_building_level_record_for_faction"] = "function: 2CE5BB68",
-["add_settlement_model_override"] = "function: 2CE552E8",
-["add_time_trigger"] = "function: 2CE578E8",
-["add_unit_model_overrides"] = "function: 2CE542E8",
-["add_visibility_trigger"] = "function: 2CE5B768",
-["advance_to_next_campaign"] = "function: 2CE57888",
-["allow_player_to_embark_navies"] = "function: 2CE48AA8",
-["apply_effect_bundle"] = "function: 2CE4BC08",
-["apply_effect_bundle_to_characters_force"] = "function: 2CE4B428",
-["apply_effect_bundle_to_force"] = "function: 2CE4B468",
-["attack"] = "function: 2CE4F208",
-["autosave_at_next_opportunity"] = "function: 2CE42DE8",
-["award_experience_level"] = "function: 2CE54708",
-["cai_strategic_stance_manager_block_all_stances_but_that_specified_towards_target_faction"] = "function: 2CE3EB88",
-["cai_strategic_stance_manager_clear_all_blocking_between_factions"] = "function: 2CE3DEA8",
-["cai_strategic_stance_manager_clear_all_promotions_between_factions"] = "function: 2CE3CE08",
-["cai_strategic_stance_manager_force_stance_update_between_factions"] = "function: 2CE3DC28",
-["cai_strategic_stance_manager_promote_specified_stance_towards_target_faction"] = "function: 2CE3E348",
-["cai_strategic_stance_manager_promote_specified_stance_towards_target_faction_by_number"] = "function: 2CE3D1E8",
-["cai_strategic_stance_manager_set_stance_blocking_between_factions_for_a_given_stance"] = "function: 2CE3D188",
-["cai_strategic_stance_manager_set_stance_promotion_between_factions_for_a_given_stance"] = "function: 2CE3D0A8",
-["cancel_actions_for"] = "function: 2CE59488",
-["cinematic"] = "function: 2CE3B2C8",
-["compare_localised_string"] = "function: 2CE59508",
-["create_agent"] = "function: 2CE4B2A8",
-["create_force"] = "function: 2CE4DE68",
-["disable_elections"] = "function: 2CE5ACC8",
-["disable_end_turn"] = "function: 2CE4DF48",
-["disable_movement_for_ai_under_shroud"] = "function: 2CE59548",
-["disable_movement_for_character"] = "function: 2CE56FA8",
-["disable_movement_for_faction"] = "function: 2CE577A8",
-["disable_rebellions_worldwide"] = "function: 2CE52C88",
-["disable_saving_game"] = "function: 2CE4EDA8",
-["disable_shopping_for_ai_under_shroud"] = "function: 2CE55588",
-["disable_shortcut"] = "function: 2CE4C5A8",
-["dismiss_advice"] = "function: 2CE58148",
-["dismiss_advice_at_end_turn"] = "function: 2CE48AE8",
-["display_turns"] = "function: 2CE55708",
-["enable_auto_generated_missions"] = "function: 2CE54A48",
-["enable_movement_for_character"] = "function: 2CE4E128",
-["enable_movement_for_faction"] = "function: 2CE4DFC8",
-["enable_ui"] = "function: 2CE546E8",
-["end_turn"] = "function: 2CE4DD28",
-["exempt_region_from_tax"] = "function: 2CE52F48",
-["force_add_ancillary"] = "function: 2CE51D08",
-["force_add_skill"] = "function: 2CE51D48",
-["force_add_trait"] = "function: 2CE52408",
-["force_agent_action_success_for_human"] = "function: 2CE49508",
-["force_assassination_success_for_human"] = "function: 2CE53508",
-["force_change_cai_faction_personality"] = "function: 2CE486E8",
-["force_character_force_into_stance"] = "function: 2CE3FCE8",
-["force_declare_war"] = "function: 2CE52AE8",
-["force_diplomacy"] = "function: 2CE56048",
-["force_garrison_infiltration_success_for_human"] = "function: 2CE52F28",
-["force_make_peace"] = "function: 2CE52008",
-["force_make_trade_agreement"] = "function: 2CE508E8",
-["force_make_vassal"] = "function: 2CE52C48",
-["force_rebellion_in_region"] = "function: 2CE52CA8",
-["grant_faction_handover"] = "function: 2CE5A5E8",
-["grant_unit"] = "function: 2CE53688",
-["hide_character"] = "function: 2CE4CA08",
-["infect_force_with_plague"] = "function: 2CE3CCE8",
-["infect_region_with_plague"] = "function: 2CE3CC88",
-["instant_set_building_health_percent"] = "function: 2CE49368",
-["instantly_dismantle_building"] = "function: 2CE4B048",
-["instantly_repair_building"] = "function: 2CE49728",
-["is_new_game"] = "function: 2CE55408",
-["join_garrison"] = "function: 2CE4FAE8",
-["kill_character"] = "function: 2CE49E68",
-["leave_garrison"] = "function: 2CE4FB28",
-["load_named_value"] = "function: 2CE557A8",
-["lock_technology"] = "function: 2CE494A8",
-["make_neighbouring_regions_seen_in_shroud"] = "function: 2CE56648",
-["make_neighbouring_regions_visible_in_shroud"] = "function: 2CE566C8",
-["make_region_seen_in_shroud"] = "function: 2CE3E928",
-["make_region_visible_in_shroud"] = "function: 2CE3F488",
-["make_sea_region_seen_in_shroud"] = "function: 2CE56308",
-["make_sea_region_visible_in_shroud"] = "function: 2CE56388",
-["make_son_come_of_age"] = "function: 2CE48EA8",
-["model"] = "function: 2CE3F548",
-["modify_next_autoresolve_battle"] = "function: 2CE4A6C8",
-["move_to"] = "function: 2CE50448",
-["new"] = "function: 58D0BC80",
-["optional_extras_for_episodics"] = "function: 2CE55148",
-["override_ui"] = "function: 2CE49AC8",
-["pending_auto_show_messages"] = "function: 2CE59188",
-["register_instant_movie"] = "function: 2CFAAA98",
-["register_movies"] = "function: 2CE59B88",
-["register_outro_movie"] = "function: 2CE53DE8",
-["remove_area_trigger"] = "function: 2CE4C728",
-["remove_attack_of_opportunity_overrides"] = "function: 2CE53E88",
-["remove_barrier"] = "function: 2CE5B6C8",
-["remove_building_model_override"] = "function: 2CE551A8",
-["remove_custom_battlefield"] = "function: 2CE5B808",
-["remove_effect_bundle"] = "function: 2CE4C588",
-["remove_effect_bundle_from_characters_force"] = "function: 2CE4AA88",
-["remove_effect_bundle_from_force"] = "function: 2CE4B2C8",
-["remove_event_restricted_building_record"] = "function: 2CE41688",
-["remove_event_restricted_building_record_for_faction"] = "function: 2CE41548",
-["remove_event_restricted_unit_record"] = "function: 2CE42DA8",
-["remove_event_restricted_unit_record_for_faction"] = "function: 2CE42228",
-["remove_location_trigger"] = "function: 2CE5ADC8",
-["remove_marker"] = "function: 2CE50A48",
-["remove_restricted_building_level_record"] = "function: 2CE5BE08",
-["remove_restricted_building_level_record_for_faction"] = "function: 2CE5BB08",
-["remove_settlement_model_override"] = "function: 2CE55188",
-["remove_time_trigger"] = "function: 2CE56F48",
-["remove_visibility_trigger"] = "function: 2CE5B468",
-["render_campaign_to_file"] = "function: 2CE41588",
-["replenish_action_points"] = "function: 2CE49E28",
-["restore_shroud_from_snapshot"] = "function: 2CE56948",
-["save_named_value"] = "function: 2CE55748",
-["scroll_camera"] = "function: 2CE59268",
-["scroll_camera_with_direction"] = "function: 2CE57988",
-["seek_exchange"] = "function: 2CE4EE88",
-["set_ai_uses_human_display_speed"] = "function: 2CE3F568",
-["set_campaign_ai_force_all_factions_boardering_human_vassals_to_have_invasion_behaviour"] = "function: 2CE5A0E8",
-["set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour"] = "function: 2CE5A568",
-["set_character_experience_disabled"] = "function: 2CE43DE8",
-["set_character_skill_tier_limit"] = "function: 2CE43268",
-["set_event_generation_enabled"] = "function: 2CE43208",
-["set_general_offered_dilemma_permitted"] = "function: 2CE493C8",
-["set_ignore_end_of_turn_public_order"] = "function: 2CE44028",
-["set_liberation_options_disabled"] = "function: 2CE4E148",
-["set_looting_options_disabled_for_human"] = "function: 2CE4ED48",
-["set_map_bounds"] = "function: 2CE5ABA8",
-["set_non_scripted_ancillaries_disabled"] = "function: 2CE4E028",
-["set_non_scripted_traits_disabled"] = "function: 2CE4E188",
-["set_public_order_of_province_for_region"] = "function: 2CE3F508",
-["set_tax_disabled"] = "function: 2CE3AD08",
-["set_tax_rate"] = "function: 2CE53548",
-["set_technology_research_disabled"] = "function: 2CE4DF88",
-["set_ui_notification_of_victory_disabled"] = "function: 2CFA83D8",
-["set_zoom_limit"] = "function: 2CE5A608",
-["show_message_event"] = "function: 2CE53D48",
-["show_shroud"] = "function: 2CE572A8",
-["shown_message"] = "function: 2CE59348",
-["speedup_active"] = "function: 2CE4D7C8",
-["steal_user_input"] = "function: 2CE555E8",
-["stop_camera"] = "function: 2CE581A8",
-["stop_user_input"] = "function: 2CE56028",
-["take_shroud_snapshot"] = "function: 2CE569A8",
-["technology_osmosis_for_playables_enable_all"] = "function: 2CE53E28",
-["technology_osmosis_for_playables_enable_culture"] = "function: 2CE53788",
-["toggle_speedup"] = "function: 2CE4D468",
-["transfer_region_to_faction"] = "function: 2CE3CDC8",
-["treasury_mod"] = "function: 2CE4A688",
-["trigger_custom_dilemma"] = "function: 2CE5A1C8",
-["trigger_custom_incident"] = "function: 2CE5A8C8",
-["trigger_custom_mission"] = "function: 2CE5A5A8",
-["unhide_character"] = "function: 2CE4C9E8",
-["win_next_autoresolve_battle"] = "function: 2CE4AAA8",
-["zero_action_points"] = "function: 2CE4A308",
-},
-["GARRISON_RESIDENCE_SCRIPT_INTERFACE"] = {
-["army"] = "function: 2CDB5F48",
-["buildings"] = "function: 2CDB5E48",
-["faction"] = "function: 2CDB6088",
-["has_army"] = "function: 2CDB60C8",
-["has_navy"] = "function: 2CDB63C8",
-["is_settlement"] = "function: 2CDB5AC8",
-["is_slot"] = "function: 2CDB5F88",
-["is_under_siege"] = "function: 2CDB5DC8",
-["model"] = "function: 2CDB5FA8",
-["navy"] = "function: 2CDB5E68",
-["new"] = "function: 58D0C478",
-["region"] = "function: 2CDB5E08",
-["settlement_interface"] = "function: 2CDB5A48",
-["slot_interface"] = "function: 2CDB5AE8",
-["unit_count"] = "function: 2CDB5D88",
-},
-["Keyboard"] = {
-["DisableQuickload"] = "function: 58D0D5B8",
-["ReturnKey"] = "function: 58D0D5A0",
-["StealKey"] = "function: 58D0D6F0",
-},
-["MILITARY_FORCE_LIST_SCRIPT_INTERFACE"] = {
-["is_empty"] = "function: 2CDB0388",
-["item_at"] = "function: 2CDB09E8",
-["new"] = "function: 58CF7F40",
-["num_items"] = "function: 2CDB06C8",
-},
-["MILITARY_FORCE_SCRIPT_INTERFACE"] = {
-["character_list"] = "function: 2CDB1248",
-["contains_mercenaries"] = "function: 2CDB0E88",
-["faction"] = "function: 2CDB0F28",
-["garrison_residence"] = "function: 2CDB11E8",
-["general_character"] = "function: 2CDB14E8",
-["has_garrison_residence"] = "function: 2CDB0EC8",
-["has_general"] = "function: 2CDB1AA8",
-["is_army"] = "function: 2CDB19C8",
-["is_navy"] = "function: 2CDB1688",
-["model"] = "function: 2CDB1628",
-["new"] = "function: 58D0D210",
-["unit_list"] = "function: 2CDB1528",
-["upkeep"] = "function: 2CDB0F08",
-},
-["MODEL_SCRIPT_INTERFACE"] = {
-["campaign_ai"] = "function: 2CDCDC08",
-["campaign_name"] = "function: 2CDD0608",
-["campaign_type"] = "function: 2CDCD3A8",
-["character_can_reach_character"] = "function: 2CDCEC28",
-["date_and_week_in_range"] = "function: 2CDD0748",
-["date_in_range"] = "function: 2CE37928",
-["difficulty_level"] = "function: 2CDCEF28",
-["faction_is_local"] = "function: 2CDCE2C8",
-["is_multiplayer"] = "function: 2CDCF6C8",
-["is_player_turn"] = "function: 2CDCEF68",
-["new"] = "function: 58D0B620",
-["pending_battle"] = "function: 2CE38128",
-["player_steam_id_is_odd"] = "function: 2CDCE188",
-["random_number"] = "function: 2CDCFBA8",
-["random_percent"] = "function: 2CDD0228",
-["season"] = "function: 2CDCCF48",
-["turn_number"] = "function: 2CDD16E8",
-["world"] = "function: 2CE37888",
-},
-["MPAvatar"] = {
-["Free"] = "function: 2CDA02E8",
-["SetComponentTexture"] = "function: 2CDA0248",
-["Valid"] = "function: 2CDA0128",
-["new"] = "function: 58D0DB58",
-},
-["MessageManager"] = {
-["CanDismissAllMessages"] = "function: 58D0DE88",
-["CheckForAutoOpen"] = "function: 58D0DED0",
-["ClearMessagesFromEnv"] = "function: 58D0DE28",
-["ClearOverrides"] = "function: 58D0DDB0",
-["ClosePanelIfNoMessage"] = "function: 58D0DEE8",
-["DestroyAllMessages"] = "function: 58D0DF00",
-["DismissAllMessages"] = "function: 58D0DE70",
-["HasMessagesStored"] = "function: 58D0DE40",
-["HideAllMessages"] = "function: 58D0DEB8",
-["HideMessage"] = "function: 58D0DEA0",
-["HidingMessage"] = "function: 58D0DDE0",
-["InitMessageCallback"] = "function: 58D16588",
-["OverrideAutoShow"] = "function: 58D0DD50",
-["PendingAutoShowMessage"] = "function: 58D0DE10",
-["ReInitialiseStackbase"] = "function: 58D0DD98",
-["RestoreMessages"] = "function: 58D0DE58",
-["SelectLayout"] = "function: 58D14C98",
-["SetCurrentMessageUnread"] = "function: 58D14C80",
-["ShowingMessage"] = "function: 58D0DDC8",
-["StoreMessages"] = "function: 58D0DDF8",
-},
-["NULL_SCRIPT_INTERFACE"] = {
-["new"] = "function: 58D0AF60",
-},
-["OnKeyPressed"] = "function: 58D433C8",
-["OnLETCharacterCreated"] = "function: 58D0EA40",
-["OnLETCharacterDeselected"] = "function: 58D0E9E0",
-["OnLETCharacterSelected"] = "function: 58D0E9C8",
-["OnLETFactionTurnStart"] = "function: 58D0E9F8",
-["OnLETLoadingGame"] = "function: 58D0EA28",
-["OnLETSavingGame"] = "function: 58D0EA10",
-["PENDING_BATTLE_SCRIPT_INTERFACE"] = {
-["ambush_battle"] = "function: 2CDAAEA8",
-["attacker"] = "function: 2CDAB688",
-["attacker_battle_result"] = "function: 2CDAB1C8",
-["attacker_commander_fought_in_battle"] = "function: 2CDAB288",
-["attacker_commander_fought_in_melee"] = "function: 2CDAB228",
-["attacker_is_stronger"] = "function: 2CDAB668",
-["battle_type"] = "function: 2CDAAB68",
-["contested_garrison"] = "function: 2CDAB628",
-["defender"] = "function: 2CDABD08",
-["defender_battle_result"] = "function: 2CDAAE68",
-["defender_commander_fought_in_battle"] = "function: 2CDAAF68",
-["defender_commander_fought_in_melee"] = "function: 2CDAAEE8",
-["failed_ambush_battle"] = "function: 2CDAA8A8",
-["has_attacker"] = "function: 2CDAC128",
-["has_contested_garrison"] = "function: 2CDAB968",
-["has_defender"] = "function: 2CDAC1E8",
-["is_active"] = "function: 2CDAB5A8",
-["model"] = "function: 2CDABE28",
-["naval_battle"] = "function: 2CDAAF48",
-["new"] = "function: 58CFD910",
-["night_battle"] = "function: 2CDAABC8",
-["percentage_of_attacker_killed"] = "function: 2CDAB4A8",
-["percentage_of_attacker_routed"] = "function: 2CDAB4C8",
-["percentage_of_defender_killed"] = "function: 2CDAB248",
-["percentage_of_defender_routed"] = "function: 2CDAB208",
-["seige_battle"] = "function: 2CDAABA8",
-},
-["REGION_LIST_SCRIPT_INTERFACE"] = {
-["is_empty"] = "function: 2CDB6408",
-["item_at"] = "function: 2CDB6748",
-["new"] = "function: 58D0C208",
-["num_items"] = "function: 2CDB6468",
-},
-["REGION_MANAGER_SCRIPT_INTERFACE"] = {
-["faction_region_list"] = "function: 2CDB84C8",
-["model"] = "function: 2CDB8AE8",
-["new"] = "function: 58D0BDA0",
-["region_by_key"] = "function: 2CDB8BE8",
-["region_list"] = "function: 2CDB8AA8",
-["resource_exists_anywhere"] = "function: 2CDB83E8",
-["settlement_by_key"] = "function: 2CDB8428",
-["slot_by_key"] = "function: 2CDB7F28",
-},
-["REGION_SCRIPT_INTERFACE"] = {
-["adjacent_region_list"] = "function: 2CDB7348",
-["building_exists"] = "function: 2CDB74A8",
-["building_superchain_exists"] = "function: 2CDB6E08",
-["garrison_residence"] = "function: 2CDB77C8",
-["last_building_constructed_key"] = "function: 2CDB7308",
-["majority_religion"] = "function: 2CDB7188",
-["model"] = "function: 2CDB7EC8",
-["name"] = "function: 2CDB7768",
-["new"] = "function: 58D0C100",
-["num_buildings"] = "function: 2CDB77A8",
-["owning_faction"] = "function: 2CDB7CA8",
-["province_name"] = "function: 2CDB7DC8",
-["public_order"] = "function: 2CDB7488",
-["region_wealth"] = "function: 2CDB70C8",
-["region_wealth_change_percent"] = "function: 2CDB7148",
-["resource_exists"] = "function: 2CDB7448",
-["sanitation"] = "function: 2CDB6DC8",
-["settlement"] = "function: 2CDB7A88",
-["slot_list"] = "function: 2CDB7C88",
-["slot_type_exists"] = "function: 2CDB7368",
-["squalor"] = "function: 2CDB71A8",
-["tax_income"] = "function: 2CDB7108",
-["town_wealth_growth"] = "function: 2CDB7288",
-},
-["SETTLEMENT_SCRIPT_INTERFACE"] = {
-["castle_slot"] = "function: 2CDB4628",
-["commander"] = "function: 2CDB4C68",
-["display_position_x"] = "function: 2CDB52A8",
-["display_position_y"] = "function: 2CDB4CC8",
-["faction"] = "function: 2CDB4CA8",
-["has_castle_slot"] = "function: 2CDB5788",
-["has_commander"] = "function: 2CDB50C8",
-["logical_position_x"] = "function: 2CDB5728",
-["logical_position_y"] = "function: 2CDB4FC8",
-["model"] = "function: 2CDB4F88",
-["new"] = "function: 58D0C790",
-["region"] = "function: 2CDB4BC8",
-["slot_list"] = "function: 2CDB4768",
-},
-["SLOT_LIST_SCRIPT_INTERFACE"] = {
-["buliding_type_exists"] = "function: 2CDB34C8",
-["is_empty"] = "function: 2CDB3608",
-["item_at"] = "function: 2CDB3668",
-["new"] = "function: 58D0CA18",
-["num_items"] = "function: 2CDB3648",
-["slot_type_exists"] = "function: 2CDB35C8",
-},
-["SLOT_SCRIPT_INTERFACE"] = {
-["building"] = "function: 2CDB4148",
-["faction"] = "function: 2CDB3948",
-["has_building"] = "function: 2CDB3EA8",
-["model"] = "function: 2CDB41A8",
-["name"] = "function: 2CDB3828",
-["new"] = "function: 58D0C898",
-["region"] = "function: 2CDB3E48",
-["type"] = "function: 2CDB3E88",
-},
-["ScriptedValueRegistry"] = {
-["LoadBool"] = "function: 2CDA1588",
-["SaveBool"] = "function: 2CDA16A8",
-["new"] = "function: 58D0D660",
-},
-["UIComponent"] = {
-["Address"] = "function: 2CDA6BE8",
-["Adopt"] = "function: 2CDA7148",
-["AttachCustomControl"] = "function: 2CDA4C48",
-["Bounds"] = "function: 2CDA8928",
-["CallbackId"] = "function: 2CDA6748",
-["ChildCount"] = "function: 2CDA7708",
-["CurrentAnimationId"] = "function: 2CDA1FA8",
-["CurrentState"] = "function: 2CDA7A28",
-["CurrentStateUI"] = "function: 2CDA3048",
-["DestroyChildren"] = "function: 2CDA7188",
-["Dimensions"] = "function: 2CDA6028",
-["Divorce"] = "function: 2CDA6F88",
-["DockingPoint"] = "function: 2CDA3808",
-["Find"] = "function: 2CDA5AE8",
-["FindPositionIntoCurrentText"] = "function: 2CDA3A68",
-["FindTextSnapPosition"] = "function: 2CDA3DC8",
-["ForceEvent"] = "function: 2CDA2F28",
-["GetProperty"] = "function: 2CDA7EE8",
-["GetStateText"] = "function: 2CDA7F48",
-["GetStateTextDetails"] = "function: 2CDA3848",
-["GetTooltipText"] = "function: 2CDA6FE8",
-["GlobalExists"] = "function: 2CDA50C8",
-["HasInterface"] = "function: 2CDA2D28",
-["Height"] = "function: 2CDA8628",
-["Highlight"] = "function: 2CDA4108",
-["Id"] = "function: 2CDA69A8",
-["InterfaceFunction"] = "function: 2CDA3008",
-["IsCharPrintable"] = "function: 2CF46480",
-["IsDragged"] = "function: 2CDA6248",
-["IsInteractive"] = "function: 2CDA49C8",
-["IsMouseOverChildren"] = "function: 2CDA30C8",
-["IsMoveable"] = "function: 2CDA45E8",
-["Layout"] = "function: 2CDA5D08",
-["LockPriority"] = "function: 2CDA2CA8",
-["LuaCall"] = "function: 2CDA7A08",
-["MoveTo"] = "function: 2CDA7BA8",
-["Parent"] = "function: 2CDA59A8",
-["PopulateTextures"] = "function: 2CDA4628",
-["Position"] = "function: 2CDA7AE8",
-["Priority"] = "function: 2CDA6E88",
-["PropagateImageColour"] = "function: 2CDA50E8",
-["PropagateOpacity"] = "function: 2CDA5868",
-["PropagatePriority"] = "function: 2CDA79C8",
-["PropagateVisibility"] = "function: 2CDA76A8",
-["ReorderChildren"] = "function: 2CDA62C8",
-["Resize"] = "function: 2CDA6EA8",
-["RestoreUIHeirarchy"] = "function: 2CDA3A48",
-["RunScript"] = "function: 2CDA45A8",
-["SaveUIHeirarchy"] = "function: 2CF45D80",
-["SequentialFind"] = "function: 2CDA5A48",
-["SetDisabled"] = "function: 2CDA4A28",
-["SetDockingPoint"] = "function: 2CDA3528",
-["SetDragged"] = "function: 2CDA6148",
-["SetEventCallback"] = "function: 2CDA4B08",
-["SetGlobal"] = "function: 2CDA4DE8",
-["SetImageColour"] = "function: 2CDA5A08",
-["SetImageRotation"] = "function: 2CDA5AA8",
-["SetInteractive"] = "function: 2CDA4B48",
-["SetMoveable"] = "function: 2CDA4668",
-["SetOpacity"] = "function: 2CDA5088",
-["SetProperty"] = "function: 2CDA7E68",
-["SetState"] = "function: 2CDA7F28",
-["SetStateColours"] = "function: 2CDA2088",
-["SetStateText"] = "function: 2CDA7EA8",
-["SetStateTextDetails"] = "function: 2CDA3B88",
-["SetStateTextXOffset"] = "function: 2CDA3E28",
-["SetTooltipText"] = "function: 2CDA7108",
-["SetVisible"] = "function: 2CDA7628",
-["ShaderTechniqueGet"] = "function: 2CDA5FC8",
-["ShaderTechniqueSet"] = "function: 2CDA6168",
-["ShaderVarsGet"] = "function: 2CDA5DA8",
-["ShaderVarsSet"] = "function: 2CDA5EC8",
-["SimulateClick"] = "function: 2CDA2008",
-["SimulateKey"] = "function: 2CDA1F68",
-["StealInputFocus"] = "function: 2CDA4128",
-["StealShortcutKey"] = "function: 2CDA4948",
-["TextDimensions"] = "function: 2CDA2188",
-["TextShaderTechniqueSet"] = "function: 2CDA5EE8",
-["TextShaderVarsGet"] = "function: 2CDA5E88",
-["TextShaderVarsSet"] = "function: 2CDA5D48",
-["TriggerAnimation"] = "function: 2CDA2CE8",
-["TriggerShortcut"] = "function: 2CDA1EC8",
-["UnLockPriority"] = "function: 2CDA2828",
-["Visible"] = "function: 2CDA6FC8",
-["Width"] = "function: 2CDA8988",
-["WidthOfTextLine"] = "function: 2CDA34C8",
-["new"] = "function: 58D0D3C0",
-},
-["UNIT_LIST_SCRIPT_INTERFACE"] = {
-["has_unit"] = "function: 2CDAC328",
-["is_empty"] = "function: 2CDAC848",
-["item_at"] = "function: 2CDAC708",
-["new"] = "function: 58CF8060",
-["num_items"] = "function: 2CDAC8A8",
-},
-["UNIT_SCRIPT_INTERFACE"] = {
-["faction"] = "function: 2CDAD328",
-["force_commander"] = "function: 2CDAE3C8",
-["has_force_commander"] = "function: 2CDAF988",
-["has_unit_commander"] = "function: 2CDAFA68",
-["is_land_unit"] = "function: 2CDAEF08",
-["is_naval_unit"] = "function: 2CDAEC08",
-["military_force"] = "function: 2CDAD688",
-["model"] = "function: 2CDAEB88",
-["new"] = "function: 58CFD5B0",
-["percentage_proportion_of_full_strength"] = "function: 2CDAD0A8",
-["unit_category"] = "function: 2CDAD548",
-["unit_class"] = "function: 2CDAD2E8",
-["unit_commander"] = "function: 2CDAE288",
-["unit_key"] = "function: 2CDAD508",
-},
-["WORLD_SCRIPT_INTERFACE"] = {
-["ancillary_exists"] = "function: 2CE38B68",
-["faction_by_key"] = "function: 2CE39EC8",
-["faction_exists"] = "function: 2CE38EA8",
-["faction_list"] = "function: 2CE39488",
-["model"] = "function: 2CE38FC8",
-["new"] = "function: 58D0BF50",
-["region_manager"] = "function: 2CE397C8",
-},
-{
-["CampaignCharacter"] = {
-["ActionPointsRatio"] = "function: 2CF5F200",
-["Release"] = "function: 2CF60020",
-["new"] = "function: 2CFD90B8",
-},
-["CampaignSettlement"] = {
-["LabelDetails"] = "function: 2D04CB78",
-["ListDetails"] = "function: 2D04C978",
-["Release"] = "function: 2D04C958",
-["Settlement"] = "function: 2D04CB98",
-["new"] = "function: 2CFD9190",
-},
-["CampaignUI"] = {
-["ClearSelection"] = "function: 2CFD8E30",
-["CurrentTabTypename"] = "function: 2CFD8E60",
-["GetCameraPosition"] = "function: 2CFD8CF8",
-["HighlightComponent"] = "function: 2CFD8C68",
-["HighlightConstructionItem"] = "function: 2CFD8C50",
-["HighlightRecruitmentItem"] = "function: 2CFD8C80",
-["IsMultiplayer"] = "function: 2CFD8D10",
-["IsPreBattleTypeSiege"] = "function: 2CFD8E48",
-["SetCameraHeading"] = "function: 2CFD8D58",
-["SetCameraMaxTiltAngle"] = "function: 2CFD8C98",
-["SetCameraMinDistance"] = "function: 2CFD8CB0",
-["SetCameraTarget"] = "function: 2CFD8CE0",
-["SetCameraTargetInstant"] = "function: 2CFD8D70",
-["SetCameraZoom"] = "function: 2CFD8CC8",
-["ToggleCinematicBorders"] = "function: 2CFD8D40",
-["ToggleScreenCover"] = "function: 2CFD8D28",
-["clear_highlights"] = "function: 2CFD8E18",
-["highlight_character"] = "function: 2CFD8D88",
-["highlight_position"] = "function: 2CFD8DE8",
-["highlight_settlement"] = "function: 2CFD8DB8",
-["unhighlight_character"] = "function: 2CFD8DA0",
-["unhighlight_position"] = "function: 2CFD8E00",
-["unhighlight_settlement"] = "function: 2CFD8DD0",
-},
-["Cursor"] = {
-["DistanceToBL"] = "function: 2CF5F300",
-["Mode"] = "function: 2CF5F360",
-["ModeString"] = "function: 2CF5F320",
-["Modes"] = "function: 2CF5F340",
-["SetMode"] = "function: 2CF5F380",
-["new"] = "function: 2CFD8F08",
-},
-["HudManager"] = {
-["Dimensions"] = "function: 2CFD9808",
-["MoveRelativeToHUD"] = "function: 2CFD97F0",
-["RegisterHud"] = "function: 2CFD97D8",
-},
-["MPAvatar"] = {
-["Free"] = "function: 2CF5F280",
-["SetComponentTexture"] = "function: 2CF5F2A0",
-["Valid"] = "function: 2CF5F260",
-["new"] = "function: 2CFD8FE0",
-},
-["MessageManager"] = {
-["CanDismissAllMessages"] = "function: 2CFD9E98",
-["CheckForAutoOpen"] = "function: 2CFD9EE0",
-["ClearMessagesFromEnv"] = "function: 2CFD9E50",
-["ClearOverrides"] = "function: 2CFD9DC0",
-["ClosePanelIfNoMessage"] = "function: 2CFD9F28",
-["DestroyAllMessages"] = "function: 2CFD9EF8",
-["DismissAllMessages"] = "function: 2CFD9E80",
-["HasMessagesStored"] = "function: 2CFD9E20",
-["HideAllMessages"] = "function: 2CFD9EC8",
-["HideMessage"] = "function: 2CFD9EB0",
-["HidingMessage"] = "function: 2CFD9DF0",
-["InitMessageCallback"] = "function: 2CFD9F10",
-["OverrideAutoShow"] = "function: 2CFD9820",
-["PendingAutoShowMessage"] = "function: 2CFD9E38",
-["ReInitialiseStackbase"] = "function: 2CFD9DA8",
-["RestoreMessages"] = "function: 2CFD9E68",
-["SelectLayout"] = "function: 2CFD9F58",
-["SetCurrentMessageUnread"] = "function: 2CFD9F40",
-["ShowingMessage"] = "function: 2CFD9DD8",
-["StoreMessages"] = "function: 2CFD9E08",
-},
-["PanelManager"] = {
-["ClearCachedComponent"] = "function: 2CFD9208",
-["CloseAllPanels"] = "function: 2CFD9238",
-["ClosePanel"] = "function: 2CFD91F0",
-["IsPanelOpen"] = "function: 2CFD91D8",
-["OpenPanel"] = "function: 2CFD91A8",
-["OpenPanels"] = "function: 2CFD9220",
-["Reset"] = "function: 2CFD9250",
-},
-["decoda_name"] = "CampaignScriptingInterface",
-["out"] = {
-["design"] = "function: 2CFD8C20",
-["dylan"] = "function: 2CFD8BC0",
-["kostas"] = "function: 2CFD8BD8",
-["scott_b"] = "function: 2CFD8C08",
-["shane"] = "function: 2CFD8B90",
-["ting"] = "function: 2CFD8BF0",
-["tom"] = "function: 2CFD8BA8",
-},
-},
+## battle_manager
+The `battle_manager` interface provides functions for managing various aspects of a battle, including setup, events, and unit control.
 
-```
+*   `new(battle_obj)`
+*   `advice_cease()`
+*   `advice_resume()`
+*   `callback()`
+*   `check_rout_manager()`
+*   `check_watch_entry()`
+*   `clear_watches_and_callbacks()`
+*   `dont_close_queue_advice()`
+*   `end_battle()`
+*   `end_deployment()`
+*   `get_next_watch_entry()`
+*   `out()`
+*   `play_next_advice()`
+*   `print_callback_list()`
+*   `print_watch_list()`
+*   `process_results()`
+*   `queue_advisor()`
+*   `register_esc_key_callback()`
+*   `register_phase_change_callback()`
+*   `register_repeating_timer()`
+*   `register_results_callbacks()`
+*   `register_singleshot_timer()`
+*   `register_victory_countdown_callback()`
+*   `release_escape_key()`
+*   `remove_process()`
+*   `remove_process_from_callback_list()`
+*   `remove_process_from_watch_list()`
+*   `repeat_callback()`
+*   `rout_threshold_reached()`
+*   `set_load_balancing()`
+*   `setup_battle()`
+*   `setup_victory_callback()`
+*   `start_rout_manager()`
+*   `steal_escape_key()`
+*   `stop_advice_on_battle_end()`
+*   `stop_advisor_queue()`
+*   `stop_rout_manager()`
+*   `tick_watch_counter()`
+*   `unlock_achievement()`
+*   `unregister_esc_key_callback()`
+*   `unregister_timer()`
+*   `watch()`
+*   `watch_advice_queue()`
+*   `add_ping_icon()`
+*   `advice_finished()`
+*   `alliances()`
+*   `assault_equipment()`
+*   `buildings()`
+*   `camera()`
+*   `change_conflict_time_update_overridden()`
+*   `change_victory_countdown_limit()`
+*   `cindy_playback()`
+*   `cindy_playback_no_camera()`
+*   `close_advisor()`
+*   `create_ui_attack_group()`
+*   `create_ui_defend_group()`
+*   `debug_drawing()`
+*   `disable_shortcut()`
+*   `enable_cinematic_camera()`
+*   `enable_cinematic_ui()`
+*   `enable_tooltips()`
+*   `end_benchmark()`
+*   `end_current_battle_phase()`
+*   `error()`
+*   `fade_volume()`
+*   `get_volume()`
+*   `highlight_component()`
+*   `is_battle_over()`
+*   `is_benchmarking_mode()`
+*   `is_movie_playing()`
+*   `is_music_playing()`
+*   `local_alliance()`
+*   `local_army()`
+*   `modify_battle_speed()`
+*   `place_naval_mine()`
+*   `play_movie()`
+*   `play_music()`
+*   `play_music_custom_fade()`
+*   `random_number()`
+*   `register_battle_phase_handler()`
+*   `register_command_handler()`
+*   `register_input_handler()`
+*   `register_unit_selection_handler()`
+*   `release_input_focus()`
+*   `remaining_conflict_time()`
+*   `remove_ping_icon()`
+*   `restore_battle_speed()`
+*   `set_banners_enabled()`
+*   `set_music_auto_playback()`
+*   `set_music_loop()`
+*   `set_volume()`
+*   `show_objective()`
+*   `start_lighting_environment_cross_fade()`
+*   `start_terrain_effect()`
+*   `steal_input_focus()`
+*   `stop_cindy_playback()`
+*   `stop_cindy_playback_no_camera()`
+*   `stop_music()`
+*   `stop_music_custom_fade()`
+*   `stop_terrain_effect()`
+*   `subtitles()`
+*   `suppress_unit_musicians()`
+*   `suppress_unit_voices()`
+*   `suspend_contextual_advice()`
+*   `trigger_projectile_launch()`
+*   `ui_component()`
+*   `unregister_battle_phase_handler()`
+*   `unregister_command_handler()`
+*   `unregister_input_handler()`
+*   `unregister_unit_selection_handler()`
+*   `vo_finished()`
+*   `weather()`
 
-```lua
-  ["effect"] = {
-    ["OpenBrowser"] = "function: 57590158",
-    ["add_agent_experience"] = "function: 575901A0",
-    ["add_military_force_experience"] = "function: 575901B8",
-    ["adjust_treasury"] = "function: 57590140",
-    ["advance_contextual_advice_thread"] = "function: 5758E280",
-    ["advance_scripted_advice_thread"] = "function: 57590248",
-    ["advance_scripted_advice_thread_located"] = "function: 57590260",
-    ["advice"] = "function: 57590218",
-    ["ancillary"] = "function: 57590170",
-    ["historical_character"] = "function: 575901D0",
-    ["historical_event"] = "function: 575901E8",
-    ["remove_ancillary"] = "function: 57590188",
-    ["remove_trait"] = "function: 575900F8",
-    ["rewind_scripted_advice"] = "function: 57590278",
-    ["suspend_contextual_advice"] = "function: 57590200",
-    ["trait"] = "function: 57590110",
-  },
-```
+## battle.ai_unit_controller
+The `battle.ai_unit_controller` interface manages AI unit actions in battle.
 
-cai strategic stance
-```
-CAI_STRATEGIC_STANCE_BEST_FRIENDS
-CAI_STRATEGIC_STANCE_VERY_FRIENDLY
-CAI_STRATEGIC_STANCE_FRIENDLY
-CAI_STRATEGIC_STANCE_NEUTRAL
-CAI_STRATEGIC_STANCE_UNFRIENDLY
-CAI_STRATEGIC_STANCE_VERY_UNFRIENDLY
-CAI_STRATEGIC_STANCE_BITTER_ENEMIES
-```
+
+*   `new()`
+*   `add_units()`
+*   `attack_unit()`
+*   `clear_objective()`
+*   `defend_position()`
+*   `move_to_position()`
+*   `remove_units()`
+
+## battle.assault_equipment
+The `battle.assault_equipment` interface provides information about assault equipment.
+
+
+*   `new()`
+*   `vehicle_count()`
+*   `vehicle_item()`
+
+## battle.building
+The `battle.building` interface provides information and control over individual buildings in a battle.
+
+
+*   `new()`
+*   `alliance_owner_id()`
+*   `capacity()`
+*   `central_position()`
+*   `change_immune_to_catching_fire()`
+*   `change_immune_to_fire_damage()`
+*   `change_is_destructible()`
+*   `change_on_fire()`
+*   `currently_garrisoned()`
+*   `destroy()`
+*   `health()`
+*   `hide()`
+*   `is_garrisoned()`
+*   `name()`
+*   `position()`
+*   `show()`
+
+## battle.buildings
+The `battle.buildings` interface manages collections of buildings.
+
+
+*   `new()`
+*   `count()`
+*   `garrisonable_count()`
+*   `garrisonable_item()`
+*   `item()`
+
+## battle.camera
+The `battle.camera` interface controls the in-battle camera.
+
+
+*   `new()`
+*   `change_depth_of_field()`
+*   `change_height_range()`
+*   `disable_anchor_to_army()`
+*   `disable_functionality()`
+*   `disable_shake()`
+*   `enable_anchor_to_army()`
+*   `enable_functionality()`
+*   `enable_shake()`
+*   `fade()`
+*   `look_at()`
+*   `move_to()`
+*   `position()`
+*   `target()`
+
+## battle.commandevent
+The `battle.commandevent` interface provides details about a command event.
+
+
+*   `new()`
+*   `get_bool1()`
+*   `get_building()`
+*   `get_name()`
+*   `get_position()`
+*   `get_ship()`
+*   `get_string1()`
+*   `get_unit()`
+
+## battle.debug_drawing
+The `battle.debug_drawing` interface provides functions for drawing debug elements on the terrain.
+
+
+*   `new()`
+*   `draw_circle_on_terrain()`
+*   `draw_line_on_terrain()`
+*   `draw_peg_on_terrain()`
+*   `draw_white_circle_on_terrain()`
+*   `draw_white_line_on_terrain()`
+*   `draw_white_peg_on_terrain()`
+
+## battle.ship
+The `battle.ship` interface provides information and control over individual ships in a battle.
+
+
+*   `new()`
+*   `bearing()`
+*   `deploy_reinforcement()`
+*   `hull_damage()`
+*   `is_routing()`
+*   `is_surrendered()`
+*   `name()`
+*   `number_of_men_alive()`
+*   `position()`
+*   `sail_damage()`
+*   `ship_in_range()`
+*   `type()`
+
+## battle.ships
+The `battle.ships` interface manages collections of ships.
+
+
+*   `new()`
+*   `count()`
+*   `item()`
+
+## battle.subtitles
+The `battle.subtitles` interface manages in-battle subtitles.
+
+
+*   `new()`
+*   `begin()`
+*   `change_if_borders_drawn()`
+*   `change_if_top_border_drawn()`
+*   `clear()`
+*   `end_subtitles()`
+*   `push_back_subtitle()`
+*   `push_back_subtitle_entry()`
+*   `read_subtitles_file()`
+*   `set_alignment()`
+*   `set_text()`
+
+## battle.vehicle
+The `battle.vehicle` interface provides information about a vehicle.
+
+
+*   `new()`
+*   `position()`
+
+## battle.weather
+The `battle.weather` interface controls in-battle weather effects.
+
+
+*   `new()`
+*   `add_dust()`
+*   `add_rain()`
+*   `add_snow()`
+*   `change_lighting()`
+*   `clear_weather()`
+*   `enable_random_lightning()`
+*   `trigger_lightning_sheet()`
+*   `trigger_lightning_strike()`
+
+## battle_colour
+The `battle_colour` interface represents a battle color.
+
+
+*   `new()`
+
+## battle_location
+The `battle_location` interface represents a location in battle.
+
+
+*   `new()`
+*   `get_position()`
+*   `set_position()`
+
+## battle_sound_effect
+The `battle_sound_effect` interface manages battle sound effects.
+
+
+*   `new()`
+*   `is_playing()`
+*   `load()`
+*   `play3D()`
+*   `stop()`
+
+## battle.alliances
+The `battle.alliances` interface manages collections of alliances.
+
+
+*   `new()`
+*   `count()`
+*   `item(index)`
+
+## battle.alliance
+The `battle.alliance` interface provides information and control over an alliance in battle.
+
+
+*   `new()`
+*   `armies()`
+*   `create_ai_unit_planner()`
+*   `force_ai_plan_type_attack()`
+*   `force_ai_plan_type_defend()`
+*   `force_snap_ai_to_hint_lines()`
+
+## battle.armies
+The `battle.armies` interface manages collections of armies.
+
+
+*   `new()`
+*   `count()`
+*   `item(index)`
+
+## battle.army
+The `battle.army` interface provides information and control over an army in battle.
+
+
+*   `new()`
+*   `army_handicap()`
+*   `change_faction()`
+*   `create_unit_controller()`
+*   `enable_army_destruction_morale_effect()`
+*   `get_reinforcement_ships()`
+*   `get_reinforcement_units()`
+*   `is_commander_alive()`
+*   `is_commander_invincible()`
+*   `quit_battle()`
+*   `ships()`
+*   `units()`
+
+## battle.units
+The `battle.units` interface manages collections of units.
+
+
+*   `new()`
+*   `count()`
+*   `kill_commander()`
+*   `mountable_artillery_item()`
+*   `item(index)`
+
+## battle.unit
+The `battle.unit` interface provides information and control over an individual unit in battle.
+
+
+*   `new()`
+*   `ammo_left()`
+*   `bearing()`
+*   `can_perform_special_ability()`
+*   `current_special_ability()`
+*   `deploy_reinforcement(can_deploy)`
+*   `has_ships()`
+*   `initial_number_of_men()`
+*   `is_artillery()`
+*   `is_behaviour_active()`
+*   `is_cavalry()`
+*   `is_currently_garrisoned()`
+*   `is_dismounted_ships()`
+*   `is_hidden()`
+*   `is_idle()`
+*   `is_infantry()`
+*   `is_leaving_battle()`
+*   `is_limbered_artillery()`
+*   `is_moving()`
+*   `is_moving_fast()`
+*   `is_routing()`
+*   `is_shattered()`
+*   `is_under_missile_attack()`
+*   `is_valid_target()`
+*   `is_visible_to_alliance()`
+*   `kill_number_of_men()`
+*   `missile_range()`
+*   `name()`
+*   `number_of_enemies_killed()`
+*   `number_of_men_alive()`
+*   `ordered_position()`
+*   `ordered_width()`
+*   `play_anim_for_captain()`
+*   `position()`
+*   `position_of_officer()`
+*   `set_current_ammo_unary()`
+*   `starting_ammo()`
+*   `trigger_sound_charge()`
+*   `trigger_sound_taunt()`
+*   `trigger_sound_warcry()`
+*   `type()`
+*   `unary_of_men_alive()`
+*   `unit_distance()`
+*   `unit_in_range()`
+
+## battle.unit_controller
+The `battle.unit_controller` interface provides high-level control over groups of units.
+
+
+*   `new()`
+*   `add_all_units()`
+*   `add_group()`
+*   `add_units(...)`
+*   `attack_building()`
+*   `attack_building_q()`
+*   `attack_line()`
+*   `attack_line_q()`
+*   `attack_location()`
+*   `attack_location_q()`
+*   `attack_unit()`
+*   `attack_unit_q()`
+*   `change_behaviour_active()`
+*   `change_current_walk_speed()`
+*   `change_enabled()`
+*   `change_fatigue_amount()`
+*   `change_group_formation()`
+*   `change_group_formation_q()`
+*   `change_move_speed()`
+*   `change_shot_type()`
+*   `change_shot_type_q()`
+*   `clear_all()`
+*   `climb_building()`
+*   `climb_building_q()`
+*   `decrement_formation_width()`
+*   `defend_building()`
+*   `defend_building_q()`
+*   `fire_at_will()`
+*   `goto_location(position, move_fast)`
+*   `goto_location_angle_width()`
+*   `goto_location_angle_width_q()`
+*   `goto_location_q()`
+*   `halt()`
+*   `hide_unit_card()`
+*   `highlight()`
+*   `increment_formation_width()`
+*   `interact_with_deployable()`
+*   `interact_with_deployable_q()`
+*   `kill()`
+*   `leave_building()`
+*   `melee()`
+*   `morale_behavior_default()`
+*   `morale_behavior_fearless()`
+*   `morale_behavior_rout()`
+*   `occupy_vehicle()`
+*   `occupy_vehicle_q()`
+*   `occupy_zone()`
+*   `occupy_zone_q()`
+*   `perform_special_ability()`
+*   `perform_special_ability_q()`
+*   `release_control()`
+*   `rotate()`
+*   `rotate_q()`
+*   `select_deployable_object()`
+*   `set_always_visible_to_all()`
+*   `set_invincible()`
+*   `set_invisible_to_all()`
+*   `start_celebrating()`
+*   `start_taunting()`
+*   `step_backward()`
+*   `step_forward()`
+*   `take_control()`
+*   `teleport_to_location(position, bearing, width)`
+*   `trigger_sound_vo()`
+*   `update_card_existance_on_HUD()`
+*   `withdraw()`
+*   `withdraw_q()`
+
+## battle_vector
+The `battle_vector` interface represents a 3D vector in battle.
+
+
+*   `new()`
+*   `distance()`
+*   `distance_xz()`
+*   `get_x()`
+*   `get_y()`
+*   `get_z()`
+*   `length()`
+*   `length_xz()`
+*   `set()`
+*   `set_x()`
+*   `set_y()`
+*   `set_z()`
+
+
+## zone_controller
+The `zone_controller` interface manages zones and units within them.
+
+
+*   `new()`
+*   `activate()`
+*   `add_sunit()`
+*   `add_sunits()`
+*   `add_zone()`
+*   `all_units_routing()`
+*   `assess()`
+*   `check_sunits_health()`
+*   `deactivate()`
+*   `find_reinforcement()`
+*   `get_enemy_alliance()`
+*   `move_sunit()`
+*   `reassign_sunits()`
+*   `remove_sunit()`
+*   `set_activation_callback()`
+*   `set_debug()`
+*   `remove_sunit()`
+*   `set_activation_callback()`
+*   `set_debug()`
+*   `set_routing_callback()`
+*   `sort_zone_list()`
+*   `start()`
+*   `stop()`
+*   `sunits_have_taken_damage()`
+*   `units_in_area()`
+*   `update_unit_monitor()`
+*   `watch_for_activate()`
+*   `watch_for_deactivate()`
+*   `watch_units_routing()`
+
+## zone_manager
+The `zone_manager` interface manages individual zones.
+
+
+*   `new()`
+*   `assess_threat()`
+*   `assess_threat_by_units()`
+*   `assess_threat_to_line()`
+*   `get_centre_pos()`
+*   `get_occupier()`
+*   `get_occupier_start_hp()`
+*   `get_threat()`
+*   `is_occupied()`
+*   `is_preferred()`
+*   `is_usable()`
+*   `set_occupier()`
+*   `set_points()`
+*   `set_preferred()`
+*   `set_usable()`
+
+
+## cinematic_script
+The `cinematic_script` interface provides functions for cinematic scripting.
+
+
+*   `cindy_playback()`
+*   `cindy_playback_no_camera()`
+*   `new()`
+*   `stop_cindy_playback()`
+*   `stop_cindy_playback_no_camera()`
+
+## convex_area
+The `convex_area` interface represents a convex area.
+
+
+*   `count()`
+*   `is_in_area()`
+*   `item()`
+*   `new()`
+*   `number_in_area()`
+*   `process_points()`
+*   `standing_is_in_area()`
+*   `standing_number_in_area()`
+*   `validate_points()`
+
+## cutscene
+The `cutscene` interface provides functions for managing cutscenes.
+
+
+*   `action()`
+*   `enable_debug_timestamps()`
+*   `enable_ui_on_end()`
+*   `finish()`
+*   `is_active()`
+*   `is_any_cutscene_running()`
+*   `is_playing_sound()`
+*   `new()`
+*   `output_debug_timestamp()`
+*   `play_sound()`
+*   `process_next_action()`
+*   `release()`
+*   `restore_camera_and_release()`
+*   `set_close_advisor_on_end()`
+*   `set_debug()`
+*   `set_do_not_end()`
+*   `set_intro_pan_time()`
+*   `set_music()`
+*   `set_music_resume_auto_playback()`
+*   `set_post_cutscene_fade_time()`
+*   `set_relative_mode()`
+*   `set_restore_cam()`
+*   `set_restore_cam_time()`
+*   `set_should_release_players_army()`
+*   `set_show_cinematic_bars()`
+*   `set_skip_camera()`
+*   `set_skippable()`
+*   `set_wait_for_advisor_on_end()`
+*   `set_wait_for_vo_on_end()`
+*   `skip()`
+*   `start()`
+*   `subtitles()`
+*   `suppress_unit_voices()`
+*   `wait_for_advisor()`
+*   `wait_for_vo()`
+
+## decision_point
+The `decision_point` interface represents a decision point in escape routes.
+
+
+*   `add_escape_route()`
+*   `get_detect_obj()`
+*   `get_detection_radius()`
+*   `get_next_route()`
+*   `is_caution_point()`
+*   `is_detect_area()`
+*   `is_exit_point()`
+*   `new()`
+*   `set_caution_point()`
+*   `set_debug()`
+*   `set_detection_radius()`
+*   `set_exit_point()`
+
+## escape_manager
+The `escape_manager` interface manages escape routes.
+
+
+*   `decision_point_reached()`
+*   `new()`
+*   `next_route()`
+*   `set_caution_callback()`
+*   `set_debug()`
+*   `set_escape_callback()`
+*   `set_walk_to_waypoint()`
+*   `start()`
+*   `sunit_routing()`
+
+## escape_route
+The `escape_route` interface represents an individual escape route.
+
+
+*   `add_route()`
+*   `calculate_threat()`
+*   `get_end_point()`
+*   `get_route_points()`
+*   `new()`
+*   `set_debug()`
+
+## event_handler
+The `event_handler` interface manages event listeners.
+
+
+*   `add_listener()`
+*   `attach_to_event()`
+*   `clean_listeners()`
+*   `event_callback()`
+*   `list_events()`
+*   `new()`
+*   `remove_listener()`
+
+## firestorm_manager
+The `firestorm_manager` interface manages firestorm effects.
+
+
+*   `accelerate_burning()`
+*   `add_armies()`
+*   `add_convex_area()`
+*   `building_is_in_area()`
+*   `contains_building()`
+*   `damage_unit()`
+*   `extinguish_fire()`
+*   `get_building_record()`
+*   `heavily_damage_unit()`
+*   `ignite_building()`
+*   `inc_hurt_count()`
+*   `make_fireproof()`
+*   `new()`
+*   `pre_ignite_building()`
+*   `process_hurtareas()`
+*   `retard_burning()`
+*   `set_accelerator_modifier()`
+*   `set_burn_notification()`
+*   `set_burn_notification_alliance()`
+*   `set_deathzone()`
+*   `set_debug()`
+*   `set_hurt_radius()`
+*   `set_max_flammable_dist()`
+*   `set_max_flammable_time()`
+*   `set_min_flammable_time()`
+*   `set_notification()`
+*   `set_retardation_modifier()`
+*   `spread_fire()`
+*   `start()`
+*   `watch_fire()`
+
+## generated_army
+The `generated_army` interface represents a generated army.
+
+
+*   `attack()`
+*   `attack_on_message()`
+*   `build_sunits()`
+*   `defend()`
+*   `defend_on_message()`
+*   `get_allied_and_enemy_forces()`
+*   `get_casualty_rate()`
+*   `get_rout_proportion()`
+*   `message_on_casualties()`
+*   `message_on_proximity_to_enemy()`
+*   `message_on_rout_proportion()`
+*   `message_on_seen_by_enemy()`
+*   `new()`
+*   `release()`
+*   `release_control_of_all_sunits()`
+*   `release_on_message()`
+*   `take_control_of_all_sunits()`
+
+## generated_battle
+The `generated_battle` interface represents a generated battle.
+
+
+*   `advice_on_message()`
+*   `build_armies()`
+*   `get_allied_force()`
+*   `get_army()`
+*   `get_enemy_force()`
+*   `has_battle_started()`
+*   `message_on_time_offset()`
+*   `new()`
+*   `start_battle()`
+*   `start_deployment()`
+
+## hiding_place
+The `hiding_place` interface represents a hiding place.
+
+
+*   `add_position()`
+*   `add_trigger_area()`
+*   `get_trigger_radius()`
+*   `is_taken()`
+*   `new()`
+*   `set_taken()`
+*   `set_taken_callback()`
+*   `set_trigger_radius()`
+*   `taken_by()`
+
+## hurt_area
+The `hurt_area` interface represents an area that causes damage.
+
+
+*   `new()`
+*   `process()`
+*   `set_damage_per_tick()`
+*   `set_debug()`
+*   `start()`
+*   `stop()`
+
+## iterator
+The `iterator` interface provides iteration functionality.
+
+
+*   `get_next()`
+*   `new()`
+*   `reset()`
+
+## patrol_manager
+The `patrol_manager` interface manages unit patrols.
+
+
+*   `add_waypoint()`
+*   `arrived_at_waypoint()`
+*   `cache_current_unit_pos()`
+*   `complete()`
+*   `get_angle_to_pos()`
+*   `handle_unit_routing()`
+*   `intercept()`
+*   `is_enemy_in_range()`
+*   `is_in_range_of_patrol_path_segment()`
+*   `loop()`
+*   `move_to_current_waypoint()`
+*   `move_to_next_waypoint()`
+*   `new()`
+*   `restart()`
+*   `resume_patrol()`
+*   `set_abandon_callback()`
+*   `set_completion_callback()`
+*   `set_debug()`
+*   `set_debug_all()`
+*   `set_force_run()`
+*   `set_intercept_callback()`
+*   `set_intercept_time()`
+*   `set_naval()`
+*   `set_rout_callback()`
+*   `set_stop_on_intercept()`
+*   `set_stop_on_rout()`
+*   `set_walk_speed()`
+*   `set_waypoint_threshold()`
+*   `set_width()`
+*   `start()`
+*   `stop()`
+*   `stop_running_processes()`
+*   `watch_for_unit_routing()`
+
+## script_ai_planner
+The `script_ai_planner` interface provides functions for AI planning.
+
+
+*   `add_sunits()`
+*   `any_controlled_sunit_standing()`
+*   `attack_closest_unit()`
+*   `attack_force()`
+*   `attack_unit()`
+*   `defend_force()`
+*   `defend_position()`
+*   `defend_position_action()`
+*   `defend_position_of_sunit()`
+*   `defend_position_of_sunit_complete()`
+*   `get_centre_point()`
+*   `merge_into()`
+*   `move_to_position()`
+*   `move_to_position_action()`
+*   `move_to_position_of_sunit()`
+*   `move_to_position_of_sunit_complete()`
+*   `new()`
+*   `patrol()`
+*   `remove_sunits()`
+*   `set_debug()`
+*   `set_debug_all()`
+*   `set_perform_patrol_prox_test()`
+*   `set_should_reorder()`
+*   `track_towards_merge_target()`
+
+## script_messager
+The `script_messager` interface provides functions for script messaging.
+
+
+*   `add_listener()`
+*   `dump()`
+*   `new()`
+*   `set_debug()`
+*   `trigger_message()`
+
+## script_unit
+The `script_unit` interface represents a script-controlled unit.
+
+
+*   `goto_start_location()`
+*   `move_to_position_offset()`
+*   `new()`
+*   `set_current_patrol()`
+*   `stop_current_patrol()`
+*   `teleport_to_cached_location()`
+*   `teleport_to_start_location()`
+*   `teleport_to_start_location_offset()`
+
+## teleport_squad
+The `teleport_squad` interface manages teleporting squads.
+
+
+*   `add_hiding_places()`
+*   `add_sunits()`
+*   `are_sunits_routing()`
+*   `attack()`
+*   `do_teleport()`
+*   `force_teleport()`
+*   `get_planner()`
+*   `is_enemy_in_trigger_areas()`
+*   `is_visible_to_enemy()`
+*   `new()`
+*   `set_attack_callback()`
+*   `set_should_attack()`
+*   `setup_planner()`
+*   `start_watches_for_hiding_place()`
+*   `stop_watches()`
+*   `teleport()`
+
+## waypoint
+The `waypoint` interface represents a waypoint.
+
+
+## GAME
+The `GAME` interface provides global game functions and interactions.
+
+
+*   `add_agent_experience()`
+*   `add_attack_of_opportunity_overrides()`
+*   `add_building_model_override()`
+*   `add_circle_area_trigger()`
+*   `add_custom_battlefield()`
+*   `add_development_points_to_region()`
+*   `add_event_restricted_building_record()`
+*   `add_event_restricted_building_record_for_faction()`
+*   `add_event_restricted_unit_record()`
+*   `add_event_restricted_unit_record_for_faction()`
+*   `add_exclusion_zone()`
+*   `add_location_trigger()`
+*   `add_marker()`
+*   `add_outline_area_trigger()`
+*   `add_restricted_building_level_record()`
+*   `add_restricted_building_level_record_for_faction()`
+*   `add_settlement_model_override()`
+*   `add_time_trigger()`
+*   `add_unit_model_overrides()`
+*   `add_visibility_trigger()`
+*   `advance_to_next_campaign()`
+*   `allow_player_to_embark_navies()`
+*   `apply_effect_bundle()`
+*   `apply_effect_bundle_to_characters_force()`
+*   `apply_effect_bundle_to_force()`
+*   `attack()`
+*   `autosave_at_next_opportunity()`
+*   `award_experience_level()`
+*   `cai_strategic_stance_manager_block_all_stances_but_that_specified_towards_target_faction()`
+*   `cai_strategic_stance_manager_clear_all_blocking_between_factions()`
+*   `cai_strategic_stance_manager_clear_all_promotions_between_factions()`
+*   `cai_strategic_stance_manager_force_stance_update_between_factions()`
+*   `cai_strategic_stance_manager_promote_specified_stance_towards_target_faction()`
+*   `cai_strategic_stance_manager_promote_specified_stance_towards_target_faction_by_number()`
+*   `cai_strategic_stance_manager_set_stance_blocking_between_factions_for_a_given_stance()`
+*   `cai_strategic_stance_manager_set_stance_promotion_between_factions_for_a_given_stance()`
+*   `cancel_actions_for()`
+*   `cinematic()`
+*   `compare_localised_string()`
+*   `create_agent()`
+*   `create_force()`
+*   `disable_elections()`
+*   `disable_end_turn()`
+*   `disable_movement_for_ai_under_shroud()`
+*   `disable_movement_for_character()`
+*   `disable_movement_for_faction()`
+*   `disable_rebellions_worldwide()`
+*   `disable_saving_game()`
+*   `disable_shopping_for_ai_under_shroud()`
+*   `disable_shortcut()`
+*   `dismiss_advice()`
+*   `dismiss_advice_at_end_turn()`
+*   `display_turns()`
+*   `enable_auto_generated_missions()`
+*   `enable_movement_for_character()`
+*   `enable_movement_for_faction()`
+*   `enable_ui()`
+*   `end_turn()`
+*   `exempt_region_from_tax()`
+*   `force_add_ancillary()`
+*   `force_add_skill()`
+*   `force_add_trait()`
+*   `force_agent_action_success_for_human()`
+*   `force_assassination_success_for_human()`
+*   `force_change_cai_faction_personality()`
+*   `force_character_force_into_stance(char_cqi, stance)`
+*   `force_declare_war()`
+*   `force_diplomacy()`
+*   `force_garrison_infiltration_success_for_human()`
+*   `force_make_peace()`
+*   `force_make_trade_agreement()`
+*   `force_make_vassal()`
+*   `force_rebellion_in_region()`
+*   `grant_faction_handover()`
+*   `grant_unit()`
+*   `hide_character()`
+*   `infect_force_with_plague()`
+*   `infect_region_with_plague()`
+*   `instant_set_building_health_percent()`
+*   `instantly_dismantle_building()`
+*   `instantly_repair_building()`
+*   `is_new_game()`
+*   `join_garrison()`
+*   `kill_character()`
+*   `leave_garrison()`
+*   `load_named_value()`
+*   `lock_technology()`
+*   `make_neighbouring_regions_seen_in_shroud()`
+*   `make_neighbouring_regions_visible_in_shroud()`
+*   `make_region_seen_in_shroud()`
+*   `make_region_visible_in_shroud()`
+*   `make_sea_region_seen_in_shroud()`
+*   `make_sea_region_visible_in_shroud()`
+*   `make_son_come_of_age()`
+*   `model()`
+*   `modify_next_autoresolve_battle()`
+*   `move_to(char_cqi, x, y, cmd_queue)`
+*   `new()`
+*   `optional_extras_for_episodics()`
+*   `override_ui()`
+*   `pending_auto_show_messages()`
+*   `register_instant_movie()`
+*   `register_movies()`
+*   `register_outro_movie()`
+*   `remove_area_trigger()`
+*   `remove_attack_of_opportunity_overrides()`
+*   `remove_barrier()`
+*   `remove_building_model_override()`
+*   `remove_custom_battlefield()`
+*   `remove_effect_bundle()`
+*   `remove_effect_bundle_from_characters_force()`
+*   `remove_effect_bundle_from_force()`
+*   `remove_event_restricted_building_record()`
+*   `remove_event_restricted_building_record_for_faction()`
+*   `remove_event_restricted_unit_record()`
+*   `remove_event_restricted_unit_record_for_faction()`
+*   `remove_location_trigger()`
+*   `remove_marker()`
+*   `remove_restricted_building_level_record()`
+*   `remove_restricted_building_level_record_for_faction()`
+*   `remove_settlement_model_override()`
+*   `remove_time_trigger()`
+*   `remove_visibility_trigger()`
+*   `render_campaign_to_file()`
+*   `replenish_action_points()`
+*   `restore_shroud_from_snapshot()`
+*   `save_named_value()`
+*   `scroll_camera()`
+*   `scroll_camera_with_direction()`
+*   `seek_exchange()`
+*   `set_ai_uses_human_display_speed()`
+*   `set_campaign_ai_force_all_factions_boardering_human_vassals_to_have_invasion_behaviour()`
+*   `set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour()`
+*   `set_character_experience_disabled()`
+*   `set_character_skill_tier_limit()`
+*   `set_event_generation_enabled()`
+*   `set_general_offered_dilemma_permitted()`
+*   `set_ignore_end_of_turn_public_order()`
+*   `set_liberation_options_disabled()`
+*   `set_looting_options_disabled_for_human()`
+*   `set_map_bounds()`
+*   `set_non_scripted_ancillaries_disabled()`
+*   `set_non_scripted_traits_disabled()`
+*   `set_public_order_of_province_for_region()`
+*   `set_tax_disabled()`
+*   `set_tax_rate()`
+*   `set_technology_research_disabled()`
+*   `set_ui_notification_of_victory_disabled()`
+*   `set_zoom_limit()`
+*   `show_message_event()`
+*   `show_shroud()`
+*   `shown_message()`
+*   `speedup_active()`
+*   `steal_user_input()`
+*   `stop_camera()`
+*   `stop_user_input()`
+*   `take_shroud_snapshot()`
+*   `technology_osmosis_for_playables_enable_all()`
+*   `technology_osmosis_for_playables_enable_culture()`
+*   `toggle_speedup()`
+*   `transfer_region_to_faction()`
+*   `treasury_mod()`
+*   `trigger_custom_dilemma()`
+*   `trigger_custom_incident()`
+*   `trigger_custom_mission()`
+*   `unhide_character()`
+*   `win_next_autoresolve_battle()`
+*   `zero_action_points()`
+
+
+## BUILDING_LIST_SCRIPT_INTERFACE
+The `BUILDING_LIST_SCRIPT_INTERFACE` manages a list of buildings.
+
+
+*   `is_empty()`
+*   `item_at()`
+*   `new()`
+*   `num_items()`
+
+## BUILDING_SCRIPT_INTERFACE
+The `BUILDING_SCRIPT_INTERFACE` provides information about a building.
+
+
+*   `chain()`
+*   `faction()`
+*   `model()`
+*   `name()`
+*   `new()`
+*   `region()`
+*   `slot()`
+*   `superchain()`
+
+## CAMPAIGN_AI_SCRIPT_INTERFACE
+The `CAMPAIGN_AI_SCRIPT_INTERFACE` provides functions for interacting with campaign AI.
+
+
+*   `new()`
+*   `strategic_stance_between_factions()`
+*   `strategic_stance_between_factions_available()`
+*   `strategic_stance_between_factions_is_being_blocked()`
+*   `strategic_stance_between_factions_is_being_blocked_until()`
+*   `strategic_stance_between_factions_promotion_current_level()`
+*   `strategic_stance_between_factions_promotion_end_level()`
+*   `strategic_stance_between_factions_promotion_end_round()`
+*   `strategic_stance_between_factions_promotion_is_active()`
+*   `strategic_stance_between_factions_promotion_or_blocking_is_set()`
+*   `strategic_stance_between_factions_promotion_start_level()`
+*   `strategic_stance_between_factions_promotion_start_round()`
+
+## CAMPAIGN_MISSION_SCRIPT_INTERFACE
+The `CAMPAIGN_MISSION_SCRIPT_INTERFACE` provides information about campaign missions.
+
+
+*   `model()`
+*   `new()`
+
+## CAMPAIGN_POLITICS_SCRIPT_INTERFACE
+The `CAMPAIGN_POLITICS_SCRIPT_INTERFACE` provides functions for interacting with campaign politics.
+
+
+*   `get_current_politics_government_type()`
+*   `get_parties()`
+*   `government_type_key()`
+*   `new()`
+*   `state_changed()`
+
+## CHARACTER_LIST_SCRIPT_INTERFACE
+The `CHARACTER_LIST_SCRIPT_INTERFACE` manages a list of characters.
+
+
+*   `is_empty()`
+*   `item_at()`
+*   `new()`
+*   `num_items()`
+
+## CHARACTER_SCRIPT_INTERFACE
+The `CHARACTER_SCRIPT_INTERFACE` provides information about a character.
+
+
+*   `action_points_per_turn()`
+*   `action_points_remaining_percent()`
+*   `age()`
+*   `battles_fought()`
+*   `battles_won()`
+*   `body_guard_casulties()`
+*   `character_type(agent_type)`
+*   `cqi()`
+*   `defensive_ambush_battles_fought()`
+*   `defensive_ambush_battles_won()`
+*   `defensive_battles_fought()`
+*   `defensive_battles_won()`
+*   `defensive_naval_battles_fought()`
+*   `defensive_naval_battles_won()`
+*   `defensive_sieges_fought()`
+*   `defensive_sieges_won()`
+*   `display_position_x()`
+*   `display_position_y()`
+*   `faction()`
+*   `forename()`
+*   `fought_in_battle()`
+*   `garrison_residence()`
+*   `get_forename()`
+*   `get_political_party_id()`
+*   `get_surname()`
+*   `has_ancillary(anciliary)`
+*   `has_garrison_residence()`
+*   `has_military_force()`
+*   `has_recruited_mercenaries()`
+*   `has_region()`
+*   `has_skill(skill)`
+*   `has_spouse()`
+*   `has_trait(trait)`
+*   `in_port()`
+*   `in_settlement()`
+*   `is_ambushing()`
+*   `is_besieging()`
+*   `is_blockading()`
+*   `is_carrying_troops()`
+*   `is_deployed()`
+*   `is_embedded_in_military_force()`
+*   `is_faction_leader()`
+*   `is_hidden()`
+*   `is_male()`
+*   `is_polititian()`
+*   `logical_position_x()`
+*   `logical_position_y()`
+*   `military_force()`
+*   `model()`
+*   `new()`
+*   `number_of_traits()`
+*   `offensive_ambush_battles_fought()`
+*   `offensive_ambush_battles_won()`
+*   `offensive_battles_fought()`
+*   `offensive_battles_won()`
+*   `offensive_naval_battles_fought()`
+*   `offensive_naval_battles_won()`
+*   `offensive_sieges_fought()`
+*   `offensive_sieges_won()`
+*   `percentage_of_own_alliance_killed()`
+*   `performed_action_this_turn()`
+*   `rank()`
+*   `region()`
+*   `routed_in_battle()`
+*   `spouse()`
+*   `surname()`
+*   `trait_level()`
+*   `trait_points()`
+*   `turns_at_sea()`
+*   `turns_in_enemy_regions()`
+*   `turns_in_own_regions()`
+*   `turns_without_battle_in_home_lands()`
+*   `won_battle()`
+
+## FACTION_LIST_SCRIPT_INTERFACE
+The `FACTION_LIST_SCRIPT_INTERFACE` manages a list of factions.
+
+
+*   `is_empty()`
+*   `item_at()`
+*   `new()`
+*   `num_items()`
+
+## FACTION_SCRIPT_INTERFACE
+The `FACTION_SCRIPT_INTERFACE` provides information about a faction.
+
+
+*   `allied_with()`
+*   `ancillary_exists()`
+*   `at_war()`
+*   `character_list()`
+*   `culture()`
+*   `difficulty_level()`
+*   `ended_war_this_turn()`
+*   `faction_attitudes()`
+*   `faction_leader()`
+*   `government_type()`
+*   `has_faction_leader()`
+*   `has_food_shortage()`
+*   `has_home_region()`
+*   `has_researched_all_technologies()`
+*   `has_technology()`
+*   `home_region()`
+*   `imperium_level()`
+*   `is_human()`
+*   `losing_money()`
+*   `military_force_list()`
+*   `model()`
+*   `name()`
+*   `new()`
+*   `num_allies()`
+*   `num_enemy_trespassing_armies()`
+*   `num_factions_in_war_with()`
+*   `num_generals()`
+*   `num_trade_agreements()`
+*   `politics()`
+*   `politics_party_add_loyalty_modifier()`
+*   `region_list()`
+*   `research_queue_idle()`
+*   `sea_trade_route_raided()`
+*   `started_war_this_turn()`
+*   `state_religion()`
+*   `subculture()`
+*   `tax_category()`
+*   `tax_level()`
+*   `total_food()`
+*   `trade_resource_exists()`
+*   `trade_route_limit_reached()`
+*   `trade_ship_not_in_trade_node()`
+*   `trade_value()`
+*   `trade_value_percent()`
+*   `treasury()`
+*   `treasury_percent()`
+*   `treaty_details()`
+*   `unused_international_trade_route()`
+*   `upkeep_expenditure_percent()`
+
+## GARRISON_RESIDENCE_SCRIPT_INTERFACE
+The `GARRISON_RESIDENCE_SCRIPT_INTERFACE` provides information about a garrison residence.
+
+
+*   `army()`
+*   `buildings()`
+*   `faction()`
+*   `has_army()`
+*   `has_navy()`
+*   `is_settlement()`
+*   `is_slot()`
+*   `is_under_siege()`
+*   `model()`
+*   `navy()`
+*   `new()`
+*   `region()`
+*   `settlement_interface()`
+*   `slot_interface()`
+*   `unit_count()`
+
+## MILITARY_FORCE_LIST_SCRIPT_INTERFACE
+The `MILITARY_FORCE_LIST_SCRIPT_INTERFACE` manages a list of military forces.
+
+
+*   `is_empty()`
+*   `item_at(index)`
+*   `new()`
+*   `num_items()`
+
+## MILITARY_FORCE_SCRIPT_INTERFACE
+The `MILITARY_FORCE_SCRIPT_INTERFACE` provides information about a military force.
+
+
+*   `character_list()`
+*   `contains_mercenaries()`
+*   `faction()`
+*   `garrison_residence()`
+*   `general_character()`
+*   `has_garrison_residence()`
+*   `has_general()`
+*   `is_army()`
+*   `is_navy()`
+*   `model()`
+*   `new()`
+*   `unit_list()`
+*   `upkeep()`
+
+## MODEL_SCRIPT_INTERFACE
+The `MODEL_SCRIPT_INTERFACE` provides access to various game model data.
+
+
+*   `campaign_ai()`
+*   `campaign_name()`
+*   `campaign_type()`
+*   `character_can_reach_character()`
+*   `date_and_week_in_range()`
+*   `date_in_range()`
+*   `difficulty_level()`
+*   `faction_is_local()`
+*   `is_multiplayer()`
+*   `is_player_turn()`
+*   `new()`
+*   `pending_battle()`
+*   `player_steam_id_is_odd()`
+*   `random_number()`
+*   `random_percent()`
+*   `season()`
+*   `turn_number()`
+*   `world()`
+
+## NULL_SCRIPT_INTERFACE
+The `NULL_SCRIPT_INTERFACE` represents a null script interface.
+
+
+*   `new()`
+
+## PENDING_BATTLE_SCRIPT_INTERFACE
+The `PENDING_BATTLE_SCRIPT_INTERFACE` provides information about a pending battle.
+
+
+*   `ambush_battle()`
+*   `attacker()`
+*   `attacker_battle_result()`
+*   `attacker_commander_fought_in_battle()`
+*   `attacker_commander_fought_in_melee()`
+*   `attacker_is_stronger()`
+*   `battle_type()`
+*   `contested_garrison()`
+*   `defender()`
+*   `defender_battle_result()`
+*   `defender_commander_fought_in_battle()`
+*   `defender_commander_fought_in_melee()`
+*   `failed_ambush_battle()`
+*   `has_attacker()`
+*   `has_contested_garrison()`
+*   `has_defender()`
+*   `is_active()`
+*   `model()`
+*   `naval_battle()`
+*   `new()`
+*   `night_battle()`
+*   `percentage_of_attacker_killed()`
+*   `percentage_of_attacker_routed()`
+*   `percentage_of_defender_killed()`
+*   `percentage_of_defender_routed()`
+*   `seige_battle()`
+
+## REGION_LIST_SCRIPT_INTERFACE
+The `REGION_LIST_SCRIPT_INTERFACE` manages a list of regions.
+
+
+*   `is_empty()`
+*   `item_at()`
+*   `new()`
+*   `num_items()`
+
+## REGION_MANAGER_SCRIPT_INTERFACE
+The `REGION_MANAGER_SCRIPT_INTERFACE` manages regions in the game world.
+
+
+*   `faction_region_list()`
+*   `model()`
+*   `new()`
+*   `region_by_key(key)`
+*   `region_list()`
+*   `resource_exists_anywhere()`
+*   `settlement_by_key(key)`
+*   `slot_by_key(key)`
+
+## REGION_SCRIPT_INTERFACE
+The `REGION_SCRIPT_INTERFACE` provides information about a region.
+
+
+*   `adjacent_region_list()`
+*   `building_exists()`
+*   `building_superchain_exists()`
+*   `garrison_residence()`
+*   `last_building_constructed_key()`
+*   `majority_religion()`
+*   `model()`
+*   `name()`
+*   `new()`
+*   `num_buildings()`
+*   `owning_faction()`
+*   `province_name()`
+*   `public_order()`
+*   `region_wealth()`
+*   `region_wealth_change_percent()`
+*   `resource_exists()`
+*   `sanitation()`
+*   `settlement()`
+*   `slot_list()`
+*   `slot_type_exists()`
+*   `squalor()`
+*   `tax_income()`
+*   `town_wealth_growth()`
+
+## SETTLEMENT_SCRIPT_INTERFACE
+The `SETTLEMENT_SCRIPT_INTERFACE` provides information about a settlement.
+
+
+*   `castle_slot()`
+*   `commander()`
+*   `display_position_x()`
+*   `display_position_y()`
+*   `faction()`
+*   `has_castle_slot()`
+*   `has_commander()`
+*   `logical_position_x()`
+*   `logical_position_y()`
+*   `model()`
+*   `new()`
+*   `region()`
+*   `slot_list()`
+
+## SLOT_LIST_SCRIPT_INTERFACE
+The `SLOT_LIST_SCRIPT_INTERFACE` manages a list of building slots.
+
+
+*   `buliding_type_exists()`
+*   `is_empty()`
+*   `item_at(index)`
+*   `new()`
+*   `num_items()`
+*   `slot_type_exists()`
+
+## SLOT_SCRIPT_INTERFACE
+The `SLOT_SCRIPT_INTERFACE` provides information about a building slot.
+
+
+*   `building()`
+*   `faction()`
+*   `has_building()`
+*   `model()`
+*   `name()`
+*   `new()`
+*   `region()`
+*   `type()`
+
+## UNIT_LIST_SCRIPT_INTERFACE
+The `UNIT_LIST_SCRIPT_INTERFACE` manages a list of units.
+
+
+*   `has_unit()`
+*   `is_empty()`
+*   `item_at(index)`
+*   `new()`
+*   `num_items()`
+
+## UNIT_SCRIPT_INTERFACE
+The `UNIT_SCRIPT_INTERFACE` provides information about a unit.
+
+
+*   `faction()`
+*   `force_commander()`
+*   `has_force_commander()`
+*   `has_unit_commander()`
+*   `is_land_unit()`
+*   `is_naval_unit()`
+*   `military_force()`
+*   `model()`
+*   `new()`
+*   `percentage_proportion_of_full_strength()`
+*   `unit_category()`
+*   `unit_class()`
+*   `unit_commander()`
+*   `unit_key()`
+
+## WORLD_SCRIPT_INTERFACE
+The `WORLD_SCRIPT_INTERFACE` provides access to global world data.
+
+
+*   `ancillary_exists()`
+*   `faction_by_key()`
+*   `faction_exists()`
+*   `faction_list()`
+*   `model()`
+*   `new()`
+*   `region_manager()`
+
+## HudManager
+The `HudManager` interface manages the HUD.
+
+
+*   `Dimensions()`
+*   `MoveRelativeToHUD()`
+*   `RegisterHud()`
+
+## PanelManager
+The `PanelManager` interface manages UI panels.
+
+
+*   `ClearCachedComponent()`
+*   `CloseAllPanels()`
+*   `ClosePanel()`
+*   `IsPanelOpen()`
+*   `OpenPanel()`
+*   `OpenPanels()`
+*   `Reset()`
+
+## effect
+The `effect` interface provides functions for applying various effects.
+
+
+*   `OpenBrowser()`
+*   `add_agent_experience()`
+*   `add_military_force_experience()`
+*   `adjust_treasury()`
+*   `advance_contextual_advice_thread()`
+*   `advance_scripted_advice_thread()`
+*   `advance_scripted_advice_thread_located()`
+*   `advice()`
+*   `ancillary()`
+*   `historical_character()`
+*   `historical_event()`
+*   `remove_ancillary()`
+*   `remove_trait()`
+*   `rewind_scripted_advice()`
+*   `suspend_contextual_advice()`
+*   `trait()`
+
+*   `new()`
+
+## out
+The `out` interface provides various output functions.
+
+
+*   `design()`
+*   `dylan()`
+*   `kostas()`
+*   `scott_b()`
+*   `shane()`
+*   `ting()`
+*   `tom()`
+
+
+## CampaignCharacter
+The `CampaignCharacter` interface provides campaign character details.
+
+
+*   `ActionPointsRatio()`
+*   `Release()`
+*   `new()`
+
+## CampaignSettlement
+The `CampaignSettlement` interface provides campaign settlement details.
+
+
+*   `LabelDetails()`
+*   `ListDetails()`
+*   `Release()`
+*   `Settlement()`
+*   `new()`
+
+## CampaignUI
+The `CampaignUI` interface provides functions for interacting with the campaign UI.
+
+
+*   `ClearSelection()`
+*   `CurrentTabTypename()`
+*   `GetCameraPosition()`
+*   `HighlightComponent()`
+*   `HighlightConstructionItem()`
+*   `HighlightRecruitmentItem()`
+*   `IsMultiplayer()`
+*   `IsPreBattleTypeSiege()`
+*   `SetCameraHeading()`
+*   `SetCameraMaxTiltAngle()`
+*   `SetCameraMinDistance()`
+*   `SetCameraTarget()`
+*   `SetCameraTargetInstant()`
+*   `SetCameraZoom()`
+*   `ToggleCinematicBorders()`
+*   `ToggleScreenCover()`
+*   `clear_highlights()`
+*   `highlight_character()`
+*   `highlight_position()`
+*   `highlight_settlement()`
+*   `unhighlight_character()`
+*   `unhighlight_position()`
+*   `unhighlight_settlement()`
+
+## CoreUtils
+The `CoreUtils` interface provides a collection of utility functions.
+
+
+*   `Clamp()`
+*   `CompareByValue()`
+*   `CopyIntoTable()`
+*   `CopyTable()`
+*   `LoadTable()`
+*   `Max()`
+*   `Min()`
+*   `NamespaceFile()`
+*   `OffsetFrom()`
+*   `PickFGColour()`
+*   `PrintTable()`
+*   `Require()`
+*   `RoundToInt()`
+*   `RupToInt()`
+*   `SaveTable()`
+*   `TimeString()`
+*   `TruncToInt()`
+*   `UnRequire()`
+*   `UnRequireAll()`
+*   `outputbitfield()`
+
+## Cursor
+The `Cursor` interface provides functions for cursor management.
+
+
+*   `DistanceToBL()`
+*   `Mode()`
+*   `ModeString()`
+*   `Modes()`
+*   `SetMode()`
+*   `new()`
+
+## EpisodicScripting
+The `EpisodicScripting` interface provides functions for episodic scripting.
+
+
+*   `AddEventCallBack()`
+*   `ClearEventCallbacks()`
+*   `ClearMessageAutoShowOverrides()`
+*   `DisableFeature()`
+*   `EnableComponent()`
+*   `EnableFeature()`
+*   `HideComponent()`
+*   `HighlightComponent()`
+*   `HighlightConstructionItem()`
+*   `HighlightRecruitmentItem()`
+*   `InitFeature()`
+*   `IsOnCampaignMap()`
+*   `OnUICreated()`
+*   `OverrideMessageAutoShow()`
+*   `RevealComponent()`
+*   `SetCampaign()`
+*   `ShowHUD()`
+
+## MPAvatar
+The `MPAvatar` interface provides functions for multiplayer avatars.
+
+
+*   `Free()`
+*   `SetComponentTexture()`
+*   `Valid()`
+*   `new()`
+
+## MessageManager
+The `MessageManager` interface manages in-game messages.
+
+
+*   `CanDismissAllMessages()`
+*   `CheckForAutoOpen()`
+*   `ClearMessagesFromEnv()`
+*   `ClearOverrides()`
+*   `ClosePanelIfNoMessage()`
+*   `DestroyAllMessages()`
+*   `DismissAllMessages()`
+*   `HasMessagesStored()`
+*   `HideAllMessages()`
+*   `HideMessage()`
+*   `HidingMessage()`
+*   `InitMessageCallback()`
+*   `OverrideAutoShow()`
+*   `PendingAutoShowMessage()`
+*   `ReInitialiseStackbase()`
+*   `RestoreMessages()`
+*   `SelectLayout()`
+*   `SetCurrentMessageUnread()`
+*   `ShowingMessage()`
+*   `StoreMessages()`
+
+
+## Keyboard
+The `Keyboard` interface provides functions for keyboard input.
+
+
+*   `DisableQuickload()`
+*   `ReturnKey()`
+*   `StealKey()`
+
+## ScriptedValueRegistry
+The `ScriptedValueRegistry` interface manages scripted values.
+
+
+*   `LoadBool()`
+*   `SaveBool()`
+*   `new()`
+
+## UIComponent
+The `UIComponent` interface provides functions for interacting with UI components.
+
+
+*   `Address()`
+*   `Adopt()`
+*   `AttachCustomControl()`
+*   `Bounds()`
+*   `CallbackId()`
+*   `ChildCount()`
+*   `CurrentAnimationId()`
+*   `CurrentState()`
+*   `CurrentStateUI()`
+*   `DestroyChildren()`
+*   `Dimensions()`
+*   `Divorce()`
+*   `DockingPoint()`
+*   `Find()`
+*   `FindPositionIntoCurrentText()`
+*   `FindTextSnapPosition()`
+*   `ForceEvent()`
+*   `GetProperty()`
+*   `GetStateText()`
+*   `GetStateTextDetails()`
+*   `GetTooltipText()`
+*   `GlobalExists()`
+*   `HasInterface()`
+*   `Height()`
+*   `Highlight()`
+*   `Id()`
+*   `InterfaceFunction()`
+*   `IsCharPrintable()`
+*   `IsDragged()`
+*   `IsInteractive()`
+*   `IsMouseOverChildren()`
+*   `IsMoveable()`
+*   `Layout()`
+*   `LockPriority()`
+*   `LuaCall()`
+*   `MoveTo()`
+*   `Parent()`
+*   `PopulateTextures()`
+*   `Position()`
+*   `Priority()`
+*   `PropagateImageColour()`
+*   `PropagateOpacity()`
+*   `PropagatePriority()`
+*   `PropagateVisibility()`
+*   `ReorderChildren()`
+*   `Resize()`
+*   `RestoreUIHeirarchy()`
+*   `RunScript()`
+*   `SaveUIHeirarchy()`
+*   `SequentialFind()`
+*   `SetDisabled()`
+*   `SetDockingPoint()`
+*   `SetDragged()`
+*   `SetEventCallback()`
+*   `SetGlobal()`
+*   `SetImageColour()`
+*   `SetImageRotation()`
+*   `SetInteractive()`
+*   `SetMoveable()`
+*   `SetOpacity()`
+*   `SetProperty()`
+*   `SetState()`
+*   `SetStateColours()`
+*   `SetStateText()`
+*   `SetStateTextDetails()`
+*   `SetStateTextXOffset()`
+*   `SetTooltipText()`
+*   `SetVisible()`
+*   `ShaderTechniqueGet()`
+*   `ShaderTechniqueSet()`
+*   `ShaderVarsGet()`
+*   `ShaderVarsSet()`
+*   `SimulateClick()`
+*   `SimulateKey()`
+*   `StealInputFocus()`
+*   `StealShortcutKey()`
+*   `TextDimensions()`
+*   `TextShaderTechniqueSet()`
+*   `TextShaderVarsGet()`
+*   `TextShaderVarsSet()`
+*   `TriggerAnimation()`
+*   `TriggerShortcut()`
+*   `UnLockPriority()`
+*   `Visible()`
+*   `Width()`
+*   `WidthOfTextLine()`
+*   `new()`
