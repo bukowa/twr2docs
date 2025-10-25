@@ -10,6 +10,16 @@ Not all conditions are expected to work.
 Below list is result of extracting the game decompiled code.  
 You should not rely 100% on the below list, as it may contain errors or missing conditions.
 
+## AdviceDismissed
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## AdviceFinishedTrigger
 
 **Code:** `ADVICE_FINISHED_EVENT`  
@@ -21,6 +31,26 @@ You should not rely 100% on the below list, as it may contain errors or missing 
 Notify scripters when current advice has finished playing
 
 **Author:** `DAT_117afd64`
+
+## AdviceIssued
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## AdviceSuperseded
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## AreaCameraEntered
 
@@ -69,6 +99,66 @@ Fired when a piece enters an area trigger
 Fired when a piece exits an area trigger
 
 **Author:** `DAT_1179b680`
+
+## ArmyBribeAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## ArmySabotageAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## ArmySabotageAttemptSuccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## AssassinationAttemptCriticalSuccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## AssassinationAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## AssassinationAttemptSuccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## BattleBoardingActionCommenced
 
@@ -322,6 +412,16 @@ Fires off an event for when a unit enters rout.
 
 **Author:** `Ingimar`
 
+## BattleUnitUsingBuilding
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## BattleUnitUsingWall
 
 **Code:** `BATTLE_UNIT_USING_WALL`  
@@ -466,6 +566,16 @@ A faction has gained an effect bundle
 
 **Author:** `DAT_1179b680`
 
+## CampaignSettlementAttacked
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## CharacterAttacksAlly
 
 **Code:** `CHARACTER_ATTACKS_ALLY_EVENT`  
@@ -609,6 +719,16 @@ A character took part in a battle and didn\'t die
 Fired when a character is created
 
 **Author:** `DAT_117a2ecc`
+
+## CharacterDamagedByDisaster
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## CharacterDeselected
 
@@ -1242,6 +1362,56 @@ Fired when an character has a skill point allocated
 
 **Author:** `Chris Budd`
 
+## CharacterSuccessfulArmyBribe
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## CharacterSuccessfulConvert
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## CharacterSuccessfulDemoralise
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## CharacterSuccessfulInciteRevolt
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## CharacterSurvivesAssassinationAttempt
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## CharacterTurnEnd
 
 **Code:** `CHARACTER_END_TURN_EVENT`  
@@ -1289,6 +1459,16 @@ Fired for every character at the start of their turn
 Fired for every character at the start of their turn
 
 **Author:** `DAT_117a2ecc`
+
+## CharacterWoundedInAssassinationAttempt
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## ClanBecomesVassal
 
@@ -1350,6 +1530,16 @@ Triggered when a user releases the left button after dragging an item
 
 **Author:** `Shane`
 
+## ConvertAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## CustomMission
 
 **Code:** `CUSTOM_MISSION_EVENT`  
@@ -1361,6 +1551,36 @@ Triggered when a user releases the left button after dragging an item
 Internal event: does not fire and cannot be used in the script
 
 **Author:** `DAT_1179ebf0`
+
+## DemoraliseAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## DuelDemanded
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## DummyEvent
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## EncylopediaEntryRequested
 
@@ -1434,6 +1654,16 @@ Fired when faction wins a battle
 
 **Author:** `Veli Mollov`
 
+## FactionBecomesLiberationProtectorate
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## FactionBecomesLiberationVassal
 
 **Code:** `FACTION_BECOMES_LIBERATION_VASSAL_EVENT`  
@@ -1445,6 +1675,16 @@ Fired when faction wins a battle
 A faction has liberated another faction
 
 **Author:** `DAT_1179b680`
+
+## FactionBecomesShogun
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## FactionBecomesWorldLeader
 
@@ -1469,6 +1709,16 @@ A faction has become world leader
 Faction begins its Normal turn phase
 
 **Author:** `DAT_1179b680`
+
+## FactionCapturesKyoto
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## FactionCapturesWorldCapital
 
@@ -1689,6 +1939,16 @@ Fired when an characters military force changes stance
 
 **Author:** `Chris Budd`
 
+## FortSelected
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## FrontendScreenTransition
 **Code:** `FRONTEND_TRANSITION_EVENT`  
 
@@ -1796,6 +2056,16 @@ triggers when the HUD is reconstructed
 
 **Author:** `Shane`
 
+## InciteRevoltAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## IncomingMessage
 
 **Code:** `INCOMING_MESSAGE_EVENT`  
@@ -1868,6 +2138,26 @@ When the location becomes visible for the first time
 
 **Author:** `DAT_1179ebf0`
 
+## MPLobbyChatCreated
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MapIconMoved
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## MissionCancelled
 
 **Code:** `MISSION_CANCELLED`  
@@ -1879,6 +2169,266 @@ When the location becomes visible for the first time
 A mission has been cancelled - ie is no longer viable
 
 **Author:** `DAT_117a2ed8`
+
+## MissionCheckAssassination
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckBlockadePort
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckBuild
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckCaptureCity
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckDuel
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckEngageCharacter
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckEngageFaction
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckGainMilitaryAccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckMakeAlliance
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckMakeTradeAgreement
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckRecruit
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckResearch
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionCheckSpyOnCity
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateAssassination
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateBlockadePort
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateBuild
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateCaptureCity
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateDuel
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateEngageCharacter
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateEngageFaction
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateGainMilitaryAccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateMakeAlliance
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateMakeTradeAgreement
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateRecruit
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateResearch
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## MissionEvaluateSpyOnCity
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## MissionFailed
 
@@ -2096,6 +2646,16 @@ Fires when a user performs a positive diplomatic action
 
 **Author:** `Chris Budd`
 
+## PreBattle
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## RecruitmentItemIssuedByPlayer
 
 **Code:** `RECRUITMENT_ITEM_ISSUED_BY_PLAYER`  
@@ -2240,6 +2800,26 @@ Research has been started
 
 **Author:** `DAT_117a1590`
 
+## SabotageAttemptFailure
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## SabotageAttemptSuccess
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## SavingGame
 
 **Code:** `SAVE_GAME_EVENT`  
@@ -2336,6 +2916,16 @@ triggers when a settlement has been deselected on the campaign map
 
 **Author:** `Christian`
 
+## SettlementOccupied
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## SettlementSelected
 
 **Code:** `SETTLEMENT_SELECTED_EVENT`  
@@ -2359,6 +2949,16 @@ Fired when the player selects a settlement on the map
 Fired when a keyboard shortcut is triggered
 
 **Author:** `DAT_1179b680`
+
+## SiegeLifted
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## SlotOpens
 
@@ -2408,6 +3008,26 @@ The start of turn for this slot
 
 **Author:** `DAT_117a159c`
 
+## StartRegionPopupVisible
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## StartRegionSelected
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## TechnologyInfoPanelOpenedCampaign
 
 **Code:** `TECHNOLOGY_INFO_PANEL_OPEN_EVENT_CAMPAIGN`  
@@ -2432,6 +3052,16 @@ Test event
 
 **Author:** `DAT_117a1590`
 
+## TimeTrigger
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## TooltipAdvice
 
 **Code:** `TOOLTIP_ADVICE_EVENT`  
@@ -2455,6 +3085,16 @@ triggers when a tooltip cycles though all of it\'s available lines (only happens
 Trigger when touch controls have been used
 
 **Author:** `Petr Tomicek`
+
+## TradeLinkEstablished
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## TradeNodeConnected
 
@@ -2503,6 +3143,16 @@ Fires when the UI is first created
 Fires when the UI is destroyed
 
 **Author:** `DAT_117a2ecc`
+
+## UngarrisonedFort
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
 
 ## UnitCompletedBattle
 
@@ -2564,6 +3214,26 @@ A unit has ended its turn
 
 **Author:** `DAT_117a159c`
 
+## VictoryConditionFailed
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
+## VictoryConditionMet
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
 ## WorldCreated
 
 **Code:** `WORLD_CREATED`  
@@ -2575,3 +3245,13 @@ A unit has ended its turn
 A game is being started or loaded, at this point the most vital parts of the game are initialized
 
 **Author:** `DAT_117a1590`
+## historical_events
+
+**Code:** ``
+
+**Context:** ``
+
+**Description:** ``
+
+**Author:** ``
+
