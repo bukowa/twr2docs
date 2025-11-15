@@ -19,6 +19,9 @@ nav:
           - lua/api/ui.md
       - db:
           - db/cdir_events_options.md
+      - game:
+          - flags.md
+          - cliexecute.md
   - External:
       - r2-dei-discord: https://discord.gg/8RtJypzEQT
       - agora-discord: https://discord.gg/hQYzzJxaZr
