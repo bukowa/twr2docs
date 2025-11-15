@@ -1,0 +1,4360 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../payloads/">
+      
+      
+        <link rel="next" href="../ui/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+    
+    
+      
+        <title>interfaces - Total War Rome 2 Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#battle_manager" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Total War Rome 2 Documentation" class="md-header__button md-logo" aria-label="Total War Rome 2 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Total War Rome 2 Documentation
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              interfaces
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/bukowa/twr2docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Total War Rome 2 Docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Total War Rome 2 Documentation" class="md-nav__button md-logo" aria-label="Total War Rome 2 Documentation" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Total War Rome 2 Documentation
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/bukowa/twr2docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Total War Rome 2 Docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Home
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            Home
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    welcome
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../contributing/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    contributing
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Database
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Database
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../database/tables/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    schema
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../database/assemblykit/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    assemblykit
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Scripting
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Scripting
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../lua_loading/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    1. Lua File Loading
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../battle/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    battle
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    api
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            api
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../events/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    events
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../conditions/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    conditions
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../payloads/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    payloads
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    interfaces
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    interfaces
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#battle_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleai_unit_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ai_unit_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleassault_equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.assault_equipment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlebuilding" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.building
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlebuildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.buildings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlecamera" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.camera
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlecommandevent" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.commandevent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battledebug_drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.debug_drawing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleship" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ship
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleships" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ships
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlesubtitles" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.subtitles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlevehicle" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.vehicle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleweather" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.weather
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_colour" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_colour
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_location" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_location
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_sound_effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_sound_effect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlealliances" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.alliances
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlealliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.alliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlearmies" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.armies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlearmy" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.army
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunits" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.units
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunit" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.unit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunit_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.unit_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_vector" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_vector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      zone_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      zone_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cinematic_script" class="md-nav__link">
+    <span class="md-ellipsis">
+      cinematic_script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convex_area" class="md-nav__link">
+    <span class="md-ellipsis">
+      convex_area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cutscene" class="md-nav__link">
+    <span class="md-ellipsis">
+      cutscene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decision_point" class="md-nav__link">
+    <span class="md-ellipsis">
+      decision_point
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escape_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      escape_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escape_route" class="md-nav__link">
+    <span class="md-ellipsis">
+      escape_route
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event_handler" class="md-nav__link">
+    <span class="md-ellipsis">
+      event_handler
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firestorm_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      firestorm_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generated_army" class="md-nav__link">
+    <span class="md-ellipsis">
+      generated_army
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generated_battle" class="md-nav__link">
+    <span class="md-ellipsis">
+      generated_battle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hiding_place" class="md-nav__link">
+    <span class="md-ellipsis">
+      hiding_place
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hurt_area" class="md-nav__link">
+    <span class="md-ellipsis">
+      hurt_area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iterator" class="md-nav__link">
+    <span class="md-ellipsis">
+      iterator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patrol_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      patrol_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_ai_planner" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_ai_planner
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_messager" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_messager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_unit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport_squad" class="md-nav__link">
+    <span class="md-ellipsis">
+      teleport_squad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waypoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      waypoint
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game" class="md-nav__link">
+    <span class="md-ellipsis">
+      GAME
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUILDING_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUILDING_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_ai_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_AI_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_mission_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_MISSION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_politics_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_POLITICS_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHARACTER_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHARACTER_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faction_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      FACTION_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faction_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      FACTION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garrison_residence_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      GARRISON_RESIDENCE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#military_force_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MILITARY_FORCE_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#military_force_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MILITARY_FORCE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MODEL_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#null_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      NULL_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pending_battle_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      PENDING_BATTLE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_manager_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_MANAGER_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settlement_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SETTLEMENT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slot_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SLOT_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slot_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SLOT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      UNIT_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      UNIT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      WORLD_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hudmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      HudManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panelmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PanelManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      effect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#out" class="md-nav__link">
+    <span class="md-ellipsis">
+      out
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaigncharacter" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignCharacter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaignsettlement" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignSettlement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaignui" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignUI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coreutils" class="md-nav__link">
+    <span class="md-ellipsis">
+      CoreUtils
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#episodicscripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      EpisodicScripting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mpavatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      MPAvatar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messagemanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      MessageManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyboard
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scriptedvalueregistry" class="md-nav__link">
+    <span class="md-ellipsis">
+      ScriptedValueRegistry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uicomponent" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIComponent
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ui/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    ui
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    db
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            db
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../db/cdir_events_options/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    cdir events options
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_5" id="__nav_3_5_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    game
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            game
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../flags/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    flags
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../cliexecute/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    cliexecute
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    External
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            External
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/8RtJypzEQT" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    r2-dei-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.gg/hQYzzJxaZr" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    agora-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://tw-modding.com/wiki/Main_Page" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tw-modding-wiki
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="https://discord.com/invite/dd4TUDm" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    tw-modding-discord
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#battle_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleai_unit_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ai_unit_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleassault_equipment" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.assault_equipment
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlebuilding" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.building
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlebuildings" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.buildings
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlecamera" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.camera
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlecommandevent" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.commandevent
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battledebug_drawing" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.debug_drawing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleship" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ship
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleships" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.ships
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlesubtitles" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.subtitles
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlevehicle" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.vehicle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleweather" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.weather
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_colour" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_colour
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_location" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_location
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_sound_effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_sound_effect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlealliances" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.alliances
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlealliance" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.alliance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlearmies" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.armies
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battlearmy" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.army
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunits" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.units
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunit" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.unit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battleunit_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle.unit_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battle_vector" class="md-nav__link">
+    <span class="md-ellipsis">
+      battle_vector
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone_controller" class="md-nav__link">
+    <span class="md-ellipsis">
+      zone_controller
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#zone_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      zone_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cinematic_script" class="md-nav__link">
+    <span class="md-ellipsis">
+      cinematic_script
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convex_area" class="md-nav__link">
+    <span class="md-ellipsis">
+      convex_area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cutscene" class="md-nav__link">
+    <span class="md-ellipsis">
+      cutscene
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#decision_point" class="md-nav__link">
+    <span class="md-ellipsis">
+      decision_point
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escape_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      escape_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#escape_route" class="md-nav__link">
+    <span class="md-ellipsis">
+      escape_route
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#event_handler" class="md-nav__link">
+    <span class="md-ellipsis">
+      event_handler
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#firestorm_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      firestorm_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generated_army" class="md-nav__link">
+    <span class="md-ellipsis">
+      generated_army
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#generated_battle" class="md-nav__link">
+    <span class="md-ellipsis">
+      generated_battle
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hiding_place" class="md-nav__link">
+    <span class="md-ellipsis">
+      hiding_place
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hurt_area" class="md-nav__link">
+    <span class="md-ellipsis">
+      hurt_area
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iterator" class="md-nav__link">
+    <span class="md-ellipsis">
+      iterator
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#patrol_manager" class="md-nav__link">
+    <span class="md-ellipsis">
+      patrol_manager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_ai_planner" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_ai_planner
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_messager" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_messager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#script_unit" class="md-nav__link">
+    <span class="md-ellipsis">
+      script_unit
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#teleport_squad" class="md-nav__link">
+    <span class="md-ellipsis">
+      teleport_squad
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#waypoint" class="md-nav__link">
+    <span class="md-ellipsis">
+      waypoint
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#game" class="md-nav__link">
+    <span class="md-ellipsis">
+      GAME
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUILDING_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      BUILDING_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_ai_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_AI_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_mission_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_MISSION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaign_politics_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CAMPAIGN_POLITICS_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHARACTER_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#character_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      CHARACTER_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faction_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      FACTION_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faction_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      FACTION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#garrison_residence_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      GARRISON_RESIDENCE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#military_force_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MILITARY_FORCE_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#military_force_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MILITARY_FORCE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#model_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      MODEL_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#null_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      NULL_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pending_battle_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      PENDING_BATTLE_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_manager_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_MANAGER_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#region_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      REGION_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#settlement_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SETTLEMENT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slot_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SLOT_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slot_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      SLOT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit_list_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      UNIT_LIST_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unit_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      UNIT_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world_script_interface" class="md-nav__link">
+    <span class="md-ellipsis">
+      WORLD_SCRIPT_INTERFACE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#hudmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      HudManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#panelmanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      PanelManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#effect" class="md-nav__link">
+    <span class="md-ellipsis">
+      effect
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#out" class="md-nav__link">
+    <span class="md-ellipsis">
+      out
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaigncharacter" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignCharacter
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaignsettlement" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignSettlement
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#campaignui" class="md-nav__link">
+    <span class="md-ellipsis">
+      CampaignUI
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#coreutils" class="md-nav__link">
+    <span class="md-ellipsis">
+      CoreUtils
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cursor" class="md-nav__link">
+    <span class="md-ellipsis">
+      Cursor
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#episodicscripting" class="md-nav__link">
+    <span class="md-ellipsis">
+      EpisodicScripting
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#mpavatar" class="md-nav__link">
+    <span class="md-ellipsis">
+      MPAvatar
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#messagemanager" class="md-nav__link">
+    <span class="md-ellipsis">
+      MessageManager
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keyboard" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keyboard
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#scriptedvalueregistry" class="md-nav__link">
+    <span class="md-ellipsis">
+      ScriptedValueRegistry
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uicomponent" class="md-nav__link">
+    <span class="md-ellipsis">
+      UIComponent
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+  <h1>interfaces</h1>
+
+<h2 id="battle_manager">battle_manager<a class="headerlink" href="#battle_manager" title="Permanent link">#</a></h2>
+<p>The <code>battle_manager</code> interface provides functions for managing various aspects of a battle, including setup, events, and unit control.</p>
+<ul>
+<li><code>new(battle_obj)</code></li>
+<li><code>advice_cease()</code></li>
+<li><code>advice_resume()</code></li>
+<li><code>callback()</code></li>
+<li><code>check_rout_manager()</code></li>
+<li><code>check_watch_entry()</code></li>
+<li><code>clear_watches_and_callbacks()</code></li>
+<li><code>dont_close_queue_advice()</code></li>
+<li><code>end_battle()</code></li>
+<li><code>end_deployment()</code></li>
+<li><code>get_next_watch_entry()</code></li>
+<li><code>out()</code></li>
+<li><code>play_next_advice()</code></li>
+<li><code>print_callback_list()</code></li>
+<li><code>print_watch_list()</code></li>
+<li><code>process_results()</code></li>
+<li><code>queue_advisor()</code></li>
+<li><code>register_esc_key_callback()</code></li>
+<li><code>register_phase_change_callback()</code></li>
+<li><code>register_repeating_timer()</code></li>
+<li><code>register_results_callbacks()</code></li>
+<li><code>register_singleshot_timer()</code></li>
+<li><code>register_victory_countdown_callback()</code></li>
+<li><code>release_escape_key()</code></li>
+<li><code>remove_process()</code></li>
+<li><code>remove_process_from_callback_list()</code></li>
+<li><code>remove_process_from_watch_list()</code></li>
+<li><code>repeat_callback()</code></li>
+<li><code>rout_threshold_reached()</code></li>
+<li><code>set_load_balancing()</code></li>
+<li><code>setup_battle()</code></li>
+<li><code>setup_victory_callback()</code></li>
+<li><code>start_rout_manager()</code></li>
+<li><code>steal_escape_key()</code></li>
+<li><code>stop_advice_on_battle_end()</code></li>
+<li><code>stop_advisor_queue()</code></li>
+<li><code>stop_rout_manager()</code></li>
+<li><code>tick_watch_counter()</code></li>
+<li><code>unlock_achievement()</code></li>
+<li><code>unregister_esc_key_callback()</code></li>
+<li><code>unregister_timer()</code></li>
+<li><code>watch()</code></li>
+<li><code>watch_advice_queue()</code></li>
+<li><code>add_ping_icon()</code></li>
+<li><code>advice_finished()</code></li>
+<li><code>alliances()</code></li>
+<li><code>assault_equipment()</code></li>
+<li><code>buildings()</code></li>
+<li><code>camera()</code></li>
+<li><code>change_conflict_time_update_overridden()</code></li>
+<li><code>change_victory_countdown_limit()</code></li>
+<li><code>cindy_playback()</code></li>
+<li><code>cindy_playback_no_camera()</code></li>
+<li><code>close_advisor()</code></li>
+<li><code>create_ui_attack_group()</code></li>
+<li><code>create_ui_defend_group()</code></li>
+<li><code>debug_drawing()</code></li>
+<li><code>disable_shortcut()</code></li>
+<li><code>enable_cinematic_camera()</code></li>
+<li><code>enable_cinematic_ui()</code></li>
+<li><code>enable_tooltips()</code></li>
+<li><code>end_benchmark()</code></li>
+<li><code>end_current_battle_phase()</code></li>
+<li><code>error()</code></li>
+<li><code>fade_volume()</code></li>
+<li><code>get_volume()</code></li>
+<li><code>highlight_component()</code></li>
+<li><code>is_battle_over()</code></li>
+<li><code>is_benchmarking_mode()</code></li>
+<li><code>is_movie_playing()</code></li>
+<li><code>is_music_playing()</code></li>
+<li><code>local_alliance()</code></li>
+<li><code>local_army()</code></li>
+<li><code>modify_battle_speed()</code></li>
+<li><code>place_naval_mine()</code></li>
+<li><code>play_movie()</code></li>
+<li><code>play_music()</code></li>
+<li><code>play_music_custom_fade()</code></li>
+<li><code>random_number()</code></li>
+<li><code>register_battle_phase_handler()</code></li>
+<li><code>register_command_handler()</code></li>
+<li><code>register_input_handler()</code></li>
+<li><code>register_unit_selection_handler()</code></li>
+<li><code>release_input_focus()</code></li>
+<li><code>remaining_conflict_time()</code></li>
+<li><code>remove_ping_icon()</code></li>
+<li><code>restore_battle_speed()</code></li>
+<li><code>set_banners_enabled()</code></li>
+<li><code>set_music_auto_playback()</code></li>
+<li><code>set_music_loop()</code></li>
+<li><code>set_volume()</code></li>
+<li><code>show_objective()</code></li>
+<li><code>start_lighting_environment_cross_fade()</code></li>
+<li><code>start_terrain_effect()</code></li>
+<li><code>steal_input_focus()</code></li>
+<li><code>stop_cindy_playback()</code></li>
+<li><code>stop_cindy_playback_no_camera()</code></li>
+<li><code>stop_music()</code></li>
+<li><code>stop_music_custom_fade()</code></li>
+<li><code>stop_terrain_effect()</code></li>
+<li><code>subtitles()</code></li>
+<li><code>suppress_unit_musicians()</code></li>
+<li><code>suppress_unit_voices()</code></li>
+<li><code>suspend_contextual_advice()</code></li>
+<li><code>trigger_projectile_launch()</code></li>
+<li><code>ui_component()</code></li>
+<li><code>unregister_battle_phase_handler()</code></li>
+<li><code>unregister_command_handler()</code></li>
+<li><code>unregister_input_handler()</code></li>
+<li><code>unregister_unit_selection_handler()</code></li>
+<li><code>vo_finished()</code></li>
+<li><code>weather()</code></li>
+</ul>
+<h2 id="battleai_unit_controller">battle.ai_unit_controller<a class="headerlink" href="#battleai_unit_controller" title="Permanent link">#</a></h2>
+<p>The <code>battle.ai_unit_controller</code> interface manages AI unit actions in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>add_units()</code></li>
+<li><code>attack_unit()</code></li>
+<li><code>clear_objective()</code></li>
+<li><code>defend_position()</code></li>
+<li><code>move_to_position()</code></li>
+<li><code>remove_units()</code></li>
+</ul>
+<h2 id="battleassault_equipment">battle.assault_equipment<a class="headerlink" href="#battleassault_equipment" title="Permanent link">#</a></h2>
+<p>The <code>battle.assault_equipment</code> interface provides information about assault equipment.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>vehicle_count()</code></li>
+<li><code>vehicle_item()</code></li>
+</ul>
+<h2 id="battlebuilding">battle.building<a class="headerlink" href="#battlebuilding" title="Permanent link">#</a></h2>
+<p>The <code>battle.building</code> interface provides information and control over individual buildings in a battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>alliance_owner_id()</code></li>
+<li><code>capacity()</code></li>
+<li><code>central_position()</code></li>
+<li><code>change_immune_to_catching_fire()</code></li>
+<li><code>change_immune_to_fire_damage()</code></li>
+<li><code>change_is_destructible()</code></li>
+<li><code>change_on_fire()</code></li>
+<li><code>currently_garrisoned()</code></li>
+<li><code>destroy()</code></li>
+<li><code>health()</code></li>
+<li><code>hide()</code></li>
+<li><code>is_garrisoned()</code></li>
+<li><code>name()</code></li>
+<li><code>position()</code></li>
+<li><code>show()</code></li>
+</ul>
+<h2 id="battlebuildings">battle.buildings<a class="headerlink" href="#battlebuildings" title="Permanent link">#</a></h2>
+<p>The <code>battle.buildings</code> interface manages collections of buildings.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>count()</code></li>
+<li><code>garrisonable_count()</code></li>
+<li><code>garrisonable_item()</code></li>
+<li><code>item()</code></li>
+</ul>
+<h2 id="battlecamera">battle.camera<a class="headerlink" href="#battlecamera" title="Permanent link">#</a></h2>
+<p>The <code>battle.camera</code> interface controls the in-battle camera.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>change_depth_of_field()</code></li>
+<li><code>change_height_range()</code></li>
+<li><code>disable_anchor_to_army()</code></li>
+<li><code>disable_functionality()</code></li>
+<li><code>disable_shake()</code></li>
+<li><code>enable_anchor_to_army()</code></li>
+<li><code>enable_functionality()</code></li>
+<li><code>enable_shake()</code></li>
+<li><code>fade()</code></li>
+<li><code>look_at()</code></li>
+<li><code>move_to()</code></li>
+<li><code>position()</code></li>
+<li><code>target()</code></li>
+</ul>
+<h2 id="battlecommandevent">battle.commandevent<a class="headerlink" href="#battlecommandevent" title="Permanent link">#</a></h2>
+<p>The <code>battle.commandevent</code> interface provides details about a command event.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>get_bool1()</code></li>
+<li><code>get_building()</code></li>
+<li><code>get_name()</code></li>
+<li><code>get_position()</code></li>
+<li><code>get_ship()</code></li>
+<li><code>get_string1()</code></li>
+<li><code>get_unit()</code></li>
+</ul>
+<h2 id="battledebug_drawing">battle.debug_drawing<a class="headerlink" href="#battledebug_drawing" title="Permanent link">#</a></h2>
+<p>The <code>battle.debug_drawing</code> interface provides functions for drawing debug elements on the terrain.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>draw_circle_on_terrain()</code></li>
+<li><code>draw_line_on_terrain()</code></li>
+<li><code>draw_peg_on_terrain()</code></li>
+<li><code>draw_white_circle_on_terrain()</code></li>
+<li><code>draw_white_line_on_terrain()</code></li>
+<li><code>draw_white_peg_on_terrain()</code></li>
+</ul>
+<h2 id="battleship">battle.ship<a class="headerlink" href="#battleship" title="Permanent link">#</a></h2>
+<p>The <code>battle.ship</code> interface provides information and control over individual ships in a battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>bearing()</code></li>
+<li><code>deploy_reinforcement()</code></li>
+<li><code>hull_damage()</code></li>
+<li><code>is_routing()</code></li>
+<li><code>is_surrendered()</code></li>
+<li><code>name()</code></li>
+<li><code>number_of_men_alive()</code></li>
+<li><code>position()</code></li>
+<li><code>sail_damage()</code></li>
+<li><code>ship_in_range()</code></li>
+<li><code>type()</code></li>
+</ul>
+<h2 id="battleships">battle.ships<a class="headerlink" href="#battleships" title="Permanent link">#</a></h2>
+<p>The <code>battle.ships</code> interface manages collections of ships.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>count()</code></li>
+<li><code>item()</code></li>
+</ul>
+<h2 id="battlesubtitles">battle.subtitles<a class="headerlink" href="#battlesubtitles" title="Permanent link">#</a></h2>
+<p>The <code>battle.subtitles</code> interface manages in-battle subtitles.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>begin()</code></li>
+<li><code>change_if_borders_drawn()</code></li>
+<li><code>change_if_top_border_drawn()</code></li>
+<li><code>clear()</code></li>
+<li><code>end_subtitles()</code></li>
+<li><code>push_back_subtitle()</code></li>
+<li><code>push_back_subtitle_entry()</code></li>
+<li><code>read_subtitles_file()</code></li>
+<li><code>set_alignment()</code></li>
+<li><code>set_text()</code></li>
+</ul>
+<h2 id="battlevehicle">battle.vehicle<a class="headerlink" href="#battlevehicle" title="Permanent link">#</a></h2>
+<p>The <code>battle.vehicle</code> interface provides information about a vehicle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>position()</code></li>
+</ul>
+<h2 id="battleweather">battle.weather<a class="headerlink" href="#battleweather" title="Permanent link">#</a></h2>
+<p>The <code>battle.weather</code> interface controls in-battle weather effects.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>add_dust()</code></li>
+<li><code>add_rain()</code></li>
+<li><code>add_snow()</code></li>
+<li><code>change_lighting()</code></li>
+<li><code>clear_weather()</code></li>
+<li><code>enable_random_lightning()</code></li>
+<li><code>trigger_lightning_sheet()</code></li>
+<li><code>trigger_lightning_strike()</code></li>
+</ul>
+<h2 id="battle_colour">battle_colour<a class="headerlink" href="#battle_colour" title="Permanent link">#</a></h2>
+<p>The <code>battle_colour</code> interface represents a battle color.</p>
+<ul>
+<li><code>new()</code></li>
+</ul>
+<h2 id="battle_location">battle_location<a class="headerlink" href="#battle_location" title="Permanent link">#</a></h2>
+<p>The <code>battle_location</code> interface represents a location in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>get_position()</code></li>
+<li><code>set_position()</code></li>
+</ul>
+<h2 id="battle_sound_effect">battle_sound_effect<a class="headerlink" href="#battle_sound_effect" title="Permanent link">#</a></h2>
+<p>The <code>battle_sound_effect</code> interface manages battle sound effects.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>is_playing()</code></li>
+<li><code>load()</code></li>
+<li><code>play3D()</code></li>
+<li><code>stop()</code></li>
+</ul>
+<h2 id="battlealliances">battle.alliances<a class="headerlink" href="#battlealliances" title="Permanent link">#</a></h2>
+<p>The <code>battle.alliances</code> interface manages collections of alliances.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>count()</code></li>
+<li><code>item(index)</code></li>
+</ul>
+<h2 id="battlealliance">battle.alliance<a class="headerlink" href="#battlealliance" title="Permanent link">#</a></h2>
+<p>The <code>battle.alliance</code> interface provides information and control over an alliance in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>armies()</code></li>
+<li><code>create_ai_unit_planner()</code></li>
+<li><code>force_ai_plan_type_attack()</code></li>
+<li><code>force_ai_plan_type_defend()</code></li>
+<li><code>force_snap_ai_to_hint_lines()</code></li>
+</ul>
+<h2 id="battlearmies">battle.armies<a class="headerlink" href="#battlearmies" title="Permanent link">#</a></h2>
+<p>The <code>battle.armies</code> interface manages collections of armies.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>count()</code></li>
+<li><code>item(index)</code></li>
+</ul>
+<h2 id="battlearmy">battle.army<a class="headerlink" href="#battlearmy" title="Permanent link">#</a></h2>
+<p>The <code>battle.army</code> interface provides information and control over an army in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>army_handicap()</code></li>
+<li><code>change_faction()</code></li>
+<li><code>create_unit_controller()</code></li>
+<li><code>enable_army_destruction_morale_effect()</code></li>
+<li><code>get_reinforcement_ships()</code></li>
+<li><code>get_reinforcement_units()</code></li>
+<li><code>is_commander_alive()</code></li>
+<li><code>is_commander_invincible()</code></li>
+<li><code>quit_battle()</code></li>
+<li><code>ships()</code></li>
+<li><code>units()</code></li>
+</ul>
+<h2 id="battleunits">battle.units<a class="headerlink" href="#battleunits" title="Permanent link">#</a></h2>
+<p>The <code>battle.units</code> interface manages collections of units.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>count()</code></li>
+<li><code>kill_commander()</code></li>
+<li><code>mountable_artillery_item()</code></li>
+<li><code>item(index)</code></li>
+</ul>
+<h2 id="battleunit">battle.unit<a class="headerlink" href="#battleunit" title="Permanent link">#</a></h2>
+<p>The <code>battle.unit</code> interface provides information and control over an individual unit in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>ammo_left()</code></li>
+<li><code>bearing()</code></li>
+<li><code>can_perform_special_ability()</code></li>
+<li><code>current_special_ability()</code></li>
+<li><code>deploy_reinforcement(can_deploy)</code></li>
+<li><code>has_ships()</code></li>
+<li><code>initial_number_of_men()</code></li>
+<li><code>is_artillery()</code></li>
+<li><code>is_behaviour_active()</code></li>
+<li><code>is_cavalry()</code></li>
+<li><code>is_currently_garrisoned()</code></li>
+<li><code>is_dismounted_ships()</code></li>
+<li><code>is_hidden()</code></li>
+<li><code>is_idle()</code></li>
+<li><code>is_infantry()</code></li>
+<li><code>is_leaving_battle()</code></li>
+<li><code>is_limbered_artillery()</code></li>
+<li><code>is_moving()</code></li>
+<li><code>is_moving_fast()</code></li>
+<li><code>is_routing()</code></li>
+<li><code>is_shattered()</code></li>
+<li><code>is_under_missile_attack()</code></li>
+<li><code>is_valid_target()</code></li>
+<li><code>is_visible_to_alliance()</code></li>
+<li><code>kill_number_of_men()</code></li>
+<li><code>missile_range()</code></li>
+<li><code>name()</code></li>
+<li><code>number_of_enemies_killed()</code></li>
+<li><code>number_of_men_alive()</code></li>
+<li><code>ordered_position()</code></li>
+<li><code>ordered_width()</code></li>
+<li><code>play_anim_for_captain()</code></li>
+<li><code>position()</code></li>
+<li><code>position_of_officer()</code></li>
+<li><code>set_current_ammo_unary()</code></li>
+<li><code>starting_ammo()</code></li>
+<li><code>trigger_sound_charge()</code></li>
+<li><code>trigger_sound_taunt()</code></li>
+<li><code>trigger_sound_warcry()</code></li>
+<li><code>type()</code></li>
+<li><code>unary_of_men_alive()</code></li>
+<li><code>unit_distance()</code></li>
+<li><code>unit_in_range()</code></li>
+</ul>
+<h2 id="battleunit_controller">battle.unit_controller<a class="headerlink" href="#battleunit_controller" title="Permanent link">#</a></h2>
+<p>The <code>battle.unit_controller</code> interface provides high-level control over groups of units.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>add_all_units()</code></li>
+<li><code>add_group()</code></li>
+<li><code>add_units(...)</code></li>
+<li><code>attack_building()</code></li>
+<li><code>attack_building_q()</code></li>
+<li><code>attack_line()</code></li>
+<li><code>attack_line_q()</code></li>
+<li><code>attack_location()</code></li>
+<li><code>attack_location_q()</code></li>
+<li><code>attack_unit()</code></li>
+<li><code>attack_unit_q()</code></li>
+<li><code>change_behaviour_active()</code></li>
+<li><code>change_current_walk_speed()</code></li>
+<li><code>change_enabled()</code></li>
+<li><code>change_fatigue_amount()</code></li>
+<li><code>change_group_formation()</code></li>
+<li><code>change_group_formation_q()</code></li>
+<li><code>change_move_speed()</code></li>
+<li><code>change_shot_type()</code></li>
+<li><code>change_shot_type_q()</code></li>
+<li><code>clear_all()</code></li>
+<li><code>climb_building()</code></li>
+<li><code>climb_building_q()</code></li>
+<li><code>decrement_formation_width()</code></li>
+<li><code>defend_building()</code></li>
+<li><code>defend_building_q()</code></li>
+<li><code>fire_at_will()</code></li>
+<li><code>goto_location(position, move_fast)</code></li>
+<li><code>goto_location_angle_width()</code></li>
+<li><code>goto_location_angle_width_q()</code></li>
+<li><code>goto_location_q()</code></li>
+<li><code>halt()</code></li>
+<li><code>hide_unit_card()</code></li>
+<li><code>highlight()</code></li>
+<li><code>increment_formation_width()</code></li>
+<li><code>interact_with_deployable()</code></li>
+<li><code>interact_with_deployable_q()</code></li>
+<li><code>kill()</code></li>
+<li><code>leave_building()</code></li>
+<li><code>melee()</code></li>
+<li><code>morale_behavior_default()</code></li>
+<li><code>morale_behavior_fearless()</code></li>
+<li><code>morale_behavior_rout()</code></li>
+<li><code>occupy_vehicle()</code></li>
+<li><code>occupy_vehicle_q()</code></li>
+<li><code>occupy_zone()</code></li>
+<li><code>occupy_zone_q()</code></li>
+<li><code>perform_special_ability()</code></li>
+<li><code>perform_special_ability_q()</code></li>
+<li><code>release_control()</code></li>
+<li><code>rotate()</code></li>
+<li><code>rotate_q()</code></li>
+<li><code>select_deployable_object()</code></li>
+<li><code>set_always_visible_to_all()</code></li>
+<li><code>set_invincible()</code></li>
+<li><code>set_invisible_to_all()</code></li>
+<li><code>start_celebrating()</code></li>
+<li><code>start_taunting()</code></li>
+<li><code>step_backward()</code></li>
+<li><code>step_forward()</code></li>
+<li><code>take_control()</code></li>
+<li><code>teleport_to_location(position, bearing, width)</code></li>
+<li><code>trigger_sound_vo()</code></li>
+<li><code>update_card_existance_on_HUD()</code></li>
+<li><code>withdraw()</code></li>
+<li><code>withdraw_q()</code></li>
+</ul>
+<h2 id="battle_vector">battle_vector<a class="headerlink" href="#battle_vector" title="Permanent link">#</a></h2>
+<p>The <code>battle_vector</code> interface represents a 3D vector in battle.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>distance()</code></li>
+<li><code>distance_xz()</code></li>
+<li><code>get_x()</code></li>
+<li><code>get_y()</code></li>
+<li><code>get_z()</code></li>
+<li><code>length()</code></li>
+<li><code>length_xz()</code></li>
+<li><code>set()</code></li>
+<li><code>set_x()</code></li>
+<li><code>set_y()</code></li>
+<li><code>set_z()</code></li>
+</ul>
+<h2 id="zone_controller">zone_controller<a class="headerlink" href="#zone_controller" title="Permanent link">#</a></h2>
+<p>The <code>zone_controller</code> interface manages zones and units within them.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>activate()</code></li>
+<li><code>add_sunit()</code></li>
+<li><code>add_sunits()</code></li>
+<li><code>add_zone()</code></li>
+<li><code>all_units_routing()</code></li>
+<li><code>assess()</code></li>
+<li><code>check_sunits_health()</code></li>
+<li><code>deactivate()</code></li>
+<li><code>find_reinforcement()</code></li>
+<li><code>get_enemy_alliance()</code></li>
+<li><code>move_sunit()</code></li>
+<li><code>reassign_sunits()</code></li>
+<li><code>remove_sunit()</code></li>
+<li><code>set_activation_callback()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>remove_sunit()</code></li>
+<li><code>set_activation_callback()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_routing_callback()</code></li>
+<li><code>sort_zone_list()</code></li>
+<li><code>start()</code></li>
+<li><code>stop()</code></li>
+<li><code>sunits_have_taken_damage()</code></li>
+<li><code>units_in_area()</code></li>
+<li><code>update_unit_monitor()</code></li>
+<li><code>watch_for_activate()</code></li>
+<li><code>watch_for_deactivate()</code></li>
+<li><code>watch_units_routing()</code></li>
+</ul>
+<h2 id="zone_manager">zone_manager<a class="headerlink" href="#zone_manager" title="Permanent link">#</a></h2>
+<p>The <code>zone_manager</code> interface manages individual zones.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>assess_threat()</code></li>
+<li><code>assess_threat_by_units()</code></li>
+<li><code>assess_threat_to_line()</code></li>
+<li><code>get_centre_pos()</code></li>
+<li><code>get_occupier()</code></li>
+<li><code>get_occupier_start_hp()</code></li>
+<li><code>get_threat()</code></li>
+<li><code>is_occupied()</code></li>
+<li><code>is_preferred()</code></li>
+<li><code>is_usable()</code></li>
+<li><code>set_occupier()</code></li>
+<li><code>set_points()</code></li>
+<li><code>set_preferred()</code></li>
+<li><code>set_usable()</code></li>
+</ul>
+<h2 id="cinematic_script">cinematic_script<a class="headerlink" href="#cinematic_script" title="Permanent link">#</a></h2>
+<p>The <code>cinematic_script</code> interface provides functions for cinematic scripting.</p>
+<ul>
+<li><code>cindy_playback()</code></li>
+<li><code>cindy_playback_no_camera()</code></li>
+<li><code>new()</code></li>
+<li><code>stop_cindy_playback()</code></li>
+<li><code>stop_cindy_playback_no_camera()</code></li>
+</ul>
+<h2 id="convex_area">convex_area<a class="headerlink" href="#convex_area" title="Permanent link">#</a></h2>
+<p>The <code>convex_area</code> interface represents a convex area.</p>
+<ul>
+<li><code>count()</code></li>
+<li><code>is_in_area()</code></li>
+<li><code>item()</code></li>
+<li><code>new()</code></li>
+<li><code>number_in_area()</code></li>
+<li><code>process_points()</code></li>
+<li><code>standing_is_in_area()</code></li>
+<li><code>standing_number_in_area()</code></li>
+<li><code>validate_points()</code></li>
+</ul>
+<h2 id="cutscene">cutscene<a class="headerlink" href="#cutscene" title="Permanent link">#</a></h2>
+<p>The <code>cutscene</code> interface provides functions for managing cutscenes.</p>
+<ul>
+<li><code>action()</code></li>
+<li><code>enable_debug_timestamps()</code></li>
+<li><code>enable_ui_on_end()</code></li>
+<li><code>finish()</code></li>
+<li><code>is_active()</code></li>
+<li><code>is_any_cutscene_running()</code></li>
+<li><code>is_playing_sound()</code></li>
+<li><code>new()</code></li>
+<li><code>output_debug_timestamp()</code></li>
+<li><code>play_sound()</code></li>
+<li><code>process_next_action()</code></li>
+<li><code>release()</code></li>
+<li><code>restore_camera_and_release()</code></li>
+<li><code>set_close_advisor_on_end()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_do_not_end()</code></li>
+<li><code>set_intro_pan_time()</code></li>
+<li><code>set_music()</code></li>
+<li><code>set_music_resume_auto_playback()</code></li>
+<li><code>set_post_cutscene_fade_time()</code></li>
+<li><code>set_relative_mode()</code></li>
+<li><code>set_restore_cam()</code></li>
+<li><code>set_restore_cam_time()</code></li>
+<li><code>set_should_release_players_army()</code></li>
+<li><code>set_show_cinematic_bars()</code></li>
+<li><code>set_skip_camera()</code></li>
+<li><code>set_skippable()</code></li>
+<li><code>set_wait_for_advisor_on_end()</code></li>
+<li><code>set_wait_for_vo_on_end()</code></li>
+<li><code>skip()</code></li>
+<li><code>start()</code></li>
+<li><code>subtitles()</code></li>
+<li><code>suppress_unit_voices()</code></li>
+<li><code>wait_for_advisor()</code></li>
+<li><code>wait_for_vo()</code></li>
+</ul>
+<h2 id="decision_point">decision_point<a class="headerlink" href="#decision_point" title="Permanent link">#</a></h2>
+<p>The <code>decision_point</code> interface represents a decision point in escape routes.</p>
+<ul>
+<li><code>add_escape_route()</code></li>
+<li><code>get_detect_obj()</code></li>
+<li><code>get_detection_radius()</code></li>
+<li><code>get_next_route()</code></li>
+<li><code>is_caution_point()</code></li>
+<li><code>is_detect_area()</code></li>
+<li><code>is_exit_point()</code></li>
+<li><code>new()</code></li>
+<li><code>set_caution_point()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_detection_radius()</code></li>
+<li><code>set_exit_point()</code></li>
+</ul>
+<h2 id="escape_manager">escape_manager<a class="headerlink" href="#escape_manager" title="Permanent link">#</a></h2>
+<p>The <code>escape_manager</code> interface manages escape routes.</p>
+<ul>
+<li><code>decision_point_reached()</code></li>
+<li><code>new()</code></li>
+<li><code>next_route()</code></li>
+<li><code>set_caution_callback()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_escape_callback()</code></li>
+<li><code>set_walk_to_waypoint()</code></li>
+<li><code>start()</code></li>
+<li><code>sunit_routing()</code></li>
+</ul>
+<h2 id="escape_route">escape_route<a class="headerlink" href="#escape_route" title="Permanent link">#</a></h2>
+<p>The <code>escape_route</code> interface represents an individual escape route.</p>
+<ul>
+<li><code>add_route()</code></li>
+<li><code>calculate_threat()</code></li>
+<li><code>get_end_point()</code></li>
+<li><code>get_route_points()</code></li>
+<li><code>new()</code></li>
+<li><code>set_debug()</code></li>
+</ul>
+<h2 id="event_handler">event_handler<a class="headerlink" href="#event_handler" title="Permanent link">#</a></h2>
+<p>The <code>event_handler</code> interface manages event listeners.</p>
+<ul>
+<li><code>add_listener()</code></li>
+<li><code>attach_to_event()</code></li>
+<li><code>clean_listeners()</code></li>
+<li><code>event_callback()</code></li>
+<li><code>list_events()</code></li>
+<li><code>new()</code></li>
+<li><code>remove_listener()</code></li>
+</ul>
+<h2 id="firestorm_manager">firestorm_manager<a class="headerlink" href="#firestorm_manager" title="Permanent link">#</a></h2>
+<p>The <code>firestorm_manager</code> interface manages firestorm effects.</p>
+<ul>
+<li><code>accelerate_burning()</code></li>
+<li><code>add_armies()</code></li>
+<li><code>add_convex_area()</code></li>
+<li><code>building_is_in_area()</code></li>
+<li><code>contains_building()</code></li>
+<li><code>damage_unit()</code></li>
+<li><code>extinguish_fire()</code></li>
+<li><code>get_building_record()</code></li>
+<li><code>heavily_damage_unit()</code></li>
+<li><code>ignite_building()</code></li>
+<li><code>inc_hurt_count()</code></li>
+<li><code>make_fireproof()</code></li>
+<li><code>new()</code></li>
+<li><code>pre_ignite_building()</code></li>
+<li><code>process_hurtareas()</code></li>
+<li><code>retard_burning()</code></li>
+<li><code>set_accelerator_modifier()</code></li>
+<li><code>set_burn_notification()</code></li>
+<li><code>set_burn_notification_alliance()</code></li>
+<li><code>set_deathzone()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_hurt_radius()</code></li>
+<li><code>set_max_flammable_dist()</code></li>
+<li><code>set_max_flammable_time()</code></li>
+<li><code>set_min_flammable_time()</code></li>
+<li><code>set_notification()</code></li>
+<li><code>set_retardation_modifier()</code></li>
+<li><code>spread_fire()</code></li>
+<li><code>start()</code></li>
+<li><code>watch_fire()</code></li>
+</ul>
+<h2 id="generated_army">generated_army<a class="headerlink" href="#generated_army" title="Permanent link">#</a></h2>
+<p>The <code>generated_army</code> interface represents a generated army.</p>
+<ul>
+<li><code>attack()</code></li>
+<li><code>attack_on_message()</code></li>
+<li><code>build_sunits()</code></li>
+<li><code>defend()</code></li>
+<li><code>defend_on_message()</code></li>
+<li><code>get_allied_and_enemy_forces()</code></li>
+<li><code>get_casualty_rate()</code></li>
+<li><code>get_rout_proportion()</code></li>
+<li><code>message_on_casualties()</code></li>
+<li><code>message_on_proximity_to_enemy()</code></li>
+<li><code>message_on_rout_proportion()</code></li>
+<li><code>message_on_seen_by_enemy()</code></li>
+<li><code>new()</code></li>
+<li><code>release()</code></li>
+<li><code>release_control_of_all_sunits()</code></li>
+<li><code>release_on_message()</code></li>
+<li><code>take_control_of_all_sunits()</code></li>
+</ul>
+<h2 id="generated_battle">generated_battle<a class="headerlink" href="#generated_battle" title="Permanent link">#</a></h2>
+<p>The <code>generated_battle</code> interface represents a generated battle.</p>
+<ul>
+<li><code>advice_on_message()</code></li>
+<li><code>build_armies()</code></li>
+<li><code>get_allied_force()</code></li>
+<li><code>get_army()</code></li>
+<li><code>get_enemy_force()</code></li>
+<li><code>has_battle_started()</code></li>
+<li><code>message_on_time_offset()</code></li>
+<li><code>new()</code></li>
+<li><code>start_battle()</code></li>
+<li><code>start_deployment()</code></li>
+</ul>
+<h2 id="hiding_place">hiding_place<a class="headerlink" href="#hiding_place" title="Permanent link">#</a></h2>
+<p>The <code>hiding_place</code> interface represents a hiding place.</p>
+<ul>
+<li><code>add_position()</code></li>
+<li><code>add_trigger_area()</code></li>
+<li><code>get_trigger_radius()</code></li>
+<li><code>is_taken()</code></li>
+<li><code>new()</code></li>
+<li><code>set_taken()</code></li>
+<li><code>set_taken_callback()</code></li>
+<li><code>set_trigger_radius()</code></li>
+<li><code>taken_by()</code></li>
+</ul>
+<h2 id="hurt_area">hurt_area<a class="headerlink" href="#hurt_area" title="Permanent link">#</a></h2>
+<p>The <code>hurt_area</code> interface represents an area that causes damage.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>process()</code></li>
+<li><code>set_damage_per_tick()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>start()</code></li>
+<li><code>stop()</code></li>
+</ul>
+<h2 id="iterator">iterator<a class="headerlink" href="#iterator" title="Permanent link">#</a></h2>
+<p>The <code>iterator</code> interface provides iteration functionality.</p>
+<ul>
+<li><code>get_next()</code></li>
+<li><code>new()</code></li>
+<li><code>reset()</code></li>
+</ul>
+<h2 id="patrol_manager">patrol_manager<a class="headerlink" href="#patrol_manager" title="Permanent link">#</a></h2>
+<p>The <code>patrol_manager</code> interface manages unit patrols.</p>
+<ul>
+<li><code>add_waypoint()</code></li>
+<li><code>arrived_at_waypoint()</code></li>
+<li><code>cache_current_unit_pos()</code></li>
+<li><code>complete()</code></li>
+<li><code>get_angle_to_pos()</code></li>
+<li><code>handle_unit_routing()</code></li>
+<li><code>intercept()</code></li>
+<li><code>is_enemy_in_range()</code></li>
+<li><code>is_in_range_of_patrol_path_segment()</code></li>
+<li><code>loop()</code></li>
+<li><code>move_to_current_waypoint()</code></li>
+<li><code>move_to_next_waypoint()</code></li>
+<li><code>new()</code></li>
+<li><code>restart()</code></li>
+<li><code>resume_patrol()</code></li>
+<li><code>set_abandon_callback()</code></li>
+<li><code>set_completion_callback()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_debug_all()</code></li>
+<li><code>set_force_run()</code></li>
+<li><code>set_intercept_callback()</code></li>
+<li><code>set_intercept_time()</code></li>
+<li><code>set_naval()</code></li>
+<li><code>set_rout_callback()</code></li>
+<li><code>set_stop_on_intercept()</code></li>
+<li><code>set_stop_on_rout()</code></li>
+<li><code>set_walk_speed()</code></li>
+<li><code>set_waypoint_threshold()</code></li>
+<li><code>set_width()</code></li>
+<li><code>start()</code></li>
+<li><code>stop()</code></li>
+<li><code>stop_running_processes()</code></li>
+<li><code>watch_for_unit_routing()</code></li>
+</ul>
+<h2 id="script_ai_planner">script_ai_planner<a class="headerlink" href="#script_ai_planner" title="Permanent link">#</a></h2>
+<p>The <code>script_ai_planner</code> interface provides functions for AI planning.</p>
+<ul>
+<li><code>add_sunits()</code></li>
+<li><code>any_controlled_sunit_standing()</code></li>
+<li><code>attack_closest_unit()</code></li>
+<li><code>attack_force()</code></li>
+<li><code>attack_unit()</code></li>
+<li><code>defend_force()</code></li>
+<li><code>defend_position()</code></li>
+<li><code>defend_position_action()</code></li>
+<li><code>defend_position_of_sunit()</code></li>
+<li><code>defend_position_of_sunit_complete()</code></li>
+<li><code>get_centre_point()</code></li>
+<li><code>merge_into()</code></li>
+<li><code>move_to_position()</code></li>
+<li><code>move_to_position_action()</code></li>
+<li><code>move_to_position_of_sunit()</code></li>
+<li><code>move_to_position_of_sunit_complete()</code></li>
+<li><code>new()</code></li>
+<li><code>patrol()</code></li>
+<li><code>remove_sunits()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>set_debug_all()</code></li>
+<li><code>set_perform_patrol_prox_test()</code></li>
+<li><code>set_should_reorder()</code></li>
+<li><code>track_towards_merge_target()</code></li>
+</ul>
+<h2 id="script_messager">script_messager<a class="headerlink" href="#script_messager" title="Permanent link">#</a></h2>
+<p>The <code>script_messager</code> interface provides functions for script messaging.</p>
+<ul>
+<li><code>add_listener()</code></li>
+<li><code>dump()</code></li>
+<li><code>new()</code></li>
+<li><code>set_debug()</code></li>
+<li><code>trigger_message()</code></li>
+</ul>
+<h2 id="script_unit">script_unit<a class="headerlink" href="#script_unit" title="Permanent link">#</a></h2>
+<p>The <code>script_unit</code> interface represents a script-controlled unit.</p>
+<ul>
+<li><code>goto_start_location()</code></li>
+<li><code>move_to_position_offset()</code></li>
+<li><code>new()</code></li>
+<li><code>set_current_patrol()</code></li>
+<li><code>stop_current_patrol()</code></li>
+<li><code>teleport_to_cached_location()</code></li>
+<li><code>teleport_to_start_location()</code></li>
+<li><code>teleport_to_start_location_offset()</code></li>
+</ul>
+<h2 id="teleport_squad">teleport_squad<a class="headerlink" href="#teleport_squad" title="Permanent link">#</a></h2>
+<p>The <code>teleport_squad</code> interface manages teleporting squads.</p>
+<ul>
+<li><code>add_hiding_places()</code></li>
+<li><code>add_sunits()</code></li>
+<li><code>are_sunits_routing()</code></li>
+<li><code>attack()</code></li>
+<li><code>do_teleport()</code></li>
+<li><code>force_teleport()</code></li>
+<li><code>get_planner()</code></li>
+<li><code>is_enemy_in_trigger_areas()</code></li>
+<li><code>is_visible_to_enemy()</code></li>
+<li><code>new()</code></li>
+<li><code>set_attack_callback()</code></li>
+<li><code>set_should_attack()</code></li>
+<li><code>setup_planner()</code></li>
+<li><code>start_watches_for_hiding_place()</code></li>
+<li><code>stop_watches()</code></li>
+<li><code>teleport()</code></li>
+</ul>
+<h2 id="waypoint">waypoint<a class="headerlink" href="#waypoint" title="Permanent link">#</a></h2>
+<p>The <code>waypoint</code> interface represents a waypoint.</p>
+<h2 id="game">GAME<a class="headerlink" href="#game" title="Permanent link">#</a></h2>
+<p>The <code>GAME</code> interface provides global game functions and interactions.</p>
+<ul>
+<li><code>add_agent_experience()</code></li>
+<li><code>add_attack_of_opportunity_overrides()</code></li>
+<li><code>add_building_model_override()</code></li>
+<li><code>add_circle_area_trigger()</code></li>
+<li><code>add_custom_battlefield()</code></li>
+<li><code>add_development_points_to_region()</code></li>
+<li><code>add_event_restricted_building_record()</code></li>
+<li><code>add_event_restricted_building_record_for_faction()</code></li>
+<li><code>add_event_restricted_unit_record()</code></li>
+<li><code>add_event_restricted_unit_record_for_faction()</code></li>
+<li><code>add_exclusion_zone()</code></li>
+<li><code>add_location_trigger()</code></li>
+<li><code>add_marker()</code></li>
+<li><code>add_outline_area_trigger()</code></li>
+<li><code>add_restricted_building_level_record()</code></li>
+<li><code>add_restricted_building_level_record_for_faction()</code></li>
+<li><code>add_settlement_model_override()</code></li>
+<li><code>add_time_trigger()</code></li>
+<li><code>add_unit_model_overrides()</code></li>
+<li><code>add_visibility_trigger()</code></li>
+<li><code>advance_to_next_campaign()</code></li>
+<li><code>allow_player_to_embark_navies()</code></li>
+<li><code>apply_effect_bundle()</code></li>
+<li><code>apply_effect_bundle_to_characters_force()</code></li>
+<li><code>apply_effect_bundle_to_force()</code></li>
+<li><code>attack()</code></li>
+<li><code>autosave_at_next_opportunity()</code></li>
+<li><code>award_experience_level()</code></li>
+<li><code>cai_strategic_stance_manager_block_all_stances_but_that_specified_towards_target_faction()</code></li>
+<li><code>cai_strategic_stance_manager_clear_all_blocking_between_factions()</code></li>
+<li><code>cai_strategic_stance_manager_clear_all_promotions_between_factions()</code></li>
+<li><code>cai_strategic_stance_manager_force_stance_update_between_factions()</code></li>
+<li><code>cai_strategic_stance_manager_promote_specified_stance_towards_target_faction()</code></li>
+<li><code>cai_strategic_stance_manager_promote_specified_stance_towards_target_faction_by_number()</code></li>
+<li><code>cai_strategic_stance_manager_set_stance_blocking_between_factions_for_a_given_stance()</code></li>
+<li><code>cai_strategic_stance_manager_set_stance_promotion_between_factions_for_a_given_stance()</code></li>
+<li><code>cancel_actions_for()</code></li>
+<li><code>cinematic()</code></li>
+<li><code>compare_localised_string()</code></li>
+<li><code>create_agent()</code></li>
+<li><code>create_force()</code></li>
+<li><code>disable_elections()</code></li>
+<li><code>disable_end_turn()</code></li>
+<li><code>disable_movement_for_ai_under_shroud()</code></li>
+<li><code>disable_movement_for_character()</code></li>
+<li><code>disable_movement_for_faction()</code></li>
+<li><code>disable_rebellions_worldwide()</code></li>
+<li><code>disable_saving_game()</code></li>
+<li><code>disable_shopping_for_ai_under_shroud()</code></li>
+<li><code>disable_shortcut()</code></li>
+<li><code>dismiss_advice()</code></li>
+<li><code>dismiss_advice_at_end_turn()</code></li>
+<li><code>display_turns()</code></li>
+<li><code>enable_auto_generated_missions()</code></li>
+<li><code>enable_movement_for_character()</code></li>
+<li><code>enable_movement_for_faction()</code></li>
+<li><code>enable_ui()</code></li>
+<li><code>end_turn()</code></li>
+<li><code>exempt_region_from_tax()</code></li>
+<li><code>force_add_ancillary()</code></li>
+<li><code>force_add_skill()</code></li>
+<li><code>force_add_trait()</code></li>
+<li><code>force_agent_action_success_for_human()</code></li>
+<li><code>force_assassination_success_for_human()</code></li>
+<li><code>force_change_cai_faction_personality()</code></li>
+<li><code>force_character_force_into_stance(char_cqi, stance)</code></li>
+<li><code>force_declare_war()</code></li>
+<li><code>force_diplomacy()</code></li>
+<li><code>force_garrison_infiltration_success_for_human()</code></li>
+<li><code>force_make_peace()</code></li>
+<li><code>force_make_trade_agreement()</code></li>
+<li><code>force_make_vassal()</code></li>
+<li><code>force_rebellion_in_region()</code></li>
+<li><code>grant_faction_handover()</code></li>
+<li><code>grant_unit()</code></li>
+<li><code>hide_character()</code></li>
+<li><code>infect_force_with_plague()</code></li>
+<li><code>infect_region_with_plague()</code></li>
+<li><code>instant_set_building_health_percent()</code></li>
+<li><code>instantly_dismantle_building()</code></li>
+<li><code>instantly_repair_building()</code></li>
+<li><code>is_new_game()</code></li>
+<li><code>join_garrison()</code></li>
+<li><code>kill_character()</code></li>
+<li><code>leave_garrison()</code></li>
+<li><code>load_named_value()</code></li>
+<li><code>lock_technology()</code></li>
+<li><code>make_neighbouring_regions_seen_in_shroud()</code></li>
+<li><code>make_neighbouring_regions_visible_in_shroud()</code></li>
+<li><code>make_region_seen_in_shroud()</code></li>
+<li><code>make_region_visible_in_shroud()</code></li>
+<li><code>make_sea_region_seen_in_shroud()</code></li>
+<li><code>make_sea_region_visible_in_shroud()</code></li>
+<li><code>make_son_come_of_age()</code></li>
+<li><code>model()</code></li>
+<li><code>modify_next_autoresolve_battle()</code></li>
+<li><code>move_to(char_cqi, x, y, cmd_queue)</code></li>
+<li><code>new()</code></li>
+<li><code>optional_extras_for_episodics()</code></li>
+<li><code>override_ui()</code></li>
+<li><code>pending_auto_show_messages()</code></li>
+<li><code>register_instant_movie()</code></li>
+<li><code>register_movies()</code></li>
+<li><code>register_outro_movie()</code></li>
+<li><code>remove_area_trigger()</code></li>
+<li><code>remove_attack_of_opportunity_overrides()</code></li>
+<li><code>remove_barrier()</code></li>
+<li><code>remove_building_model_override()</code></li>
+<li><code>remove_custom_battlefield()</code></li>
+<li><code>remove_effect_bundle()</code></li>
+<li><code>remove_effect_bundle_from_characters_force()</code></li>
+<li><code>remove_effect_bundle_from_force()</code></li>
+<li><code>remove_event_restricted_building_record()</code></li>
+<li><code>remove_event_restricted_building_record_for_faction()</code></li>
+<li><code>remove_event_restricted_unit_record()</code></li>
+<li><code>remove_event_restricted_unit_record_for_faction()</code></li>
+<li><code>remove_location_trigger()</code></li>
+<li><code>remove_marker()</code></li>
+<li><code>remove_restricted_building_level_record()</code></li>
+<li><code>remove_restricted_building_level_record_for_faction()</code></li>
+<li><code>remove_settlement_model_override()</code></li>
+<li><code>remove_time_trigger()</code></li>
+<li><code>remove_visibility_trigger()</code></li>
+<li><code>render_campaign_to_file()</code></li>
+<li><code>replenish_action_points()</code></li>
+<li><code>restore_shroud_from_snapshot()</code></li>
+<li><code>save_named_value()</code></li>
+<li><code>scroll_camera()</code></li>
+<li><code>scroll_camera_with_direction()</code></li>
+<li><code>seek_exchange()</code></li>
+<li><code>set_ai_uses_human_display_speed()</code></li>
+<li><code>set_campaign_ai_force_all_factions_boardering_human_vassals_to_have_invasion_behaviour()</code></li>
+<li><code>set_campaign_ai_force_all_factions_boardering_humans_to_have_invasion_behaviour()</code></li>
+<li><code>set_character_experience_disabled()</code></li>
+<li><code>set_character_skill_tier_limit()</code></li>
+<li><code>set_event_generation_enabled()</code></li>
+<li><code>set_general_offered_dilemma_permitted()</code></li>
+<li><code>set_ignore_end_of_turn_public_order()</code></li>
+<li><code>set_liberation_options_disabled()</code></li>
+<li><code>set_looting_options_disabled_for_human()</code></li>
+<li><code>set_map_bounds()</code></li>
+<li><code>set_non_scripted_ancillaries_disabled()</code></li>
+<li><code>set_non_scripted_traits_disabled()</code></li>
+<li><code>set_public_order_of_province_for_region()</code></li>
+<li><code>set_tax_disabled()</code></li>
+<li><code>set_tax_rate()</code></li>
+<li><code>set_technology_research_disabled()</code></li>
+<li><code>set_ui_notification_of_victory_disabled()</code></li>
+<li><code>set_zoom_limit()</code></li>
+<li><code>show_message_event()</code></li>
+<li><code>show_shroud()</code></li>
+<li><code>shown_message()</code></li>
+<li><code>speedup_active()</code></li>
+<li><code>steal_user_input()</code></li>
+<li><code>stop_camera()</code></li>
+<li><code>stop_user_input()</code></li>
+<li><code>take_shroud_snapshot()</code></li>
+<li><code>technology_osmosis_for_playables_enable_all()</code></li>
+<li><code>technology_osmosis_for_playables_enable_culture()</code></li>
+<li><code>toggle_speedup()</code></li>
+<li><code>transfer_region_to_faction()</code></li>
+<li><code>treasury_mod()</code></li>
+<li><code>trigger_custom_dilemma()</code></li>
+<li><code>trigger_custom_incident()</code></li>
+<li><code>trigger_custom_mission()</code></li>
+<li><code>unhide_character()</code></li>
+<li><code>win_next_autoresolve_battle()</code></li>
+<li><code>zero_action_points()</code></li>
+</ul>
+<h2 id="building_list_script_interface">BUILDING_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#building_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>BUILDING_LIST_SCRIPT_INTERFACE</code> manages a list of buildings.</p>
+<ul>
+<li><code>is_empty()</code></li>
+<li><code>item_at()</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="building_script_interface">BUILDING_SCRIPT_INTERFACE<a class="headerlink" href="#building_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>BUILDING_SCRIPT_INTERFACE</code> provides information about a building.</p>
+<ul>
+<li><code>chain()</code></li>
+<li><code>faction()</code></li>
+<li><code>model()</code></li>
+<li><code>name()</code></li>
+<li><code>new()</code></li>
+<li><code>region()</code></li>
+<li><code>slot()</code></li>
+<li><code>superchain()</code></li>
+</ul>
+<h2 id="campaign_ai_script_interface">CAMPAIGN_AI_SCRIPT_INTERFACE<a class="headerlink" href="#campaign_ai_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>CAMPAIGN_AI_SCRIPT_INTERFACE</code> provides functions for interacting with campaign AI.</p>
+<ul>
+<li><code>new()</code></li>
+<li><code>strategic_stance_between_factions()</code></li>
+<li><code>strategic_stance_between_factions_available()</code></li>
+<li><code>strategic_stance_between_factions_is_being_blocked()</code></li>
+<li><code>strategic_stance_between_factions_is_being_blocked_until()</code></li>
+<li><code>strategic_stance_between_factions_promotion_current_level()</code></li>
+<li><code>strategic_stance_between_factions_promotion_end_level()</code></li>
+<li><code>strategic_stance_between_factions_promotion_end_round()</code></li>
+<li><code>strategic_stance_between_factions_promotion_is_active()</code></li>
+<li><code>strategic_stance_between_factions_promotion_or_blocking_is_set()</code></li>
+<li><code>strategic_stance_between_factions_promotion_start_level()</code></li>
+<li><code>strategic_stance_between_factions_promotion_start_round()</code></li>
+</ul>
+<h2 id="campaign_mission_script_interface">CAMPAIGN_MISSION_SCRIPT_INTERFACE<a class="headerlink" href="#campaign_mission_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>CAMPAIGN_MISSION_SCRIPT_INTERFACE</code> provides information about campaign missions.</p>
+<ul>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="campaign_politics_script_interface">CAMPAIGN_POLITICS_SCRIPT_INTERFACE<a class="headerlink" href="#campaign_politics_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>CAMPAIGN_POLITICS_SCRIPT_INTERFACE</code> provides functions for interacting with campaign politics.</p>
+<ul>
+<li><code>get_current_politics_government_type()</code></li>
+<li><code>get_parties()</code></li>
+<li><code>government_type_key()</code></li>
+<li><code>new()</code></li>
+<li><code>state_changed()</code></li>
+</ul>
+<h2 id="character_list_script_interface">CHARACTER_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#character_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>CHARACTER_LIST_SCRIPT_INTERFACE</code> manages a list of characters.</p>
+<ul>
+<li><code>is_empty()</code></li>
+<li><code>item_at()</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="character_script_interface">CHARACTER_SCRIPT_INTERFACE<a class="headerlink" href="#character_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>CHARACTER_SCRIPT_INTERFACE</code> provides information about a character.</p>
+<ul>
+<li><code>action_points_per_turn()</code></li>
+<li><code>action_points_remaining_percent()</code></li>
+<li><code>age()</code></li>
+<li><code>battles_fought()</code></li>
+<li><code>battles_won()</code></li>
+<li><code>body_guard_casulties()</code></li>
+<li><code>character_type(agent_type)</code></li>
+<li><code>cqi()</code></li>
+<li><code>defensive_ambush_battles_fought()</code></li>
+<li><code>defensive_ambush_battles_won()</code></li>
+<li><code>defensive_battles_fought()</code></li>
+<li><code>defensive_battles_won()</code></li>
+<li><code>defensive_naval_battles_fought()</code></li>
+<li><code>defensive_naval_battles_won()</code></li>
+<li><code>defensive_sieges_fought()</code></li>
+<li><code>defensive_sieges_won()</code></li>
+<li><code>display_position_x()</code></li>
+<li><code>display_position_y()</code></li>
+<li><code>faction()</code></li>
+<li><code>forename()</code></li>
+<li><code>fought_in_battle()</code></li>
+<li><code>garrison_residence()</code></li>
+<li><code>get_forename()</code></li>
+<li><code>get_political_party_id()</code></li>
+<li><code>get_surname()</code></li>
+<li><code>has_ancillary(anciliary)</code></li>
+<li><code>has_garrison_residence()</code></li>
+<li><code>has_military_force()</code></li>
+<li><code>has_recruited_mercenaries()</code></li>
+<li><code>has_region()</code></li>
+<li><code>has_skill(skill)</code></li>
+<li><code>has_spouse()</code></li>
+<li><code>has_trait(trait)</code></li>
+<li><code>in_port()</code></li>
+<li><code>in_settlement()</code></li>
+<li><code>is_ambushing()</code></li>
+<li><code>is_besieging()</code></li>
+<li><code>is_blockading()</code></li>
+<li><code>is_carrying_troops()</code></li>
+<li><code>is_deployed()</code></li>
+<li><code>is_embedded_in_military_force()</code></li>
+<li><code>is_faction_leader()</code></li>
+<li><code>is_hidden()</code></li>
+<li><code>is_male()</code></li>
+<li><code>is_polititian()</code></li>
+<li><code>logical_position_x()</code></li>
+<li><code>logical_position_y()</code></li>
+<li><code>military_force()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>number_of_traits()</code></li>
+<li><code>offensive_ambush_battles_fought()</code></li>
+<li><code>offensive_ambush_battles_won()</code></li>
+<li><code>offensive_battles_fought()</code></li>
+<li><code>offensive_battles_won()</code></li>
+<li><code>offensive_naval_battles_fought()</code></li>
+<li><code>offensive_naval_battles_won()</code></li>
+<li><code>offensive_sieges_fought()</code></li>
+<li><code>offensive_sieges_won()</code></li>
+<li><code>percentage_of_own_alliance_killed()</code></li>
+<li><code>performed_action_this_turn()</code></li>
+<li><code>rank()</code></li>
+<li><code>region()</code></li>
+<li><code>routed_in_battle()</code></li>
+<li><code>spouse()</code></li>
+<li><code>surname()</code></li>
+<li><code>trait_level()</code></li>
+<li><code>trait_points()</code></li>
+<li><code>turns_at_sea()</code></li>
+<li><code>turns_in_enemy_regions()</code></li>
+<li><code>turns_in_own_regions()</code></li>
+<li><code>turns_without_battle_in_home_lands()</code></li>
+<li><code>won_battle()</code></li>
+</ul>
+<h2 id="faction_list_script_interface">FACTION_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#faction_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>FACTION_LIST_SCRIPT_INTERFACE</code> manages a list of factions.</p>
+<ul>
+<li><code>is_empty()</code></li>
+<li><code>item_at()</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="faction_script_interface">FACTION_SCRIPT_INTERFACE<a class="headerlink" href="#faction_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>FACTION_SCRIPT_INTERFACE</code> provides information about a faction.</p>
+<ul>
+<li><code>allied_with()</code></li>
+<li><code>ancillary_exists()</code></li>
+<li><code>at_war()</code></li>
+<li><code>character_list()</code></li>
+<li><code>culture()</code></li>
+<li><code>difficulty_level()</code></li>
+<li><code>ended_war_this_turn()</code></li>
+<li><code>faction_attitudes()</code></li>
+<li><code>faction_leader()</code></li>
+<li><code>government_type()</code></li>
+<li><code>has_faction_leader()</code></li>
+<li><code>has_food_shortage()</code></li>
+<li><code>has_home_region()</code></li>
+<li><code>has_researched_all_technologies()</code></li>
+<li><code>has_technology()</code></li>
+<li><code>home_region()</code></li>
+<li><code>imperium_level()</code></li>
+<li><code>is_human()</code></li>
+<li><code>losing_money()</code></li>
+<li><code>military_force_list()</code></li>
+<li><code>model()</code></li>
+<li><code>name()</code></li>
+<li><code>new()</code></li>
+<li><code>num_allies()</code></li>
+<li><code>num_enemy_trespassing_armies()</code></li>
+<li><code>num_factions_in_war_with()</code></li>
+<li><code>num_generals()</code></li>
+<li><code>num_trade_agreements()</code></li>
+<li><code>politics()</code></li>
+<li><code>politics_party_add_loyalty_modifier()</code></li>
+<li><code>region_list()</code></li>
+<li><code>research_queue_idle()</code></li>
+<li><code>sea_trade_route_raided()</code></li>
+<li><code>started_war_this_turn()</code></li>
+<li><code>state_religion()</code></li>
+<li><code>subculture()</code></li>
+<li><code>tax_category()</code></li>
+<li><code>tax_level()</code></li>
+<li><code>total_food()</code></li>
+<li><code>trade_resource_exists()</code></li>
+<li><code>trade_route_limit_reached()</code></li>
+<li><code>trade_ship_not_in_trade_node()</code></li>
+<li><code>trade_value()</code></li>
+<li><code>trade_value_percent()</code></li>
+<li><code>treasury()</code></li>
+<li><code>treasury_percent()</code></li>
+<li><code>treaty_details()</code></li>
+<li><code>unused_international_trade_route()</code></li>
+<li><code>upkeep_expenditure_percent()</code></li>
+</ul>
+<h2 id="garrison_residence_script_interface">GARRISON_RESIDENCE_SCRIPT_INTERFACE<a class="headerlink" href="#garrison_residence_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>GARRISON_RESIDENCE_SCRIPT_INTERFACE</code> provides information about a garrison residence.</p>
+<ul>
+<li><code>army()</code></li>
+<li><code>buildings()</code></li>
+<li><code>faction()</code></li>
+<li><code>has_army()</code></li>
+<li><code>has_navy()</code></li>
+<li><code>is_settlement()</code></li>
+<li><code>is_slot()</code></li>
+<li><code>is_under_siege()</code></li>
+<li><code>model()</code></li>
+<li><code>navy()</code></li>
+<li><code>new()</code></li>
+<li><code>region()</code></li>
+<li><code>settlement_interface()</code></li>
+<li><code>slot_interface()</code></li>
+<li><code>unit_count()</code></li>
+</ul>
+<h2 id="military_force_list_script_interface">MILITARY_FORCE_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#military_force_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>MILITARY_FORCE_LIST_SCRIPT_INTERFACE</code> manages a list of military forces.</p>
+<ul>
+<li><code>is_empty()</code></li>
+<li><code>item_at(index)</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="military_force_script_interface">MILITARY_FORCE_SCRIPT_INTERFACE<a class="headerlink" href="#military_force_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>MILITARY_FORCE_SCRIPT_INTERFACE</code> provides information about a military force.</p>
+<ul>
+<li><code>character_list()</code></li>
+<li><code>contains_mercenaries()</code></li>
+<li><code>faction()</code></li>
+<li><code>garrison_residence()</code></li>
+<li><code>general_character()</code></li>
+<li><code>has_garrison_residence()</code></li>
+<li><code>has_general()</code></li>
+<li><code>is_army()</code></li>
+<li><code>is_navy()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>unit_list()</code></li>
+<li><code>upkeep()</code></li>
+</ul>
+<h2 id="model_script_interface">MODEL_SCRIPT_INTERFACE<a class="headerlink" href="#model_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>MODEL_SCRIPT_INTERFACE</code> provides access to various game model data.</p>
+<ul>
+<li><code>campaign_ai()</code></li>
+<li><code>campaign_name()</code></li>
+<li><code>campaign_type()</code></li>
+<li><code>character_can_reach_character()</code></li>
+<li><code>date_and_week_in_range()</code></li>
+<li><code>date_in_range()</code></li>
+<li><code>difficulty_level()</code></li>
+<li><code>faction_is_local()</code></li>
+<li><code>is_multiplayer()</code></li>
+<li><code>is_player_turn()</code></li>
+<li><code>new()</code></li>
+<li><code>pending_battle()</code></li>
+<li><code>player_steam_id_is_odd()</code></li>
+<li><code>random_number()</code></li>
+<li><code>random_percent()</code></li>
+<li><code>season()</code></li>
+<li><code>turn_number()</code></li>
+<li><code>world()</code></li>
+</ul>
+<h2 id="null_script_interface">NULL_SCRIPT_INTERFACE<a class="headerlink" href="#null_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>NULL_SCRIPT_INTERFACE</code> represents a null script interface.</p>
+<ul>
+<li><code>new()</code></li>
+</ul>
+<h2 id="pending_battle_script_interface">PENDING_BATTLE_SCRIPT_INTERFACE<a class="headerlink" href="#pending_battle_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>PENDING_BATTLE_SCRIPT_INTERFACE</code> provides information about a pending battle.</p>
+<ul>
+<li><code>ambush_battle()</code></li>
+<li><code>attacker()</code></li>
+<li><code>attacker_battle_result()</code></li>
+<li><code>attacker_commander_fought_in_battle()</code></li>
+<li><code>attacker_commander_fought_in_melee()</code></li>
+<li><code>attacker_is_stronger()</code></li>
+<li><code>battle_type()</code></li>
+<li><code>contested_garrison()</code></li>
+<li><code>defender()</code></li>
+<li><code>defender_battle_result()</code></li>
+<li><code>defender_commander_fought_in_battle()</code></li>
+<li><code>defender_commander_fought_in_melee()</code></li>
+<li><code>failed_ambush_battle()</code></li>
+<li><code>has_attacker()</code></li>
+<li><code>has_contested_garrison()</code></li>
+<li><code>has_defender()</code></li>
+<li><code>is_active()</code></li>
+<li><code>model()</code></li>
+<li><code>naval_battle()</code></li>
+<li><code>new()</code></li>
+<li><code>night_battle()</code></li>
+<li><code>percentage_of_attacker_killed()</code></li>
+<li><code>percentage_of_attacker_routed()</code></li>
+<li><code>percentage_of_defender_killed()</code></li>
+<li><code>percentage_of_defender_routed()</code></li>
+<li><code>seige_battle()</code></li>
+</ul>
+<h2 id="region_list_script_interface">REGION_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#region_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>REGION_LIST_SCRIPT_INTERFACE</code> manages a list of regions.</p>
+<ul>
+<li><code>is_empty()</code></li>
+<li><code>item_at()</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="region_manager_script_interface">REGION_MANAGER_SCRIPT_INTERFACE<a class="headerlink" href="#region_manager_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>REGION_MANAGER_SCRIPT_INTERFACE</code> manages regions in the game world.</p>
+<ul>
+<li><code>faction_region_list()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>region_by_key(key)</code></li>
+<li><code>region_list()</code></li>
+<li><code>resource_exists_anywhere()</code></li>
+<li><code>settlement_by_key(key)</code></li>
+<li><code>slot_by_key(key)</code></li>
+</ul>
+<h2 id="region_script_interface">REGION_SCRIPT_INTERFACE<a class="headerlink" href="#region_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>REGION_SCRIPT_INTERFACE</code> provides information about a region.</p>
+<ul>
+<li><code>adjacent_region_list()</code></li>
+<li><code>building_exists()</code></li>
+<li><code>building_superchain_exists()</code></li>
+<li><code>garrison_residence()</code></li>
+<li><code>last_building_constructed_key()</code></li>
+<li><code>majority_religion()</code></li>
+<li><code>model()</code></li>
+<li><code>name()</code></li>
+<li><code>new()</code></li>
+<li><code>num_buildings()</code></li>
+<li><code>owning_faction()</code></li>
+<li><code>province_name()</code></li>
+<li><code>public_order()</code></li>
+<li><code>region_wealth()</code></li>
+<li><code>region_wealth_change_percent()</code></li>
+<li><code>resource_exists()</code></li>
+<li><code>sanitation()</code></li>
+<li><code>settlement()</code></li>
+<li><code>slot_list()</code></li>
+<li><code>slot_type_exists()</code></li>
+<li><code>squalor()</code></li>
+<li><code>tax_income()</code></li>
+<li><code>town_wealth_growth()</code></li>
+</ul>
+<h2 id="settlement_script_interface">SETTLEMENT_SCRIPT_INTERFACE<a class="headerlink" href="#settlement_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>SETTLEMENT_SCRIPT_INTERFACE</code> provides information about a settlement.</p>
+<ul>
+<li><code>castle_slot()</code></li>
+<li><code>commander()</code></li>
+<li><code>display_position_x()</code></li>
+<li><code>display_position_y()</code></li>
+<li><code>faction()</code></li>
+<li><code>has_castle_slot()</code></li>
+<li><code>has_commander()</code></li>
+<li><code>logical_position_x()</code></li>
+<li><code>logical_position_y()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>region()</code></li>
+<li><code>slot_list()</code></li>
+</ul>
+<h2 id="slot_list_script_interface">SLOT_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#slot_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>SLOT_LIST_SCRIPT_INTERFACE</code> manages a list of building slots.</p>
+<ul>
+<li><code>buliding_type_exists()</code></li>
+<li><code>is_empty()</code></li>
+<li><code>item_at(index)</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+<li><code>slot_type_exists()</code></li>
+</ul>
+<h2 id="slot_script_interface">SLOT_SCRIPT_INTERFACE<a class="headerlink" href="#slot_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>SLOT_SCRIPT_INTERFACE</code> provides information about a building slot.</p>
+<ul>
+<li><code>building()</code></li>
+<li><code>faction()</code></li>
+<li><code>has_building()</code></li>
+<li><code>model()</code></li>
+<li><code>name()</code></li>
+<li><code>new()</code></li>
+<li><code>region()</code></li>
+<li><code>type()</code></li>
+</ul>
+<h2 id="unit_list_script_interface">UNIT_LIST_SCRIPT_INTERFACE<a class="headerlink" href="#unit_list_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>UNIT_LIST_SCRIPT_INTERFACE</code> manages a list of units.</p>
+<ul>
+<li><code>has_unit()</code></li>
+<li><code>is_empty()</code></li>
+<li><code>item_at(index)</code></li>
+<li><code>new()</code></li>
+<li><code>num_items()</code></li>
+</ul>
+<h2 id="unit_script_interface">UNIT_SCRIPT_INTERFACE<a class="headerlink" href="#unit_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>UNIT_SCRIPT_INTERFACE</code> provides information about a unit.</p>
+<ul>
+<li><code>faction()</code></li>
+<li><code>force_commander()</code></li>
+<li><code>has_force_commander()</code></li>
+<li><code>has_unit_commander()</code></li>
+<li><code>is_land_unit()</code></li>
+<li><code>is_naval_unit()</code></li>
+<li><code>military_force()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>percentage_proportion_of_full_strength()</code></li>
+<li><code>unit_category()</code></li>
+<li><code>unit_class()</code></li>
+<li><code>unit_commander()</code></li>
+<li><code>unit_key()</code></li>
+</ul>
+<h2 id="world_script_interface">WORLD_SCRIPT_INTERFACE<a class="headerlink" href="#world_script_interface" title="Permanent link">#</a></h2>
+<p>The <code>WORLD_SCRIPT_INTERFACE</code> provides access to global world data.</p>
+<ul>
+<li><code>ancillary_exists()</code></li>
+<li><code>faction_by_key()</code></li>
+<li><code>faction_exists()</code></li>
+<li><code>faction_list()</code></li>
+<li><code>model()</code></li>
+<li><code>new()</code></li>
+<li><code>region_manager()</code></li>
+</ul>
+<h2 id="hudmanager">HudManager<a class="headerlink" href="#hudmanager" title="Permanent link">#</a></h2>
+<p>The <code>HudManager</code> interface manages the HUD.</p>
+<ul>
+<li><code>Dimensions()</code></li>
+<li><code>MoveRelativeToHUD()</code></li>
+<li><code>RegisterHud()</code></li>
+</ul>
+<h2 id="panelmanager">PanelManager<a class="headerlink" href="#panelmanager" title="Permanent link">#</a></h2>
+<p>The <code>PanelManager</code> interface manages UI panels.</p>
+<ul>
+<li><code>ClearCachedComponent()</code></li>
+<li><code>CloseAllPanels()</code></li>
+<li><code>ClosePanel()</code></li>
+<li><code>IsPanelOpen()</code></li>
+<li><code>OpenPanel()</code></li>
+<li><code>OpenPanels()</code></li>
+<li><code>Reset()</code></li>
+</ul>
+<h2 id="effect">effect<a class="headerlink" href="#effect" title="Permanent link">#</a></h2>
+<p>The <code>effect</code> interface provides functions for applying various effects.</p>
+<ul>
+<li><code>OpenBrowser()</code></li>
+<li><code>add_agent_experience()</code></li>
+<li><code>add_military_force_experience()</code></li>
+<li><code>adjust_treasury()</code></li>
+<li><code>advance_contextual_advice_thread()</code></li>
+<li><code>advance_scripted_advice_thread()</code></li>
+<li><code>advance_scripted_advice_thread_located()</code></li>
+<li><code>advice()</code></li>
+<li><code>ancillary()</code></li>
+<li><code>historical_character()</code></li>
+<li><code>historical_event()</code></li>
+<li><code>remove_ancillary()</code></li>
+<li><code>remove_trait()</code></li>
+<li><code>rewind_scripted_advice()</code></li>
+<li><code>suspend_contextual_advice()</code></li>
+<li>
+<p><code>trait()</code></p>
+</li>
+<li>
+<p><code>new()</code></p>
+</li>
+</ul>
+<h2 id="out">out<a class="headerlink" href="#out" title="Permanent link">#</a></h2>
+<p>The <code>out</code> interface provides various output functions.</p>
+<ul>
+<li><code>design()</code></li>
+<li><code>dylan()</code></li>
+<li><code>kostas()</code></li>
+<li><code>scott_b()</code></li>
+<li><code>shane()</code></li>
+<li><code>ting()</code></li>
+<li><code>tom()</code></li>
+</ul>
+<h2 id="campaigncharacter">CampaignCharacter<a class="headerlink" href="#campaigncharacter" title="Permanent link">#</a></h2>
+<p>The <code>CampaignCharacter</code> interface provides campaign character details.</p>
+<ul>
+<li><code>ActionPointsRatio()</code></li>
+<li><code>Release()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="campaignsettlement">CampaignSettlement<a class="headerlink" href="#campaignsettlement" title="Permanent link">#</a></h2>
+<p>The <code>CampaignSettlement</code> interface provides campaign settlement details.</p>
+<ul>
+<li><code>LabelDetails()</code></li>
+<li><code>ListDetails()</code></li>
+<li><code>Release()</code></li>
+<li><code>Settlement()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="campaignui">CampaignUI<a class="headerlink" href="#campaignui" title="Permanent link">#</a></h2>
+<p>The <code>CampaignUI</code> interface provides functions for interacting with the campaign UI.</p>
+<ul>
+<li><code>ClearSelection()</code></li>
+<li><code>CurrentTabTypename()</code></li>
+<li><code>GetCameraPosition()</code></li>
+<li><code>HighlightComponent()</code></li>
+<li><code>HighlightConstructionItem()</code></li>
+<li><code>HighlightRecruitmentItem()</code></li>
+<li><code>IsMultiplayer()</code></li>
+<li><code>IsPreBattleTypeSiege()</code></li>
+<li><code>SetCameraHeading()</code></li>
+<li><code>SetCameraMaxTiltAngle()</code></li>
+<li><code>SetCameraMinDistance()</code></li>
+<li><code>SetCameraTarget()</code></li>
+<li><code>SetCameraTargetInstant()</code></li>
+<li><code>SetCameraZoom()</code></li>
+<li><code>ToggleCinematicBorders()</code></li>
+<li><code>ToggleScreenCover()</code></li>
+<li><code>clear_highlights()</code></li>
+<li><code>highlight_character()</code></li>
+<li><code>highlight_position()</code></li>
+<li><code>highlight_settlement()</code></li>
+<li><code>unhighlight_character()</code></li>
+<li><code>unhighlight_position()</code></li>
+<li><code>unhighlight_settlement()</code></li>
+</ul>
+<h2 id="coreutils">CoreUtils<a class="headerlink" href="#coreutils" title="Permanent link">#</a></h2>
+<p>The <code>CoreUtils</code> interface provides a collection of utility functions.</p>
+<ul>
+<li><code>Clamp()</code></li>
+<li><code>CompareByValue()</code></li>
+<li><code>CopyIntoTable()</code></li>
+<li><code>CopyTable()</code></li>
+<li><code>LoadTable()</code></li>
+<li><code>Max()</code></li>
+<li><code>Min()</code></li>
+<li><code>NamespaceFile()</code></li>
+<li><code>OffsetFrom()</code></li>
+<li><code>PickFGColour()</code></li>
+<li><code>PrintTable()</code></li>
+<li><code>Require()</code></li>
+<li><code>RoundToInt()</code></li>
+<li><code>RupToInt()</code></li>
+<li><code>SaveTable()</code></li>
+<li><code>TimeString()</code></li>
+<li><code>TruncToInt()</code></li>
+<li><code>UnRequire()</code></li>
+<li><code>UnRequireAll()</code></li>
+<li><code>outputbitfield()</code></li>
+</ul>
+<h2 id="cursor">Cursor<a class="headerlink" href="#cursor" title="Permanent link">#</a></h2>
+<p>The <code>Cursor</code> interface provides functions for cursor management.</p>
+<ul>
+<li><code>DistanceToBL()</code></li>
+<li><code>Mode()</code></li>
+<li><code>ModeString()</code></li>
+<li><code>Modes()</code></li>
+<li><code>SetMode()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="episodicscripting">EpisodicScripting<a class="headerlink" href="#episodicscripting" title="Permanent link">#</a></h2>
+<p>The <code>EpisodicScripting</code> interface provides functions for episodic scripting.</p>
+<ul>
+<li><code>AddEventCallBack()</code></li>
+<li><code>ClearEventCallbacks()</code></li>
+<li><code>ClearMessageAutoShowOverrides()</code></li>
+<li><code>DisableFeature()</code></li>
+<li><code>EnableComponent()</code></li>
+<li><code>EnableFeature()</code></li>
+<li><code>HideComponent()</code></li>
+<li><code>HighlightComponent()</code></li>
+<li><code>HighlightConstructionItem()</code></li>
+<li><code>HighlightRecruitmentItem()</code></li>
+<li><code>InitFeature()</code></li>
+<li><code>IsOnCampaignMap()</code></li>
+<li><code>OnUICreated()</code></li>
+<li><code>OverrideMessageAutoShow()</code></li>
+<li><code>RevealComponent()</code></li>
+<li><code>SetCampaign()</code></li>
+<li><code>ShowHUD()</code></li>
+</ul>
+<h2 id="mpavatar">MPAvatar<a class="headerlink" href="#mpavatar" title="Permanent link">#</a></h2>
+<p>The <code>MPAvatar</code> interface provides functions for multiplayer avatars.</p>
+<ul>
+<li><code>Free()</code></li>
+<li><code>SetComponentTexture()</code></li>
+<li><code>Valid()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="messagemanager">MessageManager<a class="headerlink" href="#messagemanager" title="Permanent link">#</a></h2>
+<p>The <code>MessageManager</code> interface manages in-game messages.</p>
+<ul>
+<li><code>CanDismissAllMessages()</code></li>
+<li><code>CheckForAutoOpen()</code></li>
+<li><code>ClearMessagesFromEnv()</code></li>
+<li><code>ClearOverrides()</code></li>
+<li><code>ClosePanelIfNoMessage()</code></li>
+<li><code>DestroyAllMessages()</code></li>
+<li><code>DismissAllMessages()</code></li>
+<li><code>HasMessagesStored()</code></li>
+<li><code>HideAllMessages()</code></li>
+<li><code>HideMessage()</code></li>
+<li><code>HidingMessage()</code></li>
+<li><code>InitMessageCallback()</code></li>
+<li><code>OverrideAutoShow()</code></li>
+<li><code>PendingAutoShowMessage()</code></li>
+<li><code>ReInitialiseStackbase()</code></li>
+<li><code>RestoreMessages()</code></li>
+<li><code>SelectLayout()</code></li>
+<li><code>SetCurrentMessageUnread()</code></li>
+<li><code>ShowingMessage()</code></li>
+<li><code>StoreMessages()</code></li>
+</ul>
+<h2 id="keyboard">Keyboard<a class="headerlink" href="#keyboard" title="Permanent link">#</a></h2>
+<p>The <code>Keyboard</code> interface provides functions for keyboard input.</p>
+<ul>
+<li><code>DisableQuickload()</code></li>
+<li><code>ReturnKey()</code></li>
+<li><code>StealKey()</code></li>
+</ul>
+<h2 id="scriptedvalueregistry">ScriptedValueRegistry<a class="headerlink" href="#scriptedvalueregistry" title="Permanent link">#</a></h2>
+<p>The <code>ScriptedValueRegistry</code> interface manages scripted values.</p>
+<ul>
+<li><code>LoadBool()</code></li>
+<li><code>SaveBool()</code></li>
+<li><code>new()</code></li>
+</ul>
+<h2 id="uicomponent">UIComponent<a class="headerlink" href="#uicomponent" title="Permanent link">#</a></h2>
+<p>The <code>UIComponent</code> interface provides functions for interacting with UI components.</p>
+<ul>
+<li><code>Address()</code></li>
+<li><code>Adopt()</code></li>
+<li><code>AttachCustomControl()</code></li>
+<li><code>Bounds()</code></li>
+<li><code>CallbackId()</code></li>
+<li><code>ChildCount()</code></li>
+<li><code>CurrentAnimationId()</code></li>
+<li><code>CurrentState()</code></li>
+<li><code>CurrentStateUI()</code></li>
+<li><code>DestroyChildren()</code></li>
+<li><code>Dimensions()</code></li>
+<li><code>Divorce()</code></li>
+<li><code>DockingPoint()</code></li>
+<li><code>Find()</code></li>
+<li><code>FindPositionIntoCurrentText()</code></li>
+<li><code>FindTextSnapPosition()</code></li>
+<li><code>ForceEvent()</code></li>
+<li><code>GetProperty()</code></li>
+<li><code>GetStateText()</code></li>
+<li><code>GetStateTextDetails()</code></li>
+<li><code>GetTooltipText()</code></li>
+<li><code>GlobalExists()</code></li>
+<li><code>HasInterface()</code></li>
+<li><code>Height()</code></li>
+<li><code>Highlight()</code></li>
+<li><code>Id()</code></li>
+<li><code>InterfaceFunction()</code></li>
+<li><code>IsCharPrintable()</code></li>
+<li><code>IsDragged()</code></li>
+<li><code>IsInteractive()</code></li>
+<li><code>IsMouseOverChildren()</code></li>
+<li><code>IsMoveable()</code></li>
+<li><code>Layout()</code></li>
+<li><code>LockPriority()</code></li>
+<li><code>LuaCall()</code></li>
+<li><code>MoveTo()</code></li>
+<li><code>Parent()</code></li>
+<li><code>PopulateTextures()</code></li>
+<li><code>Position()</code></li>
+<li><code>Priority()</code></li>
+<li><code>PropagateImageColour()</code></li>
+<li><code>PropagateOpacity()</code></li>
+<li><code>PropagatePriority()</code></li>
+<li><code>PropagateVisibility()</code></li>
+<li><code>ReorderChildren()</code></li>
+<li><code>Resize()</code></li>
+<li><code>RestoreUIHeirarchy()</code></li>
+<li><code>RunScript()</code></li>
+<li><code>SaveUIHeirarchy()</code></li>
+<li><code>SequentialFind()</code></li>
+<li><code>SetDisabled()</code></li>
+<li><code>SetDockingPoint()</code></li>
+<li><code>SetDragged()</code></li>
+<li><code>SetEventCallback()</code></li>
+<li><code>SetGlobal()</code></li>
+<li><code>SetImageColour()</code></li>
+<li><code>SetImageRotation()</code></li>
+<li><code>SetInteractive()</code></li>
+<li><code>SetMoveable()</code></li>
+<li><code>SetOpacity()</code></li>
+<li><code>SetProperty()</code></li>
+<li><code>SetState()</code></li>
+<li><code>SetStateColours()</code></li>
+<li><code>SetStateText()</code></li>
+<li><code>SetStateTextDetails()</code></li>
+<li><code>SetStateTextXOffset()</code></li>
+<li><code>SetTooltipText()</code></li>
+<li><code>SetVisible()</code></li>
+<li><code>ShaderTechniqueGet()</code></li>
+<li><code>ShaderTechniqueSet()</code></li>
+<li><code>ShaderVarsGet()</code></li>
+<li><code>ShaderVarsSet()</code></li>
+<li><code>SimulateClick()</code></li>
+<li><code>SimulateKey()</code></li>
+<li><code>StealInputFocus()</code></li>
+<li><code>StealShortcutKey()</code></li>
+<li><code>TextDimensions()</code></li>
+<li><code>TextShaderTechniqueSet()</code></li>
+<li><code>TextShaderVarsGet()</code></li>
+<li><code>TextShaderVarsSet()</code></li>
+<li><code>TriggerAnimation()</code></li>
+<li><code>TriggerShortcut()</code></li>
+<li><code>UnLockPriority()</code></li>
+<li><code>Visible()</code></li>
+<li><code>Width()</code></li>
+<li><code>WidthOfTextLine()</code></li>
+<li><code>new()</code></li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.expand"], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+    
+  </body>
+</html>
