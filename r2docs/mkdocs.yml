@@ -62,6 +62,7 @@ plugins:
 markdown_extensions:
   toc:
     permalink: "#"
+    toc_depth: 2
   smarty: { }
   sane_lists: { }
   pymdownx.critic: { }
