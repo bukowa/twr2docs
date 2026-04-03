@@ -15,64 +15,50 @@ scripting.game_interface:trigger_custom_dilemma(
 )
 ```
 
-Working:
+## Working Payloads
+
+#### `money`
 ```lua
 "payload { money 5000; }"
+```
+
+#### `unit_restriction`
+```lua
 "payload { unit_restriction { unit_key Rom_Hastati; disable;  } }"
+```
+
+#### `effect_bundle`
+```lua
 "payload { effect_bundle { bundle_key wealth_local_commerce_15_plus; turns 379; } }"
+```
+
+#### `grant_agent`
+```lua
 "payload { grant_agent { agent_key dignitary; location capital; } }"
+```
+
+#### `rebellion`
+```lua
 "payload { rebellion rom_italia_latium; }"
+```
+
+#### `set_capital`
+```lua
 "payload { set_capital rom_italia_latium; }"
 ```
 
-Probably working:
-```
-issue_mission
-```
+## Probably working
+
+#### `issue_mission`
 
 
-To be done
-```
+## To be done / Unconfirmed
 
-honour
-town_wealth
-clan_fame
-game_victory
-demolish_chain
-damage_buildings
-building_restriction
-grant_unit
-Unhandled payload token
-issue_mission requires an argument
-game_victory does not take an argument - ignoring the argument
-
-unit_key
-enable
-disable
-global
-Neither enable or disable specified
-Both enable and disable specified
-Unrecognised unit key
-building_level_key
-event_restricted_only
-Unrecognised building level key
-damage_buildings not permitted in front-end victory condition payloads
-location
-Failed parsing location
-Failed parsing building chain
-Failed parsing town wealth change
-Payload not supported in front-end victory condition
-Failed setting rebellion location
-bundle_key
-turns
-Invalid effect bundle key
-Invalid turns specified
-grant_agent not permitted in front-end victory condition payloads
-agent_key
-Failed parsing agent_key
-Failed parsing location
-unit_key
-Failed parsing unit_key
-Failed setting payload honour change
-Failed setting payload treasury change
-```
+#### `honour`
+#### `town_wealth`
+#### `clan_fame`
+#### `game_victory`
+#### `demolish_chain`
+#### `damage_buildings`
+#### `building_restriction`
+#### `grant_unit`
